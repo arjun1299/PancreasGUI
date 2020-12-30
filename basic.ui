@@ -19,12 +19,12 @@
      <rect>
       <x>0</x>
       <y>0</y>
-      <width>781</width>
+      <width>601</width>
       <height>551</height>
      </rect>
     </property>
     <property name="currentIndex">
-     <number>3</number>
+     <number>0</number>
     </property>
     <widget class="QWidget" name="ConnectTab">
      <attribute name="title">
@@ -79,38 +79,15 @@
        <string>Scan</string>
       </property>
      </widget>
-     <widget class="QPlainTextEdit" name="plainTextEdit_2">
-      <property name="geometry">
-       <rect>
-        <x>500</x>
-        <y>40</y>
-        <width>231</width>
-        <height>70</height>
-       </rect>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_7">
-      <property name="geometry">
-       <rect>
-        <x>500</x>
-        <y>20</y>
-        <width>67</width>
-        <height>17</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>Status</string>
-      </property>
-     </widget>
     </widget>
     <widget class="QWidget" name="PrimingTab">
      <attribute name="title">
       <string>Priming</string>
      </attribute>
-     <widget class="QPushButton" name="pushButton">
+     <widget class="QPushButton" name="startPrime">
       <property name="geometry">
        <rect>
-        <x>190</x>
+        <x>100</x>
         <y>200</y>
         <width>121</width>
         <height>51</height>
@@ -120,10 +97,10 @@
        <string>Start priming</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_2">
+     <widget class="QPushButton" name="rotateBtn">
       <property name="geometry">
        <rect>
-        <x>390</x>
+        <x>270</x>
         <y>210</y>
         <width>89</width>
         <height>25</height>
@@ -133,10 +110,10 @@
        <string>Rotation</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_3">
+     <widget class="QPushButton" name="stopBtn">
       <property name="geometry">
        <rect>
-        <x>510</x>
+        <x>410</x>
         <y>210</y>
         <width>89</width>
         <height>25</height>
@@ -144,29 +121,6 @@
       </property>
       <property name="text">
        <string>Stop</string>
-      </property>
-     </widget>
-     <widget class="QPlainTextEdit" name="statusTxt_2">
-      <property name="geometry">
-       <rect>
-        <x>490</x>
-        <y>50</y>
-        <width>231</width>
-        <height>70</height>
-       </rect>
-      </property>
-     </widget>
-     <widget class="QLabel" name="statusLabel_2">
-      <property name="geometry">
-       <rect>
-        <x>490</x>
-        <y>30</y>
-        <width>67</width>
-        <height>17</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>Status</string>
       </property>
      </widget>
     </widget>
@@ -231,29 +185,6 @@
       </property>
       <property name="text">
        <string>Send</string>
-      </property>
-     </widget>
-     <widget class="QPlainTextEdit" name="statusTxt">
-      <property name="geometry">
-       <rect>
-        <x>520</x>
-        <y>40</y>
-        <width>231</width>
-        <height>70</height>
-       </rect>
-      </property>
-     </widget>
-     <widget class="QLabel" name="statusLabel">
-      <property name="geometry">
-       <rect>
-        <x>520</x>
-        <y>20</y>
-        <width>67</width>
-        <height>17</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>Status</string>
       </property>
      </widget>
     </widget>
@@ -343,30 +274,30 @@
        <string>Set</string>
       </property>
      </widget>
-     <widget class="QPlainTextEdit" name="statusTxt_3">
-      <property name="geometry">
-       <rect>
-        <x>530</x>
-        <y>30</y>
-        <width>231</width>
-        <height>70</height>
-       </rect>
-      </property>
-     </widget>
-     <widget class="QLabel" name="statusLabel_3">
-      <property name="geometry">
-       <rect>
-        <x>530</x>
-        <y>10</y>
-        <width>67</width>
-        <height>17</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>Status</string>
-      </property>
-     </widget>
     </widget>
+   </widget>
+   <widget class="QLabel" name="statusLabel">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>30</y>
+      <width>67</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Status</string>
+    </property>
+   </widget>
+   <widget class="QPlainTextEdit" name="statusTxt">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>60</y>
+      <width>181</width>
+      <height>491</height>
+     </rect>
+    </property>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
