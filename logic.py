@@ -4,6 +4,8 @@ import serial
 from basicui import Ui_MainWindow
 import serial.tools.list_ports
 from datetime import datetime as dt
+import connectTab
+
 
 class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
     def __init__(self, *args, obj=None, **kwargs):
