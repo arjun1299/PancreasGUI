@@ -4,14 +4,28 @@ import serial
 from basicui import Ui_MainWindow
 import serial.tools.list_ports
 from datetime import datetime as dt
+<<<<<<< HEAD
+from _connectTab import connectTab
+from _primingTab import primingTab
+from _commandTab import commandTab
+from _recurringTab import recurringTab
+=======
 import os
+>>>>>>> 963a36f005d77934aff4310f7f30a41c3da71787
 
-
-class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
+class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,commandTab,recurringTab):
     def __init__(self, *args, obj=None, **kwargs):
+        
         super(MainWindow, self).__init__(*args, **kwargs)
         self.ui=Ui_MainWindow()
         self.ui.setupUi(self)
+<<<<<<< HEAD
+
+        self.port=""
+        
+
+        self.init_connectTab()
+=======
         self.port=""
         
         self.statusTxt= self.ui.statusTxt
@@ -156,45 +170,34 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
         self.cmdTxt=self.ui.cmdTxt
         self.outTxt=self.ui.outTxt
         self.sendButton.clicked.connect(self.sendButtonClick)
+>>>>>>> 963a36f005d77934aff4310f7f30a41c3da71787
 
-    def sendButtonClick(self):
-        self.sendCommand(self.cmdTxt.toPlainText())
-        self.outTxt.appendPlainText(self.cmdTxt.toPlainText())
         
-    def sendCommand(self,text):
-        print("Sending:"+text)
-        ser=serial.Serial(self.port)
-        text=bytes(text,'utf-8')
-        ser.write(text)
-        ser.close()
+        self.init_primingTab()
         
+        #self.init_commandTab()
 
+        self.init_recurringTab()
 
+<<<<<<< HEAD
+=======
     """
     Tab-4
     """
+>>>>>>> 963a36f005d77934aff4310f7f30a41c3da71787
 
-    def init_recurringTab(self):
-        self.setButton=self.ui.SetButton
-        self.reCmdTxt=self.ui.reCmdTxt
-        self.reOutTxt=self.ui.reOut
-        self.reTime=self.ui.reTime
-        self.setButton.clicked.connect(self.reSendCommand)
+        self.rotations=0
+        self.ongoing= self.ui.tabWidget.tabText(self.ui.tabWidget.currentIndex())
         
-    def reSendCommand(self):
-        
-        delay= float(self.reTime.toPlainText())
-        print(delay)
-        start=dt.now()
-        while 1:
-            end=dt.now()
-            diff=(end-start).seconds+(end-start).microseconds*pow(10,-6)
-            
-            if(diff>=delay):
-                self.sendCommand(self.reCmdTxt.toPlainText())
-                self.reOutTxt.appendPlainText(self.reCmdTxt.toPlainText())
-                start=dt.now()
+        self.updateStatus()
 
+    def updateStatus(self):
+        self.statusTxt.clear()
+        self.statusTxt.appendPlainText("Reciever Status:" +  ("Connected" if self.isConnectedReciever() else "Disconnected" ))
+        self.statusTxt.appendPlainText("BLE Status:" + ("Connected" if self.isConnectedBLE() else "Disconnected") )
+        self.statusTxt.appendPlainText("Rotations: " + str(self.rotations))
+        self.statusTxt.appendPlainText("Ongoing:"+ self.ongoing)
+        
 
 app = QtWidgets.QApplication(sys.argv)
 
