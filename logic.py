@@ -1,5 +1,6 @@
 import sys
 from PyQt5 import QtWidgets, uic
+from PyQt5.QtCore import QTimer,QThreadPool,QThread
 import serial
 from basicui import Ui_MainWindow
 import serial.tools.list_ports
@@ -18,6 +19,10 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,comm
 
         self.statusTxt=self.ui.statusTxt
         
+        #initialize threading
+        self.threadpool=QThreadPool
+
+
         self.port=""
         
 
@@ -26,7 +31,7 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,comm
         
         self.init_primingTab()
         
-        #self.init_commandTab()
+        self.init_commandTab()
 
         self.init_recurringTab()
 
