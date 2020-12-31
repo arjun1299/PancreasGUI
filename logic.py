@@ -26,7 +26,7 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,comm
         
         self.init_primingTab()
         
-        #self.init_commandTab()
+        self.init_commandTab()
 
         self.init_recurringTab()
 
