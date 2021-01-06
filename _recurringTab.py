@@ -7,9 +7,18 @@ class recurringTab(object):
     
     def init_recurringTab(self):
         self.setButton=self.ui.SetButton
-        self.reCmdTxt=self.ui.reCmdTxt
-        self.reOutTxt=self.ui.reOut
-        self.reTime=self.ui.reTime
+        self.basalBtn=self.ui.basalBtn
+        self.basalTxt=self.ui.basalTxt
+        self.basalBtn.clicked.connect(self.basalDose)
+        
+
+        #self.bolusBtn=self.ui.bolusBtn
+        #self.bolusTxt=self.ui.bolusTxt
+
+        #self.bolusBtn.clicked.connect(self.bolusDose)
+
+        
+
         self.setButton.clicked.connect(self.reSendCommand)
         
     def reSendCommand(self):
@@ -25,4 +34,8 @@ class recurringTab(object):
                 self.sendCommand(self.reCmdTxt.toPlainText())
                 self.reOutTxt.appendPlainText(self.reCmdTxt.toPlainText())
                 start=dt.now()
-
+    def basalDose(self):
+        self.showDialog("Basal")
+    
+    def bolusDose(self):
+        self.showDialog("Basal")

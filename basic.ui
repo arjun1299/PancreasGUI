@@ -100,7 +100,7 @@
      <widget class="QPushButton" name="rotateBtn">
       <property name="geometry">
        <rect>
-        <x>270</x>
+        <x>300</x>
         <y>210</y>
         <width>89</width>
         <height>25</height>
@@ -110,17 +110,127 @@
        <string>Rotation</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="stopBtn">
+    </widget>
+    <widget class="QWidget" name="RecurringTab">
+     <attribute name="title">
+      <string>Recurring commands</string>
+     </attribute>
+     <widget class="QLabel" name="label_2">
       <property name="geometry">
        <rect>
-        <x>410</x>
-        <y>210</y>
-        <width>89</width>
-        <height>25</height>
+        <x>50</x>
+        <y>270</y>
+        <width>58</width>
+        <height>18</height>
        </rect>
       </property>
       <property name="text">
-       <string>Stop</string>
+       <string>Output</string>
+      </property>
+     </widget>
+     <widget class="QPlainTextEdit" name="reOut">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>310</y>
+        <width>371</width>
+        <height>191</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="SetButton">
+      <property name="geometry">
+       <rect>
+        <x>370</x>
+        <y>210</y>
+        <width>88</width>
+        <height>34</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Send</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="basalBtn">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>60</y>
+        <width>261</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Basal</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_2">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>140</y>
+        <width>261</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Bolus</string>
+      </property>
+     </widget>
+     <widget class="QTextEdit" name="basalTxt">
+      <property name="geometry">
+       <rect>
+        <x>350</x>
+        <y>60</y>
+        <width>104</width>
+        <height>41</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QTextEdit" name="bolusTxt">
+      <property name="geometry">
+       <rect>
+        <x>350</x>
+        <y>140</y>
+        <width>104</width>
+        <height>41</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_3">
+      <property name="geometry">
+       <rect>
+        <x>470</x>
+        <y>80</y>
+        <width>67</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>iu/hr</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_4">
+      <property name="geometry">
+       <rect>
+        <x>470</x>
+        <y>160</y>
+        <width>67</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>iu</string>
+      </property>
+     </widget>
+     <widget class="QTextEdit" name="cmdTxt_2">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>210</y>
+        <width>271</width>
+        <height>31</height>
+       </rect>
       </property>
      </widget>
     </widget>
@@ -134,7 +244,7 @@
         <x>43</x>
         <y>140</y>
         <width>271</width>
-        <height>41</height>
+        <height>31</height>
        </rect>
       </property>
      </widget>
@@ -143,7 +253,7 @@
        <rect>
         <x>40</x>
         <y>230</y>
-        <width>371</width>
+        <width>281</width>
         <height>191</height>
        </rect>
       </property>
@@ -177,7 +287,7 @@
      <widget class="QPushButton" name="SendButton">
       <property name="geometry">
        <rect>
-        <x>370</x>
+        <x>340</x>
         <y>140</y>
         <width>88</width>
         <height>34</height>
@@ -185,93 +295,6 @@
       </property>
       <property name="text">
        <string>Send</string>
-      </property>
-     </widget>
-    </widget>
-    <widget class="QWidget" name="RecurringTab">
-     <attribute name="title">
-      <string>Recurring commands</string>
-     </attribute>
-     <widget class="QTextEdit" name="reCmdTxt">
-      <property name="geometry">
-       <rect>
-        <x>60</x>
-        <y>100</y>
-        <width>271</width>
-        <height>41</height>
-       </rect>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_2">
-      <property name="geometry">
-       <rect>
-        <x>70</x>
-        <y>210</y>
-        <width>58</width>
-        <height>18</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>Output</string>
-      </property>
-     </widget>
-     <widget class="QPlainTextEdit" name="reOut">
-      <property name="geometry">
-       <rect>
-        <x>60</x>
-        <y>240</y>
-        <width>371</width>
-        <height>191</height>
-       </rect>
-      </property>
-     </widget>
-     <widget class="QTextEdit" name="reTime">
-      <property name="geometry">
-       <rect>
-        <x>350</x>
-        <y>100</y>
-        <width>104</width>
-        <height>41</height>
-       </rect>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_3">
-      <property name="geometry">
-       <rect>
-        <x>350</x>
-        <y>70</y>
-        <width>111</width>
-        <height>18</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>Recurring time</string>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_4">
-      <property name="geometry">
-       <rect>
-        <x>60</x>
-        <y>70</y>
-        <width>111</width>
-        <height>18</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>Command</string>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="SetButton">
-      <property name="geometry">
-       <rect>
-        <x>330</x>
-        <y>160</y>
-        <width>88</width>
-        <height>34</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>Set</string>
       </property>
      </widget>
     </widget>
@@ -295,8 +318,34 @@
       <x>610</x>
       <y>60</y>
       <width>181</width>
-      <height>491</height>
+      <height>371</height>
      </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="stopAllBtn">
+    <property name="geometry">
+     <rect>
+      <x>618</x>
+      <y>444</y>
+      <width>171</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Stop</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="DisconnectBtn">
+    <property name="geometry">
+     <rect>
+      <x>620</x>
+      <y>500</y>
+      <width>171</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Disconnect</string>
     </property>
    </widget>
   </widget>

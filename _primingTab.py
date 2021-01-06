@@ -3,6 +3,11 @@
 Tab-2
 Priming
 """
+
+from PyQt5.QtWidgets import QApplication, QWidget, QPushButton, QMessageBox
+from PyQt5.QtGui import QIcon
+from PyQt5.QtCore import pyqtSlot
+
 class primingTab(object):
     def init_primingTab(self):
         #start prime
@@ -12,14 +17,13 @@ class primingTab(object):
         self.rotateBtn=self.ui.rotateBtn
         self.rotateBtn.setEnabled(False)
 
-        #stop
-        self.stopBtn=self.ui.stopBtn
-        self.stopBtn.setEnabled(False)
+
 
     def enablePriming(self):
         self.rotateBtn.setEnabled(True)
         self.stopBtn.setEnabled(True)
         self.ongoing="Priming"
+        self.showDialog("Prime")
         self.updateStatus()
 
     def rotate(self):
@@ -27,7 +31,6 @@ class primingTab(object):
         pass
 
 
-    def stop(self):
+    def stopPriming(self):
         #do one rotation
         pass
-    
