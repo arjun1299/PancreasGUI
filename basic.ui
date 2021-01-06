@@ -2,6 +2,14 @@
 <ui version="4.0">
  <class>MainWindow</class>
  <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1004</width>
+    <height>594</height>
+   </rect>
+  </property>
   <property name="sizePolicy">
    <sizepolicy hsizetype="Ignored" vsizetype="Ignored">
     <horstretch>0</horstretch>
@@ -22,7 +30,7 @@
      </rect>
     </property>
     <property name="currentIndex">
-     <number>0</number>
+     <number>2</number>
     </property>
     <widget class="QWidget" name="ConnectTab">
      <attribute name="title">
@@ -185,100 +193,73 @@
        </rect>
       </property>
      </widget>
-     <widget class="QPushButton" name="SetButton">
+     <widget class="QPushButton" name="startDoseBtn">
       <property name="geometry">
        <rect>
-        <x>350</x>
+        <x>190</x>
         <y>210</y>
         <width>88</width>
         <height>34</height>
        </rect>
       </property>
       <property name="text">
-       <string>Send</string>
+       <string>Start</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="basalBtn">
+     <widget class="QTextEdit" name="doseTxt">
       <property name="geometry">
        <rect>
-        <x>60</x>
-        <y>60</y>
-        <width>261</width>
-        <height>41</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>Basal</string>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="pushButton_2">
-      <property name="geometry">
-       <rect>
-        <x>60</x>
-        <y>140</y>
-        <width>261</width>
-        <height>41</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>Bolus</string>
-      </property>
-     </widget>
-     <widget class="QTextEdit" name="basalTxt">
-      <property name="geometry">
-       <rect>
-        <x>350</x>
-        <y>60</y>
+        <x>340</x>
+        <y>40</y>
         <width>104</width>
-        <height>41</height>
-       </rect>
-      </property>
-     </widget>
-     <widget class="QTextEdit" name="bolusTxt">
-      <property name="geometry">
-       <rect>
-        <x>350</x>
-        <y>140</y>
-        <width>104</width>
-        <height>41</height>
+        <height>81</height>
        </rect>
       </property>
      </widget>
      <widget class="QLabel" name="label_3">
       <property name="geometry">
        <rect>
-        <x>470</x>
-        <y>80</y>
+        <x>460</x>
+        <y>50</y>
         <width>67</width>
         <height>17</height>
        </rect>
       </property>
       <property name="text">
-       <string>Iu/hr</string>
+       <string>IU/hr</string>
       </property>
      </widget>
-     <widget class="QLabel" name="label_4">
-      <property name="geometry">
-       <rect>
-        <x>470</x>
-        <y>160</y>
-        <width>67</width>
-        <height>17</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>Iu</string>
-      </property>
-     </widget>
-     <widget class="QTextEdit" name="cmdTxt_2">
+     <widget class="QWidget" name="verticalLayoutWidget">
       <property name="geometry">
        <rect>
         <x>60</x>
-        <y>210</y>
-        <width>261</width>
-        <height>31</height>
+        <y>40</y>
+        <width>160</width>
+        <height>80</height>
        </rect>
       </property>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QRadioButton" name="basalBtn">
+         <property name="text">
+          <string>Basal</string>
+         </property>
+         <property name="checkable">
+          <bool>true</bool>
+         </property>
+         <property name="checked">
+          <bool>false</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QRadioButton" name="bolusBtn">
+         <property name="text">
+          <string>Bolus</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
      </widget>
     </widget>
     <widget class="QWidget" name="CommandsTab">
@@ -362,16 +343,14 @@
    <widget class="QPlainTextEdit" name="statusTxt">
     <property name="geometry">
      <rect>
-      <x>610</x>
+      <x>620</x>
       <y>60</y>
-      <width>381</width>
-      <height>371</height>
+      <width>371</width>
+      <height>251</height>
      </rect>
     </property>
-    <property name="font">
-     <font>
-      <pointsize>15</pointsize>
-     </font>
+    <property name="readOnly">
+     <bool>true</bool>
     </property>
    </widget>
    <widget class="QPushButton" name="stopAllBtn">
@@ -400,13 +379,47 @@
      <string>Disconnect</string>
     </property>
    </widget>
+   <widget class="QPlainTextEdit" name="doseStatusTxt">
+    <property name="geometry">
+     <rect>
+      <x>620</x>
+      <y>350</y>
+      <width>371</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+    <property name="plainText">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>620</x>
+      <y>320</y>
+      <width>67</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Current</string>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1016</width>
+     <width>1004</width>
      <height>22</height>
     </rect>
    </property>

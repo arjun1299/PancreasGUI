@@ -24,6 +24,7 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,comm
 
         #status area
         self.statusTxt=self.ui.statusTxt
+        self.doseStatusTxt= self.ui.doseStatusTxt
         
         self.stopAllBtn=self.ui.stopAllBtn
         self.stopAllBtn.clicked.connect(self.stop)
@@ -38,7 +39,11 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,comm
         self.ongoing= self.ui.tabWidget.tabText(self.ui.tabWidget.currentIndex())
         self.basalCnt=0
         self.bolusCnt=0
-        
+        self.deliveryType="None"
+        self.prevTime="HH:MM:SS"
+        self.nextTime="HH:MM:SS"
+        self.dose=0
+
         #False means rachet side
         #True is gear side
         self.clutch= False
@@ -66,14 +71,23 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,comm
 
     def updateStatus(self):
         self.statusTxt.clear()
+        self.doseStatusTxt.clear()
+
         self.statusTxt.appendPlainText("Reciever Status:" +  ("Connected" if self.isConnectedReciever() else "Disconnected" ))
         self.statusTxt.appendPlainText("BLE Status:" + ("Connected" if self.isConnectedBLE() else "Disconnected") )
         self.statusTxt.appendPlainText("Rotations: " + str(self.rotations))
         self.statusTxt.appendPlainText("Ongoing:"+ self.ongoing)
         self.statusTxt.appendPlainText("Clutch: "+ ("Gear" if self.clutch else "Ratchet"))
-        self.statusTxt.appendPlainText("Dosage delivered:")
+        self.statusTxt.appendPlainText("Previous dose: "+ self.prevTime)
+        self.statusTxt.appendPlainText("Next dose: "+ self.nextTime)
         self.statusTxt.appendPlainText("Basal: "+ str(self.basalCnt))
         self.statusTxt.appendPlainText("Bolus: "+ str(self.bolusCnt))
+
+        
+        self.doseStatusTxt.appendPlainText(self.deliveryType)
+        if self.deliveryType!="None":
+            #self.doseStatusTxt.appendPlainText(str(self.dose))
+            self.doseStatusTxt.insertPlainText(", "+str(self.dose)+ (" IU/hr" if self.deliveryType=="Basal" else "IU"))
         #last delivery
         #future
         
@@ -89,11 +103,15 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,comm
         if returnValue == QMessageBox.Ok:
             print('OK clicked')
         return returnValue
+        self.basalBtn.checkStateSet(True)
     
     def stop(self):
         #do one rotation
-        self.showDialog("Stop")
-        pass
+        if self.showDialog("Stop") == QMessageBox.Ok:
+            self.deliveryType="None"
+            self.basalBtn.checkStateSet(False)
+            self.bolusBtn.checkStateSet(False)
+            self.updateStatus()
 
     def discon(self):
         if self.showDialog("Disconnect")== QMessageBox.Ok:
