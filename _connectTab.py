@@ -8,9 +8,9 @@ class connectTab(object):
 
 
     def init_connectTab(self):
-        self.check=self.ui.checkBox
+        #self.check=self.ui.checkBox
         self.chk()
-        self.check.clicked.connect(self.chk)
+        #self.check.clicked.connect(self.chk)
         #dropdown
         self.dropdown=self.ui.comboBox
         #scan button

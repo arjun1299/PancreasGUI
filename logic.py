@@ -30,9 +30,22 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,comm
         
         self.disconnectBtn =self.ui.DisconnectBtn
 
+        self.disconnectBtn.clicked.connect(self.discon)
+
+        #variables
+        self.primingRotations=0
+        self.rotations=0
+        self.ongoing= self.ui.tabWidget.tabText(self.ui.tabWidget.currentIndex())
+        self.basalCnt=0
+        self.bolusCnt=0
+        
+        #False means rachet side
+        #True is gear side
+        self.clutch= False
+        
         #initialize threading
         self.threadpool=QThreadPool
-
+        
 
         self.port=""
         
@@ -44,9 +57,8 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,comm
         self.init_commandTab()
 
         self.init_recurringTab()
-
-        self.rotations=0
-        self.ongoing= self.ui.tabWidget.tabText(self.ui.tabWidget.currentIndex())
+        
+        
         
         
         
@@ -58,22 +70,35 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,comm
         self.statusTxt.appendPlainText("BLE Status:" + ("Connected" if self.isConnectedBLE() else "Disconnected") )
         self.statusTxt.appendPlainText("Rotations: " + str(self.rotations))
         self.statusTxt.appendPlainText("Ongoing:"+ self.ongoing)
+        self.statusTxt.appendPlainText("Clutch: "+ ("Gear" if self.clutch else "Ratchet"))
+        self.statusTxt.appendPlainText("Dosage delivered:")
+        self.statusTxt.appendPlainText("Basal: "+ str(self.basalCnt))
+        self.statusTxt.appendPlainText("Bolus: "+ str(self.bolusCnt))
+        #last delivery
+        #future
+        
     
     def showDialog(self,cmd):
-    	msgBox = QMessageBox()
-    	msgBox.setIcon(QMessageBox.Information)
-    	msgBox.setText("Send command "+cmd+" ?")
-    	msgBox.setWindowTitle("Message")
-    	msgBox.setStandardButtons(QMessageBox.Ok | QMessageBox.Cancel)
-    	#msgBox.buttonClicked.connect(msgButtonClick) 
-    	returnValue = msgBox.exec()
-    	if returnValue == QMessageBox.Ok:
-    		print('OK clicked')
+        msgBox = QMessageBox()
+        msgBox.setIcon(QMessageBox.Information)
+        msgBox.setText("Send command "+cmd+" ?")
+        msgBox.setWindowTitle("Message")
+        msgBox.setStandardButtons(QMessageBox.Ok | QMessageBox.Cancel)
+        #msgBox.buttonClicked.connect(msgButtonClick) 
+        returnValue = msgBox.exec()
+        if returnValue == QMessageBox.Ok:
+            print('OK clicked')
+        return returnValue
     
     def stop(self):
         #do one rotation
         self.showDialog("Stop")
         pass
+
+    def discon(self):
+        if self.showDialog("Disconnect")== QMessageBox.Ok:
+            self.ui.tabWidget.setCurrentIndex(0)
+            self.ui.tabWidget.currentIndex
 
 app = QtWidgets.QApplication(sys.argv)
 

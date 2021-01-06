@@ -2,6 +2,7 @@
 Tab-4
 Recurring commands  tab
 """
+from PyQt5.QtWidgets import  QMessageBox
 
 class recurringTab(object):
     
@@ -35,7 +36,14 @@ class recurringTab(object):
                 self.reOutTxt.appendPlainText(self.reCmdTxt.toPlainText())
                 start=dt.now()
     def basalDose(self):
-        self.showDialog("Basal")
+        
+        if self.showDialog("Basal dose {} Iu/hr".format(self.basalTxt.toPlainText())) == QMessageBox.Ok:
+            self.basalCnt+=1
+            self.updateStatus()
+
     
     def bolusDose(self):
-        self.showDialog("Basal")
+
+        if self.showDialog("Bolus dose {} Iu".format(self.basalTxt.toPlainText())) == QMessageBox.Ok:
+            self.bolusCnt+=1
+            self.updateStatus()
