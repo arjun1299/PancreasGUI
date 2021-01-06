@@ -10,6 +10,9 @@ from _primingTab import primingTab
 from _commandTab import commandTab
 from _recurringTab import recurringTab
 
+#from multithread import Worker,WorkerSignals
+
+
 class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,commandTab,recurringTab):
     def __init__(self, *args, obj=None, **kwargs):
         
@@ -46,6 +49,10 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,comm
         self.statusTxt.appendPlainText("BLE Status:" + ("Connected" if self.isConnectedBLE() else "Disconnected") )
         self.statusTxt.appendPlainText("Rotations: " + str(self.rotations))
         self.statusTxt.appendPlainText("Ongoing:"+ self.ongoing)
+        self.statusTxt.appendPlainText("Basal doeses:"+ '0')
+        self.statusTxt.appendPlainText("Bolus doeses:"+ '0')
+
+
         
 
 app = QtWidgets.QApplication(sys.argv)
