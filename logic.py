@@ -47,7 +47,6 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,comm
         #False means rachet side
         #True is gear side
         self.clutch= False
-        
         #initialize threading
         self.threadpool=QThreadPool
         
@@ -83,6 +82,7 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,comm
         self.statusTxt.appendPlainText("Basal: "+ str(self.basalCnt))
         self.statusTxt.appendPlainText("Bolus: "+ str(self.bolusCnt))
 
+        self.connectButton.
         
         self.doseStatusTxt.appendPlainText(self.deliveryType)
         if self.deliveryType!="None":

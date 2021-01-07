@@ -20,6 +20,7 @@ class connectTab(object):
         self.connectButton=self.ui.connectButton
         self.connectButton.setEnabled(False)
         self.connectButton.clicked.connect(self.connectPort)
+        self.connectButton.c
         
 
     def isConnectedBLE(self):
@@ -30,7 +31,7 @@ class connectTab(object):
 
     def isConnectedReciever(self):
         #checks if bluetooth reciever is connected
-        if(os.system("hcitool scan")== 256):
+        if(os.system("hcitool lescan")== 256):
             return 0
         return 1
 
@@ -59,7 +60,7 @@ class connectTab(object):
         self.ongoing="Scanning"
         self.updateStatus()
         
-        if(self.isConnectedReciever):
+        if(self.isConnectedReciever()):
             self.updateStatus()
             return 0
         
