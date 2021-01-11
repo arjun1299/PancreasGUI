@@ -14,6 +14,7 @@ from _connectTab import connectTab
 from _primingTab import primingTab
 from _commandTab import commandTab
 from _recurringTab import recurringTab
+from multithread import Worker,WorkerSignals
 
 class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,commandTab,recurringTab):
     def __init__(self, *args, obj=None, **kwargs):
@@ -47,8 +48,9 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,comm
         #False means rachet side
         #True is gear side
         self.clutch= False
+        
         #initialize threading
-        self.threadpool=QThreadPool
+        self.threadpool=QThreadPool()
         
 
         self.port=""
@@ -82,7 +84,7 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,comm
         self.statusTxt.appendPlainText("Basal: "+ str(self.basalCnt))
         self.statusTxt.appendPlainText("Bolus: "+ str(self.bolusCnt))
 
-        self.connectButton.
+        
         
         self.doseStatusTxt.appendPlainText(self.deliveryType)
         if self.deliveryType!="None":

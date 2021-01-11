@@ -1,4 +1,12 @@
 import os
+import sys
+import time
+from PyQt5.QtCore import QThread, pyqtSignal, QObject, pyqtSlot
+from PyQt5.QtWidgets import QApplication, QPushButton, QWidget, QHBoxLayout, QProgressBar, QVBoxLayout,QLabel
+from PyQt5 import QtCore
+from PyQt5.QtGui import QMovie
+
+from multithread import Worker,WorkerSignals
 
 """
     Tab 1- connect tab
@@ -20,8 +28,16 @@ class connectTab(object):
         self.connectButton=self.ui.connectButton
         self.connectButton.setEnabled(False)
         self.connectButton.clicked.connect(self.connectPort)
-        self.connectButton.c
+
+
         
+
+        self.scanLbl=self.ui.scanLbl
+        
+        self.scanLbl.setText("")
+
+        self.movie = QMovie("loader.gif")
+        self.scanLbl.setMovie(self.movie)        
 
     def isConnectedBLE(self):
         #check for heartbeat here
@@ -31,8 +47,9 @@ class connectTab(object):
 
     def isConnectedReciever(self):
         #checks if bluetooth reciever is connected
-        if(os.system("hcitool lescan")== 256):
-            return 0
+        #if(os.system("timeout -s INT 1s hcitool lescan")== 256):
+        
+        return 0
         return 1
 
 
@@ -54,7 +71,10 @@ class connectTab(object):
             print("Connected to:"+self.dropdown.currentText())
     
     def scanPort(self):
-        
+
+        #scanning label
+        #self.scanLbl.setText("Scanning...")
+        #self.scanButton.setEnabled(False)
         print("Scanning...")
         
         self.ongoing="Scanning"
@@ -63,20 +83,39 @@ class connectTab(object):
         if(self.isConnectedReciever()):
             self.updateStatus()
             return 0
+        self.movie.start()
+
+        self.scanHandle()
         
-        cmd=os.popen("hcitool scan")
-        
+
+    def scan(self):
+        cmd=os.popen("timeout -s INT 10s hcitool lescan")
+
         comlist = cmd.read()
         
         comlist = comlist.split('\n')
+        print(comlist)
         
-        #the last element is empty 
+        #the fist and last element is empty 
+        comlist.pop(0)
         comlist.pop()
 
         connected = []
         self.dropdown.clear()
         for element in comlist:
-            connected.append(element.device)
-            self.dropdown.addItem(element.device)
-        
+            if element not in connected:
+                connected.append(element)
+                self.dropdown.addItem(element)
+
+
+    def scanHandle(self):
+        worker=Worker(self.scan)
+        worker.signals.finished.connect(self.scanDone)
+        self.threadpool.start(worker)
+    
+
+    def scanDone(self):
+        self.movie.stop()
+        self.scanLbl.hide()
         self.connectButton.setEnabled(True)
+        print("Scan complete")

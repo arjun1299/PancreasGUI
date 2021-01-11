@@ -20,6 +20,7 @@ class Ui_MainWindow(object):
         sizePolicy.setVerticalStretch(0)
         sizePolicy.setHeightForWidth(MainWindow.sizePolicy().hasHeightForWidth())
         MainWindow.setSizePolicy(sizePolicy)
+        MainWindow.setAutoFillBackground(False)
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
         self.tabWidget = QtWidgets.QTabWidget(self.centralwidget)
@@ -36,6 +37,9 @@ class Ui_MainWindow(object):
         self.scanButton = QtWidgets.QPushButton(self.ConnectTab)
         self.scanButton.setGeometry(QtCore.QRect(310, 240, 88, 34))
         self.scanButton.setObjectName("scanButton")
+        self.scanLbl = QtWidgets.QLabel(self.ConnectTab)
+        self.scanLbl.setGeometry(QtCore.QRect(380, 170, 111, 17))
+        self.scanLbl.setObjectName("scanLbl")
         self.tabWidget.addTab(self.ConnectTab, "")
         self.PrimingTab = QtWidgets.QWidget()
         self.PrimingTab.setObjectName("PrimingTab")
@@ -148,14 +152,15 @@ class Ui_MainWindow(object):
         MainWindow.setStatusBar(self.statusbar)
 
         self.retranslateUi(MainWindow)
-        self.tabWidget.setCurrentIndex(2)
+        self.tabWidget.setCurrentIndex(0)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
-        MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
+        MainWindow.setWindowTitle(_translate("MainWindow", "Insulin Delivery"))
         self.connectButton.setText(_translate("MainWindow", "Connect"))
         self.scanButton.setText(_translate("MainWindow", "Scan"))
+        self.scanLbl.setText(_translate("MainWindow", "Scanning..."))
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.ConnectTab), _translate("MainWindow", "Connect"))
         self.startPrime.setText(_translate("MainWindow", "Start priming"))
         self.rotateBtn.setText(_translate("MainWindow", "Rotate"))

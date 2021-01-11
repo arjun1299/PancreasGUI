@@ -5,7 +5,7 @@ from untitled import Ui_MainWindow
 
 import time
 import traceback, sys
-
+import os
 
 
 class WorkerSignals(QObject):
@@ -44,7 +44,6 @@ class Worker(QRunnable):
     :type callback: function
     :param args: Arguments to pass to the callback function
     :param kwargs: Keywords to pass to the callback function
-
     '''
 
     def __init__(self, fn, *args, **kwargs):
@@ -55,6 +54,8 @@ class Worker(QRunnable):
         self.args = args
         self.kwargs = kwargs
         self.signals = WorkerSignals()
+        
+        
 
     @pyqtSlot()
     def run(self):
@@ -86,18 +87,33 @@ class MainWindow(QMainWindow,Ui_MainWindow):
         self.threadpool=QThreadPool()
 
         self.threadHandle(self.looper)
-        self.ui.pushButton.clicked.connect(self.loopHandle)
+        #self.ui.pushButton.clicked.connect(self.loopHandle)
+        self.ui.pushButton.clicked.connect(lambda v: self.threadHandle(self.looper))
+        self.ui.pushButton_2.clicked.connect(lambda v: self.threadHandle(self.scan))
+
+    def scan(self):
+        cmd=os.popen("timeout -s INT 10s hcitool lescan")
+        print(cmd.read())
+
+
+    def scanHandle(self):
+        worker=Worker(self.scan)
+        self.threadpool.start(worker)
 
     def threadHandle(self,fun):
         worker=Worker(fun)
-
         self.threadpool.start(worker)
+        worker.signals.finished.connect(self.finished)
     
+
     def loopHandle(self):
         worker=Worker(self.looper)
+        worker.signals.finished.connect(self.finished)
 
         self.threadpool.start(worker)
-
+        
+    def finished(self):
+        print("Done!!!!!!!!!!!!!")
 
     def looper(self):
         count=0

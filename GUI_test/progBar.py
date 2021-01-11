@@ -26,7 +26,7 @@ class Example(QWidget):
 		self.btn = QPushButton('Start', self) 
 
 		# changing its position 
-		self.btn.move(40, 80) 
+		self.btn.move(40, 80)
 
 		# adding action to push button 
 		self.btn.clicked.connect(self.doAction) 
@@ -52,9 +52,6 @@ class Example(QWidget):
 			# setting value to progress bar 
 			self.pbar.setValue(i) 
 
-
-
-
 # create pyqt5 app 
 App = QApplication(sys.argv) 
 
@@ -63,4 +60,3 @@ window = Example()
 
 # start the app 
 sys.exit(App.exec()) 
-

@@ -21,6 +21,7 @@ def showDialog():
    msgBox.setWindowTitle("QMessageBox Example")
    msgBox.setStandardButtons(QMessageBox.Ok | QMessageBox.Cancel)
    msgBox.buttonClicked.connect(msgButtonClick)
+   
 
    returnValue = msgBox.exec()
    if returnValue == QMessageBox.Ok:

@@ -17,7 +17,10 @@
    </sizepolicy>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>Insulin Delivery</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QTabWidget" name="tabWidget">
@@ -70,6 +73,19 @@
       </property>
       <property name="text">
        <string>Scan</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="scanLbl">
+      <property name="geometry">
+       <rect>
+        <x>380</x>
+        <y>170</y>
+        <width>111</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Scanning...</string>
       </property>
      </widget>
     </widget>
