@@ -8,6 +8,14 @@ from PyQt5.QtGui import QMovie
 
 from multithread import Worker,WorkerSignals
 
+
+from adafruit_ble import BLERadio
+
+from adafruit_ble.advertising import Advertisement
+from adafruit_ble.advertising.standard import ProvideServicesAdvertisement
+from adafruit_ble.services.nordic import UARTService
+
+
 """
     Tab 1- connect tab
 """
@@ -20,6 +28,9 @@ class connectTab(object):
         self.chk()
         #self.check.clicked.connect(self.chk)
         #dropdown
+
+        
+        
         self.dropdown=self.ui.comboBox
         #scan button
         self.scanButton=self.ui.scanButton
@@ -29,27 +40,52 @@ class connectTab(object):
         self.connectButton.setEnabled(False)
         self.connectButton.clicked.connect(self.connectPort)
 
-
-        
-
         self.scanLbl=self.ui.scanLbl
         
-        self.scanLbl.setText("")
-
+        
         self.movie = QMovie("loader.gif")
         self.scanLbl.setMovie(self.movie)        
+        
+        #check availability of bluetooth functionality
+        while(self.isConnectedReciever()==0):
+            self.connectButton.setEnabled(False)
+            self.scanButton.setEnabled(False)
+        self.scanButton.setEnabled(True)
+        
 
     def isConnectedBLE(self):
-        #check for heartbeat here
-        pass
+        #check for ble connection here
+        print("Starting HB")
+        while self.uart_connection.connected:
+                uart_service=self.uart_connection[UARTService]
+                s = "IPHB"
+                print("HB sent")
+                uart_service.write(s.encode("utf-8"))
+                uart_service.write(b'\r')
+                r= uart_service.readline().decode("utf-8")
+                uart_service.readline().decode("utf-8")
+                print(r)
+                if("HB" not in r ):
+                    self.init_connectTab()
+                    self.showError("Device disconnected")
+                    self.ui.tabWidget.setCurrentIndex(0)
+                    self.uart_connection.disconnect()
+                    #exit()
+                    break
+                
 
-        return 0
+
+    def isHeartBeat(self):
+
+        pass
 
     def isConnectedReciever(self):
         #checks if bluetooth reciever is connected
-        #if(os.system("timeout -s INT 1s hcitool lescan")== 256):
-        
-        return 0
+        if(os.system("timeout -s INT 1s hcitool lescan")== 256):
+            #print("BLUETOOTH ADAPTER NOT FOUND")
+            self.showError("BLUETOOTH ADAPTER NOT FOUND")
+            exit()
+            #return 0
         return 1
 
 
@@ -63,16 +99,41 @@ class connectTab(object):
     def connectPort(self):
         if(self.dropdown.currentText()):
             self.port=self.dropdown.currentText()
+            ble=BLERadio()
             
             """
             #add logic to pair with BLE
             """
 
             print("Connected to:"+self.dropdown.currentText())
+            for element in self.comlist:
+                if element.complete_name ==  self.dropdown.currentText() or self.dropdown.currentText() in str(element.address):
+                        #no check if uart service works
+                        self.uart_connection = ble.connect(element)
+                        
+                        print("Connected")
+                        self.device=element
+                        self.bleConnectionStatus="Connected"
+                        self.updateStatus()
+
+                        
+
+                        worker=Worker(self.isConnectedBLE)
+                        worker.signals.finished.connect(self.finish)
+                        print("Starting hb")
+                        self.threadpool.start(worker)
+                        break
+
     
+
+
+    """
+    Connect logic
+    It needs threads since we
+    """
     def scanPort(self):
 
-        #scanning label
+        # scanning label
         #self.scanLbl.setText("Scanning...")
         #self.scanButton.setEnabled(False)
         print("Scanning...")
@@ -80,32 +141,57 @@ class connectTab(object):
         self.ongoing="Scanning"
         self.updateStatus()
         
-        if(self.isConnectedReciever()):
-            self.updateStatus()
-            return 0
+        self.scanLbl.setVisible(True)
         self.movie.start()
 
         self.scanHandle()
         
 
     def scan(self):
-        cmd=os.popen("timeout -s INT 10s hcitool lescan")
+        
+        ble = BLERadio()
+        print("scanning")
+        found = set()
+        scan_responses = set()
 
-        comlist = cmd.read()
+        self.comlist=[]
+
+        # By providing Advertisement as well we include everything, not just specific advertisements.
+        for advertisement in ble.start_scan(ProvideServicesAdvertisement,Advertisement,timeout=10):
+            addr = advertisement.address
+            if advertisement.scan_response and addr not in scan_responses:
+                scan_responses.add(addr)
+            elif not advertisement.scan_response and addr not in found:
+                found.add(addr)
+            else:
+                continue
+            print(addr, advertisement)
+            
+            #print(advertisement.)
+            self.comlist.append(advertisement)
+
+            print("\t" + repr(advertisement))
+            print()
+            
+
+        print("scan done")
         
-        comlist = comlist.split('\n')
-        print(comlist)
-        
-        #the fist and last element is empty 
-        comlist.pop(0)
-        comlist.pop()
+
 
         connected = []
         self.dropdown.clear()
-        for element in comlist:
-            if element not in connected:
-                connected.append(element)
-                self.dropdown.addItem(element)
+        for element in self.comlist:
+            if element.complete_name==None:
+
+                if element.address not in connected:
+                    connected.append(element.address)
+                    element.address.__str__()
+                    #we need to remove out : Address(string=" and ")
+                    self.dropdown.addItem(element.address.__str__()[16:-2])
+            else:
+                if element.complete_name not in connected:    
+                    connected.append(element.complete_name)
+                    self.dropdown.addItem(element.complete_name)
 
 
     def scanHandle(self):
@@ -115,7 +201,12 @@ class connectTab(object):
     
 
     def scanDone(self):
+        
         self.movie.stop()
         self.scanLbl.hide()
-        self.connectButton.setEnabled(True)
+        if(self.dropdown.maxCount()):
+            self.connectButton.setEnabled(True)
         print("Scan complete")
+
+    def finish(self):
+        print("Exited thread")
