@@ -26,6 +26,7 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,comm
         #status area
         self.statusTxt=self.ui.statusTxt
         self.doseStatusTxt= self.ui.doseStatusTxt
+        self.connectionStatusLbl=self.ui.connectionStatusLbl
         
         self.stopAllBtn=self.ui.stopAllBtn
         self.stopAllBtn.clicked.connect(self.stop)
@@ -46,6 +47,8 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,comm
         self.dose=0
         self.device=""
         self.bleConnectionStatus="Disconnected"
+
+        self.targetAddress="f9:9b:81:05:de:e7"
 
         #False means rachet side
         #True is gear side
@@ -75,14 +78,22 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,comm
         self.doseStatusTxt.clear()
 
         #self.statusTxt.appendPlainText("Reciever Status:" +  ("Connected" if self.isConnectedReciever() else "Disconnected" ))
-        self.statusTxt.appendPlainText("BLE Status:" + ("Connected" if self.bleConnectionStatus else "Disconnected") )
-        self.statusTxt.appendPlainText("Rotations: " + str(self.rotations))
-        self.statusTxt.appendPlainText("Ongoing:"+ self.ongoing)
+        self.statusTxt.appendPlainText("BLE Status:" + self.bleConnectionStatus )
+        if self.bleConnectionStatus=="Connected":
+            self.connectionStatusLbl.setStyleSheet("background-color: rgb(41, 239, 41)")
+        elif self.bleConnectionStatus=="Scanning":
+            self.connectionStatusLbl.setStyleSheet("background-color: rgb(252, 233, 79)")
+        else:
+            self.connectionStatusLbl.setStyleSheet("background-color: rgb(239, 41, 41)")
         self.statusTxt.appendPlainText("Clutch: "+ ("Gear" if self.clutch else "Ratchet"))
-        self.statusTxt.appendPlainText("Previous dose: "+ self.prevTime)
-        self.statusTxt.appendPlainText("Next dose: "+ self.nextTime)
-        self.statusTxt.appendPlainText("Basal: "+ str(self.basalCnt))
-        self.statusTxt.appendPlainText("Bolus: "+ str(self.bolusCnt))
+
+        self.statusTxt.appendPlainText("Ongoing:"+ self.ongoing)
+    
+        # self.statusTxt.appendPlainText("Rotations: " + str(self.rotations))
+        # self.statusTxt.appendPlainText("Previous dose: "+ self.prevTime)
+        # self.statusTxt.appendPlainText("Next dose: "+ self.nextTime)
+        # self.statusTxt.appendPlainText("Basal: "+ str(self.basalCnt))
+        # self.statusTxt.appendPlainText("Bolus: "+ str(self.bolusCnt))
 
         
         

@@ -102,6 +102,7 @@ class MainWindow(QMainWindow):
 
         self.threadpool = QThreadPool()
         print("Multithreading with maximum %d threads" % self.threadpool.maxThreadCount())
+        self.threadpool.setMaxThreadCount(10)
 
         self.timer = QTimer()
         self.timer.setInterval(1000)

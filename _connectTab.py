@@ -68,11 +68,15 @@ class connectTab(object):
                 if("HB" not in r ):
                     self.init_connectTab()
                     self.showError("Device disconnected")
+                    self.bleConnectionStatus="Disconnected"
+                    self.updateStatus()
+                    
                     self.ui.tabWidget.setCurrentIndex(0)
+                    self.disconnectBtn.setEnabled(False)
                     self.uart_connection.disconnect()
+                    
                     #exit()
                     break
-                
 
 
     def isHeartBeat(self):
@@ -109,20 +113,28 @@ class connectTab(object):
             for element in self.comlist:
                 if element.complete_name ==  self.dropdown.currentText() or self.dropdown.currentText() in str(element.address):
                         #no check if uart service works
-                        self.uart_connection = ble.connect(element)
                         
-                        print("Connected")
-                        self.device=element
-                        self.bleConnectionStatus="Connected"
-                        self.updateStatus()
+                        try:
+                            if(UARTService in element.services or self.targetAddress in str(element.address)):
+                                self.uart_connection = ble.connect(element)
+                                print("Connected")
+                                self.device=element
+                                self.bleConnectionStatus="Connected"
+                                self.updateStatus()
+                                worker=Worker(self.isConnectedBLE)
+                                worker.signals.finished.connect(self.finish)
+                                print("Starting hb")
+                                self.threadpool.start(worker)
+                                break
+
+                            else:
+                                raise Exception("No UART service")
+                        except:
+                            self.showError("No UART service")
+                        
+                        
 
                         
-
-                        worker=Worker(self.isConnectedBLE)
-                        worker.signals.finished.connect(self.finish)
-                        print("Starting hb")
-                        self.threadpool.start(worker)
-                        break
 
     
 
@@ -143,6 +155,8 @@ class connectTab(object):
         
         self.scanLbl.setVisible(True)
         self.movie.start()
+        self.bleConnectionStatus="Scanning"
+        self.updateStatus()
 
         self.scanHandle()
         
@@ -206,6 +220,8 @@ class connectTab(object):
         self.scanLbl.hide()
         if(self.dropdown.maxCount()):
             self.connectButton.setEnabled(True)
+        self.bleConnectionStatus="Disconnected"
+        self.updateStatus()
         print("Scan complete")
 
     def finish(self):
