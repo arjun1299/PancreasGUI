@@ -40,6 +40,8 @@ class connectTab(object):
         self.connectButton.setEnabled(False)
         self.connectButton.clicked.connect(self.connectPort)
 
+        self.disconnectBtn.setEnabled(False)
+
         self.scanLbl=self.ui.scanLbl
         
         

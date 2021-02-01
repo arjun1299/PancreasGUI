@@ -9,6 +9,9 @@ import sys
 import logging
 
 
+global LOG
+LOG=False
+
 
 class Logger(QThread):
     
@@ -43,13 +46,18 @@ class Worker(QThread):
         print("Thread finished")
 
     def run(self):
-        self.setPriority(QThread.HighestPriority)
+        #self.setPriority(QThread.HighestPriority)
+        _=0
 
-        for _ in range(10):
+        while 1:
+
             #1000000
             print(f"Thread with {self.args} running: {_}")
-            self.progress.emit(str(self.args)+" Finished executing "+str(_))
-            
+            if LOG:
+                self.progress.emit(str(self.args)+" Finished executing "+str(_))
+            _+=1
+
+
             time.sleep(1)
 
 
@@ -71,7 +79,7 @@ class MainWindow(QMainWindow):
         Thread switching interval can be set from here
         """
 
-        sys.setswitchinterval(1)
+        #sys.setswitchinterval(0.05)
         print(sys.getswitchinterval())
 
         self.btn1=QPushButton('Button1',self)
@@ -84,6 +92,7 @@ class MainWindow(QMainWindow):
         self.btn3.move(120,60)
         self.btn4.move(120,0)
 
+        #inline function used
         self.btn1.clicked.connect(lambda v: self.execute1("1"))
         self.btn2.clicked.connect(lambda v: self.execute2("2"))
         self.btn3.clicked.connect(self.startLog)
@@ -94,7 +103,10 @@ class MainWindow(QMainWindow):
         logging.warning("Started")
 
     def execute1(self,args):
+        #This is the thread count of this instance
         self.cnt1+=1
+
+
         self.worker1=Worker(args,self.cnt1)
         self.worker1.finished.connect(self.finished1 )
 
@@ -104,6 +116,7 @@ class MainWindow(QMainWindow):
         self.worker1.start()
 
     def finished1(self):
+        #decrement instance count
         self.cnt1=self.cnt1-1
 
     def execute2(self,args):
@@ -118,10 +131,16 @@ class MainWindow(QMainWindow):
     
 
     def startLog(self):
+        global LOG
+        LOG=True
         self.logThread=Logger()
+        
         self.logThread.start()
+        
     
     def stopLog(self):
+        global LOG
+        LOG=False
         logging.warning("---Stopped logging---")
         Logger.q.put("Stop")
 
