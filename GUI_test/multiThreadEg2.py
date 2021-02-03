@@ -34,8 +34,6 @@ class Worker(QThread):
     progress=pyqtSignal(str)
     
 
-
-
     def __init__(self,*args):
         super().__init__()
         self.args=args
@@ -49,14 +47,13 @@ class Worker(QThread):
         #self.setPriority(QThread.HighestPriority)
         _=0
 
-        while 1:
+        while _<10:
 
             #1000000
             print(f"Thread with {self.args} running: {_}")
             if LOG:
                 self.progress.emit(str(self.args)+" Finished executing "+str(_))
             _+=1
-
 
             time.sleep(1)
 
@@ -146,8 +143,6 @@ class MainWindow(QMainWindow):
 
     def addToQueue(self,arg):
         Logger.q.put(arg)
-    
-        
 
 app=QApplication(sys.argv)
 window=MainWindow()

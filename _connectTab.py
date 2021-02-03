@@ -228,3 +228,9 @@ class connectTab(object):
 
     def finish(self):
         print("Exited thread")
+
+
+class scanThread(QThread,):
+    def __init__(self):
+        super().__init__()
+        self.setupUI()
