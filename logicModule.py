@@ -13,6 +13,7 @@ class Logic(QThread):
     pq=PriorityQueue()
 
     hbTimerReset=pyqtSignal()
+    engageClutch=pyqtSignal()
 
 
     def __init__(self,*args):

@@ -50,7 +50,7 @@ class Parser(QThread):
         while 1:
             #print("Thread recieved")
             #print("Running parser")
-            if(Parser.q.empty()==False):
+            while(Parser.q.empty()==False):
                 print("Parsed:"+Parser.q.get().decode("utf-8"))
             time.sleep(0.1)
 

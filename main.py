@@ -104,7 +104,7 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,comm
         """
 
         self.connectionChecker=connectionChecker()
-        self.connectionChecker.sendHeartBeat.connect(self.sendHB)
+        self.connectionChecker.sendHeartBeat.connect(self.sender.sendHB)
         self.connectionChecker.timeoutSignal.connect(self.heartBeatTimeout)
 
         """
@@ -117,9 +117,8 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,comm
 
         self.connectedSignal.connect(self.isConnectedBLEHandle)
 
-
-
-
+    
+    
 
     def isConnectedBLEHandle(self):
         """
@@ -178,16 +177,7 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,comm
             print("Sent: "+data)
 
 
-    def sendHB(self):
-        """
-        Send a Heart Beat signal to the BLE module
-        """
-        if(self.uart_service):
-            s="IPHB\r"
-            print("Sent HB")
-            self.sender.q.put(s)
-        else:
-            print("Cant send HB, no uart")
+
 
 
     def isConnectedBLE(self):
