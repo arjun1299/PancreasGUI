@@ -26,15 +26,8 @@ class Logger(QThread):
         while 1:
             if self.q.empty()== False:
                 s= Logger.q.get()
-
-                if s == "Stop":
-                    break
-
                 logging.info(s)
             time.sleep(0.1)
-
-
-
 
 class MainWindow(QMainWindow):
     def __init__(self):

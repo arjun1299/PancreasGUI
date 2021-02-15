@@ -7,6 +7,10 @@ from PyQt5.QtWidgets import QApplication, QWidget, QPushButton, QMessageBox
 from PyQt5.QtGui import QIcon
 from PyQt5.QtCore import pyqtSlot
 
+from bleOperations import *
+from logicModule import *
+from multithread import *
+
 from basicui import Ui_MainWindow
 import serial.tools.list_ports
 from datetime import datetime as dt
@@ -68,10 +72,139 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,comm
 
         self.init_recurringTab()
 
-        
-        
+
         
         self.updateStatus()
+
+        """
+        Start serial listener and connect it to parser queue
+
+        """
+        
+        self.serialListner =SerialListner()
+        self.serialListner.dataArrival.connect(self.addToParserQueue)
+        self.serialListner.start()
+        
+        
+        """
+        Section to start parser
+        """
+        self.parser=Parser()
+        self.parser.addToLogicQueue.connect(self.addToLogicQueue)
+        self.parser.start()       
+
+        """
+        Start sender 
+        """ 
+        self.sender=Sender()
+        self.sender.sendData.connect(self.sendData)
+        self.sender.start()   
+
+        """Initialize connection checker which checks heartbeat
+        """
+
+        self.connectionChecker=connectionChecker()
+        self.connectionChecker.sendHeartBeat.connect(self.sender.sendHB)
+        self.connectionChecker.timeoutSignal.connect(self.heartBeatTimeout)
+
+        """
+        Section to Logic
+        """
+        self.logic=Logic()
+        ###Connect all logic signals
+        self.logic.hbTimerReset.connect(self.connectionChecker.hbTimerReset)
+        self.logic.start()   
+
+        self.connectedSignal.connect(self.isConnectedBLEHandle)
+
+    
+    
+
+    def isConnectedBLEHandle(self):
+        """
+        Initialize thread to check if ble is connected
+        """
+        print("Starting hb")
+
+        worker=Worker(self.isConnectedBLE)
+        worker.signals.finished.connect(self.finish)
+        self.connectionChecker.heartBeatSenderTimer.start(500)
+        self.connectionChecker.heartBeatRecieverTimer.start(5000)
+        self.connectionChecker.heartBeatRecieverTimer.timeout.connect(self.heartBeatTimeout)
+        self.threadpool.start(worker)
+
+
+                
+    def finished(self):
+        print("Done!!!!!!!!!!!!!")
+
+    def addToLogicQueue(self,args):
+        """Adds argument to logic queue for processing
+        :param args: A string which is used by the logic module if-else ladder
+        :type args: String
+        """
+        self.logic.pq.put(args)
+        print("Added to Logic queue")
+
+
+    def heartBeatTimeout(self):
+        """
+        Timeout function if hearbeat is not recieved in time
+        """
+
+        self.connectionChecker.heartBeatRecieverTimer.stop()
+        self.connectionChecker.heartBeatSenderTimer.stop()
+        self.uart_service=False
+
+        self.showError("Heart beat missing")
+        self.init_connectTab()
+        self.showError("Device disconnected")
+        self.bleConnectionStatus="Disconnected"
+        self.updateStatus()
+        
+        self.ui.tabWidget.setCurrentIndex(0)
+        self.disconnectBtn.setEnabled(False)
+        self.uart_connection.disconnect()
+
+    def sendData(self,data):
+        """Function to send data via the Bluetooth adapter to the BLE module on the device
+
+        :param data: A stromg which needs to be sent over ble
+        :type data: String
+        """
+        if self.uart_service:
+            self.uart_service.write(data.encode("utf-8"))
+            print("Sent: "+data)
+
+
+
+
+
+    def isConnectedBLE(self):
+        """
+        Checks if the BLE module is still connected to the device
+        """
+        
+        while 1:
+            if self.uart_service:
+                if self.uart_connection.connected:
+                    pass
+                else:
+                    self.uart_service=False
+            time.sleep(0.1)
+
+    def addToParserQueue(self):
+        """
+        This function is used by the listener to keep adding data into the parser queue 
+        """
+        if(self.uart_service):
+            while(self.uart_service.in_waiting):# if an if condition is used partially read charachters appear
+                raw_serial=self.uart_service.readline()
+                if raw_serial:
+                    self.parser.q.put(raw_serial)
+                    print("Added to parser queue")
+        else:
+            print("No UART connection, cannot add to parser Queue")
 
     def updateStatus(self):
         self.statusTxt.clear()
@@ -164,4 +297,3 @@ app = QtWidgets.QApplication(sys.argv)
 window = MainWindow()
 window.show()
 sys.exit(app.exec())
-
