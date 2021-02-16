@@ -3,6 +3,7 @@ from PyQt5.QtCore import *
 from PyQt5.QtWidgets import *
 from queue import Queue,PriorityQueue
 
+from loggingModule import *
 
 import time
 import sys
@@ -28,6 +29,9 @@ class Logic(QThread):
                 #the first element is the priority
                 data=self.pq.get()[1]
                 print("Logic:"+data)
+                Logger.q.put(("INFO","Logic queue recieved: "+ data))
+                if(data=="Stop"):
+                    break
                 """
                     Start switch case statement
                 """

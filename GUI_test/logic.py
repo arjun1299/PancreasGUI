@@ -102,7 +102,7 @@ class MainWindow(QMainWindow,Ui_MainWindow):
         :param args: A string which is used by the logic module if-else ladder
         :type args: String
         """
-        self.logic.put(args)
+        Logic.put(args)
 
     def hbTimerReset(self):
         """
@@ -173,7 +173,7 @@ class MainWindow(QMainWindow,Ui_MainWindow):
             if(self.uart_service.in_waiting):
                 raw_serial=self.uart_service.readline()
                 if raw_serial:
-                    self.parser.q.put(raw_serial)
+                    Parser.q.put(raw_serial)
                     print("Added to parser queue")
 
 app = QApplication([])

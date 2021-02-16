@@ -6,7 +6,7 @@ from logicModule import Logic
 
 import time
 import sys
-import logging
+from loggingModule import *
 
 from adafruit_ble import BLERadio
 from adafruit_ble.advertising.standard import ProvideServicesAdvertisement
@@ -16,8 +16,12 @@ TIMEOUT=1
 connected_to_device=False
 
 class Parser(QThread):
+    """
+    This module parses the incoming data
+    :param QThread: [description]
+    :type QThread: [type]
+    """
     q=Queue()
-
     addToLogicQueue=pyqtSignal(tuple)
 
     def __init__(self,*args):
@@ -26,15 +30,24 @@ class Parser(QThread):
         print("Parser started")
 
     def run(self):
+        Logger.q.put(("INFO","Parser Thread Started successfully"))
+
         while 1:
             #print("Thread recieved")
             #print("Running parser")
             if(self.q.empty()==False):
-                data=self.q.get().decode("utf-8")
+                data=self.q.get()
+
+                if data=="Stop":
+                    break
+
+                data=data.decode("utf-8")
                 
                 self.addToLogicQueue.emit((1,data))
 
                 print("Parsed:"+data)
+                Logger.q.put(("INFO","Parsed:"+data))
+
             time.sleep(0.1)
 
 class SerialListner(QThread):
@@ -44,16 +57,28 @@ class SerialListner(QThread):
     :type QThread: [type]
     """
     dataArrival=pyqtSignal()
+    SerialListnerEnable=True
 
     def __init__(self):
         super().__init__()
         self.target= "F9:9B:81:05:DE:E7"
         print("Listener started")
+        SerialListner.SerialListnerEnable=True
     
     def run(self):
+        """
+        This function needs to keep running and check the uart buffer if any charachters are incoming
+        """
+
+        Logger.q.put(("INFO","Serial Listner Thread started"))
+
         while 1:
+
+            if SerialListner.SerialListnerEnable==False:
+                break
+
             self.dataArrival.emit()
-            #This function needs to keep running and check the uart buffer if any charachters are incoming
+            
             time.sleep(0.1)
 
 class Sender(QThread):
@@ -66,24 +91,30 @@ class Sender(QThread):
 
     
     sendData=pyqtSignal(str)
+    q=Queue()
 
     def __init__(self,*args):
         super().__init__()
         self.args=args
-        self.q=Queue()
         print("Sender started")
 
 
     def run(self):
         while 1:
             if(self.q.empty()==False):
-                self.sendData.emit(self.q.get())
+                data=self.q.get()
+
+                if data=="Stop":
+                    break
+
+                self.sendData.emit(data)
         time.sleep(0.1)
 
     def sendHB(self):
         """
         Send a Heart Beat signal to the BLE module
         """
+
         s="IPHB\r"
         print("Sent HB")
         self.q.put(s)

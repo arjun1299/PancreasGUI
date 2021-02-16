@@ -10,6 +10,7 @@ from PyQt5.QtCore import pyqtSlot
 from bleOperations import *
 from logicModule import *
 from multithread import *
+from loggingModule import *
 
 from basicui import Ui_MainWindow
 import serial.tools.list_ports
@@ -19,6 +20,8 @@ from _primingTab import primingTab
 from _commandTab import commandTab
 from _recurringTab import recurringTab
 from multithread import Worker,WorkerSignals
+
+
 
 class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,commandTab,recurringTab):
     def __init__(self, *args, obj=None, **kwargs):
@@ -60,21 +63,14 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,comm
         
         #initialize threading
         self.threadpool=QThreadPool()
-        
 
-        self.port=""
-        
-        self.init_connectTab()
+        """
+        Start logging module
+        """
 
-        self.init_primingTab()
-        
-        self.init_commandTab()
-
-        self.init_recurringTab()
-
-
-        
-        self.updateStatus()
+        self.logger= Logger()
+        self.logger.start()
+        #self.sender.finished.connect(lambda v: self.finished("Logger"))
 
         """
         Start serial listener and connect it to parser queue
@@ -83,6 +79,7 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,comm
         
         self.serialListner =SerialListner()
         self.serialListner.dataArrival.connect(self.addToParserQueue)
+        #self.sender.finished.connect(lambda v: self.finished("Listner"))
         self.serialListner.start()
         
         
@@ -91,6 +88,7 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,comm
         """
         self.parser=Parser()
         self.parser.addToLogicQueue.connect(self.addToLogicQueue)
+        #self.sender.finished.connect(lambda v: self.finished("Parser"))
         self.parser.start()       
 
         """
@@ -98,6 +96,7 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,comm
         """ 
         self.sender=Sender()
         self.sender.sendData.connect(self.sendData)
+        #self.sender.finished.connect(lambda v: self.finished("Sender"))
         self.sender.start()   
 
         """Initialize connection checker which checks heartbeat
@@ -117,26 +116,27 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,comm
 
         self.connectedSignal.connect(self.isConnectedBLEHandle)
 
-    
-    
 
-    def isConnectedBLEHandle(self):
-        """
-        Initialize thread to check if ble is connected
-        """
-        print("Starting hb")
+        self.port=""
+        
+        self.init_connectTab()
 
-        worker=Worker(self.isConnectedBLE)
-        worker.signals.finished.connect(self.finish)
-        self.connectionChecker.heartBeatSenderTimer.start(500)
-        self.connectionChecker.heartBeatRecieverTimer.start(5000)
-        self.connectionChecker.heartBeatRecieverTimer.timeout.connect(self.heartBeatTimeout)
-        self.threadpool.start(worker)
+        self.init_primingTab()
+
+        self.init_commandTab()
+
+        self.init_recurringTab()
+
+
+        
+        self.updateStatus()
+
 
 
                 
-    def finished(self):
-        print("Done!!!!!!!!!!!!!")
+    def finished(self,args):
+        print(args+"Thread complete")
+        Logger.q.put(("WARNING",args+"Thread complete"))
 
     def addToLogicQueue(self,args):
         """Adds argument to logic queue for processing
@@ -155,16 +155,22 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,comm
         self.connectionChecker.heartBeatRecieverTimer.stop()
         self.connectionChecker.heartBeatSenderTimer.stop()
         self.uart_service=False
-
+        Logger.q.put("ERROR","Heartbeat Timeout!!")
         self.showError("Heart beat missing")
-        self.init_connectTab()
+        
+        while Logger.q.empty()==False or self.parser.q.empty()==False or self.sender.q.empty()==False or self.logic.pq.empty()==False: 
+            time.sleep(0.1)
+    
         self.showError("Device disconnected")
         self.bleConnectionStatus="Disconnected"
+        self.init_connectTab()
         self.updateStatus()
-        
+
         self.ui.tabWidget.setCurrentIndex(0)
         self.disconnectBtn.setEnabled(False)
         self.uart_connection.disconnect()
+        
+        
 
     def sendData(self,data):
         """Function to send data via the Bluetooth adapter to the BLE module on the device
@@ -174,24 +180,13 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,comm
         """
         if self.uart_service:
             self.uart_service.write(data.encode("utf-8"))
+            Logger.q.put(("INFO","Sent"+data))
             print("Sent: "+data)
 
 
 
 
 
-    def isConnectedBLE(self):
-        """
-        Checks if the BLE module is still connected to the device
-        """
-        
-        while 1:
-            if self.uart_service:
-                if self.uart_connection.connected:
-                    pass
-                else:
-                    self.uart_service=False
-            time.sleep(0.1)
 
     def addToParserQueue(self):
         """
@@ -203,8 +198,9 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,comm
                 if raw_serial:
                     self.parser.q.put(raw_serial)
                     print("Added to parser queue")
-        else:
-            print("No UART connection, cannot add to parser Queue")
+        """else:
+            print("No UART connection, cannot add to parser Queue"
+        """
 
     def updateStatus(self):
         self.statusTxt.clear()
@@ -291,9 +287,25 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,comm
             self.ui.tabWidget.setCurrentIndex(0)
             self.ui.tabWidget.currentIndex
             self.uart_connection.disconnect()
+    
+    def closeEvent(self,event):
+        """Make sure all threads stop
+
+        :param event: The close event which is raised, this is used
+        :type event: 
+        """
+        """Logger.q.put(("INSTRUCTION","Stop"))
+        SerialListner.SerialListnerEnable=False
+        Parser.q.put("Stop")
+        Logic.pq.put((1,"Stop"))
+        event.accept() # let the window close"""
+        self.logger.quit()
+        self.serialListner.quit()
+        self.parser.quit()
+        self.logic.quit()
+        event.accept()
 
 app = QtWidgets.QApplication(sys.argv)
-
 window = MainWindow()
 window.show()
-sys.exit(app.exec())
+sys.exit(app.exec_())

@@ -8,6 +8,7 @@ from PyQt5.QtGui import QMovie
 
 from bleOperations import *
 from logicModule import *
+from loggingModule import *
 
 from multithread import Worker,WorkerSignals
 
@@ -91,6 +92,35 @@ class connectTab(object):
             #break
     """
 
+    def isConnectedBLEHandle(self):
+        """
+        Initialize thread to check if ble is connected
+        """
+        print("Starting hb")
+        Logger.q.put(("INFO","Starting connection check"))
+
+        worker=Worker(self.isConnectedBLE)
+        worker.signals.finished.connect(self.finished)
+        self.connectionChecker.heartBeatSenderTimer.start(500)
+        Logger.q.put(("INFO","Starting HB sender timer"))
+        self.connectionChecker.heartBeatRecieverTimer.start(5000)
+        Logger.q.put(("INFO","Starting HB reviever timer"))
+        self.connectionChecker.heartBeatRecieverTimer.timeout.connect(self.heartBeatTimeout)
+        self.threadpool.start(worker)
+    
+    def isConnectedBLE(self):
+        """
+        Checks if the BLE module is still connected to the device
+        """
+        
+        while 1:
+            if self.uart_service:
+                if self.uart_connection.connected:
+                    pass
+                else:
+                    self.uart_service=False
+            time.sleep(0.1)
+
 
     
     def isConnectedReciever(self):
@@ -103,6 +133,7 @@ class connectTab(object):
         #checks if bluetooth reciever is connected
         if(os.system("timeout -s INT 1s hcitool lescan")== 256):
             #print("BLUETOOTH ADAPTER NOT FOUND")
+            Logger.q.put(("ERROR","BLUETOOTH ADAPTER NOT FOUND"))
             self.showError("BLUETOOTH ADAPTER NOT FOUND")
             exit()
             #return 0
@@ -121,7 +152,10 @@ class connectTab(object):
             self.port=self.dropdown.currentText()
             ble=BLERadio()
 
-            print("Connected to:"+self.dropdown.currentText())
+            print("Attempting to Connect to:"+self.dropdown.currentText())
+            
+            Logger.q.put(("INFO","Attempting to Connect to:"+self.dropdown.currentText()))
+            
             for element in self.comlist:
                 if element.complete_name ==  self.dropdown.currentText() or self.dropdown.currentText() in str(element.address):
                         #no check if uart service works
@@ -134,6 +168,7 @@ class connectTab(object):
                                 self.bleConnectionStatus="Connected"
                                 self.updateStatus()
                                 self.uart_service=self.uart_connection[UARTService]
+                                Logger.q.put(("INFO","Connected to: " +self.dropdown.currentText()))
                                 self.connectedSignal.emit()
                                 break
 
@@ -212,6 +247,7 @@ class connectTab(object):
         """
             This is responsible for starting the scanning 
         """
+        Logger.q.put(("INFO","Started scan for BLE devices"))
         worker=Worker(self.scan)
         worker.signals.finished.connect(self.scanDone)
         self.threadpool.start(worker)
@@ -222,7 +258,7 @@ class connectTab(object):
         """
         Once scanning is complete this function gets executed, enables buttons and disables the animation
         """
-        
+        Logger.q.put(("INFO","Scan complete"))
         self.movie.stop()
         self.scanLbl.hide()
         if(self.dropdown.maxCount()):

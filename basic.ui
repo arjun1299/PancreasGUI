@@ -93,11 +93,11 @@
      <attribute name="title">
       <string>Priming</string>
      </attribute>
-     <widget class="QPushButton" name="startPrime">
+     <widget class="QPushButton" name="startPrimeBtn">
       <property name="geometry">
        <rect>
-        <x>100</x>
-        <y>160</y>
+        <x>70</x>
+        <y>120</y>
         <width>121</width>
         <height>51</height>
        </rect>
@@ -168,7 +168,7 @@
        <string>Finish priming</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="clutchBtn">
+     <widget class="QPushButton" name="fixedPrimeBtn">
       <property name="geometry">
        <rect>
         <x>330</x>
@@ -178,7 +178,20 @@
        </rect>
       </property>
       <property name="text">
-       <string>Engage clutch</string>
+       <string>Fixed Prime</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="toggleClutchBtn">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>200</y>
+        <width>121</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Toggle Clutch</string>
       </property>
      </widget>
     </widget>

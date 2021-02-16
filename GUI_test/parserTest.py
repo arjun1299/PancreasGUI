@@ -128,6 +128,9 @@ class MainWindow(QMainWindow):
         
         if self.uart_service:
           print("Connection sequence complete")
+          Logger.q.put("INFO","Connection sequence complete")
+        else:
+            Logger.q.put("ERROR","Connection Attempt failed")
 
     def sendHB(self):
         """

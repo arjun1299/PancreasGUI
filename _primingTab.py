@@ -11,8 +11,9 @@ from PyQt5.QtCore import pyqtSlot
 class primingTab(object):
     def init_primingTab(self):
         #start prime
-        self.startPrime=self.ui.startPrime
-        self.startPrime.clicked.connect(self.enablePriming)
+        self.startPrimeBtn=self.ui.startPrimeBtn
+        self.startPrimeBtn.clicked.connect(self.enablePriming)
+        
     
         #rotate
         self.rotateBtn=self.ui.rotateBtn
@@ -22,12 +23,16 @@ class primingTab(object):
 
         
         #clutch
-        self.clutchBtn=self.ui.clutchBtn
-        self.clutchBtn.setEnabled(False)
+        self.toggleClutchBtn=self.ui.toggleClutchBtn
+        self.toggleClutchBtn.setEnabled(False)
 
-        self.clutchBtn.setText("Gear")
+        self.toggleClutchBtn.setText("Gear")
         
-        self.clutchBtn.clicked.connect(self.engageClutch)
+        self.toggleClutchBtn.clicked.connect(self.engageClutch)
+
+        #fixed prime
+        self.fixedPrimeBtn=self.ui.fixedPrimeBtn  
+        self.fixedPrimeBtn.setEnabled(False)
 
         #finish
         self.finishPrimeBtn=self.ui.finishPrimeBtn
@@ -36,7 +41,8 @@ class primingTab(object):
 
     def enablePriming(self):
         self.rotateBtn.setEnabled(True)
-        self.clutchBtn.setEnabled(True)
+        self.toggleClutchBtn.setEnabled(True)
+        self.fixedPrimeBtn.setEnabled(True)
         self.ongoing="Priming"
         self.showDialog("Prime")
         self.updateStatus()
@@ -53,10 +59,12 @@ class primingTab(object):
         if self.clutch== False:
             self.clutchBtn.setText("Ratchet")
             self.clutch=True
+            self.sender.q.put("IPPC\r")
             
         else:
             self.clutchBtn.setText("Gear")
             self.clutch=False
+            self.sender.q.put("IPDC\r")
         
         self.updateStatus()
             

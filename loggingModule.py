@@ -15,14 +15,30 @@ class Logger(QThread):
     """
     q=Queue()
 
+    def __init__(self):
+        super().__init__()
+        logging.basicConfig(filename="log.txt",format='%(levelname)s %(asctime)s - %(message)s', datefmt='%d-%b-%y %H:%M:%S',level=logging.INFO)
+        logging.warning("Started")
+
     def run(self):
+        Logger.q.put(("INFO","Starting logger"))
+        print("Starting logger")
         
         while 1:
             if self.q.empty()==False :
-                s= Logger.q.get()
-                if s=="Stop":
+                (level,message)= Logger.q.get()
+                if message=="Stop":
                     break
-                print("Logged!"+ s )
-                logging.info(s)
+                print("Logged!"+ level + message )
+
+                """
+                Split into differenent logging levels
+                """
+                if(level=="WARNING"):
+                    logging.warning(message)
+                elif(level=="ERROR"):
+                    logging.error(message)
+                elif(level=="INFO"):
+                    logging.info(message)
 
             time.sleep(0.1)
