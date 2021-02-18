@@ -19,11 +19,12 @@ from _connectTab import connectTab
 from _primingTab import primingTab
 from _commandTab import commandTab
 from _recurringTab import recurringTab
+from _bolusTesting import bolusTestingTab
 from multithread import Worker,WorkerSignals
 
 
 
-class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,commandTab,recurringTab):
+class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,commandTab,recurringTab,bolusTestingTab):
     def __init__(self, *args, obj=None, **kwargs):
         
         super(MainWindow, self).__init__(*args, **kwargs)
@@ -112,10 +113,15 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,comm
         self.logic=Logic()
         ###Connect all logic signals
         self.logic.hbTimerReset.connect(self.connectionChecker.hbTimerReset)
+        self.logic.insulonComplete.connect(self.resetBolusTimer)
         self.logic.start()   
 
         self.connectedSignal.connect(self.isConnectedBLEHandle)
+        
 
+        """
+        Inititialize all the required tabs
+        """
 
         self.port=""
         
@@ -126,6 +132,8 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,comm
         self.init_commandTab()
 
         self.init_recurringTab()
+
+        self.init_bolusTestingTab() 
 
 
         

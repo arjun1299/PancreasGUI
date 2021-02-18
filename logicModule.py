@@ -15,11 +15,16 @@ class Logic(QThread):
 
     hbTimerReset=pyqtSignal()
     engageClutch=pyqtSignal()
+    insulonComplete=pyqtSignal(str)
 
 
     def __init__(self,*args):
         super().__init__()
         self.args=args
+
+        """Flag indicates that the next incoming value is the inulon time
+        """
+        self.insulonCompleteFlag=False
 
     def run(self):
         while 1:
@@ -35,7 +40,25 @@ class Logic(QThread):
                 """
                     Start switch case statement
                 """
+
+                    
+
                 if(data[:2]=="HB"):
                     print("Emitting hb Reset")
                     self.hbTimerReset.emit()
+
+                elif(self.insulonCompleteFlag):
+                    print(data)
+                    self.insulonCompleteFlag=False
+                    self.insulonComplete.emit(data) 
+
+                elif(data[:2]=="IN"):
+                    """
+                    Data comes in as
+                    INXX.XX where X is the time taken for one insulon rotation
+                    """
+                    print("Emitting IN")
+                    self.insulonComplete.emit(data[2:]) 
+               
+                
             time.sleep(0.1)
