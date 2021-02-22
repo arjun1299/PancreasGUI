@@ -13,7 +13,9 @@ import logging
 class Logic(QThread):
     pq=PriorityQueue()
 
-    hbTimerReset=pyqtSignal()
+    hbRecieverTimerReset=pyqtSignal()
+    hbSenderTimerReset=pyqtSignal()
+    sendHB=pyqtSignal()
     engageClutch=pyqtSignal()
     insulonComplete=pyqtSignal(str)
 
@@ -40,12 +42,20 @@ class Logic(QThread):
                 """
                     Start switch case statement
                 """
+                if(data[0:2]=="SS"):
+                    if(data[2:]=="SHB"):
+                        self.hbRecieverTimerReset.emit()
 
-                    
 
+                """
+                Sender functions
+                """
+                """
+                Incoming from BLE
+                """
                 if(data[:2]=="HB"):
                     print("Emitting hb Reset")
-                    self.hbTimerReset.emit()
+                    self.hbSenderTimerReset.emit()
 
                 elif(self.insulonCompleteFlag):
                     print(data)
@@ -62,3 +72,59 @@ class Logic(QThread):
                
                 
             time.sleep(0.1)
+
+class heartBeatChecker(QTimer):
+    """This class contains all timers required for the funtioning of the heartbeat
+
+    :param QTimer: [description]
+    :type QTimer: [type]
+    """
+
+    heartBeatSenderInterval=2000
+    heartBeatRecieverInterval=7000
+
+    sendHeartBeat=pyqtSignal()
+    timeoutSignal=pyqtSignal()
+
+    
+    def __init__(self):
+        """
+        Timer for heartbeat
+
+        """
+        super().__init__()
+        self.q=Queue()
+
+        self.heartBeatFlag=False
+        self.heartBeatSenderTimer = QTimer() #connect this to hbSend
+        self.heartBeatRecieverTimer = QTimer()#this needs to be connected to a timeout event
+        self.heartBeatSenderTimer.timeout.connect(self.hbSend)
+
+
+    def hbRecieverTimerReset(self):
+        """
+        Resets the heartbeat timer
+        """
+        print("Reset reciever heartbeat timer")
+
+        self.heartBeatSenderTimer.stop()
+        self.heartBeatRecieverTimer.stop()
+        self.heartBeatRecieverTimer.start(heartBeatChecker.heartBeatRecieverInterval)
+
+    def hbSenderTimerReset(self):
+        """Sender heart beat timer reset
+        """
+
+        self.heartBeatSenderTimer.stop()
+        self.heartBeatRecieverTimer.stop()
+        self.heartBeatSenderTimer.start(heartBeatChecker.heartBeatSenderInterval)
+
+    
+    def hbSend(self):
+        """
+        Sends the heartbeat repeatedly
+        """
+        self.sendHeartBeat.emit()
+        self.heartBeatSenderTimer.start(2000)
+
+        

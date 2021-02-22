@@ -1,0 +1,613 @@
+WARNING 22-Feb-21 14:09:38 - Started
+INFO 22-Feb-21 14:09:38 - Starting logger
+INFO 22-Feb-21 14:09:38 - Serial Listner Thread started
+INFO 22-Feb-21 14:09:38 - Parser Thread Started successfully
+WARNING 22-Feb-21 14:10:05 - Started
+INFO 22-Feb-21 14:10:05 - Starting logger
+INFO 22-Feb-21 14:10:05 - Serial Listner Thread started
+INFO 22-Feb-21 14:10:05 - Parser Thread Started successfully
+WARNING 22-Feb-21 14:10:24 - Started
+INFO 22-Feb-21 14:10:24 - Starting logger
+INFO 22-Feb-21 14:10:24 - Serial Listner Thread started
+INFO 22-Feb-21 14:10:24 - Parser Thread Started successfully
+INFO 22-Feb-21 14:10:27 - Started scan for BLE devices
+INFO 22-Feb-21 14:10:37 - Scan complete
+INFO 22-Feb-21 14:10:46 - Attempting to Connect to:f9:9b:81:05:de:e7
+INFO 22-Feb-21 14:10:53 - Connected to: f9:9b:81:05:de:e7
+INFO 22-Feb-21 14:10:53 - Starting connection check
+INFO 22-Feb-21 14:10:53 - Starting HB sender timer
+INFO 22-Feb-21 14:10:53 - Starting HB reviever timer
+INFO 22-Feb-21 14:10:54 - SentIPHB
+INFO 22-Feb-21 14:10:54 - Parsed:HB
+
+INFO 22-Feb-21 14:10:54 - Logic queue recieved: HB
+
+INFO 22-Feb-21 14:10:56 - SentIPHB
+INFO 22-Feb-21 14:10:56 - Parsed:HB
+
+INFO 22-Feb-21 14:10:56 - Logic queue recieved: HB
+
+INFO 22-Feb-21 14:10:58 - SentIPHB
+INFO 22-Feb-21 14:10:58 - Parsed:HB
+
+INFO 22-Feb-21 14:10:58 - Logic queue recieved: HB
+
+INFO 22-Feb-21 14:11:00 - SentIPHB
+INFO 22-Feb-21 14:11:00 - Parsed:HB
+
+INFO 22-Feb-21 14:11:00 - Logic queue recieved: HB
+
+INFO 22-Feb-21 14:11:02 - SentIPHB
+INFO 22-Feb-21 14:11:02 - Parsed:HB
+
+INFO 22-Feb-21 14:11:02 - Logic queue recieved: HB
+
+INFO 22-Feb-21 14:11:04 - SentIPHB
+INFO 22-Feb-21 14:11:04 - Parsed:HB
+
+INFO 22-Feb-21 14:11:04 - Logic queue recieved: HB
+
+INFO 22-Feb-21 14:11:06 - SentIPHB
+INFO 22-Feb-21 14:11:06 - Parsed:HB
+
+INFO 22-Feb-21 14:11:06 - Logic queue recieved: HB
+
+INFO 22-Feb-21 14:11:08 - SentIPHB
+INFO 22-Feb-21 14:11:08 - Parsed:HB
+
+INFO 22-Feb-21 14:11:08 - Logic queue recieved: HB
+
+INFO 22-Feb-21 14:11:10 - SentIPHB
+INFO 22-Feb-21 14:11:10 - Logic queue recieved: HB
+
+INFO 22-Feb-21 14:11:10 - Parsed:HB
+
+INFO 22-Feb-21 14:11:12 - SentIPHB
+INFO 22-Feb-21 14:11:12 - Parsed:HB
+
+INFO 22-Feb-21 14:11:12 - Logic queue recieved: HB
+
+INFO 22-Feb-21 14:11:14 - SentIPHB
+INFO 22-Feb-21 14:11:14 - Parsed:HB
+
+INFO 22-Feb-21 14:11:14 - Logic queue recieved: HB
+
+INFO 22-Feb-21 14:11:16 - SentIPHB
+INFO 22-Feb-21 14:11:16 - Parsed:HB
+
+INFO 22-Feb-21 14:11:16 - Logic queue recieved: HB
+
+INFO 22-Feb-21 14:11:18 - SentIPHB
+INFO 22-Feb-21 14:11:18 - Parsed:HB
+
+INFO 22-Feb-21 14:11:18 - Logic queue recieved: HB
+
+INFO 22-Feb-21 14:11:20 - SentIPHB
+INFO 22-Feb-21 14:11:20 - Parsed:HB
+
+INFO 22-Feb-21 14:11:20 - Logic queue recieved: HB
+
+WARNING 22-Feb-21 14:12:19 - Started
+INFO 22-Feb-21 14:12:19 - Starting logger
+INFO 22-Feb-21 14:12:19 - Serial Listner Thread started
+INFO 22-Feb-21 14:12:19 - Parser Thread Started successfully
+INFO 22-Feb-21 14:12:22 - Started scan for BLE devices
+INFO 22-Feb-21 14:12:33 - Scan complete
+INFO 22-Feb-21 14:12:36 - Attempting to Connect to:f9:9b:81:05:de:e7
+INFO 22-Feb-21 14:12:45 - Connected to: f9:9b:81:05:de:e7
+INFO 22-Feb-21 14:12:46 - Starting connection check
+INFO 22-Feb-21 14:12:46 - Starting HB sender timer
+INFO 22-Feb-21 14:12:46 - Starting HB reviever timer
+INFO 22-Feb-21 14:12:46 - SentIPHB
+INFO 22-Feb-21 14:12:46 - Parsed:HB
+
+INFO 22-Feb-21 14:12:46 - Logic queue recieved: HB
+
+INFO 22-Feb-21 14:12:48 - SentIPHB
+INFO 22-Feb-21 14:12:48 - Parsed:HB
+
+INFO 22-Feb-21 14:12:49 - Logic queue recieved: HB
+
+INFO 22-Feb-21 14:12:50 - SentIPHB
+INFO 22-Feb-21 14:12:50 - Parsed:HB
+
+INFO 22-Feb-21 14:12:51 - Logic queue recieved: HB
+
+INFO 22-Feb-21 14:12:52 - SentIPHB
+INFO 22-Feb-21 14:12:52 - Parsed:HB
+
+INFO 22-Feb-21 14:12:53 - Logic queue recieved: HB
+
+INFO 22-Feb-21 14:12:54 - SentIPHB
+INFO 22-Feb-21 14:12:54 - Parsed:HB
+
+INFO 22-Feb-21 14:12:55 - Logic queue recieved: HB
+
+INFO 22-Feb-21 14:12:56 - SentIPHB
+INFO 22-Feb-21 14:12:57 - Parsed:HB
+
+INFO 22-Feb-21 14:12:57 - Logic queue recieved: HB
+
+INFO 22-Feb-21 14:12:58 - SentIPHB
+INFO 22-Feb-21 14:12:58 - Parsed:HB
+
+INFO 22-Feb-21 14:12:59 - Logic queue recieved: HB
+
+INFO 22-Feb-21 14:13:00 - SentIPHB
+INFO 22-Feb-21 14:13:00 - Parsed:HB
+
+INFO 22-Feb-21 14:13:01 - Logic queue recieved: HB
+
+INFO 22-Feb-21 14:13:02 - SentIPHB
+INFO 22-Feb-21 14:13:02 - Parsed:HB
+
+INFO 22-Feb-21 14:13:03 - Logic queue recieved: HB
+
+INFO 22-Feb-21 14:13:04 - SentIPHB
+INFO 22-Feb-21 14:13:04 - Parsed:HB
+
+INFO 22-Feb-21 14:13:04 - Logic queue recieved: HB
+
+INFO 22-Feb-21 14:13:06 - SentIPHB
+INFO 22-Feb-21 14:13:06 - Parsed:HB
+
+INFO 22-Feb-21 14:13:07 - Logic queue recieved: HB
+
+INFO 22-Feb-21 14:13:08 - SentIPHB
+INFO 22-Feb-21 14:13:08 - Parsed:HB
+
+INFO 22-Feb-21 14:13:09 - Logic queue recieved: HB
+
+INFO 22-Feb-21 14:13:10 - SentIPHB
+INFO 22-Feb-21 14:13:10 - Parsed:HB
+
+INFO 22-Feb-21 14:13:11 - Logic queue recieved: HB
+
+INFO 22-Feb-21 14:13:12 - SentIPHB
+INFO 22-Feb-21 14:13:13 - Parsed:HB
+
+INFO 22-Feb-21 14:13:13 - Logic queue recieved: HB
+
+INFO 22-Feb-21 14:13:14 - SentIPHB
+INFO 22-Feb-21 14:13:14 - Parsed:HB
+
+INFO 22-Feb-21 14:13:15 - Logic queue recieved: HB
+
+INFO 22-Feb-21 14:13:16 - SentIPHB
+INFO 22-Feb-21 14:13:16 - Parsed:HB
+
+INFO 22-Feb-21 14:13:17 - Logic queue recieved: HB
+
+INFO 22-Feb-21 14:13:18 - SentIPHB
+INFO 22-Feb-21 14:13:18 - Parsed:HB
+
+INFO 22-Feb-21 14:13:19 - Logic queue recieved: HB
+
+INFO 22-Feb-21 14:13:20 - SentIPHB
+INFO 22-Feb-21 14:13:20 - Parsed:HB
+
+INFO 22-Feb-21 14:13:21 - Logic queue recieved: HB
+
+INFO 22-Feb-21 14:13:22 - SentIPHB
+INFO 22-Feb-21 14:13:23 - Parsed:HB
+
+INFO 22-Feb-21 14:13:23 - Logic queue recieved: HB
+
+INFO 22-Feb-21 14:13:24 - SentIPHB
+INFO 22-Feb-21 14:13:24 - Parsed:HB
+
+INFO 22-Feb-21 14:13:25 - Logic queue recieved: HB
+
+INFO 22-Feb-21 14:13:26 - SentIPHB
+INFO 22-Feb-21 14:13:27 - Parsed:HB
+
+INFO 22-Feb-21 14:13:27 - Logic queue recieved: HB
+
+INFO 22-Feb-21 14:13:28 - SentIPHB
+INFO 22-Feb-21 14:13:28 - Parsed:HB
+
+INFO 22-Feb-21 14:13:28 - Logic queue recieved: HB
+
+INFO 22-Feb-21 14:13:30 - SentIPHB
+WARNING 22-Feb-21 14:35:16 - Started
+INFO 22-Feb-21 14:35:16 - Starting logger
+INFO 22-Feb-21 14:35:16 - Serial Listner Thread started
+INFO 22-Feb-21 14:35:16 - Parser Thread Started successfully
+WARNING 22-Feb-21 16:00:18 - Started
+INFO 22-Feb-21 16:00:18 - Starting logger
+INFO 22-Feb-21 16:00:18 - Serial Listner Thread started
+INFO 22-Feb-21 16:00:18 - Parser Thread Started successfully
+INFO 22-Feb-21 16:00:24 - Started scan for BLE devices
+WARNING 22-Feb-21 16:06:04 - Started
+INFO 22-Feb-21 16:06:04 - Starting logger
+INFO 22-Feb-21 16:06:04 - Serial Listner Thread started
+INFO 22-Feb-21 16:06:04 - Parser Thread Started successfully
+INFO 22-Feb-21 16:06:07 - Started scan for BLE devices
+WARNING 22-Feb-21 16:18:13 - Started
+INFO 22-Feb-21 16:18:13 - Starting logger
+WARNING 22-Feb-21 16:50:05 - Started
+INFO 22-Feb-21 16:50:05 - Starting logger
+INFO 22-Feb-21 16:50:05 - Serial Listner Thread started
+INFO 22-Feb-21 16:50:05 - Parser Thread Started successfully
+WARNING 22-Feb-21 16:50:49 - Started
+INFO 22-Feb-21 16:50:49 - Starting logger
+INFO 22-Feb-21 16:50:49 - Serial Listner Thread started
+INFO 22-Feb-21 16:50:49 - Parser Thread Started successfully
+INFO 22-Feb-21 16:50:52 - Started scan for BLE devices
+INFO 22-Feb-21 16:51:02 - Scan complete
+INFO 22-Feb-21 16:51:05 - Attempting to Connect to:f9:9b:81:05:de:e7
+INFO 22-Feb-21 16:51:13 - Connected to: f9:9b:81:05:de:e7
+INFO 22-Feb-21 16:51:14 - Starting connection check
+INFO 22-Feb-21 16:51:14 - Starting HB sender timer
+INFO 22-Feb-21 16:51:14 - Starting HB reviever timer
+INFO 22-Feb-21 16:51:14 - SentIPHB
+INFO 22-Feb-21 16:51:14 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 16:51:14 - Parsed:HB
+
+INFO 22-Feb-21 16:51:14 - Logic queue recieved: HB
+
+WARNING 22-Feb-21 16:54:15 - Started
+INFO 22-Feb-21 16:54:15 - Starting logger
+INFO 22-Feb-21 16:54:15 - Serial Listner Thread started
+INFO 22-Feb-21 16:54:15 - Parser Thread Started successfully
+INFO 22-Feb-21 16:54:19 - Started scan for BLE devices
+INFO 22-Feb-21 16:54:29 - Scan complete
+INFO 22-Feb-21 16:54:34 - Attempting to Connect to:f9:9b:81:05:de:e7
+INFO 22-Feb-21 16:54:44 - Connected to: f9:9b:81:05:de:e7
+INFO 22-Feb-21 16:54:44 - Starting connection check
+INFO 22-Feb-21 16:54:44 - Starting HB sender timer
+INFO 22-Feb-21 16:54:44 - Starting HB reviever timer
+INFO 22-Feb-21 16:54:44 - SentIPHB
+INFO 22-Feb-21 16:54:44 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 16:54:45 - Parsed:HB
+
+INFO 22-Feb-21 16:54:45 - Logic queue recieved: HB
+
+WARNING 22-Feb-21 16:56:46 - Started
+INFO 22-Feb-21 16:56:46 - Starting logger
+INFO 22-Feb-21 16:56:46 - Serial Listner Thread started
+INFO 22-Feb-21 16:56:46 - Parser Thread Started successfully
+INFO 22-Feb-21 16:56:50 - Started scan for BLE devices
+INFO 22-Feb-21 16:57:00 - Scan complete
+INFO 22-Feb-21 16:57:02 - Attempting to Connect to:f9:9b:81:05:de:e7
+INFO 22-Feb-21 16:57:06 - Connected to: f9:9b:81:05:de:e7
+INFO 22-Feb-21 16:57:06 - Starting connection check
+INFO 22-Feb-21 16:57:06 - Starting HB sender timer
+INFO 22-Feb-21 16:57:06 - Starting HB reviever timer
+INFO 22-Feb-21 16:57:07 - SentIPHB
+INFO 22-Feb-21 16:57:07 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 16:57:07 - Parsed:HB
+
+INFO 22-Feb-21 16:57:07 - Logic queue recieved: HB
+
+WARNING 22-Feb-21 16:58:38 - Started
+INFO 22-Feb-21 16:58:38 - Starting logger
+INFO 22-Feb-21 16:58:38 - Serial Listner Thread started
+INFO 22-Feb-21 16:58:38 - Parser Thread Started successfully
+INFO 22-Feb-21 16:58:40 - Started scan for BLE devices
+INFO 22-Feb-21 16:58:51 - Scan complete
+INFO 22-Feb-21 16:58:54 - Attempting to Connect to:f9:9b:81:05:de:e7
+INFO 22-Feb-21 16:59:50 - Attempting to Connect to:f9:9b:81:05:de:e7
+INFO 22-Feb-21 17:00:03 - Attempting to Connect to:f9:9b:81:05:de:e7
+INFO 22-Feb-21 17:00:08 - Attempting to Connect to:f9:9b:81:05:de:e7
+INFO 22-Feb-21 17:00:09 - Attempting to Connect to:f9:9b:81:05:de:e7
+INFO 22-Feb-21 17:00:14 - Connected to: f9:9b:81:05:de:e7
+INFO 22-Feb-21 17:00:14 - Starting connection check
+INFO 22-Feb-21 17:00:14 - Starting HB sender timer
+INFO 22-Feb-21 17:00:14 - Starting HB reviever timer
+INFO 22-Feb-21 17:00:14 - SentIPHB
+INFO 22-Feb-21 17:00:14 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:00:14 - Parsed:HB
+
+INFO 22-Feb-21 17:00:15 - Logic queue recieved: HB
+
+WARNING 22-Feb-21 17:01:36 - Started
+INFO 22-Feb-21 17:01:36 - Starting logger
+INFO 22-Feb-21 17:01:36 - Serial Listner Thread started
+INFO 22-Feb-21 17:01:36 - Parser Thread Started successfully
+INFO 22-Feb-21 17:01:39 - Started scan for BLE devices
+INFO 22-Feb-21 17:01:49 - Scan complete
+INFO 22-Feb-21 17:01:52 - Attempting to Connect to:f9:9b:81:05:de:e7
+INFO 22-Feb-21 17:01:57 - Connected to: f9:9b:81:05:de:e7
+INFO 22-Feb-21 17:01:58 - Starting connection check
+INFO 22-Feb-21 17:01:58 - Starting HB sender timer
+INFO 22-Feb-21 17:01:58 - Starting HB reviever timer
+INFO 22-Feb-21 17:01:58 - SentIPHB
+INFO 22-Feb-21 17:01:58 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:01:58 - Parsed:HB
+
+INFO 22-Feb-21 17:01:59 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:01:59 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:01:59 - SentIPHB
+INFO 22-Feb-21 17:01:59 - Parsed:HB
+
+INFO 22-Feb-21 17:01:59 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:02:00 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:02:00 - SentIPHB
+INFO 22-Feb-21 17:02:00 - Parsed:HB
+
+INFO 22-Feb-21 17:02:00 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:02:01 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:02:01 - SentIPHB
+INFO 22-Feb-21 17:02:01 - Parsed:HB
+
+INFO 22-Feb-21 17:02:01 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:02:02 - SentIPHB
+INFO 22-Feb-21 17:02:02 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:02:02 - Parsed:HB
+
+INFO 22-Feb-21 17:02:02 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:02:03 - SentIPHB
+INFO 22-Feb-21 17:02:03 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:02:04 - Parsed:HB
+
+INFO 22-Feb-21 17:02:04 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:02:04 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:02:04 - SentIPHB
+INFO 22-Feb-21 17:02:04 - Parsed:HB
+
+INFO 22-Feb-21 17:02:04 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:02:04 - SentIPHB
+INFO 22-Feb-21 17:02:05 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:02:05 - Parsed:HB
+
+INFO 22-Feb-21 17:02:05 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:02:05 - SentIPHB
+INFO 22-Feb-21 17:02:05 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:02:05 - Parsed:HB
+
+INFO 22-Feb-21 17:02:05 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:02:06 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:02:06 - SentIPHB
+INFO 22-Feb-21 17:02:06 - Parsed:HB
+
+INFO 22-Feb-21 17:02:06 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:02:07 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:02:07 - SentIPHB
+INFO 22-Feb-21 17:02:07 - Parsed:HB
+
+INFO 22-Feb-21 17:02:07 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:02:07 - SentIPHB
+INFO 22-Feb-21 17:02:08 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:02:08 - Parsed:HB
+
+INFO 22-Feb-21 17:02:08 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:02:08 - SentIPHB
+INFO 22-Feb-21 17:02:08 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:02:08 - Parsed:HB
+
+INFO 22-Feb-21 17:02:09 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:02:09 - SentIPHB
+INFO 22-Feb-21 17:02:09 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:02:09 - Parsed:HB
+
+INFO 22-Feb-21 17:02:09 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:02:10 - SentIPHB
+INFO 22-Feb-21 17:02:10 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:02:10 - Parsed:HB
+
+INFO 22-Feb-21 17:02:10 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:02:11 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:02:11 - SentIPHB
+INFO 22-Feb-21 17:02:11 - Parsed:HB
+
+INFO 22-Feb-21 17:02:11 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:02:12 - SentIPHB
+INFO 22-Feb-21 17:02:12 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:02:12 - Parsed:HB
+
+INFO 22-Feb-21 17:02:12 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:02:12 - SentIPHB
+INFO 22-Feb-21 17:02:12 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:02:13 - Parsed:HB
+
+INFO 22-Feb-21 17:02:13 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:02:13 - SentIPHB
+INFO 22-Feb-21 17:02:13 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:02:13 - Parsed:HB
+
+INFO 22-Feb-21 17:02:14 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:02:14 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:02:14 - SentIPHB
+INFO 22-Feb-21 17:02:14 - Parsed:HB
+
+INFO 22-Feb-21 17:02:14 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:02:15 - SentIPHB
+INFO 22-Feb-21 17:02:15 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:02:15 - Parsed:HB
+
+INFO 22-Feb-21 17:02:15 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:02:15 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:02:16 - SentIPHB
+INFO 22-Feb-21 17:02:16 - Parsed:HB
+
+INFO 22-Feb-21 17:02:16 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:02:16 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:02:16 - SentIPHB
+INFO 22-Feb-21 17:02:16 - Parsed:HB
+
+INFO 22-Feb-21 17:02:17 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:02:17 - SentIPHB
+INFO 22-Feb-21 17:02:17 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:02:17 - Parsed:HB
+
+INFO 22-Feb-21 17:02:17 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:02:18 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:02:18 - SentIPHB
+INFO 22-Feb-21 17:02:18 - Parsed:HB
+
+INFO 22-Feb-21 17:02:18 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:02:19 - SentIPHB
+INFO 22-Feb-21 17:02:19 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:02:19 - Parsed:HB
+
+INFO 22-Feb-21 17:02:19 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:02:20 - SentIPHB
+INFO 22-Feb-21 17:02:20 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:02:20 - Parsed:HB
+
+INFO 22-Feb-21 17:02:20 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:02:20 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:02:21 - SentIPHB
+INFO 22-Feb-21 17:02:21 - Parsed:HB
+
+INFO 22-Feb-21 17:02:21 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:02:21 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:02:21 - SentIPHB
+INFO 22-Feb-21 17:02:21 - Parsed:HB
+
+INFO 22-Feb-21 17:02:22 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:02:22 - SentIPHB
+INFO 22-Feb-21 17:02:22 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:02:22 - Parsed:HB
+
+INFO 22-Feb-21 17:02:22 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:02:23 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:02:23 - SentIPHB
+INFO 22-Feb-21 17:02:23 - Parsed:HB
+
+INFO 22-Feb-21 17:02:23 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:02:24 - SentIPHB
+INFO 22-Feb-21 17:02:24 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:02:24 - Parsed:HB
+
+INFO 22-Feb-21 17:02:24 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:02:24 - SentIPHB
+INFO 22-Feb-21 17:02:25 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:02:25 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:02:25 - Parsed:HB
+
+INFO 22-Feb-21 17:02:25 - SentIPHB
+INFO 22-Feb-21 17:02:25 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:02:25 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:02:26 - Parsed:HB
+
+INFO 22-Feb-21 17:02:26 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:02:26 - SentIPHB
+INFO 22-Feb-21 17:02:26 - Parsed:HB
+
+INFO 22-Feb-21 17:02:26 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:02:27 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:02:27 - SentIPHB
+INFO 22-Feb-21 17:02:27 - Parsed:HB
+
+INFO 22-Feb-21 17:02:27 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:02:28 - Logic queue recieved: SSSHB
+WARNING 22-Feb-21 17:02:34 - Started
+INFO 22-Feb-21 17:02:34 - Starting logger
+INFO 22-Feb-21 17:02:34 - Serial Listner Thread started
+INFO 22-Feb-21 17:02:34 - Parser Thread Started successfully
+INFO 22-Feb-21 17:02:37 - Started scan for BLE devices
+INFO 22-Feb-21 17:02:47 - Scan complete
+INFO 22-Feb-21 17:02:54 - Attempting to Connect to:f9:9b:81:05:de:e7
+INFO 22-Feb-21 17:03:18 - Attempting to Connect to:f9:9b:81:05:de:e7
+INFO 22-Feb-21 17:03:22 - Connected to: f9:9b:81:05:de:e7
+INFO 22-Feb-21 17:03:22 - Starting connection check
+INFO 22-Feb-21 17:03:22 - Starting HB sender timer
+INFO 22-Feb-21 17:03:22 - Starting HB reviever timer
+INFO 22-Feb-21 17:03:22 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:03:22 - SentIPHB
+INFO 22-Feb-21 17:03:23 - Parsed:HB
+
+INFO 22-Feb-21 17:03:23 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:03:25 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:03:25 - SentIPHB
+INFO 22-Feb-21 17:03:25 - Parsed:HB
+
+INFO 22-Feb-21 17:03:25 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:03:27 - SentIPHB
+INFO 22-Feb-21 17:03:27 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:03:27 - Parsed:HB
+
+INFO 22-Feb-21 17:03:28 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:03:29 - SentIPHB
+INFO 22-Feb-21 17:03:29 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:03:30 - Parsed:HB
+
+INFO 22-Feb-21 17:03:30 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:03:32 - SentIPHB
+INFO 22-Feb-21 17:03:32 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:03:32 - Parsed:HB
+
+INFO 22-Feb-21 17:03:32 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:03:34 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:03:34 - SentIPHB
+INFO 22-Feb-21 17:03:34 - Parsed:HB
+
+INFO 22-Feb-21 17:03:35 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:03:37 - SentIPHB
+INFO 22-Feb-21 17:03:37 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:03:37 - Parsed:HB
+
+INFO 22-Feb-21 17:03:37 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:03:39 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:03:39 - SentIPHB
+INFO 22-Feb-21 17:03:39 - Parsed:HB
+
+INFO 22-Feb-21 17:03:39 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:03:41 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:03:41 - SentIPHB
+INFO 22-Feb-21 17:03:41 - Parsed:HB
+
+INFO 22-Feb-21 17:03:41 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:03:43 - SentIPHB
+INFO 22-Feb-21 17:03:43 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:03:44 - Parsed:HB
+
+INFO 22-Feb-21 17:03:44 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:03:46 - SentIPHB
+INFO 22-Feb-21 17:03:46 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:03:46 - Parsed:HB
+
+INFO 22-Feb-21 17:03:46 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:03:48 - SentIPHB
+INFO 22-Feb-21 17:03:48 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:03:49 - Parsed:HB
+

@@ -89,7 +89,7 @@ class Sender(QThread):
     :type QThread: [type]
     """
 
-    
+    heartBeatSent=pyqtSignal()
     sendData=pyqtSignal(str)
     q=Queue()
 
@@ -114,45 +114,8 @@ class Sender(QThread):
         """
         Send a Heart Beat signal to the BLE module
         """
-
         s="IPHB\r"
         print("Sent HB")
         self.q.put(s)
-        print("Cant send HB, no uart")
-
-
-class connectionChecker(QTimer):
-
-    sendHeartBeat=pyqtSignal()
-    timeoutSignal=pyqtSignal()
-
-    
-    def __init__(self):
-        """
-        Timer for heartbeat
-
-        """
-        super().__init__()
-        self.q=Queue()
-
-        self.heartBeatFlag=False
-        self.heartBeatSenderTimer=QTimer() #connect this to hbSend
-        self.heartBeatRecieverTimer=QTimer()#this needs to be connected to a timeout event
-        self.heartBeatSenderTimer.timeout.connect(self.hbSend)
-
-    def hbTimerReset(self):
-        """
-        Resets the heartbeat timer
-        """
-        print("Reset heartbeat timer")
-        self.heartBeatRecieverTimer.stop()
-        self.heartBeatRecieverTimer.start(5000)
-    
-    def hbSend(self):
-        """
-        Sends the heartbeat repeatedly
-        """
-        self.sendHeartBeat.emit()
+        self.heartBeatSent.emit()
         
-        self.heartBeatSenderTimer.start(2000)
-    

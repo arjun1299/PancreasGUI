@@ -98,22 +98,25 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,comm
         self.sender=Sender()
         self.sender.sendData.connect(self.sendData)
         #self.sender.finished.connect(lambda v: self.finished("Sender"))
+        self.sender.heartBeatSent.connect(self.heartBeatSent)
         self.sender.start()   
 
         """Initialize connection checker which checks heartbeat
         """
 
-        self.connectionChecker=connectionChecker()
-        self.connectionChecker.sendHeartBeat.connect(self.sender.sendHB)
-        self.connectionChecker.timeoutSignal.connect(self.heartBeatTimeout)
+        self.heartBeatChecker=heartBeatChecker()
+        self.heartBeatChecker.sendHeartBeat.connect(self.sender.sendHB)
+        self.heartBeatChecker.timeoutSignal.connect(self.heartBeatTimeout)
 
         """
         Section to Logic
         """
         self.logic=Logic()
         ###Connect all logic signals
-        self.logic.hbTimerReset.connect(self.connectionChecker.hbTimerReset)
+        self.logic.hbSenderTimerReset.connect(self.heartBeatChecker.hbSenderTimerReset)
+        self.logic.hbRecieverTimerReset.connect(self.heartBeatChecker.hbRecieverTimerReset)
         self.logic.insulonComplete.connect(self.resetBolusTimer)
+        self.logic.sendHB.connect(self.sender.sendHB)
         self.logic.start()   
 
         self.connectedSignal.connect(self.isConnectedBLEHandle)
@@ -160,8 +163,8 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,comm
         Timeout function if hearbeat is not recieved in time
         """
 
-        self.connectionChecker.heartBeatRecieverTimer.stop()
-        self.connectionChecker.heartBeatSenderTimer.stop()
+        self.heartBeatChecker.heartBeatRecieverTimer.stop()
+        self.heartBeatChecker.heartBeatSenderTimer.stop()
         self.uart_service=False
         Logger.q.put("ERROR","Heartbeat Timeout!!")
         self.showError("Heart beat missing")
@@ -307,6 +310,7 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,comm
         Parser.q.put("Stop")
         Logic.pq.put((1,"Stop"))
         event.accept() # let the window close"""
+
         self.logger.quit()
         self.serialListner.quit()
         self.parser.quit()
