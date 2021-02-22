@@ -7,6 +7,8 @@ from basicui import Ui_MainWindow
 from bleOperations import *
 import time
 
+
+
 class bolusTestingTab(object):
     def init_bolusTestingTab(self):
         #start prime
@@ -21,6 +23,7 @@ class bolusTestingTab(object):
 
         self.bolusTimer=QTimer()
         self.bolusTimer.timeout.connect(self.bolusDose)
+        #self.bolusTimer.timerType(0)
         
         self.completedDose=0
         self.timeBetweenPulses=0
@@ -47,18 +50,24 @@ class bolusTestingTab(object):
         :type timeDelay: string
         """
         if self.deliveryAmount>0:
+
+            self.insulonEndTime=current_milli_time()
+            #self.bolusTimer.stop()
+            self.bolusTimer.start(self.timeBetweenPulses)
+            #self.bolusTimer.start(self.timeBetweenPulses-(self.insulonEndTime-self.insulonStartTime))
+            
+
             self.deliveryAmount-=1 #decrease by amount consumed in 1 rotation
-            timeDelay=float(timeDelay)
+            #timeDelay=float(timeDelay)
             print("Reset Bolus timer")
             
             
-            self.bolusTimer.stop()
-            self.insulonEndTime=current_milli_time()
             #This method uses delay given by the device
             #self.bolusTimer.start(abs(int(self.timeBetweenPulses-int(timeDelay))))
             print("Time Delay: ")
             print(self.timeBetweenPulses-(self.insulonEndTime-self.insulonStartTime))
-            self.bolusTimer.start(self.timeBetweenPulses-(self.insulonEndTime-self.insulonStartTime))
+            #self.bolusTimer.start(self.timeBetweenPulses)
+
             
         else:
             self.bolusTimer.stop()
@@ -73,11 +82,14 @@ class bolusTestingTab(object):
         
     
     def bolusDose(self):
+        """Initial time from bolus testing
+        """
         print("Sent bolus dose")
-        self.sender.q.put("IPIN\r")
+        #self.sender.q.put("IPIN\r")
+        self.insulonStartTime = current_milli_time()
+        self.uart_service.write("IPIN\r".encode("utf-8"))
 
-        #Start timer
-        self.insulonStartTime=current_milli_time()
+        
 
         
 def current_milli_time():

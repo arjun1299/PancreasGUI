@@ -13,18 +13,35 @@ import logging
 class Logic(QThread):
     pq=PriorityQueue()
 
-    hbTimerReset=pyqtSignal()
+    hbRecieverTimerReset=pyqtSignal()
+    hbSenderTimerReset=pyqtSignal()
+
     engageClutch=pyqtSignal()
     insulonComplete=pyqtSignal(str)
+    logicSendHeartBeat=pyqtSignal()
+    
+    sendHeartBeat=pyqtSignal()
+    timeoutSignal=pyqtSignal()
+    
+    heartbeatTimeoutTime=10000
+    heartbeatPeriod=5000
+    heartBeatFailFlag=False
+
+
 
 
     def __init__(self,*args):
         super().__init__()
         self.args=args
 
-        """Flag indicates that the next incoming value is the inulon time
+        """Heart beat checker variables
         """
-        self.insulonCompleteFlag=False
+
+
+        
+        self.heartBeatSenderTimer=QTimer() #connect this to hbSend
+        self.heartBeatRecieverTimer=QTimer()#this needs to be connected to a timeout event
+        self.heartBeatSenderTimer.timeout.connect(self.hbSend)
 
     def run(self):
         while 1:
@@ -41,11 +58,22 @@ class Logic(QThread):
                     Start switch case statement
                 """
 
-                    
+                """
+                Sender success cases
+                """
+                if(data[:3]=="SSS"):
+                    if(data[3:]=="LHB"):
+                        if self.heartBeatFailFlag==True:
+                            pass
+                        else:
+                            self.hbRecieverTimerReset.emit()
+
+                if(data=="LHB"):
+                    self.logicSendHeartBeat.emit()
 
                 if(data[:2]=="HB"):
                     print("Emitting hb Reset")
-                    self.hbTimerReset.emit()
+                    self.hbSenderTimerReset.emit()
 
                 elif(self.insulonCompleteFlag):
                     print(data)
@@ -58,7 +86,27 @@ class Logic(QThread):
                     INXX.XX where X is the time taken for one insulon rotation
                     """
                     print("Emitting IN")
-                    self.insulonComplete.emit(data[2:]) 
+                    self.insulonComplete.emit(data[2:])
+         
                
                 
             time.sleep(0.1)
+    
+    def postSendFunctions(self,data):
+        self.pq.put((1,"SSS"+data))
+
+    
+    def hbSend(self):
+        """
+        Sends the heartbeat repeatedly
+        """
+        self.sendHeartBeat.emit()
+        
+        self.heartBeatSenderTimer.start(Logic.heartbeatPeriod)
+    
+    def heartBeatTimeout(self):
+        """
+        Timeout function if hearbeat is not recieved in time
+        """
+        self.logic.heartBeatFailFlag=True
+        Logger.q.put("ERROR","Heartbeat Timeout!!")

@@ -99,13 +99,22 @@ class connectTab(object):
         print("Starting hb")
         Logger.q.put(("INFO","Starting connection check"))
 
+        """Starting threads
+        """
+
+        self.serialListner.start()
+        self.parser.start()
+        self.sender.start()
+        self.logic.start()   
+
         worker=Worker(self.isConnectedBLE)
         worker.signals.finished.connect(self.finished)
-        self.connectionChecker.heartBeatSenderTimer.start(500)
+        #self.connectionChecker.heartBeatSenderTimer.start(self.)
+        self.sender.sendHB()
         Logger.q.put(("INFO","Starting HB sender timer"))
-        self.connectionChecker.heartBeatRecieverTimer.start(5000)
+        #self.connectionChecker.heartBeatRecieverTimer.start(5000)
         Logger.q.put(("INFO","Starting HB reviever timer"))
-        self.connectionChecker.heartBeatRecieverTimer.timeout.connect(self.heartBeatTimeout)
+        #self.connectionChecker.heartBeatRecieverTimer.timeout.connect(self.heartBeatTimeout)
         self.threadpool.start(worker)
     
     def isConnectedBLE(self):

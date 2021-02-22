@@ -19,7 +19,7 @@ from _connectTab import connectTab
 from _primingTab import primingTab
 from _commandTab import commandTab
 from _recurringTab import recurringTab
-from _bolusTesting import bolusTestingTab
+from _bolusTesting import bolusTestingTab,current_milli_time
 from multithread import Worker,WorkerSignals
 
 
@@ -30,6 +30,8 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,comm
         super(MainWindow, self).__init__(*args, **kwargs)
         self.ui=Ui_MainWindow()
         self.ui.setupUi(self)
+
+        self.uart_service=False
 
         #status area
         self.statusTxt=self.ui.statusTxt
@@ -66,6 +68,20 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,comm
         self.threadpool=QThreadPool()
 
         """
+        Section to Logic
+        """
+        self.logic=Logic()
+        ###Connect all logic signals
+        
+        self.logic.hbRecieverTimerReset.connect(self.hbRecieverTimerReset)
+        self.logic.hbRecieverTimerReset.connect(self.hbRecieverTimerReset)
+
+        self.logic.insulonComplete.connect(self.resetBolusTimer)
+        
+
+        self.connectedSignal.connect(self.isConnectedBLEHandle)
+
+        """
         Start logging module
         """
 
@@ -79,9 +95,9 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,comm
         """
         
         self.serialListner =SerialListner()
-        self.serialListner.dataArrival.connect(self.addToParserQueue)
+        self.serialListner.checkDataArrival.connect(self.addToParserQueue)
         #self.sender.finished.connect(lambda v: self.finished("Listner"))
-        self.serialListner.start()
+        
         
         
         """
@@ -90,33 +106,36 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,comm
         self.parser=Parser()
         self.parser.addToLogicQueue.connect(self.addToLogicQueue)
         #self.sender.finished.connect(lambda v: self.finished("Parser"))
-        self.parser.start()       
+        
 
         """
         Start sender 
         """ 
         self.sender=Sender()
         self.sender.sendData.connect(self.sendData)
+        self.logic.logicSendHeartBeat.connect(self.sender.sendHB)
+        self.logic.timeoutSignal.connect(self.logic.heartBeatTimeout)
         #self.sender.finished.connect(lambda v: self.finished("Sender"))
-        self.sender.start()   
+        
 
-        """Initialize connection checker which checks heartbeat
+
+    def hbSenderTimerReset(self):
+        """Resets the heartbeat timer
         """
+        print("Reset heartbeat Sender timer")
+        self.heartBeatRecieverTimer.stop()
+        self.heartBeatSenderTimer.stop()
+        self.heartBeatSenderTimer.start(Logic.heartbeatPeriod)
 
-        self.connectionChecker=connectionChecker()
-        self.connectionChecker.sendHeartBeat.connect(self.sender.sendHB)
-        self.connectionChecker.timeoutSignal.connect(self.heartBeatTimeout)
-
+    def hbRecieverTimerReset(self):
         """
-        Section to Logic
+        Resets the heartbeat timer
         """
-        self.logic=Logic()
-        ###Connect all logic signals
-        self.logic.hbTimerReset.connect(self.connectionChecker.hbTimerReset)
-        self.logic.insulonComplete.connect(self.resetBolusTimer)
-        self.logic.start()   
+        print("Reset heartbeat reciever timer")
+        self.heartBeatSenderTimer.stop()
+        self.heartBeatRecieverTimer.stop()
+        self.heartBeatRecieverTimer.start(Logic.heartbeatTimeoutTime)
 
-        self.connectedSignal.connect(self.isConnectedBLEHandle)
         
 
         """
@@ -140,8 +159,6 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,comm
         self.updateStatus()
 
 
-
-                
     def finished(self,args):
         print(args+"Thread complete")
         Logger.q.put(("WARNING",args+"Thread complete"))
@@ -155,19 +172,31 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,comm
         print("Added to Logic queue")
 
 
-    def heartBeatTimeout(self):
-        """
+    """def heartBeatTimeout(self):
+        
         Timeout function if hearbeat is not recieved in time
-        """
+        
+
+        self.logic.heartBeatFailFlag=True
+
+        Logger.q.put("ERROR","Heartbeat Timeout!!")
 
         self.connectionChecker.heartBeatRecieverTimer.stop()
+        Logger.q.put("ERROR","Heartbeat stopped!!")
         self.connectionChecker.heartBeatSenderTimer.stop()
         self.uart_service=False
-        Logger.q.put("ERROR","Heartbeat Timeout!!")
+        
+        Logger.q.put("ERROR","Delivery stopped!!")
+        self.bolusTimer.stop()
+    
+        Logger.q.put("ERROR","UART disconnected")
+        self.uart_connection.disconnect()
+
+        
         self.showError("Heart beat missing")
         
-        while Logger.q.empty()==False or self.parser.q.empty()==False or self.sender.q.empty()==False or self.logic.pq.empty()==False: 
-            time.sleep(0.1)
+        #while Logger.q.empty()==False or self.parser.q.empty()==False or self.sender.q.empty()==False or self.logic.pq.empty()==False: 
+        #    time.sleep(0.1)
     
         self.showError("Device disconnected")
         self.bleConnectionStatus="Disconnected"
@@ -175,8 +204,8 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,comm
         self.updateStatus()
 
         self.ui.tabWidget.setCurrentIndex(0)
-        self.disconnectBtn.setEnabled(False)
-        self.uart_connection.disconnect()
+        self.disconnectBtn.setEnabled(False)"""
+        
         
         
 
@@ -186,9 +215,23 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,comm
         :param data: A stromg which needs to be sent over ble
         :type data: String
         """
+
         if self.uart_service:
+            """
+            need to return start time if insulon delivery occours
+            """
+            if data=="IPIN\r":
+                """
+                Insulon start time is first defined in _bolusTesting.py
+                """
+                #self.insulonStartTime= current_milli_time()
+                pass
+
             self.uart_service.write(data.encode("utf-8"))
+
+            self.sender.sendSuccess.emit(data)
             Logger.q.put(("INFO","Sent"+data))
+
             print("Sent: "+data)
 
 
