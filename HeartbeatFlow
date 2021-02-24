@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-02-24T05:19:40.738Z" agent="5.0 (X11)" etag="oCysttqq1FExvHTDfuND" version="14.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-24T07:05:22.684Z" agent="5.0 (X11)" etag="LUnZA9ahitI4alVvqzvH" version="14.4.2" type="github">
   <diagram id="OKCZH7bv0go0knfiV3SH" name="Page-1">
-    <mxGraphModel dx="1590" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
+    <mxGraphModel dx="1871" dy="946" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -88,6 +88,15 @@
         </mxCell>
         <mxCell id="QAh39bBQFJ4QPeRYSMVi-35" value="&lt;div&gt;Logic queue&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1000" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QAh39bBQFJ4QPeRYSMVi-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QAh39bBQFJ4QPeRYSMVi-39" target="QAh39bBQFJ4QPeRYSMVi-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1460" y="220" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1460" y="220" />
+              <mxPoint x="270" y="220" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="QAh39bBQFJ4QPeRYSMVi-39" value="Reset sender timer" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1400" y="300" width="120" height="60" as="geometry" />
