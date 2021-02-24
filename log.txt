@@ -611,3 +611,1007 @@ INFO 22-Feb-21 17:03:48 - SentIPHB
 INFO 22-Feb-21 17:03:48 - Logic queue recieved: SSSHB
 INFO 22-Feb-21 17:03:49 - Parsed:HB
 
+WARNING 22-Feb-21 17:10:42 - Started
+INFO 22-Feb-21 17:10:42 - Starting logger
+INFO 22-Feb-21 17:10:42 - Serial Listner Thread started
+INFO 22-Feb-21 17:10:42 - Parser Thread Started successfully
+INFO 22-Feb-21 17:10:46 - Started scan for BLE devices
+INFO 22-Feb-21 17:10:56 - Scan complete
+INFO 22-Feb-21 17:11:19 - Attempting to Connect to:f9:9b:81:05:de:e7
+INFO 22-Feb-21 17:11:23 - Connected to: f9:9b:81:05:de:e7
+INFO 22-Feb-21 17:11:23 - Starting connection check
+INFO 22-Feb-21 17:11:24 - Starting HB sender timer
+INFO 22-Feb-21 17:11:24 - Starting HB reviever timer
+INFO 22-Feb-21 17:11:24 - SentIPHB
+INFO 22-Feb-21 17:11:24 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:11:24 - Parsed:HB
+
+INFO 22-Feb-21 17:11:24 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:11:26 - SentIPHB
+INFO 22-Feb-21 17:11:26 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:11:27 - Parsed:HB
+
+INFO 22-Feb-21 17:11:27 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:11:29 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:11:29 - SentIPHB
+INFO 22-Feb-21 17:11:29 - Parsed:HB
+
+INFO 22-Feb-21 17:11:29 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:11:31 - SentIPHB
+INFO 22-Feb-21 17:11:31 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:11:31 - Parsed:HB
+
+INFO 22-Feb-21 17:11:31 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:11:34 - SentIPHB
+INFO 22-Feb-21 17:11:34 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:11:34 - Parsed:HB
+
+INFO 22-Feb-21 17:11:34 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:11:36 - SentIPHB
+INFO 22-Feb-21 17:11:36 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:11:36 - Parsed:HB
+
+INFO 22-Feb-21 17:11:36 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:11:38 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:11:38 - SentIPHB
+INFO 22-Feb-21 17:11:39 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:11:39 - Parsed:HB
+
+INFO 22-Feb-21 17:11:41 - SentIPHB
+INFO 22-Feb-21 17:11:41 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:11:41 - Parsed:HB
+
+INFO 22-Feb-21 17:11:41 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:11:49 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:11:49 - SentIPHB
+INFO 22-Feb-21 17:11:49 - Parsed:HB
+
+INFO 22-Feb-21 17:11:49 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:11:51 - SentIPHB
+INFO 22-Feb-21 17:11:51 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:11:52 - Parsed:HB
+
+INFO 22-Feb-21 17:11:52 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:11:54 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:11:54 - SentIPHB
+INFO 22-Feb-21 17:11:54 - Parsed:HB
+
+INFO 22-Feb-21 17:11:54 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:11:56 - SentIPHB
+INFO 22-Feb-21 17:11:56 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:11:56 - Parsed:HB
+
+INFO 22-Feb-21 17:11:56 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:11:59 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:11:59 - SentIPHB
+INFO 22-Feb-21 17:11:59 - Parsed:HB
+
+INFO 22-Feb-21 17:11:59 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:12:01 - SentIPHB
+INFO 22-Feb-21 17:12:01 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:12:01 - Parsed:HB
+
+INFO 22-Feb-21 17:12:01 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:12:03 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:12:03 - SentIPHB
+INFO 22-Feb-21 17:12:03 - Parsed:HB
+
+INFO 22-Feb-21 17:12:04 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:12:05 - SentIPHB
+INFO 22-Feb-21 17:12:05 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:12:06 - Parsed:HB
+
+INFO 22-Feb-21 17:12:06 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:12:08 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:12:08 - SentIPHB
+INFO 22-Feb-21 17:12:08 - Parsed:HB
+
+INFO 22-Feb-21 17:12:08 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:12:10 - SentIPHB
+INFO 22-Feb-21 17:12:10 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:12:10 - Parsed:HB
+
+INFO 22-Feb-21 17:12:11 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:12:12 - SentIPHB
+INFO 22-Feb-21 17:12:13 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:12:13 - Parsed:HB
+
+INFO 22-Feb-21 17:12:13 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:12:15 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:12:15 - SentIPHB
+INFO 22-Feb-21 17:12:15 - Parsed:HB
+
+INFO 22-Feb-21 17:12:15 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:12:17 - SentIPHB
+INFO 22-Feb-21 17:12:17 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:12:17 - Parsed:HB
+
+INFO 22-Feb-21 17:12:18 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:12:20 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:12:20 - SentIPHB
+INFO 22-Feb-21 17:12:20 - Parsed:HB
+
+INFO 22-Feb-21 17:12:20 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:12:22 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:12:22 - SentIPHB
+INFO 22-Feb-21 17:12:22 - Parsed:HB
+
+INFO 22-Feb-21 17:12:22 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:12:24 - SentIPHB
+INFO 22-Feb-21 17:12:24 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:12:25 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:12:25 - Parsed:HB
+
+INFO 22-Feb-21 17:12:27 - SentIPHB
+INFO 22-Feb-21 17:12:27 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:12:27 - Parsed:HB
+
+INFO 22-Feb-21 17:12:27 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:12:29 - SentIPHB
+INFO 22-Feb-21 17:12:29 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:12:29 - Parsed:HB
+
+INFO 22-Feb-21 17:12:29 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:12:31 - SentIPHB
+INFO 22-Feb-21 17:12:31 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:12:32 - Parsed:HB
+
+INFO 22-Feb-21 17:12:32 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:12:34 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:12:34 - SentIPHB
+INFO 22-Feb-21 17:12:34 - Parsed:HB
+
+INFO 22-Feb-21 17:12:34 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:12:36 - SentIPHB
+INFO 22-Feb-21 17:12:36 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:12:36 - Parsed:HB
+
+INFO 22-Feb-21 17:12:36 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:12:38 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:12:38 - SentIPHB
+INFO 22-Feb-21 17:12:38 - Parsed:HB
+
+INFO 22-Feb-21 17:12:39 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:12:41 - SentIPHB
+INFO 22-Feb-21 17:12:41 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:12:41 - Parsed:HB
+
+INFO 22-Feb-21 17:12:41 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:12:43 - SentIPHB
+INFO 22-Feb-21 17:12:43 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:12:43 - Parsed:HB
+
+INFO 22-Feb-21 17:12:43 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:12:45 - SentIPHB
+INFO 22-Feb-21 17:12:45 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:12:46 - Parsed:HB
+
+INFO 22-Feb-21 17:12:46 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:12:48 - SentIPHB
+INFO 22-Feb-21 17:12:48 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:12:48 - Parsed:HB
+
+INFO 22-Feb-21 17:12:48 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:12:50 - SentIPHB
+INFO 22-Feb-21 17:12:50 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:12:50 - Parsed:HB
+
+INFO 22-Feb-21 17:12:50 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:12:53 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:12:53 - SentIPHB
+INFO 22-Feb-21 17:12:53 - Parsed:HB
+
+INFO 22-Feb-21 17:12:53 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:12:55 - SentIPHB
+INFO 22-Feb-21 17:12:55 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:12:55 - Parsed:HB
+
+INFO 22-Feb-21 17:12:55 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:12:57 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:12:57 - SentIPHB
+INFO 22-Feb-21 17:12:57 - Parsed:HB
+
+INFO 22-Feb-21 17:12:58 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:13:00 - SentIPHB
+INFO 22-Feb-21 17:13:00 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:13:00 - Parsed:HB
+
+INFO 22-Feb-21 17:13:00 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:13:02 - SentIPHB
+INFO 22-Feb-21 17:13:02 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:13:02 - Parsed:HB
+
+INFO 22-Feb-21 17:13:03 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:13:04 - SentIPHB
+INFO 22-Feb-21 17:13:04 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:13:05 - Parsed:HB
+
+INFO 22-Feb-21 17:13:05 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:13:07 - SentIPHB
+INFO 22-Feb-21 17:13:07 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:13:07 - Parsed:HB
+
+INFO 22-Feb-21 17:13:07 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:13:09 - SentIPHB
+INFO 22-Feb-21 17:13:09 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:13:09 - Parsed:HB
+
+INFO 22-Feb-21 17:13:10 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:13:12 - SentIPHB
+INFO 22-Feb-21 17:13:12 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:13:12 - Parsed:HB
+
+INFO 22-Feb-21 17:13:12 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:13:14 - SentIPHB
+INFO 22-Feb-21 17:13:14 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:13:14 - Parsed:HB
+
+INFO 22-Feb-21 17:13:14 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:13:16 - SentIPHB
+INFO 22-Feb-21 17:13:16 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:13:16 - Parsed:HB
+
+INFO 22-Feb-21 17:13:17 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:13:19 - SentIPHB
+INFO 22-Feb-21 17:13:19 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:13:19 - Parsed:HB
+
+INFO 22-Feb-21 17:13:19 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:13:21 - SentIPHB
+INFO 22-Feb-21 17:13:21 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:13:21 - Parsed:HB
+
+INFO 22-Feb-21 17:13:22 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:13:24 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:13:24 - SentIPHB
+INFO 22-Feb-21 17:13:24 - Parsed:HB
+
+INFO 22-Feb-21 17:13:24 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:13:26 - SentIPHB
+INFO 22-Feb-21 17:13:26 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:13:26 - Parsed:HB
+
+INFO 22-Feb-21 17:13:26 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:13:28 - SentIPHB
+INFO 22-Feb-21 17:13:28 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:13:28 - Parsed:HB
+
+INFO 22-Feb-21 17:13:29 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:13:31 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:13:31 - SentIPHB
+INFO 22-Feb-21 17:13:31 - Parsed:HB
+
+INFO 22-Feb-21 17:13:31 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:13:33 - SentIPHB
+INFO 22-Feb-21 17:13:33 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:13:33 - Parsed:HB
+
+INFO 22-Feb-21 17:13:33 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:13:35 - SentIPHB
+INFO 22-Feb-21 17:13:35 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:13:36 - Parsed:HB
+
+INFO 22-Feb-21 17:13:36 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:13:38 - SentIPHB
+INFO 22-Feb-21 17:13:38 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:13:38 - Parsed:HB
+
+INFO 22-Feb-21 17:13:38 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:13:40 - SentIPHB
+INFO 22-Feb-21 17:13:40 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:13:40 - Parsed:HB
+
+INFO 22-Feb-21 17:13:40 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:13:42 - SentIPHB
+INFO 22-Feb-21 17:13:42 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:13:42 - Parsed:HB
+
+INFO 22-Feb-21 17:13:43 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:13:45 - SentIPHB
+INFO 22-Feb-21 17:13:45 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:13:45 - Parsed:HB
+
+INFO 22-Feb-21 17:13:45 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:13:47 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:13:47 - SentIPHB
+INFO 22-Feb-21 17:13:47 - Parsed:HB
+
+INFO 22-Feb-21 17:13:48 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:13:49 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:13:49 - SentIPHB
+INFO 22-Feb-21 17:13:50 - Parsed:HB
+
+INFO 22-Feb-21 17:13:50 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:13:52 - SentIPHB
+INFO 22-Feb-21 17:13:52 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:13:52 - Parsed:HB
+
+INFO 22-Feb-21 17:13:52 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:13:54 - SentIPHB
+INFO 22-Feb-21 17:13:54 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:13:54 - Parsed:HB
+
+INFO 22-Feb-21 17:13:54 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:13:56 - SentIPHB
+INFO 22-Feb-21 17:13:56 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:13:56 - Parsed:HB
+
+INFO 22-Feb-21 17:13:57 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:13:58 - SentIPHB
+INFO 22-Feb-21 17:13:59 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:13:59 - Parsed:HB
+
+INFO 22-Feb-21 17:13:59 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:14:01 - SentIPHB
+INFO 22-Feb-21 17:14:01 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:14:01 - Parsed:HB
+
+INFO 22-Feb-21 17:14:01 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:14:03 - SentIPHB
+INFO 22-Feb-21 17:14:03 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:14:03 - Parsed:HB
+
+INFO 22-Feb-21 17:14:03 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:14:05 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:14:05 - SentIPHB
+INFO 22-Feb-21 17:14:05 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:14:06 - Parsed:HB
+
+INFO 22-Feb-21 17:14:08 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:14:08 - SentIPHB
+INFO 22-Feb-21 17:14:08 - Parsed:HB
+
+INFO 22-Feb-21 17:14:08 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:14:10 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:14:10 - SentIPHB
+INFO 22-Feb-21 17:14:10 - Parsed:HB
+
+INFO 22-Feb-21 17:14:10 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:14:12 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:14:12 - SentIPHB
+INFO 22-Feb-21 17:14:12 - Parsed:HB
+
+INFO 22-Feb-21 17:14:12 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:14:14 - SentIPHB
+INFO 22-Feb-21 17:14:15 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:14:15 - Parsed:HB
+
+INFO 22-Feb-21 17:14:15 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:14:17 - SentIPHB
+INFO 22-Feb-21 17:14:17 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:14:17 - Parsed:HB
+
+INFO 22-Feb-21 17:14:17 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:14:19 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:14:19 - SentIPHB
+INFO 22-Feb-21 17:14:19 - Parsed:HB
+
+INFO 22-Feb-21 17:14:19 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:14:21 - SentIPHB
+INFO 22-Feb-21 17:14:21 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:14:21 - Parsed:HB
+
+INFO 22-Feb-21 17:14:22 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:14:23 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:14:24 - SentIPHB
+INFO 22-Feb-21 17:14:24 - Parsed:HB
+
+INFO 22-Feb-21 17:14:24 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:14:26 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:14:26 - SentIPHB
+INFO 22-Feb-21 17:14:26 - Parsed:HB
+
+INFO 22-Feb-21 17:14:26 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:14:28 - SentIPHB
+INFO 22-Feb-21 17:14:28 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:14:29 - Parsed:HB
+
+INFO 22-Feb-21 17:14:29 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:14:31 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:14:31 - SentIPHB
+INFO 22-Feb-21 17:14:31 - Parsed:HB
+
+INFO 22-Feb-21 17:14:31 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:14:33 - SentIPHB
+INFO 22-Feb-21 17:14:33 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:14:33 - Parsed:HB
+
+INFO 22-Feb-21 17:14:33 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:14:35 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:14:35 - SentIPHB
+INFO 22-Feb-21 17:14:35 - Parsed:HB
+
+INFO 22-Feb-21 17:14:36 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:14:38 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:14:38 - SentIPHB
+INFO 22-Feb-21 17:14:38 - Parsed:HB
+
+INFO 22-Feb-21 17:14:38 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:14:40 - SentIPHB
+INFO 22-Feb-21 17:14:40 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:14:40 - Parsed:HB
+
+INFO 22-Feb-21 17:14:40 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:14:42 - SentIPHB
+INFO 22-Feb-21 17:14:42 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:14:42 - Parsed:HB
+
+INFO 22-Feb-21 17:14:43 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:14:44 - SentIPHB
+INFO 22-Feb-21 17:14:45 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:14:45 - Parsed:HB
+
+INFO 22-Feb-21 17:14:45 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:14:47 - SentIPHB
+INFO 22-Feb-21 17:14:47 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:14:47 - Parsed:HB
+
+INFO 22-Feb-21 17:14:47 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:14:49 - SentIPHB
+INFO 22-Feb-21 17:14:49 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:14:49 - Parsed:HB
+
+INFO 22-Feb-21 17:14:49 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:14:51 - SentIPHB
+INFO 22-Feb-21 17:14:51 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:14:51 - Parsed:HB
+
+INFO 22-Feb-21 17:14:52 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:14:53 - SentIPHB
+INFO 22-Feb-21 17:14:53 - Parsed:HB
+
+INFO 22-Feb-21 17:14:54 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:14:54 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:14:56 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:14:56 - SentIPHB
+INFO 22-Feb-21 17:14:56 - Parsed:HB
+
+INFO 22-Feb-21 17:14:56 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:14:58 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:14:58 - SentIPHB
+INFO 22-Feb-21 17:14:58 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:14:58 - Parsed:HB
+
+INFO 22-Feb-21 17:15:00 - SentIPHB
+INFO 22-Feb-21 17:15:00 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:15:01 - Parsed:HB
+
+INFO 22-Feb-21 17:15:01 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:15:03 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:15:03 - SentIPHB
+INFO 22-Feb-21 17:15:03 - Parsed:HB
+
+INFO 22-Feb-21 17:15:03 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:15:05 - SentIPHB
+INFO 22-Feb-21 17:15:05 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:15:05 - Parsed:HB
+
+INFO 22-Feb-21 17:15:06 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:15:08 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:15:08 - SentIPHB
+INFO 22-Feb-21 17:15:08 - Parsed:HB
+
+INFO 22-Feb-21 17:15:08 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:15:10 - SentIPHB
+INFO 22-Feb-21 17:15:10 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:15:11 - Parsed:HB
+
+INFO 22-Feb-21 17:15:11 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:15:13 - SentIPHB
+INFO 22-Feb-21 17:15:13 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:15:13 - Parsed:HB
+
+INFO 22-Feb-21 17:15:13 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:15:15 - SentIPHB
+INFO 22-Feb-21 17:15:15 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:15:15 - Parsed:HB
+
+INFO 22-Feb-21 17:15:15 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:15:17 - SentIPHB
+INFO 22-Feb-21 17:15:17 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:15:17 - Parsed:HB
+
+INFO 22-Feb-21 17:15:18 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:15:20 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:15:20 - SentIPHB
+INFO 22-Feb-21 17:15:20 - Parsed:HB
+
+INFO 22-Feb-21 17:15:20 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:15:22 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:15:22 - SentIPHB
+INFO 22-Feb-21 17:15:22 - Parsed:HB
+
+INFO 22-Feb-21 17:15:22 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:15:24 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:15:24 - SentIPHB
+INFO 22-Feb-21 17:15:24 - Parsed:HB
+
+INFO 22-Feb-21 17:15:25 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:15:27 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:15:27 - SentIPHB
+INFO 22-Feb-21 17:15:27 - Parsed:HB
+
+INFO 22-Feb-21 17:15:27 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:15:29 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:15:29 - SentIPHB
+INFO 22-Feb-21 17:15:29 - Parsed:HB
+
+INFO 22-Feb-21 17:15:29 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:15:31 - SentIPHB
+INFO 22-Feb-21 17:15:31 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:15:31 - Parsed:HB
+
+INFO 22-Feb-21 17:15:32 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:15:33 - SentIPHB
+INFO 22-Feb-21 17:15:34 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:15:34 - Parsed:HB
+
+INFO 22-Feb-21 17:15:34 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:15:36 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:15:36 - SentIPHB
+INFO 22-Feb-21 17:15:36 - Parsed:HB
+
+INFO 22-Feb-21 17:15:36 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:15:38 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:15:38 - SentIPHB
+INFO 22-Feb-21 17:15:38 - Parsed:HB
+
+INFO 22-Feb-21 17:15:39 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:15:41 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:15:41 - SentIPHB
+INFO 22-Feb-21 17:15:41 - Parsed:HB
+
+INFO 22-Feb-21 17:15:41 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:15:43 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:15:43 - SentIPHB
+INFO 22-Feb-21 17:15:43 - Parsed:HB
+
+INFO 22-Feb-21 17:15:44 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:15:46 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:15:46 - SentIPHB
+INFO 22-Feb-21 17:15:46 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:15:46 - Parsed:HB
+
+INFO 22-Feb-21 17:15:48 - SentIPHB
+INFO 22-Feb-21 17:15:48 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:15:48 - Parsed:HB
+
+INFO 22-Feb-21 17:15:48 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:15:50 - SentIPHB
+INFO 22-Feb-21 17:15:50 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:15:50 - Parsed:HB
+
+INFO 22-Feb-21 17:15:51 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:15:52 - SentIPHB
+INFO 22-Feb-21 17:15:52 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:15:53 - Parsed:HB
+
+INFO 22-Feb-21 17:15:53 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:15:55 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:15:55 - SentIPHB
+INFO 22-Feb-21 17:15:55 - Parsed:HB
+
+INFO 22-Feb-21 17:15:55 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:15:57 - SentIPHB
+INFO 22-Feb-21 17:15:57 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:15:57 - Parsed:HB
+
+INFO 22-Feb-21 17:15:57 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:15:59 - SentIPHB
+INFO 22-Feb-21 17:15:59 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:15:59 - Parsed:HB
+
+INFO 22-Feb-21 17:16:00 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:16:01 - SentIPHB
+INFO 22-Feb-21 17:16:01 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:16:02 - Parsed:HB
+
+INFO 22-Feb-21 17:16:02 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:16:04 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:16:04 - SentIPHB
+INFO 22-Feb-21 17:16:04 - Parsed:HB
+
+INFO 22-Feb-21 17:16:04 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:16:06 - SentIPHB
+INFO 22-Feb-21 17:16:06 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:16:06 - Parsed:HB
+
+INFO 22-Feb-21 17:16:06 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:16:08 - SentIPHB
+INFO 22-Feb-21 17:16:08 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:16:08 - Parsed:HB
+
+INFO 22-Feb-21 17:16:09 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:16:11 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:16:11 - SentIPHB
+INFO 22-Feb-21 17:16:11 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:16:11 - Parsed:HB
+
+INFO 22-Feb-21 17:16:13 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:16:13 - SentIPHB
+INFO 22-Feb-21 17:16:13 - Parsed:HB
+
+INFO 22-Feb-21 17:16:13 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:16:15 - SentIPHB
+INFO 22-Feb-21 17:16:15 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:16:16 - Parsed:HB
+
+INFO 22-Feb-21 17:16:16 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:16:18 - SentIPHB
+INFO 22-Feb-21 17:16:18 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:16:18 - Parsed:HB
+
+INFO 22-Feb-21 17:16:18 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:16:20 - SentIPHB
+INFO 22-Feb-21 17:16:20 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:16:20 - Parsed:HB
+
+INFO 22-Feb-21 17:16:21 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:16:23 - SentIPHB
+INFO 22-Feb-21 17:16:23 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:16:23 - Parsed:HB
+
+INFO 22-Feb-21 17:16:23 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:16:25 - SentIPHB
+INFO 22-Feb-21 17:16:25 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:16:25 - Parsed:HB
+
+INFO 22-Feb-21 17:16:25 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:16:27 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:16:27 - SentIPHB
+INFO 22-Feb-21 17:16:28 - Parsed:HB
+
+INFO 22-Feb-21 17:16:28 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:16:30 - SentIPHB
+INFO 22-Feb-21 17:16:30 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:16:30 - Parsed:HB
+
+INFO 22-Feb-21 17:16:30 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:16:32 - SentIPHB
+INFO 22-Feb-21 17:16:32 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:16:32 - Parsed:HB
+
+INFO 22-Feb-21 17:16:32 - Logic queue recieved: HB
+
+WARNING 22-Feb-21 17:16:54 - Started
+INFO 22-Feb-21 17:16:54 - Starting logger
+INFO 22-Feb-21 17:16:54 - Serial Listner Thread started
+INFO 22-Feb-21 17:16:54 - Parser Thread Started successfully
+INFO 22-Feb-21 17:16:59 - Started scan for BLE devices
+INFO 22-Feb-21 17:17:09 - Scan complete
+INFO 22-Feb-21 17:17:13 - Attempting to Connect to:f9:9b:81:05:de:e7
+INFO 22-Feb-21 17:17:18 - Connected to: f9:9b:81:05:de:e7
+INFO 22-Feb-21 17:17:18 - Starting connection check
+INFO 22-Feb-21 17:17:18 - Starting HB sender timer
+INFO 22-Feb-21 17:17:18 - Starting HB reviever timer
+INFO 22-Feb-21 17:17:18 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:17:18 - SentIPHB
+INFO 22-Feb-21 17:17:19 - Parsed:HB
+
+INFO 22-Feb-21 17:17:19 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:17:21 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:17:21 - SentIPHB
+INFO 22-Feb-21 17:17:21 - Parsed:HB
+
+INFO 22-Feb-21 17:17:21 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:17:23 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:17:23 - SentIPHB
+INFO 22-Feb-21 17:17:24 - Parsed:HB
+
+INFO 22-Feb-21 17:17:24 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:17:26 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:17:26 - SentIPHB
+INFO 22-Feb-21 17:17:26 - Parsed:HB
+
+INFO 22-Feb-21 17:17:26 - Logic queue recieved: HB
+
+WARNING 22-Feb-21 17:22:20 - Started
+INFO 22-Feb-21 17:22:20 - Starting logger
+INFO 22-Feb-21 17:22:20 - Serial Listner Thread started
+INFO 22-Feb-21 17:22:20 - Parser Thread Started successfully
+INFO 22-Feb-21 17:22:23 - Started scan for BLE devices
+INFO 22-Feb-21 17:22:34 - Scan complete
+INFO 22-Feb-21 17:23:27 - Attempting to Connect to:f9:9b:81:05:de:e7
+INFO 22-Feb-21 17:23:34 - Connected to: f9:9b:81:05:de:e7
+INFO 22-Feb-21 17:23:34 - Starting connection check
+INFO 22-Feb-21 17:23:35 - Starting HB sender timer
+INFO 22-Feb-21 17:23:35 - Starting HB reviever timer
+INFO 22-Feb-21 17:23:35 - SentIPHB
+INFO 22-Feb-21 17:23:35 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:23:35 - Parsed:HB
+
+INFO 22-Feb-21 17:23:35 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:23:37 - SentIPHB
+INFO 22-Feb-21 17:23:37 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:23:37 - Parsed:HB
+
+INFO 22-Feb-21 17:23:38 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:23:40 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:23:40 - SentIPHB
+INFO 22-Feb-21 17:23:40 - Parsed:HB
+
+INFO 22-Feb-21 17:23:40 - Logic queue recieved: HB
+
+WARNING 22-Feb-21 17:25:36 - Started
+INFO 22-Feb-21 17:25:36 - Starting logger
+INFO 22-Feb-21 17:25:36 - Serial Listner Thread started
+INFO 22-Feb-21 17:25:36 - Parser Thread Started successfully
+INFO 22-Feb-21 17:25:40 - Started scan for BLE devices
+INFO 22-Feb-21 17:25:50 - Scan complete
+INFO 22-Feb-21 17:25:54 - Attempting to Connect to:f9:9b:81:05:de:e7
+INFO 22-Feb-21 17:25:59 - Connected to: f9:9b:81:05:de:e7
+INFO 22-Feb-21 17:25:59 - Starting connection check
+INFO 22-Feb-21 17:25:59 - Starting HB sender timer
+INFO 22-Feb-21 17:25:59 - Starting HB reviever timer
+INFO 22-Feb-21 17:26:00 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:26:00 - SentIPHB
+INFO 22-Feb-21 17:26:00 - Parsed:HB
+
+INFO 22-Feb-21 17:26:00 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:26:02 - SentIPHB
+INFO 22-Feb-21 17:26:02 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:26:02 - Parsed:HB
+
+INFO 22-Feb-21 17:26:02 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:26:05 - SentIPHB
+INFO 22-Feb-21 17:26:05 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:26:05 - Parsed:HB
+
+INFO 22-Feb-21 17:26:05 - Logic queue recieved: HB
+
+WARNING 22-Feb-21 17:27:07 - Started
+INFO 22-Feb-21 17:27:07 - Starting logger
+INFO 22-Feb-21 17:27:08 - Serial Listner Thread started
+INFO 22-Feb-21 17:27:08 - Parser Thread Started successfully
+INFO 22-Feb-21 17:27:12 - Started scan for BLE devices
+INFO 22-Feb-21 17:27:22 - Scan complete
+INFO 22-Feb-21 17:27:24 - Attempting to Connect to:f9:9b:81:05:de:e7
+INFO 22-Feb-21 17:27:52 - Attempting to Connect to:f9:9b:81:05:de:e7
+INFO 22-Feb-21 17:27:57 - Connected to: f9:9b:81:05:de:e7
+INFO 22-Feb-21 17:27:57 - Starting connection check
+INFO 22-Feb-21 17:27:57 - Starting HB sender timer
+INFO 22-Feb-21 17:27:58 - Starting HB reviever timer
+INFO 22-Feb-21 17:27:58 - SentIPHB
+INFO 22-Feb-21 17:27:58 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:27:58 - Parsed:HB
+
+INFO 22-Feb-21 17:27:58 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:28:00 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:28:00 - SentIPHB
+INFO 22-Feb-21 17:28:01 - Parsed:HB
+
+INFO 22-Feb-21 17:28:01 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:28:02 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:28:03 - SentIPHB
+INFO 22-Feb-21 17:28:03 - Parsed:HB
+
+INFO 22-Feb-21 17:28:03 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:28:05 - SentIPHB
+INFO 22-Feb-21 17:28:05 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:28:05 - Parsed:HB
+
+INFO 22-Feb-21 17:28:05 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:28:07 - SentIPHB
+INFO 22-Feb-21 17:28:07 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:28:07 - Parsed:HB
+
+INFO 22-Feb-21 17:28:08 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:28:09 - SentIPHB
+INFO 22-Feb-21 17:28:09 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:28:10 - Parsed:HB
+
+INFO 22-Feb-21 17:28:10 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:28:12 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:28:12 - SentIPHB
+INFO 22-Feb-21 17:28:12 - Parsed:HB
+
+INFO 22-Feb-21 17:28:12 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:28:14 - SentIPHB
+INFO 22-Feb-21 17:28:14 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:28:14 - Parsed:HB
+
+INFO 22-Feb-21 17:28:14 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:28:16 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:28:16 - SentIPHB
+INFO 22-Feb-21 17:28:16 - Parsed:HB
+
+INFO 22-Feb-21 17:28:16 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:28:18 - SentIPHB
+INFO 22-Feb-21 17:28:18 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:28:19 - Parsed:HB
+
+INFO 22-Feb-21 17:28:19 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:28:21 - SentIPHB
+INFO 22-Feb-21 17:28:21 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:28:21 - Parsed:HB
+
+INFO 22-Feb-21 17:28:21 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:28:23 - SentIPHB
+INFO 22-Feb-21 17:28:23 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:28:23 - Parsed:HB
+
+INFO 22-Feb-21 17:28:23 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:28:25 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:28:25 - SentIPHB
+INFO 22-Feb-21 17:28:26 - Parsed:HB
+
+INFO 22-Feb-21 17:28:26 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:28:28 - SentIPHB
+INFO 22-Feb-21 17:28:28 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:28:28 - Parsed:HB
+
+INFO 22-Feb-21 17:28:28 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:28:30 - SentIPHB
+INFO 22-Feb-21 17:28:30 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:28:30 - Parsed:HB
+
+INFO 22-Feb-21 17:28:30 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:28:32 - SentIPHB
+INFO 22-Feb-21 17:28:32 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:28:33 - Parsed:HB
+
+INFO 22-Feb-21 17:28:33 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:28:35 - SentIPHB
+INFO 22-Feb-21 17:28:35 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:28:35 - Parsed:HB
+
+INFO 22-Feb-21 17:28:35 - Logic queue recieved: HB
+
+INFO 22-Feb-21 17:28:37 - SentIPHB
+INFO 22-Feb-21 17:28:37 - Logic queue recieved: SSSHB
+INFO 22-Feb-21 17:28:37 - Parsed:HB
+
+INFO 22-Feb-21 17:28:37 - Logic queue recieved: HB
+

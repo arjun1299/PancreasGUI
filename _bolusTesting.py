@@ -30,6 +30,8 @@ class bolusTestingTab(object):
         self.insulonEndTime=0
     
     def startBolusDelivery(self):
+        self.heartBeatChecker.heartBeatSenderTimer.stop()
+        self.heartBeatChecker.heartBeatRecieverTimer.stop()
         
         print("Starting Bolus Delivery")
         Logger.q.put("WARNING","Starting Bolus Delivery")
@@ -46,19 +48,20 @@ class bolusTestingTab(object):
         :param timeDelay: String, it has to be converted to an int before
         :type timeDelay: string
         """
+        
         if self.deliveryAmount>0:
             self.deliveryAmount-=1 #decrease by amount consumed in 1 rotation
-            timeDelay=float(timeDelay)
             print("Reset Bolus timer")
             
             
             self.bolusTimer.stop()
-            self.insulonEndTime=current_milli_time()
+            
             #This method uses delay given by the device
             #self.bolusTimer.start(abs(int(self.timeBetweenPulses-int(timeDelay))))
             print("Time Delay: ")
+            self.insulonEndTime=current_milli_time()
             print(self.timeBetweenPulses-(self.insulonEndTime-self.insulonStartTime))
-            self.bolusTimer.start(self.timeBetweenPulses-(self.insulonEndTime-self.insulonStartTime))
+            self.bolusTimer.start(2000)#self.timeBetweenPulses-(self.insulonEndTime-self.insulonStartTime))
             
         else:
             self.bolusTimer.stop()
@@ -69,15 +72,14 @@ class bolusTestingTab(object):
         Logger.q.put("WARNING","Stopped Bolus Delivery")
         self.bolusTimer.stop()
 
-
-        
     
     def bolusDose(self):
+        self.insulonStartTime=current_milli_time()
         print("Sent bolus dose")
         self.sender.q.put("IPIN\r")
 
         #Start timer
-        self.insulonStartTime=current_milli_time()
+        
 
         
 def current_milli_time():
