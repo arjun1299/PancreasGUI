@@ -71,11 +71,11 @@ class bolusTestingTab(object):
             self.insulonEndTime=current_milli_time()
             print(self.timeBetweenPulses-(self.insulonEndTime-self.insulonStartTime))
             #self.bolusTimer.start(self.timeBetweenPulses-(self.insulonEndTime-self.insulonStartTime))#self.timeBetweenPulses-(self.insulonEndTime-self.insulonStartTime))
-            self.bolusTimer.setTimeout(self.timeBetweenPulses)
+            self.bolusTimer.setTimeout(self.timeBetweenPulses-(self.insulonEndTime-self.insulonStartTime))#self.timeBetweenPulses)
             self.bolusTimer.start()
             
         else:
-            self.bolusTimer.stop()
+            #self.bolusTimer.stopTimer()
             Logger.q.put(("WARNING","Completed Bolus Delivery"))
 
     def stopBolusDelivery():
@@ -102,16 +102,22 @@ def current_milli_time():
 
 class timerThread(QThread):
     timeoutSignal=pyqtSignal()
+    timeoutTime=2000
 
     def __init__(self):
         super().__init__()
         self.timer=QTimer()
         self.timer.timeout.connect(self.timeoutFunction)
+        #self.timer.setSingleShot(True)
         self.timer.moveToThread(self)
-        self.timeoutTime=2000
+        
+        self.setPriority(QThread.HighestPriority)
 
+    def stopTimer(self):
+        self.timer.stop()
+        
     def setTimeout(self,timeout):
-        self.timeoutTime = timeout
+        timerThread.timeoutTime = timeout
 
     def timeoutFunction(self):
         print("TIMEOUT BOLUS TIMER")
@@ -119,7 +125,7 @@ class timerThread(QThread):
 
 
     def run(self):
-        print("Started BOLUS TIMER")
+        print("Started BOLUS TIMER {}".format(self.timeoutTime))
         self.timer.start(self.timeoutTime)
         loop = QEventLoop()
         loop.exec_()

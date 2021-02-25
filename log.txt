@@ -34,3 +34,3799 @@ INFO 25-Feb-21 11:00:43 - Starting connection check
 INFO 25-Feb-21 11:00:44 - Starting HB sender timer
 INFO 25-Feb-21 11:00:44 - SentIPHB
 INFO 25-Feb-21 11:00:44 - Logic queue recieved: SSSHB
+WARNING 25-Feb-21 12:12:04 - Started
+INFO 25-Feb-21 12:12:04 - Starting logger
+INFO 25-Feb-21 12:12:04 - Serial Listner Thread started
+INFO 25-Feb-21 12:12:04 - Parser Thread Started successfully
+INFO 25-Feb-21 12:12:07 - Started scan for BLE devices
+INFO 25-Feb-21 12:12:18 - Scan complete
+INFO 25-Feb-21 12:12:21 - Attempting to Connect to:f9:9b:81:05:de:e7
+INFO 25-Feb-21 12:12:27 - Connected to: f9:9b:81:05:de:e7
+INFO 25-Feb-21 12:12:27 - Starting connection check
+INFO 25-Feb-21 12:12:27 - Starting HB sender timer
+INFO 25-Feb-21 12:12:28 - Logic queue recieved: SSSHB
+INFO 25-Feb-21 12:12:28 - SentIPHB
+INFO 25-Feb-21 12:12:28 - Parsed:HB
+
+INFO 25-Feb-21 12:12:28 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:12:30 - Logic queue recieved: SSSHB
+INFO 25-Feb-21 12:12:30 - SentIPHB
+INFO 25-Feb-21 12:12:30 - Parsed:HB
+
+INFO 25-Feb-21 12:12:30 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:12:32 - SentIPHB
+INFO 25-Feb-21 12:12:33 - Logic queue recieved: SSSHB
+INFO 25-Feb-21 12:12:33 - Parsed:HB
+
+INFO 25-Feb-21 12:12:33 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:12:35 - SentIPHB
+INFO 25-Feb-21 12:12:35 - Logic queue recieved: SSSHB
+INFO 25-Feb-21 12:12:35 - Parsed:HB
+
+INFO 25-Feb-21 12:12:35 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:12:37 - Logic queue recieved: SSSHB
+INFO 25-Feb-21 12:12:37 - SentIPHB
+INFO 25-Feb-21 12:12:37 - Parsed:HB
+
+INFO 25-Feb-21 12:12:37 - Logic queue recieved: HB
+
+WARNING 25-Feb-21 12:12:38 - Starting Bolus Delivery
+INFO 25-Feb-21 12:12:40 - SentIPIN
+INFO 25-Feb-21 12:12:42 - Parsed:IN
+INFO 25-Feb-21 12:12:42 - Logic queue recieved: IN
+INFO 25-Feb-21 12:12:42 - SentIPIN
+INFO 25-Feb-21 12:12:44 - Parsed:IN
+INFO 25-Feb-21 12:12:44 - Logic queue recieved: IN
+INFO 25-Feb-21 12:12:44 - SentIPIN
+INFO 25-Feb-21 12:12:45 - Parsed:IN
+INFO 25-Feb-21 12:12:46 - Logic queue recieved: IN
+INFO 25-Feb-21 12:12:46 - SentIPIN
+INFO 25-Feb-21 12:12:47 - Parsed:IN
+INFO 25-Feb-21 12:12:48 - Logic queue recieved: IN
+INFO 25-Feb-21 12:12:48 - SentIPIN
+INFO 25-Feb-21 12:12:49 - Parsed:IN
+INFO 25-Feb-21 12:12:50 - Logic queue recieved: IN
+INFO 25-Feb-21 12:12:50 - SentIPIN
+INFO 25-Feb-21 12:12:51 - Parsed:IN
+INFO 25-Feb-21 12:12:52 - Logic queue recieved: IN
+INFO 25-Feb-21 12:12:52 - SentIPIN
+INFO 25-Feb-21 12:12:53 - Parsed:IN
+INFO 25-Feb-21 12:12:54 - Logic queue recieved: IN
+INFO 25-Feb-21 12:12:54 - SentIPIN
+INFO 25-Feb-21 12:12:56 - Parsed:IN
+INFO 25-Feb-21 12:12:56 - Logic queue recieved: IN
+INFO 25-Feb-21 12:12:56 - SentIPIN
+INFO 25-Feb-21 12:12:58 - Parsed:IN
+INFO 25-Feb-21 12:12:58 - Logic queue recieved: IN
+INFO 25-Feb-21 12:12:58 - SentIPIN
+INFO 25-Feb-21 12:13:00 - Parsed:IN
+INFO 25-Feb-21 12:13:00 - Logic queue recieved: IN
+INFO 25-Feb-21 12:13:00 - SentIPIN
+INFO 25-Feb-21 12:13:01 - Parsed:IN
+INFO 25-Feb-21 12:13:02 - Logic queue recieved: IN
+INFO 25-Feb-21 12:13:06 - SentIPIN
+INFO 25-Feb-21 12:13:06 - SentIPIN
+INFO 25-Feb-21 12:13:07 - Parsed:IN
+INFO 25-Feb-21 12:13:08 - Parsed:IN
+INFO 25-Feb-21 12:13:08 - Logic queue recieved: IN
+INFO 25-Feb-21 12:13:08 - SentIPIN
+INFO 25-Feb-21 12:13:08 - Logic queue recieved: IN
+INFO 25-Feb-21 12:13:09 - Parsed:IN
+INFO 25-Feb-21 12:13:09 - SentIPIN
+INFO 25-Feb-21 12:13:10 - Logic queue recieved: IN
+INFO 25-Feb-21 12:13:11 - Parsed:IN
+INFO 25-Feb-21 12:13:11 - SentIPIN
+INFO 25-Feb-21 12:13:11 - Logic queue recieved: IN
+INFO 25-Feb-21 12:13:12 - Parsed:IN
+INFO 25-Feb-21 12:13:12 - Logic queue recieved: IN
+INFO 25-Feb-21 12:13:12 - SentIPIN
+INFO 25-Feb-21 12:13:13 - Parsed:IN
+INFO 25-Feb-21 12:13:14 - Logic queue recieved: IN
+INFO 25-Feb-21 12:13:14 - SentIPIN
+INFO 25-Feb-21 12:13:15 - Parsed:IN
+INFO 25-Feb-21 12:13:15 - Logic queue recieved: IN
+WARNING 25-Feb-21 12:14:11 - Started
+INFO 25-Feb-21 12:14:11 - Starting logger
+INFO 25-Feb-21 12:14:11 - Serial Listner Thread started
+INFO 25-Feb-21 12:14:11 - Parser Thread Started successfully
+INFO 25-Feb-21 12:14:13 - Started scan for BLE devices
+INFO 25-Feb-21 12:14:23 - Scan complete
+INFO 25-Feb-21 12:14:28 - Attempting to Connect to:f9:9b:81:05:de:e7
+INFO 25-Feb-21 12:14:34 - Connected to: f9:9b:81:05:de:e7
+INFO 25-Feb-21 12:14:34 - Starting connection check
+INFO 25-Feb-21 12:14:34 - Starting HB sender timer
+INFO 25-Feb-21 12:14:35 - SentIPHB
+INFO 25-Feb-21 12:14:35 - Logic queue recieved: SSSHB
+INFO 25-Feb-21 12:14:35 - Parsed:HB
+
+INFO 25-Feb-21 12:14:35 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:14:35 - Parsed:HB
+
+INFO 25-Feb-21 12:14:35 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:14:37 - Logic queue recieved: SSSHB
+INFO 25-Feb-21 12:14:37 - SentIPHB
+INFO 25-Feb-21 12:14:37 - Parsed:HB
+
+INFO 25-Feb-21 12:14:38 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:14:38 - Parsed:HB
+
+INFO 25-Feb-21 12:14:38 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:14:40 - SentIPHB
+INFO 25-Feb-21 12:14:40 - Logic queue recieved: SSSHB
+INFO 25-Feb-21 12:14:40 - Parsed:HB
+
+INFO 25-Feb-21 12:14:40 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:14:40 - Parsed:HB
+
+INFO 25-Feb-21 12:14:40 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:14:42 - SentIPHB
+INFO 25-Feb-21 12:14:42 - Logic queue recieved: SSSHB
+INFO 25-Feb-21 12:14:43 - Parsed:HB
+
+INFO 25-Feb-21 12:14:43 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:14:43 - Parsed:HB
+
+INFO 25-Feb-21 12:14:43 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:14:45 - SentIPHB
+INFO 25-Feb-21 12:14:45 - Logic queue recieved: SSSHB
+INFO 25-Feb-21 12:14:45 - Parsed:HBHB
+
+INFO 25-Feb-21 12:14:45 - Logic queue recieved: HBHB
+
+INFO 25-Feb-21 12:14:45 - Parsed:
+
+INFO 25-Feb-21 12:14:45 - Logic queue recieved: 
+
+INFO 25-Feb-21 12:14:47 - SentIPHB
+INFO 25-Feb-21 12:14:47 - Logic queue recieved: SSSHB
+INFO 25-Feb-21 12:14:47 - Parsed:HB
+
+INFO 25-Feb-21 12:14:47 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:14:48 - Parsed:HB
+
+INFO 25-Feb-21 12:14:48 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:14:50 - SentIPHB
+INFO 25-Feb-21 12:14:50 - Logic queue recieved: SSSHB
+INFO 25-Feb-21 12:14:50 - Parsed:HB
+
+INFO 25-Feb-21 12:14:50 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:14:50 - Parsed:HB
+
+INFO 25-Feb-21 12:14:50 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:14:52 - SentIPHB
+INFO 25-Feb-21 12:14:52 - Logic queue recieved: SSSHB
+INFO 25-Feb-21 12:14:52 - Parsed:HB
+
+INFO 25-Feb-21 12:14:53 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:14:53 - Parsed:HB
+
+INFO 25-Feb-21 12:14:53 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:14:55 - Logic queue recieved: SSSHB
+INFO 25-Feb-21 12:14:55 - SentIPHB
+INFO 25-Feb-21 12:14:55 - Parsed:HB
+
+INFO 25-Feb-21 12:14:55 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:14:55 - Parsed:HB
+
+INFO 25-Feb-21 12:14:55 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:14:57 - Logic queue recieved: SSSHB
+INFO 25-Feb-21 12:14:57 - SentIPHB
+INFO 25-Feb-21 12:14:58 - Parsed:HB
+
+INFO 25-Feb-21 12:14:58 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:14:58 - Parsed:HB
+
+INFO 25-Feb-21 12:14:58 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:15:00 - Logic queue recieved: SSSHB
+INFO 25-Feb-21 12:15:00 - SentIPHB
+INFO 25-Feb-21 12:15:00 - Parsed:HB
+
+INFO 25-Feb-21 12:15:00 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:15:00 - Parsed:HB
+
+INFO 25-Feb-21 12:15:00 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:15:02 - SentIPHB
+INFO 25-Feb-21 12:15:02 - Logic queue recieved: SSSHB
+INFO 25-Feb-21 12:15:02 - Parsed:HB
+
+INFO 25-Feb-21 12:15:03 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:15:03 - Parsed:HB
+
+INFO 25-Feb-21 12:15:03 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:15:05 - SentIPHB
+INFO 25-Feb-21 12:15:05 - Logic queue recieved: SSSHB
+INFO 25-Feb-21 12:15:05 - Parsed:HB
+
+INFO 25-Feb-21 12:15:05 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:15:05 - Parsed:HB
+
+INFO 25-Feb-21 12:15:05 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:15:07 - SentIPHB
+INFO 25-Feb-21 12:15:07 - Logic queue recieved: SSSHB
+INFO 25-Feb-21 12:15:07 - Parsed:HB
+
+INFO 25-Feb-21 12:15:08 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:15:08 - Parsed:HB
+
+INFO 25-Feb-21 12:15:08 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:15:10 - Logic queue recieved: SSSHB
+INFO 25-Feb-21 12:15:10 - SentIPHB
+INFO 25-Feb-21 12:15:10 - Parsed:HBHB
+
+INFO 25-Feb-21 12:15:10 - Logic queue recieved: HBHB
+
+INFO 25-Feb-21 12:15:10 - Parsed:
+
+INFO 25-Feb-21 12:15:10 - Logic queue recieved: 
+
+INFO 25-Feb-21 12:15:12 - SentIPHB
+INFO 25-Feb-21 12:15:12 - Logic queue recieved: SSSHB
+INFO 25-Feb-21 12:15:12 - Parsed:HB
+
+INFO 25-Feb-21 12:15:13 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:15:13 - Parsed:HB
+
+INFO 25-Feb-21 12:15:13 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:15:15 - Logic queue recieved: SSSHB
+INFO 25-Feb-21 12:15:15 - SentIPHB
+INFO 25-Feb-21 12:15:15 - Parsed:HB
+
+INFO 25-Feb-21 12:15:15 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:15:15 - Parsed:HB
+
+INFO 25-Feb-21 12:15:15 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:15:17 - SentIPHB
+INFO 25-Feb-21 12:15:17 - Logic queue recieved: SSSHB
+INFO 25-Feb-21 12:15:17 - Parsed:HB
+
+INFO 25-Feb-21 12:15:18 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:15:18 - Parsed:HB
+
+INFO 25-Feb-21 12:15:18 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:15:20 - SentIPHB
+INFO 25-Feb-21 12:15:20 - Logic queue recieved: SSSHB
+INFO 25-Feb-21 12:15:20 - Parsed:HB
+
+INFO 25-Feb-21 12:15:20 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:15:20 - Parsed:HB
+
+INFO 25-Feb-21 12:15:20 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:15:22 - SentIPHB
+INFO 25-Feb-21 12:15:22 - Logic queue recieved: SSSHB
+INFO 25-Feb-21 12:15:22 - Parsed:HB
+
+INFO 25-Feb-21 12:15:23 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:15:23 - Parsed:HB
+
+INFO 25-Feb-21 12:15:23 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:15:25 - Logic queue recieved: SSSHB
+INFO 25-Feb-21 12:15:25 - SentIPHB
+INFO 25-Feb-21 12:15:25 - Parsed:HB
+
+INFO 25-Feb-21 12:15:25 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:15:25 - Parsed:HB
+
+INFO 25-Feb-21 12:15:25 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:15:27 - Logic queue recieved: SSSHB
+INFO 25-Feb-21 12:15:27 - SentIPHB
+INFO 25-Feb-21 12:15:27 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:15:27 - Parsed:HB
+
+INFO 25-Feb-21 12:15:28 - Parsed:HB
+
+INFO 25-Feb-21 12:15:28 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:15:30 - Logic queue recieved: SSSHB
+INFO 25-Feb-21 12:15:30 - SentIPHB
+INFO 25-Feb-21 12:15:30 - Parsed:HB
+
+INFO 25-Feb-21 12:15:30 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:15:30 - Parsed:HB
+
+INFO 25-Feb-21 12:15:30 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:15:32 - Logic queue recieved: SSSHB
+INFO 25-Feb-21 12:15:32 - SentIPHB
+INFO 25-Feb-21 12:15:32 - Parsed:HBHB
+
+INFO 25-Feb-21 12:15:33 - Logic queue recieved: HBHB
+
+INFO 25-Feb-21 12:15:33 - Parsed:
+
+INFO 25-Feb-21 12:15:33 - Logic queue recieved: 
+
+INFO 25-Feb-21 12:15:35 - Logic queue recieved: SSSHB
+INFO 25-Feb-21 12:15:35 - SentIPHB
+INFO 25-Feb-21 12:15:35 - Parsed:HB
+
+INFO 25-Feb-21 12:15:35 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:15:35 - Parsed:HB
+
+INFO 25-Feb-21 12:15:35 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:15:37 - SentIPHB
+INFO 25-Feb-21 12:15:37 - Logic queue recieved: SSSHB
+INFO 25-Feb-21 12:15:37 - Parsed:HB
+
+INFO 25-Feb-21 12:15:38 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:15:38 - Parsed:HB
+
+INFO 25-Feb-21 12:15:38 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:15:40 - SentIPHB
+INFO 25-Feb-21 12:15:40 - Logic queue recieved: SSSHB
+INFO 25-Feb-21 12:15:40 - Parsed:HB
+
+INFO 25-Feb-21 12:15:40 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:15:40 - Parsed:HB
+
+INFO 25-Feb-21 12:15:40 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:15:42 - SentIPHB
+INFO 25-Feb-21 12:15:42 - Logic queue recieved: SSSHB
+INFO 25-Feb-21 12:15:42 - Parsed:HB
+
+INFO 25-Feb-21 12:15:43 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:15:43 - Parsed:HB
+
+INFO 25-Feb-21 12:15:43 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:15:45 - SentIPHB
+INFO 25-Feb-21 12:15:45 - Logic queue recieved: SSSHB
+INFO 25-Feb-21 12:15:45 - Parsed:HB
+
+INFO 25-Feb-21 12:15:45 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:15:45 - Parsed:HB
+
+INFO 25-Feb-21 12:15:45 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:15:47 - SentIPHB
+INFO 25-Feb-21 12:15:47 - Logic queue recieved: SSSHB
+INFO 25-Feb-21 12:15:48 - Parsed:HB
+
+INFO 25-Feb-21 12:15:48 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:15:48 - Parsed:HB
+
+INFO 25-Feb-21 12:15:48 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:15:50 - SentIPHB
+INFO 25-Feb-21 12:15:50 - Logic queue recieved: SSSHB
+INFO 25-Feb-21 12:15:50 - Parsed:HB
+
+INFO 25-Feb-21 12:15:50 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:15:50 - Parsed:HB
+
+INFO 25-Feb-21 12:15:50 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:15:52 - Logic queue recieved: SSSHB
+INFO 25-Feb-21 12:15:52 - SentIPHB
+INFO 25-Feb-21 12:15:52 - Parsed:HB
+
+INFO 25-Feb-21 12:15:53 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:15:53 - Parsed:HB
+
+INFO 25-Feb-21 12:15:53 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:15:55 - Logic queue recieved: SSSHB
+INFO 25-Feb-21 12:15:55 - SentIPHB
+INFO 25-Feb-21 12:15:55 - Parsed:HBHB
+
+INFO 25-Feb-21 12:15:55 - Logic queue recieved: HBHB
+
+INFO 25-Feb-21 12:15:55 - Parsed:
+
+INFO 25-Feb-21 12:15:55 - Logic queue recieved: 
+
+INFO 25-Feb-21 12:15:57 - SentIPHB
+INFO 25-Feb-21 12:15:57 - Logic queue recieved: SSSHB
+INFO 25-Feb-21 12:15:57 - Parsed:HB
+
+INFO 25-Feb-21 12:15:58 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:15:58 - Parsed:HB
+
+INFO 25-Feb-21 12:15:58 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:16:00 - SentIPHB
+INFO 25-Feb-21 12:16:00 - Logic queue recieved: SSSHB
+INFO 25-Feb-21 12:16:00 - Parsed:HB
+
+INFO 25-Feb-21 12:16:00 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:16:00 - Parsed:HB
+
+INFO 25-Feb-21 12:16:00 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:16:02 - SentIPHB
+INFO 25-Feb-21 12:16:02 - Logic queue recieved: SSSHB
+INFO 25-Feb-21 12:16:02 - Parsed:HB
+
+INFO 25-Feb-21 12:16:03 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:16:03 - Parsed:HB
+
+INFO 25-Feb-21 12:16:03 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:16:05 - Logic queue recieved: SSSHB
+INFO 25-Feb-21 12:16:05 - SentIPHB
+INFO 25-Feb-21 12:16:05 - Parsed:HB
+
+INFO 25-Feb-21 12:16:05 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:16:05 - Parsed:HB
+
+INFO 25-Feb-21 12:16:05 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:16:07 - SentIPHB
+INFO 25-Feb-21 12:16:07 - Logic queue recieved: SSSHB
+INFO 25-Feb-21 12:16:08 - Parsed:HB
+
+INFO 25-Feb-21 12:16:08 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:16:08 - Parsed:HB
+
+INFO 25-Feb-21 12:16:08 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:16:10 - SentIPHB
+INFO 25-Feb-21 12:16:10 - Logic queue recieved: SSSHB
+INFO 25-Feb-21 12:16:10 - Parsed:HB
+
+INFO 25-Feb-21 12:16:10 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:16:10 - Parsed:HB
+
+INFO 25-Feb-21 12:16:10 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:16:12 - SentIPHB
+INFO 25-Feb-21 12:16:12 - Logic queue recieved: SSSHB
+INFO 25-Feb-21 12:16:13 - Parsed:HB
+
+INFO 25-Feb-21 12:16:13 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:16:13 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:16:13 - Parsed:HB
+
+INFO 25-Feb-21 12:16:15 - Logic queue recieved: SSSHB
+INFO 25-Feb-21 12:16:15 - SentIPHB
+INFO 25-Feb-21 12:16:15 - Parsed:HB
+
+INFO 25-Feb-21 12:16:15 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:16:15 - Parsed:HB
+
+INFO 25-Feb-21 12:16:15 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:16:17 - SentIPHB
+INFO 25-Feb-21 12:16:17 - Logic queue recieved: SSSHB
+INFO 25-Feb-21 12:16:17 - Parsed:HBHB
+
+INFO 25-Feb-21 12:16:18 - Logic queue recieved: HBHB
+
+INFO 25-Feb-21 12:16:18 - Parsed:
+
+INFO 25-Feb-21 12:16:18 - Logic queue recieved: 
+
+INFO 25-Feb-21 12:16:19 - SentIPHB
+INFO 25-Feb-21 12:16:20 - Logic queue recieved: SSSHB
+INFO 25-Feb-21 12:16:20 - Parsed:HB
+
+INFO 25-Feb-21 12:16:20 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:16:20 - Parsed:HB
+
+INFO 25-Feb-21 12:16:20 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:16:22 - SentIPHB
+INFO 25-Feb-21 12:16:22 - Logic queue recieved: SSSHB
+INFO 25-Feb-21 12:16:22 - Parsed:HB
+
+INFO 25-Feb-21 12:16:22 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:16:22 - Parsed:HB
+
+INFO 25-Feb-21 12:16:22 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:16:24 - SentIPHB
+INFO 25-Feb-21 12:16:24 - Logic queue recieved: SSSHB
+INFO 25-Feb-21 12:16:24 - Parsed:HB
+
+INFO 25-Feb-21 12:16:25 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:16:25 - Parsed:HB
+
+INFO 25-Feb-21 12:16:25 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:16:27 - SentIPHB
+INFO 25-Feb-21 12:16:27 - Logic queue recieved: SSSHB
+INFO 25-Feb-21 12:16:27 - Parsed:HB
+
+INFO 25-Feb-21 12:16:27 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:16:27 - Parsed:HB
+
+INFO 25-Feb-21 12:16:27 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:16:29 - SentIPHB
+INFO 25-Feb-21 12:16:29 - Logic queue recieved: SSSHB
+INFO 25-Feb-21 12:16:29 - Parsed:HB
+
+INFO 25-Feb-21 12:16:30 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:16:30 - Parsed:HB
+
+INFO 25-Feb-21 12:16:30 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:16:32 - Logic queue recieved: SSSHB
+INFO 25-Feb-21 12:16:32 - SentIPHB
+INFO 25-Feb-21 12:16:32 - Parsed:HB
+
+INFO 25-Feb-21 12:16:32 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:16:32 - Parsed:HB
+
+INFO 25-Feb-21 12:16:32 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:16:34 - SentIPHB
+INFO 25-Feb-21 12:16:34 - Logic queue recieved: SSSHB
+INFO 25-Feb-21 12:16:35 - Parsed:HBHB
+
+INFO 25-Feb-21 12:16:35 - Logic queue recieved: HBHB
+
+INFO 25-Feb-21 12:16:35 - Parsed:
+
+INFO 25-Feb-21 12:16:35 - Logic queue recieved: 
+
+INFO 25-Feb-21 12:16:37 - Logic queue recieved: SSSHB
+INFO 25-Feb-21 12:16:37 - SentIPHB
+INFO 25-Feb-21 12:16:37 - Parsed:HHB
+
+INFO 25-Feb-21 12:16:37 - Logic queue recieved: HHB
+
+INFO 25-Feb-21 12:16:37 - Parsed:B
+
+INFO 25-Feb-21 12:16:37 - Logic queue recieved: B
+
+WARNING 25-Feb-21 12:18:32 - Started
+INFO 25-Feb-21 12:18:32 - Starting logger
+INFO 25-Feb-21 12:18:32 - Parser Thread Started successfully
+INFO 25-Feb-21 12:18:33 - Serial Listner Thread started
+INFO 25-Feb-21 12:18:35 - Started scan for BLE devices
+INFO 25-Feb-21 12:18:45 - Scan complete
+INFO 25-Feb-21 12:18:49 - Attempting to Connect to:f9:9b:81:05:de:e7
+INFO 25-Feb-21 12:18:53 - Connected to: f9:9b:81:05:de:e7
+INFO 25-Feb-21 12:18:53 - Starting connection check
+INFO 25-Feb-21 12:18:53 - Starting HB sender timer
+INFO 25-Feb-21 12:18:54 - SentIPHB
+INFO 25-Feb-21 12:18:54 - Logic queue recieved: SSSHB
+INFO 25-Feb-21 12:18:54 - Parsed:HB
+
+INFO 25-Feb-21 12:18:54 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:18:56 - SentIPHB
+INFO 25-Feb-21 12:18:56 - Logic queue recieved: SSSHB
+INFO 25-Feb-21 12:18:56 - Parsed:HB
+
+INFO 25-Feb-21 12:18:56 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:18:58 - Logic queue recieved: SSSHB
+INFO 25-Feb-21 12:18:58 - SentIPHB
+INFO 25-Feb-21 12:18:59 - Parsed:HB
+
+INFO 25-Feb-21 12:18:59 - Logic queue recieved: HB
+
+WARNING 25-Feb-21 12:19:00 - Starting Bolus Delivery
+INFO 25-Feb-21 12:19:03 - SentIPIN
+INFO 25-Feb-21 12:19:05 - Parsed:IN
+INFO 25-Feb-21 12:19:05 - Logic queue recieved: IN
+INFO 25-Feb-21 12:19:05 - SentIPIN
+INFO 25-Feb-21 12:19:06 - Parsed:IN
+INFO 25-Feb-21 12:19:07 - Logic queue recieved: IN
+INFO 25-Feb-21 12:19:07 - SentIPIN
+INFO 25-Feb-21 12:19:08 - Parsed:IN
+INFO 25-Feb-21 12:19:09 - Logic queue recieved: IN
+INFO 25-Feb-21 12:19:09 - SentIPIN
+INFO 25-Feb-21 12:19:10 - Parsed:IN
+INFO 25-Feb-21 12:19:11 - Logic queue recieved: IN
+INFO 25-Feb-21 12:19:11 - SentIPIN
+INFO 25-Feb-21 12:19:13 - Parsed:IN
+INFO 25-Feb-21 12:19:13 - Logic queue recieved: IN
+INFO 25-Feb-21 12:19:13 - SentIPIN
+INFO 25-Feb-21 12:19:15 - Parsed:IN
+INFO 25-Feb-21 12:19:15 - Logic queue recieved: IN
+INFO 25-Feb-21 12:19:15 - SentIPIN
+INFO 25-Feb-21 12:19:16 - Parsed:IN
+INFO 25-Feb-21 12:19:17 - Logic queue recieved: IN
+INFO 25-Feb-21 12:19:17 - SentIPIN
+INFO 25-Feb-21 12:19:19 - Parsed:IN
+INFO 25-Feb-21 12:19:19 - Logic queue recieved: IN
+INFO 25-Feb-21 12:19:19 - SentIPIN
+INFO 25-Feb-21 12:19:20 - Parsed:IN
+INFO 25-Feb-21 12:19:21 - Logic queue recieved: IN
+INFO 25-Feb-21 12:19:21 - SentIPIN
+INFO 25-Feb-21 12:19:23 - Parsed:IN
+INFO 25-Feb-21 12:19:23 - Logic queue recieved: IN
+INFO 25-Feb-21 12:19:23 - SentIPIN
+INFO 25-Feb-21 12:19:24 - Parsed:IN
+INFO 25-Feb-21 12:19:25 - Logic queue recieved: IN
+INFO 25-Feb-21 12:19:25 - SentIPIN
+INFO 25-Feb-21 12:19:26 - Parsed:IN
+INFO 25-Feb-21 12:19:27 - Logic queue recieved: IN
+INFO 25-Feb-21 12:19:27 - SentIPIN
+INFO 25-Feb-21 12:19:28 - Parsed:IN
+INFO 25-Feb-21 12:19:29 - Logic queue recieved: IN
+INFO 25-Feb-21 12:19:29 - SentIPIN
+INFO 25-Feb-21 12:19:30 - Parsed:IN
+INFO 25-Feb-21 12:19:31 - Logic queue recieved: IN
+INFO 25-Feb-21 12:19:31 - SentIPIN
+INFO 25-Feb-21 12:19:32 - Parsed:IN
+INFO 25-Feb-21 12:19:33 - Logic queue recieved: IN
+INFO 25-Feb-21 12:19:33 - SentIPIN
+INFO 25-Feb-21 12:19:34 - Parsed:IN
+INFO 25-Feb-21 12:19:34 - Logic queue recieved: IN
+INFO 25-Feb-21 12:19:35 - SentIPIN
+INFO 25-Feb-21 12:19:37 - Parsed:IN
+INFO 25-Feb-21 12:19:37 - Logic queue recieved: IN
+INFO 25-Feb-21 12:19:37 - SentIPIN
+INFO 25-Feb-21 12:19:39 - Parsed:IN
+INFO 25-Feb-21 12:19:39 - Logic queue recieved: IN
+INFO 25-Feb-21 12:19:39 - SentIPIN
+INFO 25-Feb-21 12:19:41 - Parsed:IN
+INFO 25-Feb-21 12:19:41 - Logic queue recieved: IN
+INFO 25-Feb-21 12:19:41 - SentIPIN
+INFO 25-Feb-21 12:19:42 - Parsed:IN
+INFO 25-Feb-21 12:19:43 - Logic queue recieved: IN
+INFO 25-Feb-21 12:19:43 - SentIPIN
+INFO 25-Feb-21 12:19:44 - Parsed:IN
+INFO 25-Feb-21 12:19:45 - Logic queue recieved: IN
+INFO 25-Feb-21 12:19:45 - SentIPIN
+INFO 25-Feb-21 12:19:46 - Parsed:IN
+INFO 25-Feb-21 12:19:47 - Logic queue recieved: IN
+INFO 25-Feb-21 12:19:47 - SentIPIN
+INFO 25-Feb-21 12:19:48 - Parsed:IN
+INFO 25-Feb-21 12:19:49 - Logic queue recieved: IN
+INFO 25-Feb-21 12:19:49 - SentIPIN
+WARNING 25-Feb-21 12:20:59 - Started
+INFO 25-Feb-21 12:20:59 - Parser Thread Started successfully
+INFO 25-Feb-21 12:20:59 - Starting logger
+INFO 25-Feb-21 12:20:59 - Serial Listner Thread started
+INFO 25-Feb-21 12:21:01 - Started scan for BLE devices
+INFO 25-Feb-21 12:21:11 - Scan complete
+INFO 25-Feb-21 12:21:14 - Attempting to Connect to:f9:9b:81:05:de:e7
+INFO 25-Feb-21 12:21:17 - Connected to: f9:9b:81:05:de:e7
+INFO 25-Feb-21 12:21:17 - Starting connection check
+INFO 25-Feb-21 12:21:17 - Starting HB sender timer
+INFO 25-Feb-21 12:21:18 - Logic queue recieved: SSSHB
+INFO 25-Feb-21 12:21:18 - SentIPHB
+INFO 25-Feb-21 12:21:18 - Parsed:HB
+
+INFO 25-Feb-21 12:21:18 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:21:20 - SentIPHB
+INFO 25-Feb-21 12:21:20 - Logic queue recieved: SSSHB
+INFO 25-Feb-21 12:21:20 - Parsed:HB
+
+INFO 25-Feb-21 12:21:20 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:21:22 - SentIPHB
+INFO 25-Feb-21 12:21:22 - Logic queue recieved: SSSHB
+INFO 25-Feb-21 12:21:22 - Parsed:HB
+
+INFO 25-Feb-21 12:21:23 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:21:24 - SentIPHB
+INFO 25-Feb-21 12:21:24 - Logic queue recieved: SSSHB
+INFO 25-Feb-21 12:21:25 - Parsed:HB
+
+INFO 25-Feb-21 12:21:25 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:21:27 - SentIPHB
+INFO 25-Feb-21 12:21:27 - Logic queue recieved: SSSHB
+INFO 25-Feb-21 12:21:27 - Parsed:HB
+
+INFO 25-Feb-21 12:21:27 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:21:29 - SentIPHB
+INFO 25-Feb-21 12:21:29 - Logic queue recieved: SSSHB
+INFO 25-Feb-21 12:21:29 - Parsed:HB
+
+INFO 25-Feb-21 12:21:29 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:21:31 - SentIPHB
+INFO 25-Feb-21 12:21:31 - Logic queue recieved: SSSHB
+INFO 25-Feb-21 12:21:31 - Parsed:HB
+
+INFO 25-Feb-21 12:21:31 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:21:33 - SentIPHB
+INFO 25-Feb-21 12:21:33 - Logic queue recieved: SSSHB
+INFO 25-Feb-21 12:21:34 - Parsed:HB
+
+INFO 25-Feb-21 12:21:34 - Logic queue recieved: HB
+
+WARNING 25-Feb-21 12:21:35 - Starting Bolus Delivery
+WARNING 25-Feb-21 12:21:38 - Starting Bolus Delivery
+WARNING 25-Feb-21 12:21:40 - Starting Bolus Delivery
+WARNING 25-Feb-21 12:21:42 - Starting Bolus Delivery
+WARNING 25-Feb-21 12:21:44 - Starting Bolus Delivery
+WARNING 25-Feb-21 12:21:46 - Starting Bolus Delivery
+WARNING 25-Feb-21 12:21:48 - Starting Bolus Delivery
+WARNING 25-Feb-21 12:21:50 - Starting Bolus Delivery
+WARNING 25-Feb-21 12:21:52 - Starting Bolus Delivery
+WARNING 25-Feb-21 12:21:54 - Starting Bolus Delivery
+WARNING 25-Feb-21 12:21:56 - Starting Bolus Delivery
+WARNING 25-Feb-21 12:24:20 - Started
+INFO 25-Feb-21 12:24:20 - Starting logger
+INFO 25-Feb-21 12:24:20 - Parser Thread Started successfully
+INFO 25-Feb-21 12:24:20 - Serial Listner Thread started
+INFO 25-Feb-21 12:24:23 - Started scan for BLE devices
+INFO 25-Feb-21 12:24:33 - Scan complete
+INFO 25-Feb-21 12:24:36 - Attempting to Connect to:f9:9b:81:05:de:e7
+INFO 25-Feb-21 12:24:40 - Connected to: f9:9b:81:05:de:e7
+INFO 25-Feb-21 12:24:40 - Starting connection check
+INFO 25-Feb-21 12:24:40 - Starting HB sender timer
+INFO 25-Feb-21 12:24:40 - SentIPHB
+INFO 25-Feb-21 12:24:40 - Logic queue recieved: SSSHB
+INFO 25-Feb-21 12:24:40 - Parsed:HB
+
+INFO 25-Feb-21 12:24:41 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:24:42 - SentIPHB
+INFO 25-Feb-21 12:24:42 - Logic queue recieved: SSSHB
+INFO 25-Feb-21 12:24:43 - Parsed:HB
+
+INFO 25-Feb-21 12:24:43 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:24:45 - SentIPHB
+INFO 25-Feb-21 12:24:45 - Logic queue recieved: SSSHB
+INFO 25-Feb-21 12:24:45 - Parsed:HB
+
+INFO 25-Feb-21 12:24:45 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:24:47 - SentIPHB
+INFO 25-Feb-21 12:24:47 - Logic queue recieved: SSSHB
+INFO 25-Feb-21 12:24:47 - Parsed:HB
+
+INFO 25-Feb-21 12:24:47 - Logic queue recieved: HB
+
+WARNING 25-Feb-21 12:24:49 - Starting Bolus Delivery
+INFO 25-Feb-21 12:24:52 - SentIPIN
+INFO 25-Feb-21 12:24:53 - Parsed:IN
+INFO 25-Feb-21 12:24:53 - Logic queue recieved: IN
+INFO 25-Feb-21 12:24:54 - SentIPIN
+INFO 25-Feb-21 12:24:55 - Parsed:IN
+INFO 25-Feb-21 12:24:55 - Logic queue recieved: IN
+INFO 25-Feb-21 12:24:56 - SentIPIN
+INFO 25-Feb-21 12:24:57 - Parsed:IN
+INFO 25-Feb-21 12:24:57 - Logic queue recieved: IN
+INFO 25-Feb-21 12:24:58 - SentIPIN
+INFO 25-Feb-21 12:24:59 - Parsed:IN
+INFO 25-Feb-21 12:24:59 - Logic queue recieved: IN
+INFO 25-Feb-21 12:25:00 - SentIPIN
+INFO 25-Feb-21 12:25:01 - Parsed:IN
+INFO 25-Feb-21 12:25:01 - Logic queue recieved: IN
+INFO 25-Feb-21 12:25:02 - SentIPIN
+INFO 25-Feb-21 12:25:03 - Parsed:IN
+INFO 25-Feb-21 12:25:03 - Logic queue recieved: IN
+INFO 25-Feb-21 12:25:04 - SentIPIN
+INFO 25-Feb-21 12:25:05 - Parsed:IN
+INFO 25-Feb-21 12:25:05 - Logic queue recieved: IN
+INFO 25-Feb-21 12:25:06 - SentIPIN
+INFO 25-Feb-21 12:25:07 - Parsed:IN
+INFO 25-Feb-21 12:25:07 - Logic queue recieved: IN
+INFO 25-Feb-21 12:25:08 - SentIPIN
+INFO 25-Feb-21 12:25:09 - Parsed:IN
+INFO 25-Feb-21 12:25:09 - Logic queue recieved: IN
+INFO 25-Feb-21 12:25:10 - SentIPIN
+INFO 25-Feb-21 12:25:11 - Parsed:IN
+INFO 25-Feb-21 12:25:11 - Logic queue recieved: IN
+INFO 25-Feb-21 12:25:12 - SentIPIN
+INFO 25-Feb-21 12:25:13 - Parsed:IN
+INFO 25-Feb-21 12:25:13 - Logic queue recieved: IN
+INFO 25-Feb-21 12:25:14 - SentIPIN
+INFO 25-Feb-21 12:25:15 - Parsed:IN
+INFO 25-Feb-21 12:25:15 - Logic queue recieved: IN
+INFO 25-Feb-21 12:25:16 - SentIPIN
+INFO 25-Feb-21 12:25:17 - Parsed:IN
+INFO 25-Feb-21 12:25:17 - Logic queue recieved: IN
+INFO 25-Feb-21 12:25:18 - SentIPIN
+INFO 25-Feb-21 12:25:19 - Parsed:IN
+INFO 25-Feb-21 12:25:19 - Logic queue recieved: IN
+INFO 25-Feb-21 12:25:20 - SentIPIN
+INFO 25-Feb-21 12:25:21 - Parsed:IN
+INFO 25-Feb-21 12:25:21 - Logic queue recieved: IN
+INFO 25-Feb-21 12:25:22 - SentIPIN
+INFO 25-Feb-21 12:25:23 - Parsed:IN
+INFO 25-Feb-21 12:25:23 - Logic queue recieved: IN
+INFO 25-Feb-21 12:25:24 - SentIPIN
+INFO 25-Feb-21 12:25:25 - Parsed:IN
+INFO 25-Feb-21 12:25:25 - Logic queue recieved: IN
+INFO 25-Feb-21 12:25:26 - SentIPIN
+INFO 25-Feb-21 12:25:27 - Parsed:IN
+INFO 25-Feb-21 12:25:27 - Logic queue recieved: IN
+INFO 25-Feb-21 12:25:28 - SentIPIN
+INFO 25-Feb-21 12:25:29 - Parsed:IN
+WARNING 25-Feb-21 12:32:08 - Started
+INFO 25-Feb-21 12:32:08 - Starting logger
+INFO 25-Feb-21 12:32:09 - Serial Listner Thread started
+INFO 25-Feb-21 12:32:09 - Parser Thread Started successfully
+INFO 25-Feb-21 12:32:11 - Started scan for BLE devices
+INFO 25-Feb-21 12:32:21 - Scan complete
+INFO 25-Feb-21 12:32:27 - Attempting to Connect to:f9:9b:81:05:de:e7
+INFO 25-Feb-21 12:32:31 - Connected to: f9:9b:81:05:de:e7
+INFO 25-Feb-21 12:32:31 - Starting connection check
+INFO 25-Feb-21 12:32:31 - Starting HB sender timer
+INFO 25-Feb-21 12:32:31 - SentIPHB
+INFO 25-Feb-21 12:32:31 - Logic queue recieved: SSSHB
+INFO 25-Feb-21 12:32:31 - Parsed:HB
+
+INFO 25-Feb-21 12:32:32 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:32:34 - SentIPHB
+INFO 25-Feb-21 12:32:34 - Logic queue recieved: SSSHB
+INFO 25-Feb-21 12:32:34 - Parsed:HB
+
+INFO 25-Feb-21 12:32:34 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:32:36 - SentIPHB
+INFO 25-Feb-21 12:32:36 - Logic queue recieved: SSSHB
+INFO 25-Feb-21 12:32:36 - Parsed:HB
+
+INFO 25-Feb-21 12:32:36 - Logic queue recieved: HB
+
+WARNING 25-Feb-21 12:32:36 - Starting Bolus Delivery
+INFO 25-Feb-21 12:32:40 - SentIPIN
+INFO 25-Feb-21 12:32:41 - Parsed:IN
+INFO 25-Feb-21 12:32:41 - Logic queue recieved: IN
+INFO 25-Feb-21 12:32:42 - SentIPIN
+INFO 25-Feb-21 12:32:43 - Parsed:IN
+INFO 25-Feb-21 12:32:43 - Logic queue recieved: IN
+INFO 25-Feb-21 12:32:44 - SentIPIN
+INFO 25-Feb-21 12:32:45 - Parsed:IN
+INFO 25-Feb-21 12:32:45 - Logic queue recieved: IN
+INFO 25-Feb-21 12:32:46 - SentIPIN
+INFO 25-Feb-21 12:32:47 - Parsed:IN
+INFO 25-Feb-21 12:32:47 - Logic queue recieved: IN
+INFO 25-Feb-21 12:32:48 - SentIPIN
+INFO 25-Feb-21 12:32:49 - Parsed:IN
+INFO 25-Feb-21 12:32:49 - Logic queue recieved: IN
+INFO 25-Feb-21 12:32:50 - SentIPIN
+INFO 25-Feb-21 12:32:51 - Parsed:IN
+INFO 25-Feb-21 12:32:51 - Logic queue recieved: IN
+INFO 25-Feb-21 12:32:52 - SentIPIN
+INFO 25-Feb-21 12:32:53 - Parsed:IN
+INFO 25-Feb-21 12:32:53 - Logic queue recieved: IN
+INFO 25-Feb-21 12:32:54 - SentIPIN
+INFO 25-Feb-21 12:32:55 - Parsed:IN
+INFO 25-Feb-21 12:32:55 - Logic queue recieved: IN
+INFO 25-Feb-21 12:32:56 - SentIPIN
+INFO 25-Feb-21 12:32:57 - Parsed:IN
+INFO 25-Feb-21 12:32:57 - Logic queue recieved: IN
+INFO 25-Feb-21 12:32:58 - SentIPIN
+INFO 25-Feb-21 12:32:59 - Parsed:IN
+INFO 25-Feb-21 12:32:59 - Logic queue recieved: IN
+INFO 25-Feb-21 12:33:00 - SentIPIN
+INFO 25-Feb-21 12:33:01 - Parsed:IN
+INFO 25-Feb-21 12:33:01 - Logic queue recieved: IN
+INFO 25-Feb-21 12:33:02 - SentIPIN
+INFO 25-Feb-21 12:33:03 - Parsed:IN
+INFO 25-Feb-21 12:33:03 - Logic queue recieved: IN
+INFO 25-Feb-21 12:33:04 - SentIPIN
+INFO 25-Feb-21 12:33:05 - Parsed:IN
+INFO 25-Feb-21 12:33:05 - Logic queue recieved: IN
+INFO 25-Feb-21 12:33:06 - SentIPIN
+INFO 25-Feb-21 12:33:07 - Parsed:IN
+INFO 25-Feb-21 12:33:07 - Logic queue recieved: IN
+INFO 25-Feb-21 12:33:08 - SentIPIN
+INFO 25-Feb-21 12:33:09 - Parsed:IN
+INFO 25-Feb-21 12:33:09 - Logic queue recieved: IN
+INFO 25-Feb-21 12:33:10 - SentIPIN
+INFO 25-Feb-21 12:33:11 - Parsed:IN
+INFO 25-Feb-21 12:33:11 - Logic queue recieved: IN
+INFO 25-Feb-21 12:33:12 - SentIPIN
+INFO 25-Feb-21 12:33:13 - Parsed:IN
+INFO 25-Feb-21 12:33:13 - Logic queue recieved: IN
+INFO 25-Feb-21 12:33:14 - SentIPIN
+INFO 25-Feb-21 12:33:15 - Parsed:IN
+INFO 25-Feb-21 12:33:15 - Logic queue recieved: IN
+INFO 25-Feb-21 12:33:16 - SentIPIN
+INFO 25-Feb-21 12:33:17 - Logic queue recieved: IN
+INFO 25-Feb-21 12:33:17 - Parsed:IN
+INFO 25-Feb-21 12:33:18 - SentIPIN
+INFO 25-Feb-21 12:33:19 - Parsed:IN
+INFO 25-Feb-21 12:33:19 - Logic queue recieved: IN
+INFO 25-Feb-21 12:33:20 - SentIPIN
+INFO 25-Feb-21 12:33:21 - Parsed:IN
+INFO 25-Feb-21 12:33:21 - Logic queue recieved: IN
+INFO 25-Feb-21 12:33:22 - SentIPIN
+INFO 25-Feb-21 12:33:23 - Parsed:IN
+INFO 25-Feb-21 12:33:23 - Logic queue recieved: IN
+INFO 25-Feb-21 12:33:24 - SentIPIN
+INFO 25-Feb-21 12:33:25 - Parsed:IN
+INFO 25-Feb-21 12:33:25 - Logic queue recieved: IN
+INFO 25-Feb-21 12:33:26 - SentIPIN
+INFO 25-Feb-21 12:33:27 - Parsed:IN
+INFO 25-Feb-21 12:33:27 - Logic queue recieved: IN
+INFO 25-Feb-21 12:33:28 - SentIPIN
+INFO 25-Feb-21 12:33:29 - Parsed:IN
+INFO 25-Feb-21 12:33:29 - Logic queue recieved: IN
+INFO 25-Feb-21 12:33:30 - SentIPIN
+INFO 25-Feb-21 12:33:31 - Parsed:IN
+INFO 25-Feb-21 12:33:31 - Logic queue recieved: IN
+INFO 25-Feb-21 12:33:32 - SentIPIN
+INFO 25-Feb-21 12:33:33 - Parsed:IN
+INFO 25-Feb-21 12:33:33 - Logic queue recieved: IN
+INFO 25-Feb-21 12:33:34 - SentIPIN
+INFO 25-Feb-21 12:33:35 - Parsed:IN
+INFO 25-Feb-21 12:33:35 - Logic queue recieved: IN
+INFO 25-Feb-21 12:33:36 - SentIPIN
+INFO 25-Feb-21 12:33:37 - Parsed:IN
+INFO 25-Feb-21 12:33:37 - Logic queue recieved: IN
+INFO 25-Feb-21 12:33:38 - SentIPIN
+INFO 25-Feb-21 12:33:39 - Parsed:IN
+INFO 25-Feb-21 12:33:39 - Logic queue recieved: IN
+INFO 25-Feb-21 12:33:40 - SentIPIN
+INFO 25-Feb-21 12:33:41 - Parsed:IN
+INFO 25-Feb-21 12:33:41 - Logic queue recieved: IN
+INFO 25-Feb-21 12:33:42 - SentIPIN
+INFO 25-Feb-21 12:33:43 - Parsed:IN
+INFO 25-Feb-21 12:33:43 - Logic queue recieved: IN
+INFO 25-Feb-21 12:33:44 - SentIPIN
+INFO 25-Feb-21 12:33:45 - Parsed:IN
+INFO 25-Feb-21 12:33:45 - Logic queue recieved: IN
+INFO 25-Feb-21 12:33:46 - SentIPIN
+INFO 25-Feb-21 12:33:47 - Parsed:IN
+INFO 25-Feb-21 12:33:47 - Logic queue recieved: IN
+INFO 25-Feb-21 12:33:48 - SentIPIN
+INFO 25-Feb-21 12:33:49 - Parsed:IN
+INFO 25-Feb-21 12:33:49 - Logic queue recieved: IN
+INFO 25-Feb-21 12:33:50 - SentIPIN
+INFO 25-Feb-21 12:33:51 - Parsed:IN
+INFO 25-Feb-21 12:33:51 - Logic queue recieved: IN
+INFO 25-Feb-21 12:33:52 - SentIPIN
+INFO 25-Feb-21 12:33:53 - Parsed:IN
+INFO 25-Feb-21 12:33:53 - Logic queue recieved: IN
+INFO 25-Feb-21 12:33:54 - SentIPIN
+INFO 25-Feb-21 12:33:55 - Parsed:IN
+INFO 25-Feb-21 12:33:55 - Logic queue recieved: IN
+INFO 25-Feb-21 12:33:56 - SentIPIN
+INFO 25-Feb-21 12:33:57 - Parsed:IN
+INFO 25-Feb-21 12:33:57 - Logic queue recieved: IN
+INFO 25-Feb-21 12:33:58 - SentIPIN
+INFO 25-Feb-21 12:33:59 - Parsed:IN
+INFO 25-Feb-21 12:33:59 - Logic queue recieved: IN
+INFO 25-Feb-21 12:34:00 - SentIPIN
+INFO 25-Feb-21 12:34:01 - Parsed:IN
+INFO 25-Feb-21 12:34:01 - Logic queue recieved: IN
+INFO 25-Feb-21 12:34:02 - SentIPIN
+INFO 25-Feb-21 12:34:03 - Parsed:IN
+INFO 25-Feb-21 12:34:03 - Logic queue recieved: IN
+INFO 25-Feb-21 12:34:04 - SentIPIN
+INFO 25-Feb-21 12:34:05 - Parsed:IN
+INFO 25-Feb-21 12:34:05 - Logic queue recieved: IN
+INFO 25-Feb-21 12:34:06 - SentIPIN
+INFO 25-Feb-21 12:34:07 - Parsed:IN
+INFO 25-Feb-21 12:34:07 - Logic queue recieved: IN
+INFO 25-Feb-21 12:34:08 - SentIPIN
+INFO 25-Feb-21 12:34:09 - Parsed:IN
+INFO 25-Feb-21 12:34:09 - Logic queue recieved: IN
+INFO 25-Feb-21 12:34:10 - SentIPIN
+INFO 25-Feb-21 12:34:11 - Parsed:IN
+INFO 25-Feb-21 12:34:11 - Logic queue recieved: IN
+INFO 25-Feb-21 12:34:12 - SentIPIN
+INFO 25-Feb-21 12:34:13 - Parsed:IN
+INFO 25-Feb-21 12:34:13 - Logic queue recieved: IN
+INFO 25-Feb-21 12:34:14 - SentIPIN
+INFO 25-Feb-21 12:34:15 - Parsed:IN
+INFO 25-Feb-21 12:34:15 - Logic queue recieved: IN
+INFO 25-Feb-21 12:34:16 - SentIPIN
+INFO 25-Feb-21 12:34:17 - Parsed:IN
+INFO 25-Feb-21 12:34:17 - Logic queue recieved: IN
+INFO 25-Feb-21 12:34:18 - SentIPIN
+INFO 25-Feb-21 12:34:19 - Parsed:IN
+INFO 25-Feb-21 12:34:19 - Logic queue recieved: IN
+INFO 25-Feb-21 12:34:20 - SentIPIN
+INFO 25-Feb-21 12:34:21 - Parsed:IN
+INFO 25-Feb-21 12:34:21 - Logic queue recieved: IN
+INFO 25-Feb-21 12:34:22 - SentIPIN
+INFO 25-Feb-21 12:34:23 - Parsed:IN
+INFO 25-Feb-21 12:34:23 - Logic queue recieved: IN
+INFO 25-Feb-21 12:34:24 - SentIPIN
+INFO 25-Feb-21 12:34:25 - Parsed:IN
+INFO 25-Feb-21 12:34:25 - Logic queue recieved: IN
+INFO 25-Feb-21 12:34:26 - SentIPIN
+INFO 25-Feb-21 12:34:27 - Parsed:IN
+INFO 25-Feb-21 12:34:27 - Logic queue recieved: IN
+INFO 25-Feb-21 12:34:28 - SentIPIN
+INFO 25-Feb-21 12:34:29 - Parsed:IN
+INFO 25-Feb-21 12:34:29 - Logic queue recieved: IN
+INFO 25-Feb-21 12:34:30 - SentIPIN
+INFO 25-Feb-21 12:34:31 - Parsed:IN
+INFO 25-Feb-21 12:34:31 - Logic queue recieved: IN
+INFO 25-Feb-21 12:34:32 - SentIPIN
+INFO 25-Feb-21 12:34:33 - Parsed:IN
+INFO 25-Feb-21 12:34:33 - Logic queue recieved: IN
+INFO 25-Feb-21 12:34:34 - SentIPIN
+INFO 25-Feb-21 12:34:35 - Parsed:IN
+INFO 25-Feb-21 12:34:35 - Logic queue recieved: IN
+INFO 25-Feb-21 12:34:36 - SentIPIN
+INFO 25-Feb-21 12:34:37 - Parsed:IN
+INFO 25-Feb-21 12:34:37 - Logic queue recieved: IN
+INFO 25-Feb-21 12:34:38 - SentIPIN
+INFO 25-Feb-21 12:34:39 - Parsed:IN
+INFO 25-Feb-21 12:34:39 - Logic queue recieved: IN
+INFO 25-Feb-21 12:34:40 - SentIPIN
+INFO 25-Feb-21 12:34:41 - Parsed:IN
+INFO 25-Feb-21 12:34:41 - Logic queue recieved: IN
+INFO 25-Feb-21 12:34:42 - SentIPIN
+INFO 25-Feb-21 12:34:43 - Parsed:IN
+INFO 25-Feb-21 12:34:43 - Logic queue recieved: IN
+INFO 25-Feb-21 12:34:44 - SentIPIN
+INFO 25-Feb-21 12:34:45 - Parsed:IN
+INFO 25-Feb-21 12:34:45 - Logic queue recieved: IN
+INFO 25-Feb-21 12:34:46 - SentIPIN
+INFO 25-Feb-21 12:34:47 - Parsed:IN
+INFO 25-Feb-21 12:34:47 - Logic queue recieved: IN
+INFO 25-Feb-21 12:34:48 - SentIPIN
+INFO 25-Feb-21 12:34:49 - Parsed:IN
+INFO 25-Feb-21 12:34:49 - Logic queue recieved: IN
+INFO 25-Feb-21 12:34:50 - SentIPIN
+INFO 25-Feb-21 12:34:51 - Parsed:IN
+INFO 25-Feb-21 12:34:51 - Logic queue recieved: IN
+INFO 25-Feb-21 12:34:52 - SentIPIN
+INFO 25-Feb-21 12:34:53 - Parsed:IN
+INFO 25-Feb-21 12:34:53 - Logic queue recieved: IN
+INFO 25-Feb-21 12:34:54 - SentIPIN
+INFO 25-Feb-21 12:34:55 - Parsed:IN
+INFO 25-Feb-21 12:34:55 - Logic queue recieved: IN
+INFO 25-Feb-21 12:34:56 - SentIPIN
+INFO 25-Feb-21 12:34:57 - Parsed:IN
+INFO 25-Feb-21 12:34:57 - Logic queue recieved: IN
+INFO 25-Feb-21 12:34:58 - SentIPIN
+INFO 25-Feb-21 12:34:59 - Parsed:IN
+INFO 25-Feb-21 12:34:59 - Logic queue recieved: IN
+INFO 25-Feb-21 12:35:00 - SentIPIN
+INFO 25-Feb-21 12:35:01 - Parsed:IN
+INFO 25-Feb-21 12:35:01 - Logic queue recieved: IN
+INFO 25-Feb-21 12:35:02 - SentIPIN
+INFO 25-Feb-21 12:35:03 - Parsed:IN
+INFO 25-Feb-21 12:35:03 - Logic queue recieved: IN
+INFO 25-Feb-21 12:35:04 - SentIPIN
+INFO 25-Feb-21 12:35:05 - Parsed:IN
+INFO 25-Feb-21 12:35:05 - Logic queue recieved: IN
+INFO 25-Feb-21 12:35:06 - SentIPIN
+INFO 25-Feb-21 12:35:07 - Parsed:IN
+INFO 25-Feb-21 12:35:07 - Logic queue recieved: IN
+INFO 25-Feb-21 12:35:08 - SentIPIN
+INFO 25-Feb-21 12:35:09 - Logic queue recieved: IN
+INFO 25-Feb-21 12:35:09 - Parsed:IN
+INFO 25-Feb-21 12:35:10 - SentIPIN
+INFO 25-Feb-21 12:35:11 - Parsed:IN
+INFO 25-Feb-21 12:35:11 - Logic queue recieved: IN
+INFO 25-Feb-21 12:35:12 - SentIPIN
+INFO 25-Feb-21 12:35:13 - Parsed:IN
+INFO 25-Feb-21 12:35:13 - Logic queue recieved: IN
+INFO 25-Feb-21 12:35:14 - SentIPIN
+INFO 25-Feb-21 12:35:15 - Parsed:IN
+INFO 25-Feb-21 12:35:15 - Logic queue recieved: IN
+INFO 25-Feb-21 12:35:16 - SentIPIN
+INFO 25-Feb-21 12:35:17 - Parsed:IN
+INFO 25-Feb-21 12:35:17 - Logic queue recieved: IN
+INFO 25-Feb-21 12:35:18 - SentIPIN
+INFO 25-Feb-21 12:35:19 - Parsed:IN
+INFO 25-Feb-21 12:35:19 - Logic queue recieved: IN
+INFO 25-Feb-21 12:35:20 - SentIPIN
+INFO 25-Feb-21 12:35:21 - Parsed:IN
+INFO 25-Feb-21 12:35:21 - Logic queue recieved: IN
+INFO 25-Feb-21 12:35:22 - SentIPIN
+INFO 25-Feb-21 12:35:23 - Parsed:IN
+INFO 25-Feb-21 12:35:23 - Logic queue recieved: IN
+INFO 25-Feb-21 12:35:24 - SentIPIN
+INFO 25-Feb-21 12:35:25 - Parsed:IN
+INFO 25-Feb-21 12:35:25 - Logic queue recieved: IN
+INFO 25-Feb-21 12:35:26 - SentIPIN
+INFO 25-Feb-21 12:35:27 - Parsed:IN
+INFO 25-Feb-21 12:35:27 - Logic queue recieved: IN
+INFO 25-Feb-21 12:35:28 - SentIPIN
+INFO 25-Feb-21 12:35:29 - Parsed:IN
+INFO 25-Feb-21 12:35:29 - Logic queue recieved: IN
+INFO 25-Feb-21 12:35:30 - SentIPIN
+INFO 25-Feb-21 12:35:31 - Parsed:IN
+INFO 25-Feb-21 12:35:31 - Logic queue recieved: IN
+INFO 25-Feb-21 12:35:32 - SentIPIN
+INFO 25-Feb-21 12:35:33 - Parsed:IN
+INFO 25-Feb-21 12:35:33 - Logic queue recieved: IN
+INFO 25-Feb-21 12:35:34 - SentIPIN
+INFO 25-Feb-21 12:35:35 - Parsed:IN
+INFO 25-Feb-21 12:35:35 - Logic queue recieved: IN
+INFO 25-Feb-21 12:35:36 - SentIPIN
+INFO 25-Feb-21 12:35:37 - Parsed:IN
+INFO 25-Feb-21 12:35:37 - Logic queue recieved: IN
+INFO 25-Feb-21 12:35:38 - SentIPIN
+INFO 25-Feb-21 12:35:39 - Parsed:IN
+INFO 25-Feb-21 12:35:39 - Logic queue recieved: IN
+INFO 25-Feb-21 12:35:40 - SentIPIN
+INFO 25-Feb-21 12:35:41 - Parsed:IN
+INFO 25-Feb-21 12:35:41 - Logic queue recieved: IN
+INFO 25-Feb-21 12:35:42 - SentIPIN
+INFO 25-Feb-21 12:35:43 - Parsed:IN
+INFO 25-Feb-21 12:35:43 - Logic queue recieved: IN
+INFO 25-Feb-21 12:35:44 - SentIPIN
+INFO 25-Feb-21 12:35:45 - Parsed:IN
+INFO 25-Feb-21 12:35:45 - Logic queue recieved: IN
+INFO 25-Feb-21 12:35:46 - SentIPIN
+INFO 25-Feb-21 12:35:47 - Parsed:IN
+INFO 25-Feb-21 12:35:47 - Logic queue recieved: IN
+INFO 25-Feb-21 12:35:48 - SentIPIN
+INFO 25-Feb-21 12:35:49 - Parsed:IN
+INFO 25-Feb-21 12:35:49 - Logic queue recieved: IN
+INFO 25-Feb-21 12:35:50 - SentIPIN
+INFO 25-Feb-21 12:35:51 - Parsed:IN
+INFO 25-Feb-21 12:35:51 - Logic queue recieved: IN
+INFO 25-Feb-21 12:35:52 - SentIPIN
+INFO 25-Feb-21 12:35:53 - Parsed:IN
+INFO 25-Feb-21 12:35:53 - Logic queue recieved: IN
+INFO 25-Feb-21 12:35:54 - SentIPIN
+INFO 25-Feb-21 12:35:55 - Parsed:IN
+INFO 25-Feb-21 12:35:55 - Logic queue recieved: IN
+INFO 25-Feb-21 12:35:56 - SentIPIN
+INFO 25-Feb-21 12:35:57 - Parsed:IN
+INFO 25-Feb-21 12:35:57 - Logic queue recieved: IN
+INFO 25-Feb-21 12:35:58 - SentIPIN
+INFO 25-Feb-21 12:35:59 - Parsed:IN
+INFO 25-Feb-21 12:35:59 - Logic queue recieved: IN
+INFO 25-Feb-21 12:36:00 - SentIPIN
+INFO 25-Feb-21 12:36:01 - Parsed:IN
+INFO 25-Feb-21 12:36:01 - Logic queue recieved: IN
+INFO 25-Feb-21 12:36:02 - SentIPIN
+INFO 25-Feb-21 12:36:03 - Parsed:IN
+INFO 25-Feb-21 12:36:03 - Logic queue recieved: IN
+INFO 25-Feb-21 12:36:04 - SentIPIN
+INFO 25-Feb-21 12:36:05 - Parsed:IN
+INFO 25-Feb-21 12:36:05 - Logic queue recieved: IN
+INFO 25-Feb-21 12:36:06 - SentIPIN
+INFO 25-Feb-21 12:36:07 - Parsed:IN
+INFO 25-Feb-21 12:36:07 - Logic queue recieved: IN
+INFO 25-Feb-21 12:36:08 - SentIPIN
+INFO 25-Feb-21 12:36:09 - Parsed:IN
+INFO 25-Feb-21 12:36:09 - Logic queue recieved: IN
+INFO 25-Feb-21 12:36:10 - SentIPIN
+INFO 25-Feb-21 12:36:11 - Parsed:IN
+INFO 25-Feb-21 12:36:11 - Logic queue recieved: IN
+INFO 25-Feb-21 12:36:12 - SentIPIN
+INFO 25-Feb-21 12:36:13 - Parsed:IN
+INFO 25-Feb-21 12:36:13 - Logic queue recieved: IN
+INFO 25-Feb-21 12:36:14 - SentIPIN
+INFO 25-Feb-21 12:36:15 - Parsed:IN
+INFO 25-Feb-21 12:36:15 - Logic queue recieved: IN
+INFO 25-Feb-21 12:36:16 - SentIPIN
+INFO 25-Feb-21 12:36:17 - Parsed:IN
+INFO 25-Feb-21 12:36:17 - Logic queue recieved: IN
+INFO 25-Feb-21 12:36:18 - SentIPIN
+INFO 25-Feb-21 12:36:19 - Parsed:IN
+INFO 25-Feb-21 12:36:19 - Logic queue recieved: IN
+INFO 25-Feb-21 12:36:20 - SentIPIN
+INFO 25-Feb-21 12:36:21 - Parsed:IN
+INFO 25-Feb-21 12:36:21 - Logic queue recieved: IN
+INFO 25-Feb-21 12:36:22 - SentIPIN
+INFO 25-Feb-21 12:36:23 - Parsed:IN
+INFO 25-Feb-21 12:36:23 - Logic queue recieved: IN
+INFO 25-Feb-21 12:36:24 - SentIPIN
+INFO 25-Feb-21 12:36:25 - Parsed:IN
+INFO 25-Feb-21 12:36:25 - Logic queue recieved: IN
+INFO 25-Feb-21 12:36:26 - SentIPIN
+INFO 25-Feb-21 12:36:27 - Parsed:IN
+INFO 25-Feb-21 12:36:27 - Logic queue recieved: IN
+INFO 25-Feb-21 12:36:28 - SentIPIN
+INFO 25-Feb-21 12:36:29 - Parsed:IN
+INFO 25-Feb-21 12:36:29 - Logic queue recieved: IN
+INFO 25-Feb-21 12:36:30 - SentIPIN
+INFO 25-Feb-21 12:36:31 - Parsed:IN
+INFO 25-Feb-21 12:36:31 - Logic queue recieved: IN
+INFO 25-Feb-21 12:36:32 - SentIPIN
+INFO 25-Feb-21 12:36:33 - Parsed:IN
+INFO 25-Feb-21 12:36:33 - Logic queue recieved: IN
+INFO 25-Feb-21 12:36:34 - SentIPIN
+INFO 25-Feb-21 12:36:35 - Parsed:IN
+INFO 25-Feb-21 12:36:35 - Logic queue recieved: IN
+INFO 25-Feb-21 12:36:36 - SentIPIN
+INFO 25-Feb-21 12:36:37 - Parsed:IN
+INFO 25-Feb-21 12:36:37 - Logic queue recieved: IN
+INFO 25-Feb-21 12:36:38 - SentIPIN
+INFO 25-Feb-21 12:36:39 - Parsed:IN
+INFO 25-Feb-21 12:36:39 - Logic queue recieved: IN
+INFO 25-Feb-21 12:36:40 - SentIPIN
+INFO 25-Feb-21 12:36:41 - Parsed:IN
+INFO 25-Feb-21 12:36:41 - Logic queue recieved: IN
+INFO 25-Feb-21 12:36:42 - SentIPIN
+INFO 25-Feb-21 12:36:43 - Parsed:IN
+INFO 25-Feb-21 12:36:43 - Logic queue recieved: IN
+INFO 25-Feb-21 12:36:44 - SentIPIN
+INFO 25-Feb-21 12:36:45 - Parsed:IN
+INFO 25-Feb-21 12:36:45 - Logic queue recieved: IN
+INFO 25-Feb-21 12:36:46 - SentIPIN
+INFO 25-Feb-21 12:36:47 - Parsed:IN
+INFO 25-Feb-21 12:36:47 - Logic queue recieved: IN
+INFO 25-Feb-21 12:36:48 - SentIPIN
+INFO 25-Feb-21 12:36:49 - Parsed:IN
+INFO 25-Feb-21 12:36:49 - Logic queue recieved: IN
+INFO 25-Feb-21 12:36:50 - SentIPIN
+INFO 25-Feb-21 12:36:51 - Parsed:IN
+INFO 25-Feb-21 12:36:51 - Logic queue recieved: IN
+INFO 25-Feb-21 12:36:52 - SentIPIN
+INFO 25-Feb-21 12:36:53 - Parsed:IN
+INFO 25-Feb-21 12:36:53 - Logic queue recieved: IN
+INFO 25-Feb-21 12:36:54 - SentIPIN
+INFO 25-Feb-21 12:36:55 - Parsed:IN
+INFO 25-Feb-21 12:36:55 - Logic queue recieved: IN
+INFO 25-Feb-21 12:36:56 - SentIPIN
+INFO 25-Feb-21 12:36:57 - Parsed:IN
+INFO 25-Feb-21 12:36:57 - Logic queue recieved: IN
+INFO 25-Feb-21 12:36:58 - SentIPIN
+INFO 25-Feb-21 12:36:59 - Parsed:IN
+INFO 25-Feb-21 12:36:59 - Logic queue recieved: IN
+INFO 25-Feb-21 12:37:00 - SentIPIN
+INFO 25-Feb-21 12:37:01 - Parsed:IN
+INFO 25-Feb-21 12:37:01 - Logic queue recieved: IN
+INFO 25-Feb-21 12:37:02 - SentIPIN
+INFO 25-Feb-21 12:37:03 - Parsed:IN
+INFO 25-Feb-21 12:37:03 - Logic queue recieved: IN
+INFO 25-Feb-21 12:37:04 - SentIPIN
+INFO 25-Feb-21 12:37:05 - Parsed:IN
+INFO 25-Feb-21 12:37:05 - Logic queue recieved: IN
+INFO 25-Feb-21 12:37:06 - SentIPIN
+INFO 25-Feb-21 12:37:07 - Parsed:IN
+INFO 25-Feb-21 12:37:07 - Logic queue recieved: IN
+INFO 25-Feb-21 12:37:08 - SentIPIN
+INFO 25-Feb-21 12:37:09 - Parsed:IN
+INFO 25-Feb-21 12:37:09 - Logic queue recieved: IN
+INFO 25-Feb-21 12:37:10 - SentIPIN
+INFO 25-Feb-21 12:37:11 - Parsed:IN
+INFO 25-Feb-21 12:37:11 - Logic queue recieved: IN
+INFO 25-Feb-21 12:37:12 - SentIPIN
+INFO 25-Feb-21 12:37:13 - Parsed:IN
+INFO 25-Feb-21 12:37:13 - Logic queue recieved: IN
+INFO 25-Feb-21 12:37:14 - SentIPIN
+INFO 25-Feb-21 12:37:15 - Parsed:IN
+INFO 25-Feb-21 12:37:15 - Logic queue recieved: IN
+INFO 25-Feb-21 12:37:16 - SentIPIN
+INFO 25-Feb-21 12:37:17 - Parsed:IN
+INFO 25-Feb-21 12:37:17 - Logic queue recieved: IN
+INFO 25-Feb-21 12:37:18 - SentIPIN
+INFO 25-Feb-21 12:37:19 - Parsed:IN
+INFO 25-Feb-21 12:37:19 - Logic queue recieved: IN
+INFO 25-Feb-21 12:37:20 - SentIPIN
+INFO 25-Feb-21 12:37:21 - Parsed:IN
+INFO 25-Feb-21 12:37:21 - Logic queue recieved: IN
+INFO 25-Feb-21 12:37:22 - SentIPIN
+INFO 25-Feb-21 12:37:23 - Parsed:IN
+INFO 25-Feb-21 12:37:23 - Logic queue recieved: IN
+INFO 25-Feb-21 12:37:24 - SentIPIN
+INFO 25-Feb-21 12:37:25 - Parsed:IN
+INFO 25-Feb-21 12:37:25 - Logic queue recieved: IN
+INFO 25-Feb-21 12:37:26 - SentIPIN
+INFO 25-Feb-21 12:37:27 - Parsed:IN
+INFO 25-Feb-21 12:37:27 - Logic queue recieved: IN
+INFO 25-Feb-21 12:37:28 - SentIPIN
+INFO 25-Feb-21 12:37:29 - Parsed:IN
+INFO 25-Feb-21 12:37:29 - Logic queue recieved: IN
+INFO 25-Feb-21 12:37:30 - SentIPIN
+INFO 25-Feb-21 12:37:31 - Parsed:IN
+INFO 25-Feb-21 12:37:31 - Logic queue recieved: IN
+INFO 25-Feb-21 12:37:32 - SentIPIN
+INFO 25-Feb-21 12:37:33 - Parsed:IN
+INFO 25-Feb-21 12:37:33 - Logic queue recieved: IN
+INFO 25-Feb-21 12:37:34 - SentIPIN
+INFO 25-Feb-21 12:37:35 - Parsed:IN
+INFO 25-Feb-21 12:37:35 - Logic queue recieved: IN
+INFO 25-Feb-21 12:37:36 - SentIPIN
+INFO 25-Feb-21 12:37:37 - Parsed:IN
+INFO 25-Feb-21 12:37:37 - Logic queue recieved: IN
+INFO 25-Feb-21 12:37:38 - SentIPIN
+INFO 25-Feb-21 12:37:39 - Parsed:IN
+INFO 25-Feb-21 12:37:39 - Logic queue recieved: IN
+INFO 25-Feb-21 12:37:40 - SentIPIN
+INFO 25-Feb-21 12:37:41 - Parsed:IN
+INFO 25-Feb-21 12:37:41 - Logic queue recieved: IN
+INFO 25-Feb-21 12:37:42 - SentIPIN
+INFO 25-Feb-21 12:37:43 - Parsed:IN
+INFO 25-Feb-21 12:37:43 - Logic queue recieved: IN
+INFO 25-Feb-21 12:37:44 - SentIPIN
+INFO 25-Feb-21 12:37:45 - Parsed:IN
+INFO 25-Feb-21 12:37:45 - Logic queue recieved: IN
+INFO 25-Feb-21 12:37:46 - SentIPIN
+INFO 25-Feb-21 12:37:47 - Parsed:IN
+INFO 25-Feb-21 12:37:47 - Logic queue recieved: IN
+INFO 25-Feb-21 12:37:48 - SentIPIN
+INFO 25-Feb-21 12:37:49 - Parsed:IN
+INFO 25-Feb-21 12:37:49 - Logic queue recieved: IN
+INFO 25-Feb-21 12:37:50 - SentIPIN
+INFO 25-Feb-21 12:37:51 - Parsed:IN
+INFO 25-Feb-21 12:37:51 - Logic queue recieved: IN
+INFO 25-Feb-21 12:37:52 - SentIPIN
+INFO 25-Feb-21 12:37:53 - Parsed:IN
+INFO 25-Feb-21 12:37:53 - Logic queue recieved: IN
+INFO 25-Feb-21 12:37:54 - SentIPIN
+INFO 25-Feb-21 12:37:55 - Parsed:IN
+INFO 25-Feb-21 12:37:55 - Logic queue recieved: IN
+INFO 25-Feb-21 12:37:56 - SentIPIN
+INFO 25-Feb-21 12:37:57 - Parsed:IN
+INFO 25-Feb-21 12:37:57 - Logic queue recieved: IN
+INFO 25-Feb-21 12:37:58 - SentIPIN
+INFO 25-Feb-21 12:37:59 - Parsed:IN
+INFO 25-Feb-21 12:37:59 - Logic queue recieved: IN
+INFO 25-Feb-21 12:38:00 - SentIPIN
+INFO 25-Feb-21 12:38:01 - Parsed:IN
+INFO 25-Feb-21 12:38:01 - Logic queue recieved: IN
+INFO 25-Feb-21 12:38:02 - SentIPIN
+INFO 25-Feb-21 12:38:03 - Parsed:IN
+INFO 25-Feb-21 12:38:03 - Logic queue recieved: IN
+INFO 25-Feb-21 12:38:04 - SentIPIN
+INFO 25-Feb-21 12:38:05 - Parsed:IN
+INFO 25-Feb-21 12:38:05 - Logic queue recieved: IN
+INFO 25-Feb-21 12:38:06 - SentIPIN
+INFO 25-Feb-21 12:38:07 - Parsed:IN
+INFO 25-Feb-21 12:38:07 - Logic queue recieved: IN
+INFO 25-Feb-21 12:38:08 - SentIPIN
+INFO 25-Feb-21 12:38:09 - Parsed:IN
+INFO 25-Feb-21 12:38:09 - Logic queue recieved: IN
+INFO 25-Feb-21 12:38:10 - SentIPIN
+INFO 25-Feb-21 12:38:11 - Parsed:IN
+INFO 25-Feb-21 12:38:11 - Logic queue recieved: IN
+INFO 25-Feb-21 12:38:12 - SentIPIN
+INFO 25-Feb-21 12:38:13 - Parsed:IN
+INFO 25-Feb-21 12:38:13 - Logic queue recieved: IN
+INFO 25-Feb-21 12:38:14 - SentIPIN
+INFO 25-Feb-21 12:38:15 - Parsed:IN
+INFO 25-Feb-21 12:38:15 - Logic queue recieved: IN
+INFO 25-Feb-21 12:38:16 - SentIPIN
+INFO 25-Feb-21 12:38:17 - Parsed:IN
+INFO 25-Feb-21 12:38:17 - Logic queue recieved: IN
+INFO 25-Feb-21 12:38:18 - SentIPIN
+INFO 25-Feb-21 12:38:19 - Parsed:IN
+INFO 25-Feb-21 12:38:19 - Logic queue recieved: IN
+INFO 25-Feb-21 12:38:20 - SentIPIN
+INFO 25-Feb-21 12:38:21 - Parsed:IN
+INFO 25-Feb-21 12:38:21 - Logic queue recieved: IN
+INFO 25-Feb-21 12:38:22 - SentIPIN
+INFO 25-Feb-21 12:38:23 - Parsed:IN
+INFO 25-Feb-21 12:38:23 - Logic queue recieved: IN
+INFO 25-Feb-21 12:38:24 - SentIPIN
+INFO 25-Feb-21 12:38:25 - Parsed:IN
+INFO 25-Feb-21 12:38:25 - Logic queue recieved: IN
+INFO 25-Feb-21 12:38:26 - SentIPIN
+INFO 25-Feb-21 12:38:27 - Parsed:IN
+INFO 25-Feb-21 12:38:27 - Logic queue recieved: IN
+INFO 25-Feb-21 12:38:28 - SentIPIN
+INFO 25-Feb-21 12:38:29 - Parsed:IN
+INFO 25-Feb-21 12:38:29 - Logic queue recieved: IN
+INFO 25-Feb-21 12:38:30 - SentIPIN
+INFO 25-Feb-21 12:38:31 - Parsed:IN
+INFO 25-Feb-21 12:38:31 - Logic queue recieved: IN
+INFO 25-Feb-21 12:38:32 - SentIPIN
+INFO 25-Feb-21 12:38:33 - Parsed:IN
+INFO 25-Feb-21 12:38:33 - Logic queue recieved: IN
+INFO 25-Feb-21 12:38:34 - SentIPIN
+INFO 25-Feb-21 12:38:35 - Parsed:IN
+INFO 25-Feb-21 12:38:35 - Logic queue recieved: IN
+INFO 25-Feb-21 12:38:36 - SentIPIN
+INFO 25-Feb-21 12:38:37 - Parsed:IN
+INFO 25-Feb-21 12:38:37 - Logic queue recieved: IN
+INFO 25-Feb-21 12:38:38 - SentIPIN
+INFO 25-Feb-21 12:38:39 - Parsed:IN
+INFO 25-Feb-21 12:38:39 - Logic queue recieved: IN
+INFO 25-Feb-21 12:38:40 - SentIPIN
+INFO 25-Feb-21 12:38:41 - Logic queue recieved: IN
+INFO 25-Feb-21 12:38:41 - Parsed:IN
+INFO 25-Feb-21 12:38:42 - SentIPIN
+INFO 25-Feb-21 12:38:43 - Parsed:IN
+INFO 25-Feb-21 12:38:43 - Logic queue recieved: IN
+INFO 25-Feb-21 12:38:44 - SentIPIN
+INFO 25-Feb-21 12:38:45 - Parsed:IN
+INFO 25-Feb-21 12:38:45 - Logic queue recieved: IN
+INFO 25-Feb-21 12:38:46 - SentIPIN
+INFO 25-Feb-21 12:38:47 - Parsed:IN
+INFO 25-Feb-21 12:38:47 - Logic queue recieved: IN
+INFO 25-Feb-21 12:38:48 - SentIPIN
+INFO 25-Feb-21 12:38:49 - Parsed:IN
+INFO 25-Feb-21 12:38:49 - Logic queue recieved: IN
+INFO 25-Feb-21 12:38:50 - SentIPIN
+INFO 25-Feb-21 12:38:51 - Parsed:IN
+INFO 25-Feb-21 12:38:51 - Logic queue recieved: IN
+INFO 25-Feb-21 12:38:52 - SentIPIN
+INFO 25-Feb-21 12:38:53 - Parsed:IN
+INFO 25-Feb-21 12:38:53 - Logic queue recieved: IN
+INFO 25-Feb-21 12:38:54 - SentIPIN
+INFO 25-Feb-21 12:38:55 - Parsed:IN
+INFO 25-Feb-21 12:38:55 - Logic queue recieved: IN
+INFO 25-Feb-21 12:38:56 - SentIPIN
+INFO 25-Feb-21 12:38:57 - Parsed:IN
+INFO 25-Feb-21 12:38:57 - Logic queue recieved: IN
+INFO 25-Feb-21 12:38:58 - SentIPIN
+INFO 25-Feb-21 12:38:59 - Parsed:IN
+INFO 25-Feb-21 12:38:59 - Logic queue recieved: IN
+INFO 25-Feb-21 12:39:00 - SentIPIN
+INFO 25-Feb-21 12:39:01 - Parsed:IN
+INFO 25-Feb-21 12:39:01 - Logic queue recieved: IN
+INFO 25-Feb-21 12:39:02 - SentIPIN
+INFO 25-Feb-21 12:39:03 - Parsed:IN
+INFO 25-Feb-21 12:39:03 - Logic queue recieved: IN
+INFO 25-Feb-21 12:39:04 - SentIPIN
+INFO 25-Feb-21 12:39:05 - Parsed:IN
+INFO 25-Feb-21 12:39:05 - Logic queue recieved: IN
+INFO 25-Feb-21 12:39:06 - SentIPIN
+INFO 25-Feb-21 12:39:07 - Parsed:IN
+INFO 25-Feb-21 12:39:07 - Logic queue recieved: IN
+INFO 25-Feb-21 12:39:08 - SentIPIN
+INFO 25-Feb-21 12:39:09 - Parsed:IN
+INFO 25-Feb-21 12:39:09 - Logic queue recieved: IN
+INFO 25-Feb-21 12:39:10 - SentIPIN
+INFO 25-Feb-21 12:39:11 - Parsed:IN
+INFO 25-Feb-21 12:39:11 - Logic queue recieved: IN
+INFO 25-Feb-21 12:39:12 - SentIPIN
+INFO 25-Feb-21 12:39:13 - Parsed:IN
+INFO 25-Feb-21 12:39:13 - Logic queue recieved: IN
+INFO 25-Feb-21 12:39:14 - SentIPIN
+INFO 25-Feb-21 12:39:15 - Parsed:IN
+INFO 25-Feb-21 12:39:15 - Logic queue recieved: IN
+INFO 25-Feb-21 12:39:16 - SentIPIN
+INFO 25-Feb-21 12:39:17 - Parsed:IN
+INFO 25-Feb-21 12:39:17 - Logic queue recieved: IN
+INFO 25-Feb-21 12:39:18 - SentIPIN
+INFO 25-Feb-21 12:39:19 - Parsed:IN
+INFO 25-Feb-21 12:39:19 - Logic queue recieved: IN
+INFO 25-Feb-21 12:39:20 - SentIPIN
+INFO 25-Feb-21 12:39:21 - Parsed:IN
+INFO 25-Feb-21 12:39:21 - Logic queue recieved: IN
+INFO 25-Feb-21 12:39:22 - SentIPIN
+INFO 25-Feb-21 12:39:23 - Parsed:IN
+INFO 25-Feb-21 12:39:23 - Logic queue recieved: IN
+INFO 25-Feb-21 12:39:24 - SentIPIN
+INFO 25-Feb-21 12:39:25 - Parsed:IN
+INFO 25-Feb-21 12:39:25 - Logic queue recieved: IN
+INFO 25-Feb-21 12:39:26 - SentIPIN
+INFO 25-Feb-21 12:39:27 - Parsed:IN
+INFO 25-Feb-21 12:39:27 - Logic queue recieved: IN
+INFO 25-Feb-21 12:39:28 - SentIPIN
+INFO 25-Feb-21 12:39:29 - Parsed:IN
+INFO 25-Feb-21 12:39:29 - Logic queue recieved: IN
+INFO 25-Feb-21 12:39:30 - SentIPIN
+INFO 25-Feb-21 12:39:31 - Parsed:IN
+INFO 25-Feb-21 12:39:31 - Logic queue recieved: IN
+INFO 25-Feb-21 12:39:32 - SentIPIN
+INFO 25-Feb-21 12:39:33 - Parsed:IN
+INFO 25-Feb-21 12:39:33 - Logic queue recieved: IN
+INFO 25-Feb-21 12:39:34 - SentIPIN
+INFO 25-Feb-21 12:39:35 - Parsed:IN
+INFO 25-Feb-21 12:39:35 - Logic queue recieved: IN
+INFO 25-Feb-21 12:39:36 - SentIPIN
+INFO 25-Feb-21 12:39:37 - Parsed:IN
+INFO 25-Feb-21 12:39:37 - Logic queue recieved: IN
+INFO 25-Feb-21 12:39:38 - SentIPIN
+INFO 25-Feb-21 12:39:39 - Parsed:IN
+INFO 25-Feb-21 12:39:39 - Logic queue recieved: IN
+INFO 25-Feb-21 12:39:40 - SentIPIN
+INFO 25-Feb-21 12:39:41 - Parsed:IN
+INFO 25-Feb-21 12:39:41 - Logic queue recieved: IN
+INFO 25-Feb-21 12:39:42 - SentIPIN
+INFO 25-Feb-21 12:39:43 - Parsed:IN
+INFO 25-Feb-21 12:39:43 - Logic queue recieved: IN
+INFO 25-Feb-21 12:39:44 - SentIPIN
+INFO 25-Feb-21 12:39:45 - Parsed:IN
+INFO 25-Feb-21 12:39:45 - Logic queue recieved: IN
+INFO 25-Feb-21 12:39:46 - SentIPIN
+INFO 25-Feb-21 12:39:47 - Parsed:IN
+INFO 25-Feb-21 12:39:47 - Logic queue recieved: IN
+INFO 25-Feb-21 12:39:48 - SentIPIN
+INFO 25-Feb-21 12:39:49 - Parsed:IN
+INFO 25-Feb-21 12:39:49 - Logic queue recieved: IN
+INFO 25-Feb-21 12:39:50 - SentIPIN
+INFO 25-Feb-21 12:39:51 - Parsed:IN
+INFO 25-Feb-21 12:39:51 - Logic queue recieved: IN
+INFO 25-Feb-21 12:39:52 - SentIPIN
+INFO 25-Feb-21 12:39:53 - Parsed:IN
+INFO 25-Feb-21 12:39:53 - Logic queue recieved: IN
+INFO 25-Feb-21 12:39:54 - SentIPIN
+INFO 25-Feb-21 12:39:55 - Parsed:IN
+INFO 25-Feb-21 12:39:55 - Logic queue recieved: IN
+INFO 25-Feb-21 12:39:56 - SentIPIN
+INFO 25-Feb-21 12:39:57 - Parsed:IN
+INFO 25-Feb-21 12:39:57 - Logic queue recieved: IN
+INFO 25-Feb-21 12:39:58 - SentIPIN
+INFO 25-Feb-21 12:39:59 - Parsed:IN
+INFO 25-Feb-21 12:39:59 - Logic queue recieved: IN
+INFO 25-Feb-21 12:40:00 - SentIPIN
+INFO 25-Feb-21 12:40:01 - Parsed:IN
+INFO 25-Feb-21 12:40:01 - Logic queue recieved: IN
+INFO 25-Feb-21 12:40:02 - SentIPIN
+INFO 25-Feb-21 12:40:03 - Parsed:IN
+INFO 25-Feb-21 12:40:03 - Logic queue recieved: IN
+INFO 25-Feb-21 12:40:04 - SentIPIN
+INFO 25-Feb-21 12:40:05 - Parsed:IN
+INFO 25-Feb-21 12:40:05 - Logic queue recieved: IN
+INFO 25-Feb-21 12:40:06 - SentIPIN
+INFO 25-Feb-21 12:40:07 - Parsed:IN
+INFO 25-Feb-21 12:40:07 - Logic queue recieved: IN
+INFO 25-Feb-21 12:40:08 - SentIPIN
+INFO 25-Feb-21 12:40:09 - Parsed:IN
+INFO 25-Feb-21 12:40:09 - Logic queue recieved: IN
+INFO 25-Feb-21 12:40:10 - SentIPIN
+INFO 25-Feb-21 12:40:11 - Parsed:IN
+INFO 25-Feb-21 12:40:11 - Logic queue recieved: IN
+INFO 25-Feb-21 12:40:12 - SentIPIN
+INFO 25-Feb-21 12:40:13 - Parsed:IN
+INFO 25-Feb-21 12:40:13 - Logic queue recieved: IN
+INFO 25-Feb-21 12:40:14 - SentIPIN
+INFO 25-Feb-21 12:40:15 - Parsed:IN
+INFO 25-Feb-21 12:40:15 - Logic queue recieved: IN
+INFO 25-Feb-21 12:40:16 - SentIPIN
+INFO 25-Feb-21 12:40:17 - Parsed:IN
+INFO 25-Feb-21 12:40:17 - Logic queue recieved: IN
+INFO 25-Feb-21 12:40:18 - SentIPIN
+INFO 25-Feb-21 12:40:19 - Parsed:IN
+INFO 25-Feb-21 12:40:19 - Logic queue recieved: IN
+INFO 25-Feb-21 12:40:20 - SentIPIN
+INFO 25-Feb-21 12:40:21 - Parsed:IN
+INFO 25-Feb-21 12:40:21 - Logic queue recieved: IN
+INFO 25-Feb-21 12:40:22 - SentIPIN
+INFO 25-Feb-21 12:40:23 - Parsed:IN
+INFO 25-Feb-21 12:40:23 - Logic queue recieved: IN
+INFO 25-Feb-21 12:40:24 - SentIPIN
+INFO 25-Feb-21 12:40:25 - Parsed:IN
+INFO 25-Feb-21 12:40:25 - Logic queue recieved: IN
+INFO 25-Feb-21 12:40:26 - SentIPIN
+INFO 25-Feb-21 12:40:27 - Parsed:IN
+INFO 25-Feb-21 12:40:27 - Logic queue recieved: IN
+INFO 25-Feb-21 12:40:28 - SentIPIN
+INFO 25-Feb-21 12:40:29 - Parsed:IN
+INFO 25-Feb-21 12:40:29 - Logic queue recieved: IN
+INFO 25-Feb-21 12:40:30 - SentIPIN
+INFO 25-Feb-21 12:40:31 - Parsed:IN
+INFO 25-Feb-21 12:40:31 - Logic queue recieved: IN
+INFO 25-Feb-21 12:40:32 - SentIPIN
+INFO 25-Feb-21 12:40:33 - Parsed:IN
+INFO 25-Feb-21 12:40:33 - Logic queue recieved: IN
+INFO 25-Feb-21 12:40:34 - SentIPIN
+INFO 25-Feb-21 12:40:35 - Parsed:IN
+INFO 25-Feb-21 12:40:35 - Logic queue recieved: IN
+INFO 25-Feb-21 12:40:36 - SentIPIN
+INFO 25-Feb-21 12:40:37 - Parsed:IN
+INFO 25-Feb-21 12:40:37 - Logic queue recieved: IN
+INFO 25-Feb-21 12:40:38 - SentIPIN
+INFO 25-Feb-21 12:40:39 - Parsed:IN
+INFO 25-Feb-21 12:40:39 - Logic queue recieved: IN
+INFO 25-Feb-21 12:40:40 - SentIPIN
+INFO 25-Feb-21 12:40:41 - Parsed:IN
+INFO 25-Feb-21 12:40:41 - Logic queue recieved: IN
+INFO 25-Feb-21 12:40:42 - SentIPIN
+INFO 25-Feb-21 12:40:43 - Parsed:IN
+INFO 25-Feb-21 12:40:43 - Logic queue recieved: IN
+INFO 25-Feb-21 12:40:44 - SentIPIN
+INFO 25-Feb-21 12:40:45 - Parsed:IN
+INFO 25-Feb-21 12:40:45 - Logic queue recieved: IN
+INFO 25-Feb-21 12:40:46 - SentIPIN
+INFO 25-Feb-21 12:40:47 - Parsed:IN
+INFO 25-Feb-21 12:40:47 - Logic queue recieved: IN
+INFO 25-Feb-21 12:40:48 - SentIPIN
+INFO 25-Feb-21 12:40:49 - Parsed:IN
+INFO 25-Feb-21 12:40:49 - Logic queue recieved: IN
+INFO 25-Feb-21 12:40:50 - SentIPIN
+INFO 25-Feb-21 12:40:51 - Parsed:IN
+INFO 25-Feb-21 12:40:51 - Logic queue recieved: IN
+INFO 25-Feb-21 12:40:52 - SentIPIN
+INFO 25-Feb-21 12:40:53 - Parsed:IN
+INFO 25-Feb-21 12:40:53 - Logic queue recieved: IN
+INFO 25-Feb-21 12:40:54 - SentIPIN
+INFO 25-Feb-21 12:40:55 - Parsed:IN
+INFO 25-Feb-21 12:40:55 - Logic queue recieved: IN
+INFO 25-Feb-21 12:40:56 - SentIPIN
+INFO 25-Feb-21 12:40:57 - Parsed:IN
+INFO 25-Feb-21 12:40:57 - Logic queue recieved: IN
+INFO 25-Feb-21 12:40:58 - SentIPIN
+INFO 25-Feb-21 12:40:59 - Parsed:IN
+INFO 25-Feb-21 12:40:59 - Logic queue recieved: IN
+INFO 25-Feb-21 12:41:00 - SentIPIN
+INFO 25-Feb-21 12:41:01 - Parsed:IN
+INFO 25-Feb-21 12:41:01 - Logic queue recieved: IN
+INFO 25-Feb-21 12:41:02 - SentIPIN
+INFO 25-Feb-21 12:41:03 - Parsed:IN
+INFO 25-Feb-21 12:41:03 - Logic queue recieved: IN
+INFO 25-Feb-21 12:41:04 - SentIPIN
+INFO 25-Feb-21 12:41:05 - Parsed:IN
+INFO 25-Feb-21 12:41:05 - Logic queue recieved: IN
+INFO 25-Feb-21 12:41:06 - SentIPIN
+INFO 25-Feb-21 12:41:07 - Parsed:IN
+INFO 25-Feb-21 12:41:07 - Logic queue recieved: IN
+INFO 25-Feb-21 12:41:08 - SentIPIN
+INFO 25-Feb-21 12:41:09 - Parsed:IN
+INFO 25-Feb-21 12:41:09 - Logic queue recieved: IN
+INFO 25-Feb-21 12:41:10 - SentIPIN
+INFO 25-Feb-21 12:41:11 - Parsed:IN
+INFO 25-Feb-21 12:41:11 - Logic queue recieved: IN
+INFO 25-Feb-21 12:41:12 - SentIPIN
+INFO 25-Feb-21 12:41:13 - Parsed:IN
+INFO 25-Feb-21 12:41:13 - Logic queue recieved: IN
+INFO 25-Feb-21 12:41:14 - SentIPIN
+INFO 25-Feb-21 12:41:15 - Parsed:IN
+INFO 25-Feb-21 12:41:15 - Logic queue recieved: IN
+INFO 25-Feb-21 12:41:16 - SentIPIN
+INFO 25-Feb-21 12:41:17 - Parsed:IN
+INFO 25-Feb-21 12:41:17 - Logic queue recieved: IN
+INFO 25-Feb-21 12:41:18 - SentIPIN
+INFO 25-Feb-21 12:41:19 - Parsed:IN
+INFO 25-Feb-21 12:41:19 - Logic queue recieved: IN
+INFO 25-Feb-21 12:41:20 - SentIPIN
+INFO 25-Feb-21 12:41:21 - Parsed:IN
+INFO 25-Feb-21 12:41:21 - Logic queue recieved: IN
+INFO 25-Feb-21 12:41:22 - SentIPIN
+INFO 25-Feb-21 12:41:23 - Parsed:IN
+INFO 25-Feb-21 12:41:23 - Logic queue recieved: IN
+INFO 25-Feb-21 12:41:24 - SentIPIN
+INFO 25-Feb-21 12:41:25 - Parsed:IN
+INFO 25-Feb-21 12:41:25 - Logic queue recieved: IN
+INFO 25-Feb-21 12:41:26 - SentIPIN
+INFO 25-Feb-21 12:41:27 - Parsed:IN
+INFO 25-Feb-21 12:41:27 - Logic queue recieved: IN
+INFO 25-Feb-21 12:41:28 - SentIPIN
+INFO 25-Feb-21 12:41:29 - Parsed:IN
+INFO 25-Feb-21 12:41:29 - Logic queue recieved: IN
+INFO 25-Feb-21 12:41:30 - SentIPIN
+INFO 25-Feb-21 12:41:31 - Parsed:IN
+INFO 25-Feb-21 12:41:31 - Logic queue recieved: IN
+INFO 25-Feb-21 12:41:32 - SentIPIN
+INFO 25-Feb-21 12:41:33 - Parsed:IN
+INFO 25-Feb-21 12:41:33 - Logic queue recieved: IN
+INFO 25-Feb-21 12:41:34 - SentIPIN
+INFO 25-Feb-21 12:41:35 - Parsed:IN
+INFO 25-Feb-21 12:41:35 - Logic queue recieved: IN
+INFO 25-Feb-21 12:41:36 - SentIPIN
+INFO 25-Feb-21 12:41:37 - Parsed:IN
+INFO 25-Feb-21 12:41:37 - Logic queue recieved: IN
+INFO 25-Feb-21 12:41:38 - SentIPIN
+INFO 25-Feb-21 12:41:39 - Parsed:IN
+INFO 25-Feb-21 12:41:39 - Logic queue recieved: IN
+INFO 25-Feb-21 12:41:40 - SentIPIN
+INFO 25-Feb-21 12:41:41 - Parsed:IN
+INFO 25-Feb-21 12:41:41 - Logic queue recieved: IN
+INFO 25-Feb-21 12:41:42 - SentIPIN
+INFO 25-Feb-21 12:41:43 - Parsed:IN
+INFO 25-Feb-21 12:41:43 - Logic queue recieved: IN
+INFO 25-Feb-21 12:41:44 - SentIPIN
+INFO 25-Feb-21 12:41:45 - Parsed:IN
+INFO 25-Feb-21 12:41:45 - Logic queue recieved: IN
+INFO 25-Feb-21 12:41:46 - SentIPIN
+INFO 25-Feb-21 12:41:47 - Parsed:IN
+INFO 25-Feb-21 12:41:47 - Logic queue recieved: IN
+INFO 25-Feb-21 12:41:48 - SentIPIN
+INFO 25-Feb-21 12:41:49 - Parsed:IN
+INFO 25-Feb-21 12:41:49 - Logic queue recieved: IN
+INFO 25-Feb-21 12:41:50 - SentIPIN
+INFO 25-Feb-21 12:41:51 - Parsed:IN
+INFO 25-Feb-21 12:41:51 - Logic queue recieved: IN
+INFO 25-Feb-21 12:41:52 - SentIPIN
+INFO 25-Feb-21 12:41:53 - Parsed:IN
+INFO 25-Feb-21 12:41:53 - Logic queue recieved: IN
+INFO 25-Feb-21 12:41:54 - SentIPIN
+INFO 25-Feb-21 12:41:55 - Parsed:IN
+INFO 25-Feb-21 12:41:55 - Logic queue recieved: IN
+INFO 25-Feb-21 12:41:56 - SentIPIN
+INFO 25-Feb-21 12:41:57 - Parsed:IN
+INFO 25-Feb-21 12:41:57 - Logic queue recieved: IN
+INFO 25-Feb-21 12:41:58 - SentIPIN
+INFO 25-Feb-21 12:41:59 - Parsed:IN
+INFO 25-Feb-21 12:41:59 - Logic queue recieved: IN
+INFO 25-Feb-21 12:42:00 - SentIPIN
+INFO 25-Feb-21 12:42:01 - Parsed:IN
+INFO 25-Feb-21 12:42:01 - Logic queue recieved: IN
+INFO 25-Feb-21 12:42:02 - SentIPIN
+INFO 25-Feb-21 12:42:03 - Parsed:IN
+INFO 25-Feb-21 12:42:03 - Logic queue recieved: IN
+INFO 25-Feb-21 12:42:04 - SentIPIN
+INFO 25-Feb-21 12:42:05 - Parsed:IN
+INFO 25-Feb-21 12:42:05 - Logic queue recieved: IN
+INFO 25-Feb-21 12:42:06 - SentIPIN
+INFO 25-Feb-21 12:42:07 - Parsed:IN
+INFO 25-Feb-21 12:42:07 - Logic queue recieved: IN
+INFO 25-Feb-21 12:42:08 - SentIPIN
+INFO 25-Feb-21 12:42:09 - Parsed:IN
+INFO 25-Feb-21 12:42:09 - Logic queue recieved: IN
+INFO 25-Feb-21 12:42:10 - SentIPIN
+INFO 25-Feb-21 12:42:11 - Parsed:IN
+INFO 25-Feb-21 12:42:11 - Logic queue recieved: IN
+INFO 25-Feb-21 12:42:12 - SentIPIN
+INFO 25-Feb-21 12:42:13 - Parsed:IN
+INFO 25-Feb-21 12:42:13 - Logic queue recieved: IN
+INFO 25-Feb-21 12:42:14 - SentIPIN
+INFO 25-Feb-21 12:42:15 - Parsed:IN
+INFO 25-Feb-21 12:42:15 - Logic queue recieved: IN
+INFO 25-Feb-21 12:42:16 - SentIPIN
+INFO 25-Feb-21 12:42:17 - Parsed:IN
+INFO 25-Feb-21 12:42:17 - Logic queue recieved: IN
+INFO 25-Feb-21 12:42:18 - SentIPIN
+INFO 25-Feb-21 12:42:19 - Parsed:IN
+INFO 25-Feb-21 12:42:19 - Logic queue recieved: IN
+INFO 25-Feb-21 12:42:20 - SentIPIN
+INFO 25-Feb-21 12:42:21 - Parsed:IN
+INFO 25-Feb-21 12:42:21 - Logic queue recieved: IN
+INFO 25-Feb-21 12:42:22 - SentIPIN
+INFO 25-Feb-21 12:42:23 - Parsed:IN
+INFO 25-Feb-21 12:42:23 - Logic queue recieved: IN
+INFO 25-Feb-21 12:42:24 - SentIPIN
+INFO 25-Feb-21 12:42:25 - Parsed:IN
+INFO 25-Feb-21 12:42:25 - Logic queue recieved: IN
+INFO 25-Feb-21 12:42:26 - SentIPIN
+INFO 25-Feb-21 12:42:27 - Parsed:IN
+INFO 25-Feb-21 12:42:27 - Logic queue recieved: IN
+INFO 25-Feb-21 12:42:28 - SentIPIN
+INFO 25-Feb-21 12:42:29 - Parsed:IN
+INFO 25-Feb-21 12:42:29 - Logic queue recieved: IN
+INFO 25-Feb-21 12:42:30 - SentIPIN
+INFO 25-Feb-21 12:42:31 - Parsed:IN
+INFO 25-Feb-21 12:42:31 - Logic queue recieved: IN
+INFO 25-Feb-21 12:42:32 - SentIPIN
+INFO 25-Feb-21 12:42:33 - Parsed:IN
+INFO 25-Feb-21 12:42:33 - Logic queue recieved: IN
+INFO 25-Feb-21 12:42:34 - SentIPIN
+INFO 25-Feb-21 12:42:35 - Parsed:IN
+INFO 25-Feb-21 12:42:35 - Logic queue recieved: IN
+INFO 25-Feb-21 12:42:36 - SentIPIN
+INFO 25-Feb-21 12:42:37 - Parsed:IN
+INFO 25-Feb-21 12:42:37 - Logic queue recieved: IN
+INFO 25-Feb-21 12:42:38 - SentIPIN
+INFO 25-Feb-21 12:42:39 - Parsed:IN
+INFO 25-Feb-21 12:42:39 - Logic queue recieved: IN
+INFO 25-Feb-21 12:42:40 - SentIPIN
+INFO 25-Feb-21 12:42:41 - Parsed:IN
+INFO 25-Feb-21 12:42:41 - Logic queue recieved: IN
+INFO 25-Feb-21 12:42:42 - SentIPIN
+INFO 25-Feb-21 12:42:43 - Parsed:IN
+INFO 25-Feb-21 12:42:43 - Logic queue recieved: IN
+INFO 25-Feb-21 12:42:44 - SentIPIN
+INFO 25-Feb-21 12:42:45 - Parsed:IN
+INFO 25-Feb-21 12:42:45 - Logic queue recieved: IN
+INFO 25-Feb-21 12:42:46 - SentIPIN
+INFO 25-Feb-21 12:42:47 - Parsed:IN
+INFO 25-Feb-21 12:42:47 - Logic queue recieved: IN
+INFO 25-Feb-21 12:42:48 - SentIPIN
+INFO 25-Feb-21 12:42:49 - Parsed:IN
+INFO 25-Feb-21 12:42:49 - Logic queue recieved: IN
+INFO 25-Feb-21 12:42:50 - SentIPIN
+INFO 25-Feb-21 12:42:51 - Parsed:IN
+INFO 25-Feb-21 12:42:51 - Logic queue recieved: IN
+INFO 25-Feb-21 12:42:52 - SentIPIN
+INFO 25-Feb-21 12:42:53 - Parsed:IN
+INFO 25-Feb-21 12:42:53 - Logic queue recieved: IN
+INFO 25-Feb-21 12:42:54 - SentIPIN
+INFO 25-Feb-21 12:42:55 - Parsed:IN
+INFO 25-Feb-21 12:42:55 - Logic queue recieved: IN
+INFO 25-Feb-21 12:42:56 - SentIPIN
+INFO 25-Feb-21 12:42:57 - Parsed:IN
+INFO 25-Feb-21 12:42:57 - Logic queue recieved: IN
+INFO 25-Feb-21 12:42:58 - SentIPIN
+INFO 25-Feb-21 12:42:59 - Parsed:IN
+INFO 25-Feb-21 12:42:59 - Logic queue recieved: IN
+INFO 25-Feb-21 12:43:00 - SentIPIN
+INFO 25-Feb-21 12:43:01 - Parsed:IN
+INFO 25-Feb-21 12:43:01 - Logic queue recieved: IN
+INFO 25-Feb-21 12:43:02 - SentIPIN
+INFO 25-Feb-21 12:43:03 - Parsed:IN
+INFO 25-Feb-21 12:43:03 - Logic queue recieved: IN
+INFO 25-Feb-21 12:43:04 - SentIPIN
+INFO 25-Feb-21 12:43:05 - Parsed:IN
+INFO 25-Feb-21 12:43:05 - Logic queue recieved: IN
+INFO 25-Feb-21 12:43:06 - SentIPIN
+INFO 25-Feb-21 12:43:07 - Parsed:IN
+INFO 25-Feb-21 12:43:07 - Logic queue recieved: IN
+INFO 25-Feb-21 12:43:08 - SentIPIN
+INFO 25-Feb-21 12:43:09 - Parsed:IN
+INFO 25-Feb-21 12:43:09 - Logic queue recieved: IN
+INFO 25-Feb-21 12:43:10 - SentIPIN
+INFO 25-Feb-21 12:43:11 - Parsed:IN
+INFO 25-Feb-21 12:43:11 - Logic queue recieved: IN
+INFO 25-Feb-21 12:43:12 - SentIPIN
+INFO 25-Feb-21 12:43:13 - Parsed:IN
+INFO 25-Feb-21 12:43:13 - Logic queue recieved: IN
+INFO 25-Feb-21 12:43:14 - SentIPIN
+INFO 25-Feb-21 12:43:15 - Parsed:IN
+INFO 25-Feb-21 12:43:15 - Logic queue recieved: IN
+INFO 25-Feb-21 12:43:16 - SentIPIN
+INFO 25-Feb-21 12:43:17 - Parsed:IN
+INFO 25-Feb-21 12:43:17 - Logic queue recieved: IN
+INFO 25-Feb-21 12:43:18 - SentIPIN
+INFO 25-Feb-21 12:43:19 - Parsed:IN
+INFO 25-Feb-21 12:43:19 - Logic queue recieved: IN
+INFO 25-Feb-21 12:43:20 - SentIPIN
+INFO 25-Feb-21 12:43:21 - Parsed:IN
+INFO 25-Feb-21 12:43:21 - Logic queue recieved: IN
+INFO 25-Feb-21 12:43:22 - SentIPIN
+INFO 25-Feb-21 12:43:23 - Parsed:IN
+INFO 25-Feb-21 12:43:23 - Logic queue recieved: IN
+INFO 25-Feb-21 12:43:24 - SentIPIN
+INFO 25-Feb-21 12:43:25 - Parsed:IN
+INFO 25-Feb-21 12:43:25 - Logic queue recieved: IN
+INFO 25-Feb-21 12:43:26 - SentIPIN
+INFO 25-Feb-21 12:43:27 - Parsed:IN
+INFO 25-Feb-21 12:43:27 - Logic queue recieved: IN
+INFO 25-Feb-21 12:43:28 - SentIPIN
+INFO 25-Feb-21 12:43:29 - Parsed:IN
+INFO 25-Feb-21 12:43:29 - Logic queue recieved: IN
+INFO 25-Feb-21 12:43:30 - SentIPIN
+INFO 25-Feb-21 12:43:31 - Parsed:IN
+INFO 25-Feb-21 12:43:31 - Logic queue recieved: IN
+INFO 25-Feb-21 12:43:32 - SentIPIN
+INFO 25-Feb-21 12:43:33 - Parsed:IN
+INFO 25-Feb-21 12:43:33 - Logic queue recieved: IN
+INFO 25-Feb-21 12:43:34 - SentIPIN
+INFO 25-Feb-21 12:43:35 - Parsed:IN
+INFO 25-Feb-21 12:43:35 - Logic queue recieved: IN
+INFO 25-Feb-21 12:43:36 - SentIPIN
+INFO 25-Feb-21 12:43:37 - Parsed:IN
+INFO 25-Feb-21 12:43:37 - Logic queue recieved: IN
+INFO 25-Feb-21 12:43:38 - SentIPIN
+INFO 25-Feb-21 12:43:39 - Parsed:IN
+INFO 25-Feb-21 12:43:39 - Logic queue recieved: IN
+INFO 25-Feb-21 12:43:40 - SentIPIN
+INFO 25-Feb-21 12:43:41 - Parsed:IN
+INFO 25-Feb-21 12:43:41 - Logic queue recieved: IN
+INFO 25-Feb-21 12:43:42 - SentIPIN
+INFO 25-Feb-21 12:43:43 - Parsed:IN
+INFO 25-Feb-21 12:43:43 - Logic queue recieved: IN
+INFO 25-Feb-21 12:43:44 - SentIPIN
+INFO 25-Feb-21 12:43:45 - Parsed:IN
+INFO 25-Feb-21 12:43:45 - Logic queue recieved: IN
+INFO 25-Feb-21 12:43:46 - SentIPIN
+INFO 25-Feb-21 12:43:47 - Parsed:IN
+INFO 25-Feb-21 12:43:47 - Logic queue recieved: IN
+INFO 25-Feb-21 12:43:48 - SentIPIN
+INFO 25-Feb-21 12:43:49 - Parsed:IN
+INFO 25-Feb-21 12:43:49 - Logic queue recieved: IN
+INFO 25-Feb-21 12:43:50 - SentIPIN
+INFO 25-Feb-21 12:43:51 - Parsed:IN
+INFO 25-Feb-21 12:43:51 - Logic queue recieved: IN
+INFO 25-Feb-21 12:43:52 - SentIPIN
+INFO 25-Feb-21 12:43:53 - Parsed:IN
+INFO 25-Feb-21 12:43:53 - Logic queue recieved: IN
+INFO 25-Feb-21 12:43:54 - SentIPIN
+INFO 25-Feb-21 12:43:55 - Parsed:IN
+INFO 25-Feb-21 12:43:55 - Logic queue recieved: IN
+INFO 25-Feb-21 12:43:56 - SentIPIN
+INFO 25-Feb-21 12:43:57 - Parsed:IN
+INFO 25-Feb-21 12:43:57 - Logic queue recieved: IN
+INFO 25-Feb-21 12:43:58 - SentIPIN
+INFO 25-Feb-21 12:43:59 - Parsed:IN
+INFO 25-Feb-21 12:43:59 - Logic queue recieved: IN
+INFO 25-Feb-21 12:44:00 - SentIPIN
+INFO 25-Feb-21 12:44:01 - Parsed:IN
+INFO 25-Feb-21 12:44:01 - Logic queue recieved: IN
+INFO 25-Feb-21 12:44:02 - SentIPIN
+INFO 25-Feb-21 12:44:03 - Parsed:IN
+INFO 25-Feb-21 12:44:03 - Logic queue recieved: IN
+INFO 25-Feb-21 12:44:04 - SentIPIN
+INFO 25-Feb-21 12:44:05 - Parsed:IN
+INFO 25-Feb-21 12:44:05 - Logic queue recieved: IN
+INFO 25-Feb-21 12:44:06 - SentIPIN
+INFO 25-Feb-21 12:44:07 - Parsed:IN
+INFO 25-Feb-21 12:44:07 - Logic queue recieved: IN
+INFO 25-Feb-21 12:44:08 - SentIPIN
+INFO 25-Feb-21 12:44:09 - Parsed:IN
+INFO 25-Feb-21 12:44:09 - Logic queue recieved: IN
+INFO 25-Feb-21 12:44:10 - SentIPIN
+INFO 25-Feb-21 12:44:11 - Parsed:IN
+INFO 25-Feb-21 12:44:11 - Logic queue recieved: IN
+INFO 25-Feb-21 12:44:12 - SentIPIN
+INFO 25-Feb-21 12:44:13 - Parsed:IN
+INFO 25-Feb-21 12:44:13 - Logic queue recieved: IN
+INFO 25-Feb-21 12:44:14 - SentIPIN
+INFO 25-Feb-21 12:44:15 - Parsed:IN
+INFO 25-Feb-21 12:44:15 - Logic queue recieved: IN
+INFO 25-Feb-21 12:44:16 - SentIPIN
+INFO 25-Feb-21 12:44:17 - Parsed:IN
+INFO 25-Feb-21 12:44:17 - Logic queue recieved: IN
+INFO 25-Feb-21 12:44:18 - SentIPIN
+INFO 25-Feb-21 12:44:19 - Parsed:IN
+INFO 25-Feb-21 12:44:19 - Logic queue recieved: IN
+INFO 25-Feb-21 12:44:20 - SentIPIN
+INFO 25-Feb-21 12:44:21 - Parsed:IN
+INFO 25-Feb-21 12:44:21 - Logic queue recieved: IN
+INFO 25-Feb-21 12:44:22 - SentIPIN
+INFO 25-Feb-21 12:44:23 - Parsed:IN
+INFO 25-Feb-21 12:44:23 - Logic queue recieved: IN
+INFO 25-Feb-21 12:44:24 - SentIPIN
+INFO 25-Feb-21 12:44:25 - Parsed:IN
+INFO 25-Feb-21 12:44:25 - Logic queue recieved: IN
+INFO 25-Feb-21 12:44:26 - SentIPIN
+INFO 25-Feb-21 12:44:27 - Parsed:IN
+INFO 25-Feb-21 12:44:27 - Logic queue recieved: IN
+INFO 25-Feb-21 12:44:28 - SentIPIN
+INFO 25-Feb-21 12:44:29 - Parsed:IN
+INFO 25-Feb-21 12:44:29 - Logic queue recieved: IN
+INFO 25-Feb-21 12:44:30 - SentIPIN
+INFO 25-Feb-21 12:44:31 - Parsed:IN
+INFO 25-Feb-21 12:44:31 - Logic queue recieved: IN
+INFO 25-Feb-21 12:44:32 - SentIPIN
+INFO 25-Feb-21 12:44:33 - Parsed:IN
+INFO 25-Feb-21 12:44:33 - Logic queue recieved: IN
+INFO 25-Feb-21 12:44:34 - SentIPIN
+INFO 25-Feb-21 12:44:35 - Parsed:IN
+INFO 25-Feb-21 12:44:35 - Logic queue recieved: IN
+INFO 25-Feb-21 12:44:36 - SentIPIN
+INFO 25-Feb-21 12:44:37 - Parsed:IN
+INFO 25-Feb-21 12:44:37 - Logic queue recieved: IN
+INFO 25-Feb-21 12:44:38 - SentIPIN
+INFO 25-Feb-21 12:44:39 - Parsed:IN
+INFO 25-Feb-21 12:44:39 - Logic queue recieved: IN
+INFO 25-Feb-21 12:44:40 - SentIPIN
+INFO 25-Feb-21 12:44:41 - Parsed:IN
+INFO 25-Feb-21 12:44:41 - Logic queue recieved: IN
+INFO 25-Feb-21 12:44:42 - SentIPIN
+INFO 25-Feb-21 12:44:43 - Parsed:IN
+INFO 25-Feb-21 12:44:43 - Logic queue recieved: IN
+INFO 25-Feb-21 12:44:44 - SentIPIN
+INFO 25-Feb-21 12:44:45 - Parsed:IN
+INFO 25-Feb-21 12:44:45 - Logic queue recieved: IN
+INFO 25-Feb-21 12:44:46 - SentIPIN
+INFO 25-Feb-21 12:44:47 - Parsed:IN
+INFO 25-Feb-21 12:44:47 - Logic queue recieved: IN
+INFO 25-Feb-21 12:44:48 - SentIPIN
+INFO 25-Feb-21 12:44:49 - Parsed:IN
+INFO 25-Feb-21 12:44:49 - Logic queue recieved: IN
+INFO 25-Feb-21 12:44:50 - SentIPIN
+INFO 25-Feb-21 12:44:51 - Parsed:IN
+INFO 25-Feb-21 12:44:51 - Logic queue recieved: IN
+INFO 25-Feb-21 12:44:52 - SentIPIN
+INFO 25-Feb-21 12:44:53 - Parsed:IN
+INFO 25-Feb-21 12:44:53 - Logic queue recieved: IN
+INFO 25-Feb-21 12:44:54 - SentIPIN
+INFO 25-Feb-21 12:44:55 - Parsed:IN
+INFO 25-Feb-21 12:44:55 - Logic queue recieved: IN
+INFO 25-Feb-21 12:44:56 - SentIPIN
+INFO 25-Feb-21 12:44:57 - Parsed:IN
+INFO 25-Feb-21 12:44:57 - Logic queue recieved: IN
+INFO 25-Feb-21 12:44:58 - SentIPIN
+INFO 25-Feb-21 12:44:59 - Parsed:IN
+INFO 25-Feb-21 12:44:59 - Logic queue recieved: IN
+INFO 25-Feb-21 12:45:00 - SentIPIN
+INFO 25-Feb-21 12:45:01 - Parsed:IN
+INFO 25-Feb-21 12:45:01 - Logic queue recieved: IN
+INFO 25-Feb-21 12:45:02 - SentIPIN
+INFO 25-Feb-21 12:45:03 - Parsed:IN
+INFO 25-Feb-21 12:45:03 - Logic queue recieved: IN
+INFO 25-Feb-21 12:45:04 - SentIPIN
+INFO 25-Feb-21 12:45:05 - Parsed:IN
+INFO 25-Feb-21 12:45:05 - Logic queue recieved: IN
+INFO 25-Feb-21 12:45:06 - SentIPIN
+INFO 25-Feb-21 12:45:07 - Parsed:IN
+INFO 25-Feb-21 12:45:07 - Logic queue recieved: IN
+INFO 25-Feb-21 12:45:08 - SentIPIN
+INFO 25-Feb-21 12:45:09 - Parsed:IN
+INFO 25-Feb-21 12:45:09 - Logic queue recieved: IN
+INFO 25-Feb-21 12:45:10 - SentIPIN
+INFO 25-Feb-21 12:45:11 - Parsed:IN
+INFO 25-Feb-21 12:45:11 - Logic queue recieved: IN
+INFO 25-Feb-21 12:45:12 - SentIPIN
+INFO 25-Feb-21 12:45:13 - Parsed:IN
+INFO 25-Feb-21 12:45:13 - Logic queue recieved: IN
+INFO 25-Feb-21 12:45:14 - SentIPIN
+INFO 25-Feb-21 12:45:15 - Parsed:IN
+INFO 25-Feb-21 12:45:15 - Logic queue recieved: IN
+INFO 25-Feb-21 12:45:16 - SentIPIN
+INFO 25-Feb-21 12:45:17 - Parsed:IN
+INFO 25-Feb-21 12:45:17 - Logic queue recieved: IN
+INFO 25-Feb-21 12:45:18 - SentIPIN
+INFO 25-Feb-21 12:45:19 - Parsed:IN
+INFO 25-Feb-21 12:45:19 - Logic queue recieved: IN
+INFO 25-Feb-21 12:45:20 - SentIPIN
+INFO 25-Feb-21 12:45:21 - Parsed:IN
+INFO 25-Feb-21 12:45:21 - Logic queue recieved: IN
+INFO 25-Feb-21 12:45:22 - SentIPIN
+INFO 25-Feb-21 12:45:23 - Parsed:IN
+INFO 25-Feb-21 12:45:23 - Logic queue recieved: IN
+INFO 25-Feb-21 12:45:24 - SentIPIN
+INFO 25-Feb-21 12:45:25 - Parsed:IN
+INFO 25-Feb-21 12:45:25 - Logic queue recieved: IN
+INFO 25-Feb-21 12:45:26 - SentIPIN
+INFO 25-Feb-21 12:45:27 - Parsed:IN
+INFO 25-Feb-21 12:45:27 - Logic queue recieved: IN
+INFO 25-Feb-21 12:45:28 - SentIPIN
+INFO 25-Feb-21 12:45:29 - Parsed:IN
+INFO 25-Feb-21 12:45:29 - Logic queue recieved: IN
+INFO 25-Feb-21 12:45:30 - SentIPIN
+INFO 25-Feb-21 12:45:31 - Parsed:IN
+INFO 25-Feb-21 12:45:31 - Logic queue recieved: IN
+INFO 25-Feb-21 12:45:32 - SentIPIN
+INFO 25-Feb-21 12:45:33 - Parsed:IN
+INFO 25-Feb-21 12:45:33 - Logic queue recieved: IN
+INFO 25-Feb-21 12:45:34 - SentIPIN
+INFO 25-Feb-21 12:45:35 - Parsed:IN
+INFO 25-Feb-21 12:45:35 - Logic queue recieved: IN
+INFO 25-Feb-21 12:45:36 - SentIPIN
+INFO 25-Feb-21 12:45:37 - Parsed:IN
+INFO 25-Feb-21 12:45:37 - Logic queue recieved: IN
+INFO 25-Feb-21 12:45:38 - SentIPIN
+INFO 25-Feb-21 12:45:39 - Parsed:IN
+INFO 25-Feb-21 12:45:39 - Logic queue recieved: IN
+INFO 25-Feb-21 12:45:40 - SentIPIN
+INFO 25-Feb-21 12:45:41 - Parsed:IN
+INFO 25-Feb-21 12:45:41 - Logic queue recieved: IN
+INFO 25-Feb-21 12:45:42 - SentIPIN
+INFO 25-Feb-21 12:45:43 - Parsed:IN
+INFO 25-Feb-21 12:45:43 - Logic queue recieved: IN
+WARNING 25-Feb-21 12:46:46 - Started
+INFO 25-Feb-21 12:46:46 - Parser Thread Started successfully
+INFO 25-Feb-21 12:46:47 - Serial Listner Thread started
+INFO 25-Feb-21 12:46:47 - Starting logger
+INFO 25-Feb-21 12:46:49 - Started scan for BLE devices
+INFO 25-Feb-21 12:46:59 - Scan complete
+INFO 25-Feb-21 12:47:01 - Attempting to Connect to:f9:9b:81:05:de:e7
+INFO 25-Feb-21 12:47:04 - Connected to: f9:9b:81:05:de:e7
+INFO 25-Feb-21 12:47:05 - Starting connection check
+INFO 25-Feb-21 12:47:05 - Starting HB sender timer
+INFO 25-Feb-21 12:47:05 - SentIPHB
+INFO 25-Feb-21 12:47:05 - Logic queue recieved: SSSHB
+INFO 25-Feb-21 12:47:05 - Parsed:HB
+
+INFO 25-Feb-21 12:47:05 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:47:07 - SentIPHB
+INFO 25-Feb-21 12:47:07 - Logic queue recieved: SSSHB
+INFO 25-Feb-21 12:47:07 - Parsed:HB
+
+INFO 25-Feb-21 12:47:08 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:47:10 - SentIPHB
+INFO 25-Feb-21 12:47:10 - Logic queue recieved: SSSHB
+INFO 25-Feb-21 12:47:10 - Parsed:HB
+
+INFO 25-Feb-21 12:47:10 - Logic queue recieved: HB
+
+WARNING 25-Feb-21 12:47:11 - Starting Bolus Delivery
+INFO 25-Feb-21 12:47:14 - SentIPIN
+INFO 25-Feb-21 12:47:15 - Parsed:IN
+INFO 25-Feb-21 12:47:16 - Logic queue recieved: IN
+INFO 25-Feb-21 12:47:16 - SentIPIN
+INFO 25-Feb-21 12:47:17 - Parsed:IN
+INFO 25-Feb-21 12:47:18 - Logic queue recieved: IN
+INFO 25-Feb-21 12:47:18 - SentIPIN
+INFO 25-Feb-21 12:47:20 - Parsed:IN
+INFO 25-Feb-21 12:47:20 - Logic queue recieved: IN
+INFO 25-Feb-21 12:47:20 - SentIPIN
+INFO 25-Feb-21 12:47:22 - Parsed:IN
+INFO 25-Feb-21 12:47:22 - Logic queue recieved: IN
+INFO 25-Feb-21 12:47:22 - SentIPIN
+INFO 25-Feb-21 12:47:23 - Parsed:IN
+INFO 25-Feb-21 12:47:24 - Logic queue recieved: IN
+INFO 25-Feb-21 12:47:24 - SentIPIN
+INFO 25-Feb-21 12:47:25 - Parsed:IN
+INFO 25-Feb-21 12:47:26 - Logic queue recieved: IN
+INFO 25-Feb-21 12:47:26 - SentIPIN
+INFO 25-Feb-21 12:47:28 - Parsed:IN
+INFO 25-Feb-21 12:47:28 - Logic queue recieved: IN
+INFO 25-Feb-21 12:47:28 - SentIPIN
+INFO 25-Feb-21 12:47:30 - Parsed:IN
+INFO 25-Feb-21 12:47:30 - Logic queue recieved: IN
+INFO 25-Feb-21 12:47:30 - SentIPIN
+INFO 25-Feb-21 12:47:31 - Parsed:IN
+INFO 25-Feb-21 12:47:32 - Logic queue recieved: IN
+INFO 25-Feb-21 12:47:32 - SentIPIN
+INFO 25-Feb-21 12:47:33 - Parsed:IN
+INFO 25-Feb-21 12:47:34 - Logic queue recieved: IN
+INFO 25-Feb-21 12:47:34 - SentIPIN
+INFO 25-Feb-21 12:47:35 - Parsed:IN
+INFO 25-Feb-21 12:47:36 - Logic queue recieved: IN
+WARNING 25-Feb-21 12:47:36 - Completed Bolus Delivery
+WARNING 25-Feb-21 12:47:43 - Starting Bolus Delivery
+WARNING 25-Feb-21 12:55:59 - Started
+INFO 25-Feb-21 12:55:59 - Starting logger
+INFO 25-Feb-21 12:55:59 - Serial Listner Thread started
+INFO 25-Feb-21 12:55:59 - Parser Thread Started successfully
+INFO 25-Feb-21 12:56:01 - Started scan for BLE devices
+INFO 25-Feb-21 12:56:11 - Scan complete
+INFO 25-Feb-21 12:56:15 - Attempting to Connect to:f9:9b:81:05:de:e7
+INFO 25-Feb-21 12:56:19 - Connected to: f9:9b:81:05:de:e7
+INFO 25-Feb-21 12:56:20 - Starting connection check
+INFO 25-Feb-21 12:56:20 - Starting HB sender timer
+INFO 25-Feb-21 12:56:20 - SentIPHB
+INFO 25-Feb-21 12:56:20 - Logic queue recieved: SSSHB
+INFO 25-Feb-21 12:56:20 - Parsed:HB
+
+INFO 25-Feb-21 12:56:20 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:56:22 - Logic queue recieved: SSSHB
+INFO 25-Feb-21 12:56:22 - SentIPHB
+INFO 25-Feb-21 12:56:22 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:56:23 - Parsed:HB
+
+INFO 25-Feb-21 12:56:25 - SentIPHB
+INFO 25-Feb-21 12:56:25 - Logic queue recieved: SSSHB
+INFO 25-Feb-21 12:56:25 - Parsed:HB
+
+INFO 25-Feb-21 12:56:25 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:56:27 - Logic queue recieved: SSSHB
+INFO 25-Feb-21 12:56:27 - SentIPHB
+INFO 25-Feb-21 12:56:27 - Parsed:HB
+
+INFO 25-Feb-21 12:56:27 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:56:29 - SentIPHB
+INFO 25-Feb-21 12:56:29 - Logic queue recieved: SSSHB
+INFO 25-Feb-21 12:56:29 - Parsed:HB
+
+INFO 25-Feb-21 12:56:29 - Logic queue recieved: HB
+
+WARNING 25-Feb-21 12:56:31 - Starting Bolus Delivery
+INFO 25-Feb-21 12:56:34 - SentIPIN
+INFO 25-Feb-21 12:56:35 - Parsed:IN
+INFO 25-Feb-21 12:56:35 - Logic queue recieved: IN
+INFO 25-Feb-21 12:56:36 - SentIPIN
+INFO 25-Feb-21 12:56:37 - Parsed:IN
+INFO 25-Feb-21 12:56:37 - Logic queue recieved: IN
+INFO 25-Feb-21 12:56:38 - SentIPIN
+INFO 25-Feb-21 12:56:39 - Parsed:IN
+INFO 25-Feb-21 12:56:39 - Logic queue recieved: IN
+INFO 25-Feb-21 12:56:40 - SentIPIN
+INFO 25-Feb-21 12:56:41 - Parsed:IN
+INFO 25-Feb-21 12:56:41 - Logic queue recieved: IN
+INFO 25-Feb-21 12:56:42 - SentIPIN
+INFO 25-Feb-21 12:56:43 - Parsed:IN
+INFO 25-Feb-21 12:56:43 - Logic queue recieved: IN
+INFO 25-Feb-21 12:56:44 - SentIPIN
+INFO 25-Feb-21 12:56:45 - Parsed:IN
+INFO 25-Feb-21 12:56:45 - Logic queue recieved: IN
+INFO 25-Feb-21 12:56:46 - SentIPIN
+INFO 25-Feb-21 12:56:47 - Parsed:IN
+INFO 25-Feb-21 12:56:47 - Logic queue recieved: IN
+INFO 25-Feb-21 12:56:48 - SentIPIN
+INFO 25-Feb-21 12:56:49 - Parsed:IN
+INFO 25-Feb-21 12:56:49 - Logic queue recieved: IN
+INFO 25-Feb-21 12:56:50 - SentIPIN
+INFO 25-Feb-21 12:56:51 - Parsed:IN
+INFO 25-Feb-21 12:56:51 - Logic queue recieved: IN
+INFO 25-Feb-21 12:56:52 - SentIPIN
+INFO 25-Feb-21 12:56:53 - Parsed:IN
+INFO 25-Feb-21 12:56:53 - Logic queue recieved: IN
+INFO 25-Feb-21 12:56:54 - SentIPIN
+INFO 25-Feb-21 12:56:55 - Parsed:IN
+INFO 25-Feb-21 12:56:55 - Logic queue recieved: IN
+WARNING 25-Feb-21 12:56:55 - Completed Bolus Delivery
+WARNING 25-Feb-21 12:57:41 - Started
+INFO 25-Feb-21 12:57:41 - Starting logger
+INFO 25-Feb-21 12:57:41 - Serial Listner Thread started
+INFO 25-Feb-21 12:57:41 - Parser Thread Started successfully
+INFO 25-Feb-21 12:57:43 - Started scan for BLE devices
+INFO 25-Feb-21 12:57:53 - Scan complete
+INFO 25-Feb-21 12:57:56 - Attempting to Connect to:f9:9b:81:05:de:e7
+INFO 25-Feb-21 12:58:16 - Attempting to Connect to:f9:9b:81:05:de:e7
+INFO 25-Feb-21 12:58:19 - Connected to: f9:9b:81:05:de:e7
+INFO 25-Feb-21 12:58:19 - Starting connection check
+INFO 25-Feb-21 12:58:19 - Starting HB sender timer
+INFO 25-Feb-21 12:58:20 - Logic queue recieved: SSSHB
+INFO 25-Feb-21 12:58:20 - SentIPHB
+INFO 25-Feb-21 12:58:20 - Parsed:HB
+
+INFO 25-Feb-21 12:58:20 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:58:22 - SentIPHB
+INFO 25-Feb-21 12:58:22 - Logic queue recieved: SSSHB
+INFO 25-Feb-21 12:58:22 - Parsed:HB
+
+INFO 25-Feb-21 12:58:22 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:58:24 - SentIPHB
+INFO 25-Feb-21 12:58:24 - Logic queue recieved: SSSHB
+INFO 25-Feb-21 12:58:24 - Parsed:HB
+
+INFO 25-Feb-21 12:58:25 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:58:26 - SentIPHB
+INFO 25-Feb-21 12:58:26 - Logic queue recieved: SSSHB
+INFO 25-Feb-21 12:58:27 - Parsed:HB
+
+INFO 25-Feb-21 12:58:27 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:58:29 - SentIPHB
+INFO 25-Feb-21 12:58:29 - Logic queue recieved: SSSHB
+INFO 25-Feb-21 12:58:29 - Parsed:HB
+
+INFO 25-Feb-21 12:58:29 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:58:31 - SentIPHB
+INFO 25-Feb-21 12:58:31 - Logic queue recieved: SSSHB
+INFO 25-Feb-21 12:58:31 - Parsed:HB
+
+INFO 25-Feb-21 12:58:31 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:58:33 - SentIPHB
+INFO 25-Feb-21 12:58:33 - Logic queue recieved: SSSHB
+INFO 25-Feb-21 12:58:33 - Parsed:HB
+
+INFO 25-Feb-21 12:58:34 - Logic queue recieved: HB
+
+INFO 25-Feb-21 12:58:35 - SentIPHB
+INFO 25-Feb-21 12:58:35 - Logic queue recieved: SSSHB
+INFO 25-Feb-21 12:58:36 - Parsed:HB
+
+INFO 25-Feb-21 12:58:36 - Logic queue recieved: HB
+
+WARNING 25-Feb-21 12:58:38 - Starting Bolus Delivery
+INFO 25-Feb-21 12:58:41 - SentIPIN
+INFO 25-Feb-21 12:58:42 - Parsed:IN
+INFO 25-Feb-21 12:58:42 - Logic queue recieved: IN
+INFO 25-Feb-21 12:58:43 - SentIPIN
+INFO 25-Feb-21 12:58:44 - Parsed:IN
+INFO 25-Feb-21 12:58:44 - Logic queue recieved: IN
+INFO 25-Feb-21 12:58:45 - SentIPIN
+INFO 25-Feb-21 12:58:46 - Parsed:IN
+INFO 25-Feb-21 12:58:46 - Logic queue recieved: IN
+INFO 25-Feb-21 12:58:47 - SentIPIN
+INFO 25-Feb-21 12:58:48 - Parsed:IN
+INFO 25-Feb-21 12:58:48 - Logic queue recieved: IN
+INFO 25-Feb-21 12:58:49 - SentIPIN
+INFO 25-Feb-21 12:58:50 - Parsed:IN
+INFO 25-Feb-21 12:58:50 - Logic queue recieved: IN
+INFO 25-Feb-21 12:58:51 - SentIPIN
+INFO 25-Feb-21 12:58:52 - Parsed:IN
+INFO 25-Feb-21 12:58:52 - Logic queue recieved: IN
+INFO 25-Feb-21 12:58:53 - SentIPIN
+INFO 25-Feb-21 12:58:54 - Parsed:IN
+INFO 25-Feb-21 12:58:54 - Logic queue recieved: IN
+INFO 25-Feb-21 12:58:55 - SentIPIN
+INFO 25-Feb-21 12:58:56 - Parsed:IN
+INFO 25-Feb-21 12:58:56 - Logic queue recieved: IN
+INFO 25-Feb-21 12:58:57 - SentIPIN
+INFO 25-Feb-21 12:58:58 - Parsed:IN
+INFO 25-Feb-21 12:58:58 - Logic queue recieved: IN
+INFO 25-Feb-21 12:58:59 - SentIPIN
+INFO 25-Feb-21 12:59:00 - Parsed:IN
+INFO 25-Feb-21 12:59:00 - Logic queue recieved: IN
+INFO 25-Feb-21 12:59:01 - SentIPIN
+INFO 25-Feb-21 12:59:02 - Parsed:IN
+INFO 25-Feb-21 12:59:02 - Logic queue recieved: IN
+WARNING 25-Feb-21 12:59:02 - Completed Bolus Delivery
+INFO 25-Feb-21 12:59:03 - SentIPIN
+INFO 25-Feb-21 12:59:04 - Parsed:IN
+INFO 25-Feb-21 12:59:04 - Logic queue recieved: IN
+WARNING 25-Feb-21 12:59:04 - Completed Bolus Delivery
+INFO 25-Feb-21 12:59:05 - SentIPIN
+INFO 25-Feb-21 12:59:06 - Parsed:IN
+INFO 25-Feb-21 12:59:06 - Logic queue recieved: IN
+WARNING 25-Feb-21 12:59:06 - Completed Bolus Delivery
+INFO 25-Feb-21 12:59:07 - SentIPIN
+INFO 25-Feb-21 12:59:08 - Parsed:IN
+INFO 25-Feb-21 12:59:08 - Logic queue recieved: IN
+WARNING 25-Feb-21 12:59:08 - Completed Bolus Delivery
+INFO 25-Feb-21 12:59:09 - SentIPIN
+INFO 25-Feb-21 12:59:10 - Parsed:IN
+INFO 25-Feb-21 12:59:10 - Logic queue recieved: IN
+WARNING 25-Feb-21 12:59:10 - Completed Bolus Delivery
+INFO 25-Feb-21 12:59:11 - SentIPIN
+INFO 25-Feb-21 12:59:12 - Parsed:IN
+INFO 25-Feb-21 12:59:12 - Logic queue recieved: IN
+WARNING 25-Feb-21 12:59:12 - Completed Bolus Delivery
+INFO 25-Feb-21 12:59:13 - SentIPIN
+INFO 25-Feb-21 12:59:14 - Parsed:IN
+INFO 25-Feb-21 12:59:14 - Logic queue recieved: IN
+WARNING 25-Feb-21 12:59:14 - Completed Bolus Delivery
+INFO 25-Feb-21 12:59:15 - SentIPIN
+INFO 25-Feb-21 12:59:16 - Parsed:IN
+INFO 25-Feb-21 12:59:16 - Logic queue recieved: IN
+WARNING 25-Feb-21 12:59:16 - Completed Bolus Delivery
+INFO 25-Feb-21 12:59:17 - SentIPIN
+INFO 25-Feb-21 12:59:18 - Parsed:IN
+INFO 25-Feb-21 12:59:18 - Logic queue recieved: IN
+WARNING 25-Feb-21 12:59:18 - Completed Bolus Delivery
+INFO 25-Feb-21 12:59:19 - SentIPIN
+INFO 25-Feb-21 12:59:20 - Parsed:IN
+INFO 25-Feb-21 12:59:20 - Logic queue recieved: IN
+WARNING 25-Feb-21 12:59:20 - Completed Bolus Delivery
+INFO 25-Feb-21 12:59:21 - SentIPIN
+INFO 25-Feb-21 12:59:22 - Parsed:IN
+INFO 25-Feb-21 12:59:22 - Logic queue recieved: IN
+WARNING 25-Feb-21 12:59:22 - Completed Bolus Delivery
+INFO 25-Feb-21 12:59:23 - SentIPIN
+INFO 25-Feb-21 12:59:24 - Parsed:IN
+INFO 25-Feb-21 12:59:24 - Logic queue recieved: IN
+WARNING 25-Feb-21 12:59:24 - Completed Bolus Delivery
+INFO 25-Feb-21 12:59:25 - SentIPIN
+INFO 25-Feb-21 12:59:26 - Parsed:IN
+INFO 25-Feb-21 12:59:26 - Logic queue recieved: IN
+WARNING 25-Feb-21 12:59:26 - Completed Bolus Delivery
+INFO 25-Feb-21 12:59:27 - SentIPIN
+INFO 25-Feb-21 12:59:28 - Parsed:IN
+INFO 25-Feb-21 12:59:28 - Logic queue recieved: IN
+WARNING 25-Feb-21 12:59:28 - Completed Bolus Delivery
+INFO 25-Feb-21 12:59:29 - SentIPIN
+INFO 25-Feb-21 12:59:30 - Parsed:IN
+INFO 25-Feb-21 12:59:30 - Logic queue recieved: IN
+WARNING 25-Feb-21 12:59:30 - Completed Bolus Delivery
+INFO 25-Feb-21 12:59:31 - SentIPIN
+INFO 25-Feb-21 12:59:32 - Parsed:IN
+INFO 25-Feb-21 12:59:32 - Logic queue recieved: IN
+WARNING 25-Feb-21 12:59:32 - Completed Bolus Delivery
+INFO 25-Feb-21 12:59:33 - SentIPIN
+INFO 25-Feb-21 12:59:34 - Parsed:IN
+INFO 25-Feb-21 12:59:34 - Logic queue recieved: IN
+WARNING 25-Feb-21 12:59:34 - Completed Bolus Delivery
+INFO 25-Feb-21 12:59:35 - SentIPIN
+INFO 25-Feb-21 12:59:36 - Parsed:IN
+INFO 25-Feb-21 12:59:36 - Logic queue recieved: IN
+WARNING 25-Feb-21 12:59:36 - Completed Bolus Delivery
+INFO 25-Feb-21 12:59:37 - SentIPIN
+INFO 25-Feb-21 12:59:38 - Parsed:IN
+INFO 25-Feb-21 12:59:38 - Logic queue recieved: IN
+WARNING 25-Feb-21 12:59:38 - Completed Bolus Delivery
+INFO 25-Feb-21 12:59:39 - SentIPIN
+INFO 25-Feb-21 12:59:40 - Parsed:IN
+INFO 25-Feb-21 12:59:40 - Logic queue recieved: IN
+WARNING 25-Feb-21 12:59:40 - Completed Bolus Delivery
+INFO 25-Feb-21 12:59:41 - SentIPIN
+INFO 25-Feb-21 12:59:42 - Parsed:IN
+INFO 25-Feb-21 12:59:42 - Logic queue recieved: IN
+WARNING 25-Feb-21 12:59:42 - Completed Bolus Delivery
+INFO 25-Feb-21 12:59:43 - SentIPIN
+INFO 25-Feb-21 12:59:44 - Parsed:IN
+INFO 25-Feb-21 12:59:44 - Logic queue recieved: IN
+WARNING 25-Feb-21 12:59:44 - Completed Bolus Delivery
+INFO 25-Feb-21 12:59:45 - SentIPIN
+INFO 25-Feb-21 12:59:46 - Parsed:IN
+INFO 25-Feb-21 12:59:46 - Logic queue recieved: IN
+WARNING 25-Feb-21 12:59:46 - Completed Bolus Delivery
+INFO 25-Feb-21 12:59:47 - SentIPIN
+INFO 25-Feb-21 12:59:48 - Parsed:IN
+INFO 25-Feb-21 12:59:48 - Logic queue recieved: IN
+WARNING 25-Feb-21 12:59:48 - Completed Bolus Delivery
+INFO 25-Feb-21 12:59:49 - SentIPIN
+INFO 25-Feb-21 12:59:50 - Parsed:IN
+INFO 25-Feb-21 12:59:50 - Logic queue recieved: IN
+WARNING 25-Feb-21 12:59:50 - Completed Bolus Delivery
+INFO 25-Feb-21 12:59:51 - SentIPIN
+INFO 25-Feb-21 12:59:52 - Parsed:IN
+INFO 25-Feb-21 12:59:52 - Logic queue recieved: IN
+WARNING 25-Feb-21 12:59:52 - Completed Bolus Delivery
+INFO 25-Feb-21 12:59:53 - SentIPIN
+INFO 25-Feb-21 12:59:54 - Parsed:IN
+INFO 25-Feb-21 12:59:54 - Logic queue recieved: IN
+WARNING 25-Feb-21 12:59:54 - Completed Bolus Delivery
+INFO 25-Feb-21 12:59:55 - SentIPIN
+INFO 25-Feb-21 12:59:56 - Parsed:IN
+INFO 25-Feb-21 12:59:56 - Logic queue recieved: IN
+WARNING 25-Feb-21 12:59:56 - Completed Bolus Delivery
+INFO 25-Feb-21 12:59:57 - SentIPIN
+INFO 25-Feb-21 12:59:58 - Parsed:IN
+INFO 25-Feb-21 12:59:58 - Logic queue recieved: IN
+WARNING 25-Feb-21 12:59:58 - Completed Bolus Delivery
+INFO 25-Feb-21 12:59:59 - SentIPIN
+INFO 25-Feb-21 13:00:00 - Parsed:IN
+INFO 25-Feb-21 13:00:00 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:00:00 - Completed Bolus Delivery
+INFO 25-Feb-21 13:00:01 - SentIPIN
+INFO 25-Feb-21 13:00:02 - Parsed:IN
+INFO 25-Feb-21 13:00:02 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:00:02 - Completed Bolus Delivery
+INFO 25-Feb-21 13:00:03 - SentIPIN
+INFO 25-Feb-21 13:00:04 - Parsed:IN
+INFO 25-Feb-21 13:00:04 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:00:04 - Completed Bolus Delivery
+INFO 25-Feb-21 13:00:05 - SentIPIN
+INFO 25-Feb-21 13:00:06 - Parsed:IN
+INFO 25-Feb-21 13:00:06 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:00:06 - Completed Bolus Delivery
+INFO 25-Feb-21 13:00:07 - SentIPIN
+INFO 25-Feb-21 13:00:08 - Parsed:IN
+INFO 25-Feb-21 13:00:08 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:00:08 - Completed Bolus Delivery
+INFO 25-Feb-21 13:00:09 - SentIPIN
+INFO 25-Feb-21 13:00:10 - Parsed:IN
+INFO 25-Feb-21 13:00:10 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:00:10 - Completed Bolus Delivery
+INFO 25-Feb-21 13:00:11 - SentIPIN
+INFO 25-Feb-21 13:00:12 - Parsed:IN
+INFO 25-Feb-21 13:00:12 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:00:12 - Completed Bolus Delivery
+INFO 25-Feb-21 13:00:13 - SentIPIN
+INFO 25-Feb-21 13:00:14 - Parsed:IN
+INFO 25-Feb-21 13:00:14 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:00:14 - Completed Bolus Delivery
+INFO 25-Feb-21 13:00:15 - SentIPIN
+INFO 25-Feb-21 13:00:16 - Parsed:IN
+INFO 25-Feb-21 13:00:16 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:00:16 - Completed Bolus Delivery
+INFO 25-Feb-21 13:00:17 - SentIPIN
+INFO 25-Feb-21 13:00:18 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:00:18 - Completed Bolus Delivery
+INFO 25-Feb-21 13:00:18 - Parsed:IN
+INFO 25-Feb-21 13:00:19 - SentIPIN
+INFO 25-Feb-21 13:00:20 - Parsed:IN
+INFO 25-Feb-21 13:00:20 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:00:20 - Completed Bolus Delivery
+INFO 25-Feb-21 13:00:21 - SentIPIN
+INFO 25-Feb-21 13:00:22 - Parsed:IN
+INFO 25-Feb-21 13:00:22 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:00:22 - Completed Bolus Delivery
+INFO 25-Feb-21 13:00:23 - SentIPIN
+INFO 25-Feb-21 13:00:24 - Parsed:IN
+INFO 25-Feb-21 13:00:24 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:00:24 - Completed Bolus Delivery
+INFO 25-Feb-21 13:00:25 - SentIPIN
+INFO 25-Feb-21 13:00:26 - Parsed:IN
+INFO 25-Feb-21 13:00:26 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:00:26 - Completed Bolus Delivery
+INFO 25-Feb-21 13:00:27 - SentIPIN
+INFO 25-Feb-21 13:00:28 - Parsed:IN
+INFO 25-Feb-21 13:00:28 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:00:28 - Completed Bolus Delivery
+INFO 25-Feb-21 13:00:29 - SentIPIN
+INFO 25-Feb-21 13:00:30 - Parsed:IN
+INFO 25-Feb-21 13:00:30 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:00:30 - Completed Bolus Delivery
+INFO 25-Feb-21 13:00:31 - SentIPIN
+INFO 25-Feb-21 13:00:32 - Parsed:IN
+INFO 25-Feb-21 13:00:32 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:00:32 - Completed Bolus Delivery
+INFO 25-Feb-21 13:00:33 - SentIPIN
+INFO 25-Feb-21 13:00:34 - Parsed:IN
+INFO 25-Feb-21 13:00:34 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:00:34 - Completed Bolus Delivery
+INFO 25-Feb-21 13:00:35 - SentIPIN
+INFO 25-Feb-21 13:00:36 - Parsed:IN
+INFO 25-Feb-21 13:00:36 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:00:36 - Completed Bolus Delivery
+INFO 25-Feb-21 13:00:37 - SentIPIN
+INFO 25-Feb-21 13:00:38 - Parsed:IN
+INFO 25-Feb-21 13:00:38 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:00:38 - Completed Bolus Delivery
+INFO 25-Feb-21 13:00:39 - SentIPIN
+INFO 25-Feb-21 13:00:40 - Parsed:IN
+INFO 25-Feb-21 13:00:40 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:00:40 - Completed Bolus Delivery
+INFO 25-Feb-21 13:00:41 - SentIPIN
+INFO 25-Feb-21 13:00:42 - Parsed:IN
+INFO 25-Feb-21 13:00:42 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:00:42 - Completed Bolus Delivery
+INFO 25-Feb-21 13:00:43 - SentIPIN
+INFO 25-Feb-21 13:00:44 - Parsed:IN
+INFO 25-Feb-21 13:00:44 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:00:44 - Completed Bolus Delivery
+INFO 25-Feb-21 13:00:45 - SentIPIN
+INFO 25-Feb-21 13:00:46 - Parsed:IN
+INFO 25-Feb-21 13:00:46 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:00:46 - Completed Bolus Delivery
+INFO 25-Feb-21 13:00:47 - SentIPIN
+INFO 25-Feb-21 13:00:48 - Parsed:IN
+INFO 25-Feb-21 13:00:48 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:00:48 - Completed Bolus Delivery
+INFO 25-Feb-21 13:00:49 - SentIPIN
+INFO 25-Feb-21 13:00:50 - Parsed:IN
+INFO 25-Feb-21 13:00:50 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:00:50 - Completed Bolus Delivery
+INFO 25-Feb-21 13:00:51 - SentIPIN
+INFO 25-Feb-21 13:00:52 - Parsed:IN
+INFO 25-Feb-21 13:00:52 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:00:52 - Completed Bolus Delivery
+INFO 25-Feb-21 13:00:53 - SentIPIN
+INFO 25-Feb-21 13:00:54 - Parsed:IN
+INFO 25-Feb-21 13:00:54 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:00:54 - Completed Bolus Delivery
+INFO 25-Feb-21 13:00:55 - SentIPIN
+INFO 25-Feb-21 13:00:56 - Parsed:IN
+INFO 25-Feb-21 13:00:56 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:00:56 - Completed Bolus Delivery
+INFO 25-Feb-21 13:00:57 - SentIPIN
+INFO 25-Feb-21 13:00:58 - Parsed:IN
+INFO 25-Feb-21 13:00:58 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:00:58 - Completed Bolus Delivery
+INFO 25-Feb-21 13:00:59 - SentIPIN
+INFO 25-Feb-21 13:01:00 - Parsed:IN
+INFO 25-Feb-21 13:01:00 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:01:00 - Completed Bolus Delivery
+INFO 25-Feb-21 13:01:01 - SentIPIN
+INFO 25-Feb-21 13:01:02 - Parsed:IN
+INFO 25-Feb-21 13:01:02 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:01:02 - Completed Bolus Delivery
+INFO 25-Feb-21 13:01:03 - SentIPIN
+INFO 25-Feb-21 13:01:04 - Parsed:IN
+INFO 25-Feb-21 13:01:04 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:01:04 - Completed Bolus Delivery
+INFO 25-Feb-21 13:01:05 - SentIPIN
+INFO 25-Feb-21 13:01:06 - Parsed:IN
+INFO 25-Feb-21 13:01:06 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:01:06 - Completed Bolus Delivery
+INFO 25-Feb-21 13:01:07 - SentIPIN
+INFO 25-Feb-21 13:01:08 - Parsed:IN
+INFO 25-Feb-21 13:01:08 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:01:08 - Completed Bolus Delivery
+INFO 25-Feb-21 13:01:09 - SentIPIN
+INFO 25-Feb-21 13:01:10 - Parsed:IN
+INFO 25-Feb-21 13:01:10 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:01:10 - Completed Bolus Delivery
+INFO 25-Feb-21 13:01:11 - SentIPIN
+INFO 25-Feb-21 13:01:12 - Parsed:IN
+INFO 25-Feb-21 13:01:12 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:01:12 - Completed Bolus Delivery
+INFO 25-Feb-21 13:01:13 - SentIPIN
+INFO 25-Feb-21 13:01:14 - Parsed:IN
+INFO 25-Feb-21 13:01:14 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:01:14 - Completed Bolus Delivery
+INFO 25-Feb-21 13:01:15 - SentIPIN
+INFO 25-Feb-21 13:01:16 - Parsed:IN
+INFO 25-Feb-21 13:01:16 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:01:16 - Completed Bolus Delivery
+INFO 25-Feb-21 13:01:17 - SentIPIN
+INFO 25-Feb-21 13:01:18 - Parsed:IN
+INFO 25-Feb-21 13:01:18 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:01:18 - Completed Bolus Delivery
+INFO 25-Feb-21 13:01:19 - SentIPIN
+INFO 25-Feb-21 13:01:20 - Parsed:IN
+INFO 25-Feb-21 13:01:20 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:01:20 - Completed Bolus Delivery
+INFO 25-Feb-21 13:01:21 - SentIPIN
+INFO 25-Feb-21 13:01:22 - Parsed:IN
+INFO 25-Feb-21 13:01:22 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:01:22 - Completed Bolus Delivery
+INFO 25-Feb-21 13:01:23 - SentIPIN
+INFO 25-Feb-21 13:01:24 - Parsed:IN
+INFO 25-Feb-21 13:01:24 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:01:24 - Completed Bolus Delivery
+INFO 25-Feb-21 13:01:25 - SentIPIN
+INFO 25-Feb-21 13:01:26 - Parsed:IN
+INFO 25-Feb-21 13:01:26 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:01:26 - Completed Bolus Delivery
+INFO 25-Feb-21 13:01:27 - SentIPIN
+INFO 25-Feb-21 13:01:28 - Parsed:IN
+INFO 25-Feb-21 13:01:28 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:01:28 - Completed Bolus Delivery
+INFO 25-Feb-21 13:01:29 - SentIPIN
+INFO 25-Feb-21 13:01:30 - Parsed:IN
+INFO 25-Feb-21 13:01:30 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:01:30 - Completed Bolus Delivery
+INFO 25-Feb-21 13:01:31 - SentIPIN
+INFO 25-Feb-21 13:01:32 - Parsed:IN
+INFO 25-Feb-21 13:01:32 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:01:32 - Completed Bolus Delivery
+INFO 25-Feb-21 13:01:33 - SentIPIN
+INFO 25-Feb-21 13:01:34 - Parsed:IN
+INFO 25-Feb-21 13:01:34 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:01:34 - Completed Bolus Delivery
+INFO 25-Feb-21 13:01:35 - SentIPIN
+INFO 25-Feb-21 13:01:36 - Parsed:IN
+INFO 25-Feb-21 13:01:36 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:01:36 - Completed Bolus Delivery
+INFO 25-Feb-21 13:01:37 - SentIPIN
+INFO 25-Feb-21 13:01:38 - Parsed:IN
+INFO 25-Feb-21 13:01:38 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:01:38 - Completed Bolus Delivery
+INFO 25-Feb-21 13:01:39 - SentIPIN
+INFO 25-Feb-21 13:01:40 - Parsed:IN
+INFO 25-Feb-21 13:01:40 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:01:40 - Completed Bolus Delivery
+INFO 25-Feb-21 13:01:41 - SentIPIN
+INFO 25-Feb-21 13:01:42 - Parsed:IN
+INFO 25-Feb-21 13:01:42 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:01:42 - Completed Bolus Delivery
+INFO 25-Feb-21 13:01:43 - SentIPIN
+INFO 25-Feb-21 13:01:44 - Parsed:IN
+INFO 25-Feb-21 13:01:44 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:01:44 - Completed Bolus Delivery
+INFO 25-Feb-21 13:01:45 - SentIPIN
+INFO 25-Feb-21 13:01:46 - Parsed:IN
+INFO 25-Feb-21 13:01:46 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:01:46 - Completed Bolus Delivery
+INFO 25-Feb-21 13:01:47 - SentIPIN
+INFO 25-Feb-21 13:01:48 - Parsed:IN
+INFO 25-Feb-21 13:01:48 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:01:48 - Completed Bolus Delivery
+INFO 25-Feb-21 13:01:49 - SentIPIN
+INFO 25-Feb-21 13:01:50 - Parsed:IN
+INFO 25-Feb-21 13:01:50 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:01:50 - Completed Bolus Delivery
+INFO 25-Feb-21 13:01:51 - SentIPIN
+INFO 25-Feb-21 13:01:52 - Parsed:IN
+INFO 25-Feb-21 13:01:52 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:01:52 - Completed Bolus Delivery
+INFO 25-Feb-21 13:01:53 - SentIPIN
+INFO 25-Feb-21 13:01:54 - Parsed:IN
+INFO 25-Feb-21 13:01:54 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:01:54 - Completed Bolus Delivery
+INFO 25-Feb-21 13:01:55 - SentIPIN
+INFO 25-Feb-21 13:01:56 - Parsed:IN
+INFO 25-Feb-21 13:01:56 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:01:56 - Completed Bolus Delivery
+INFO 25-Feb-21 13:01:57 - SentIPIN
+INFO 25-Feb-21 13:01:58 - Parsed:IN
+INFO 25-Feb-21 13:01:58 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:01:58 - Completed Bolus Delivery
+INFO 25-Feb-21 13:01:59 - SentIPIN
+INFO 25-Feb-21 13:02:00 - Parsed:IN
+INFO 25-Feb-21 13:02:00 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:02:00 - Completed Bolus Delivery
+INFO 25-Feb-21 13:02:01 - SentIPIN
+INFO 25-Feb-21 13:02:02 - Parsed:IN
+INFO 25-Feb-21 13:02:02 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:02:02 - Completed Bolus Delivery
+INFO 25-Feb-21 13:02:03 - SentIPIN
+INFO 25-Feb-21 13:02:04 - Parsed:IN
+INFO 25-Feb-21 13:02:04 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:02:04 - Completed Bolus Delivery
+INFO 25-Feb-21 13:02:05 - SentIPIN
+INFO 25-Feb-21 13:02:06 - Parsed:IN
+INFO 25-Feb-21 13:02:06 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:02:06 - Completed Bolus Delivery
+INFO 25-Feb-21 13:02:07 - SentIPIN
+INFO 25-Feb-21 13:02:08 - Parsed:IN
+INFO 25-Feb-21 13:02:08 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:02:08 - Completed Bolus Delivery
+INFO 25-Feb-21 13:02:09 - SentIPIN
+INFO 25-Feb-21 13:02:10 - Parsed:IN
+INFO 25-Feb-21 13:02:10 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:02:10 - Completed Bolus Delivery
+INFO 25-Feb-21 13:02:11 - SentIPIN
+INFO 25-Feb-21 13:02:12 - Parsed:IN
+INFO 25-Feb-21 13:02:12 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:02:12 - Completed Bolus Delivery
+INFO 25-Feb-21 13:02:13 - SentIPIN
+INFO 25-Feb-21 13:02:14 - Parsed:IN
+INFO 25-Feb-21 13:02:14 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:02:14 - Completed Bolus Delivery
+INFO 25-Feb-21 13:02:15 - SentIPIN
+INFO 25-Feb-21 13:02:16 - Parsed:IN
+INFO 25-Feb-21 13:02:16 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:02:16 - Completed Bolus Delivery
+INFO 25-Feb-21 13:02:17 - SentIPIN
+INFO 25-Feb-21 13:02:18 - Parsed:IN
+INFO 25-Feb-21 13:02:18 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:02:18 - Completed Bolus Delivery
+INFO 25-Feb-21 13:02:19 - SentIPIN
+INFO 25-Feb-21 13:02:20 - Parsed:IN
+INFO 25-Feb-21 13:02:20 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:02:20 - Completed Bolus Delivery
+INFO 25-Feb-21 13:02:21 - SentIPIN
+INFO 25-Feb-21 13:02:22 - Parsed:IN
+INFO 25-Feb-21 13:02:22 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:02:22 - Completed Bolus Delivery
+INFO 25-Feb-21 13:02:23 - SentIPIN
+INFO 25-Feb-21 13:02:24 - Parsed:IN
+INFO 25-Feb-21 13:02:24 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:02:24 - Completed Bolus Delivery
+INFO 25-Feb-21 13:02:25 - SentIPIN
+INFO 25-Feb-21 13:02:26 - Parsed:IN
+INFO 25-Feb-21 13:02:26 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:02:26 - Completed Bolus Delivery
+INFO 25-Feb-21 13:02:27 - SentIPIN
+INFO 25-Feb-21 13:02:28 - Parsed:IN
+INFO 25-Feb-21 13:02:28 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:02:28 - Completed Bolus Delivery
+INFO 25-Feb-21 13:02:29 - SentIPIN
+INFO 25-Feb-21 13:02:30 - Parsed:IN
+INFO 25-Feb-21 13:02:30 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:02:30 - Completed Bolus Delivery
+INFO 25-Feb-21 13:02:31 - SentIPIN
+INFO 25-Feb-21 13:02:32 - Parsed:IN
+INFO 25-Feb-21 13:02:32 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:02:32 - Completed Bolus Delivery
+INFO 25-Feb-21 13:02:33 - SentIPIN
+INFO 25-Feb-21 13:02:34 - Parsed:IN
+INFO 25-Feb-21 13:02:34 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:02:34 - Completed Bolus Delivery
+INFO 25-Feb-21 13:02:35 - SentIPIN
+INFO 25-Feb-21 13:02:36 - Parsed:IN
+INFO 25-Feb-21 13:02:36 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:02:36 - Completed Bolus Delivery
+INFO 25-Feb-21 13:02:37 - SentIPIN
+INFO 25-Feb-21 13:02:38 - Parsed:IN
+INFO 25-Feb-21 13:02:38 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:02:38 - Completed Bolus Delivery
+INFO 25-Feb-21 13:02:39 - SentIPIN
+INFO 25-Feb-21 13:02:40 - Parsed:IN
+INFO 25-Feb-21 13:02:40 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:02:40 - Completed Bolus Delivery
+INFO 25-Feb-21 13:02:41 - SentIPIN
+INFO 25-Feb-21 13:02:42 - Parsed:IN
+INFO 25-Feb-21 13:02:42 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:02:42 - Completed Bolus Delivery
+INFO 25-Feb-21 13:02:43 - SentIPIN
+INFO 25-Feb-21 13:02:44 - Parsed:IN
+INFO 25-Feb-21 13:02:44 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:02:44 - Completed Bolus Delivery
+INFO 25-Feb-21 13:02:45 - SentIPIN
+INFO 25-Feb-21 13:02:46 - Parsed:IN
+INFO 25-Feb-21 13:02:46 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:02:46 - Completed Bolus Delivery
+INFO 25-Feb-21 13:02:47 - SentIPIN
+INFO 25-Feb-21 13:02:48 - Parsed:IN
+INFO 25-Feb-21 13:02:48 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:02:48 - Completed Bolus Delivery
+INFO 25-Feb-21 13:02:49 - SentIPIN
+INFO 25-Feb-21 13:02:50 - Parsed:IN
+INFO 25-Feb-21 13:02:50 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:02:50 - Completed Bolus Delivery
+INFO 25-Feb-21 13:02:51 - SentIPIN
+INFO 25-Feb-21 13:02:52 - Parsed:IN
+INFO 25-Feb-21 13:02:52 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:02:52 - Completed Bolus Delivery
+INFO 25-Feb-21 13:02:53 - SentIPIN
+INFO 25-Feb-21 13:02:54 - Parsed:IN
+INFO 25-Feb-21 13:02:54 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:02:54 - Completed Bolus Delivery
+INFO 25-Feb-21 13:02:55 - SentIPIN
+INFO 25-Feb-21 13:02:56 - Parsed:IN
+INFO 25-Feb-21 13:02:56 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:02:56 - Completed Bolus Delivery
+INFO 25-Feb-21 13:02:57 - SentIPIN
+INFO 25-Feb-21 13:02:58 - Parsed:IN
+INFO 25-Feb-21 13:02:58 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:02:58 - Completed Bolus Delivery
+INFO 25-Feb-21 13:02:59 - SentIPIN
+INFO 25-Feb-21 13:03:00 - Parsed:IN
+INFO 25-Feb-21 13:03:00 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:03:00 - Completed Bolus Delivery
+INFO 25-Feb-21 13:03:01 - SentIPIN
+INFO 25-Feb-21 13:03:02 - Parsed:IN
+INFO 25-Feb-21 13:03:02 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:03:02 - Completed Bolus Delivery
+INFO 25-Feb-21 13:03:03 - SentIPIN
+INFO 25-Feb-21 13:03:04 - Parsed:IN
+INFO 25-Feb-21 13:03:04 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:03:04 - Completed Bolus Delivery
+INFO 25-Feb-21 13:03:05 - SentIPIN
+INFO 25-Feb-21 13:03:06 - Parsed:IN
+INFO 25-Feb-21 13:03:06 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:03:06 - Completed Bolus Delivery
+INFO 25-Feb-21 13:03:07 - SentIPIN
+INFO 25-Feb-21 13:03:08 - Parsed:IN
+INFO 25-Feb-21 13:03:08 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:03:08 - Completed Bolus Delivery
+INFO 25-Feb-21 13:03:09 - SentIPIN
+INFO 25-Feb-21 13:03:10 - Parsed:IN
+INFO 25-Feb-21 13:03:10 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:03:10 - Completed Bolus Delivery
+INFO 25-Feb-21 13:03:11 - SentIPIN
+INFO 25-Feb-21 13:03:12 - Parsed:IN
+INFO 25-Feb-21 13:03:12 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:03:12 - Completed Bolus Delivery
+INFO 25-Feb-21 13:03:13 - SentIPIN
+INFO 25-Feb-21 13:03:14 - Parsed:IN
+INFO 25-Feb-21 13:03:14 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:03:14 - Completed Bolus Delivery
+INFO 25-Feb-21 13:03:15 - SentIPIN
+INFO 25-Feb-21 13:03:16 - Parsed:IN
+INFO 25-Feb-21 13:03:16 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:03:16 - Completed Bolus Delivery
+INFO 25-Feb-21 13:03:17 - SentIPIN
+INFO 25-Feb-21 13:03:18 - Parsed:IN
+INFO 25-Feb-21 13:03:18 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:03:18 - Completed Bolus Delivery
+INFO 25-Feb-21 13:03:19 - SentIPIN
+INFO 25-Feb-21 13:03:20 - Parsed:IN
+INFO 25-Feb-21 13:03:20 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:03:20 - Completed Bolus Delivery
+INFO 25-Feb-21 13:03:21 - SentIPIN
+INFO 25-Feb-21 13:03:22 - Parsed:IN
+INFO 25-Feb-21 13:03:22 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:03:22 - Completed Bolus Delivery
+INFO 25-Feb-21 13:03:23 - SentIPIN
+INFO 25-Feb-21 13:03:24 - Parsed:IN
+INFO 25-Feb-21 13:03:24 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:03:24 - Completed Bolus Delivery
+INFO 25-Feb-21 13:03:25 - SentIPIN
+INFO 25-Feb-21 13:03:26 - Parsed:IN
+INFO 25-Feb-21 13:03:26 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:03:26 - Completed Bolus Delivery
+INFO 25-Feb-21 13:03:27 - SentIPIN
+INFO 25-Feb-21 13:03:28 - Parsed:IN
+INFO 25-Feb-21 13:03:28 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:03:28 - Completed Bolus Delivery
+INFO 25-Feb-21 13:03:29 - SentIPIN
+INFO 25-Feb-21 13:03:30 - Parsed:IN
+INFO 25-Feb-21 13:03:30 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:03:30 - Completed Bolus Delivery
+INFO 25-Feb-21 13:03:31 - SentIPIN
+INFO 25-Feb-21 13:03:32 - Parsed:IN
+INFO 25-Feb-21 13:03:32 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:03:32 - Completed Bolus Delivery
+INFO 25-Feb-21 13:03:33 - SentIPIN
+INFO 25-Feb-21 13:03:34 - Parsed:IN
+INFO 25-Feb-21 13:03:34 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:03:34 - Completed Bolus Delivery
+INFO 25-Feb-21 13:03:35 - SentIPIN
+INFO 25-Feb-21 13:03:36 - Parsed:IN
+INFO 25-Feb-21 13:03:36 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:03:36 - Completed Bolus Delivery
+INFO 25-Feb-21 13:03:37 - SentIPIN
+INFO 25-Feb-21 13:03:38 - Parsed:IN
+INFO 25-Feb-21 13:03:38 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:03:38 - Completed Bolus Delivery
+INFO 25-Feb-21 13:03:39 - SentIPIN
+INFO 25-Feb-21 13:03:40 - Parsed:IN
+INFO 25-Feb-21 13:03:40 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:03:40 - Completed Bolus Delivery
+INFO 25-Feb-21 13:03:41 - SentIPIN
+INFO 25-Feb-21 13:03:42 - Parsed:IN
+INFO 25-Feb-21 13:03:42 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:03:42 - Completed Bolus Delivery
+INFO 25-Feb-21 13:03:43 - SentIPIN
+INFO 25-Feb-21 13:03:44 - Parsed:IN
+INFO 25-Feb-21 13:03:44 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:03:44 - Completed Bolus Delivery
+INFO 25-Feb-21 13:03:45 - SentIPIN
+INFO 25-Feb-21 13:03:46 - Parsed:IN
+INFO 25-Feb-21 13:03:46 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:03:46 - Completed Bolus Delivery
+INFO 25-Feb-21 13:03:47 - SentIPIN
+INFO 25-Feb-21 13:03:48 - Parsed:IN
+INFO 25-Feb-21 13:03:48 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:03:48 - Completed Bolus Delivery
+INFO 25-Feb-21 13:03:49 - SentIPIN
+INFO 25-Feb-21 13:03:50 - Parsed:IN
+INFO 25-Feb-21 13:03:50 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:03:50 - Completed Bolus Delivery
+INFO 25-Feb-21 13:03:51 - SentIPIN
+INFO 25-Feb-21 13:03:52 - Parsed:IN
+INFO 25-Feb-21 13:03:52 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:03:52 - Completed Bolus Delivery
+INFO 25-Feb-21 13:03:53 - SentIPIN
+INFO 25-Feb-21 13:03:54 - Parsed:IN
+INFO 25-Feb-21 13:03:54 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:03:54 - Completed Bolus Delivery
+INFO 25-Feb-21 13:03:55 - SentIPIN
+INFO 25-Feb-21 13:03:56 - Parsed:IN
+INFO 25-Feb-21 13:03:56 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:03:56 - Completed Bolus Delivery
+INFO 25-Feb-21 13:03:57 - SentIPIN
+INFO 25-Feb-21 13:03:58 - Parsed:IN
+INFO 25-Feb-21 13:03:58 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:03:58 - Completed Bolus Delivery
+INFO 25-Feb-21 13:03:59 - SentIPIN
+INFO 25-Feb-21 13:04:00 - Parsed:IN
+INFO 25-Feb-21 13:04:00 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:04:00 - Completed Bolus Delivery
+INFO 25-Feb-21 13:04:01 - SentIPIN
+INFO 25-Feb-21 13:04:02 - Parsed:IN
+INFO 25-Feb-21 13:04:02 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:04:02 - Completed Bolus Delivery
+INFO 25-Feb-21 13:04:03 - SentIPIN
+INFO 25-Feb-21 13:04:04 - Parsed:IN
+INFO 25-Feb-21 13:04:04 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:04:04 - Completed Bolus Delivery
+INFO 25-Feb-21 13:04:05 - SentIPIN
+INFO 25-Feb-21 13:04:06 - Parsed:IN
+INFO 25-Feb-21 13:04:06 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:04:06 - Completed Bolus Delivery
+INFO 25-Feb-21 13:04:07 - SentIPIN
+INFO 25-Feb-21 13:04:08 - Parsed:IN
+INFO 25-Feb-21 13:04:08 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:04:08 - Completed Bolus Delivery
+INFO 25-Feb-21 13:04:09 - SentIPIN
+INFO 25-Feb-21 13:04:10 - Parsed:IN
+INFO 25-Feb-21 13:04:10 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:04:10 - Completed Bolus Delivery
+INFO 25-Feb-21 13:04:11 - SentIPIN
+INFO 25-Feb-21 13:04:12 - Parsed:IN
+INFO 25-Feb-21 13:04:12 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:04:12 - Completed Bolus Delivery
+INFO 25-Feb-21 13:04:13 - SentIPIN
+INFO 25-Feb-21 13:04:14 - Parsed:IN
+WARNING 25-Feb-21 13:04:22 - Started
+INFO 25-Feb-21 13:04:22 - Serial Listner Thread started
+INFO 25-Feb-21 13:04:22 - Starting logger
+INFO 25-Feb-21 13:04:22 - Parser Thread Started successfully
+INFO 25-Feb-21 13:04:24 - Started scan for BLE devices
+INFO 25-Feb-21 13:04:34 - Scan complete
+INFO 25-Feb-21 13:04:40 - Attempting to Connect to:f9:9b:81:05:de:e7
+INFO 25-Feb-21 13:04:56 - Attempting to Connect to:f9:9b:81:05:de:e7
+INFO 25-Feb-21 13:05:01 - Connected to: f9:9b:81:05:de:e7
+INFO 25-Feb-21 13:05:01 - Starting connection check
+INFO 25-Feb-21 13:05:01 - Starting HB sender timer
+INFO 25-Feb-21 13:05:02 - SentIPHB
+INFO 25-Feb-21 13:05:02 - Logic queue recieved: SSSHB
+INFO 25-Feb-21 13:05:02 - Parsed:HB
+
+INFO 25-Feb-21 13:05:02 - Logic queue recieved: HB
+
+INFO 25-Feb-21 13:05:04 - SentIPHB
+INFO 25-Feb-21 13:05:04 - Logic queue recieved: SSSHB
+INFO 25-Feb-21 13:05:04 - Parsed:HB
+
+INFO 25-Feb-21 13:05:05 - Logic queue recieved: HB
+
+INFO 25-Feb-21 13:05:06 - SentIPHB
+INFO 25-Feb-21 13:05:06 - Logic queue recieved: SSSHB
+INFO 25-Feb-21 13:05:07 - Parsed:HB
+
+INFO 25-Feb-21 13:05:07 - Logic queue recieved: HB
+
+WARNING 25-Feb-21 13:05:07 - Starting Bolus Delivery
+INFO 25-Feb-21 13:05:09 - SentIPIN
+INFO 25-Feb-21 13:05:11 - Parsed:IN
+INFO 25-Feb-21 13:05:11 - Logic queue recieved: IN
+INFO 25-Feb-21 13:05:11 - SentIPIN
+INFO 25-Feb-21 13:05:12 - Parsed:IN
+INFO 25-Feb-21 13:05:13 - Logic queue recieved: IN
+INFO 25-Feb-21 13:05:13 - SentIPIN
+INFO 25-Feb-21 13:05:14 - Parsed:IN
+INFO 25-Feb-21 13:05:15 - Logic queue recieved: IN
+INFO 25-Feb-21 13:05:15 - SentIPIN
+INFO 25-Feb-21 13:05:17 - Parsed:IN
+INFO 25-Feb-21 13:05:17 - Logic queue recieved: IN
+INFO 25-Feb-21 13:05:17 - SentIPIN
+INFO 25-Feb-21 13:05:18 - Parsed:IN
+INFO 25-Feb-21 13:05:19 - Logic queue recieved: IN
+INFO 25-Feb-21 13:05:19 - SentIPIN
+INFO 25-Feb-21 13:05:20 - Parsed:IN
+INFO 25-Feb-21 13:05:21 - Logic queue recieved: IN
+INFO 25-Feb-21 13:05:21 - SentIPIN
+INFO 25-Feb-21 13:05:22 - Parsed:IN
+INFO 25-Feb-21 13:05:23 - Logic queue recieved: IN
+INFO 25-Feb-21 13:05:23 - SentIPIN
+INFO 25-Feb-21 13:05:25 - Parsed:IN
+INFO 25-Feb-21 13:05:25 - Logic queue recieved: IN
+INFO 25-Feb-21 13:05:25 - SentIPIN
+INFO 25-Feb-21 13:05:26 - Parsed:IN
+INFO 25-Feb-21 13:05:27 - Logic queue recieved: IN
+INFO 25-Feb-21 13:05:27 - SentIPIN
+INFO 25-Feb-21 13:05:28 - Parsed:IN
+INFO 25-Feb-21 13:05:28 - Logic queue recieved: IN
+INFO 25-Feb-21 13:05:29 - SentIPIN
+INFO 25-Feb-21 13:05:30 - Parsed:IN
+INFO 25-Feb-21 13:05:31 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:05:31 - Completed Bolus Delivery
+INFO 25-Feb-21 13:05:31 - SentIPIN
+INFO 25-Feb-21 13:05:32 - Parsed:IN
+INFO 25-Feb-21 13:05:33 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:05:33 - Completed Bolus Delivery
+INFO 25-Feb-21 13:05:33 - SentIPIN
+INFO 25-Feb-21 13:05:34 - Parsed:IN
+INFO 25-Feb-21 13:05:35 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:05:35 - Completed Bolus Delivery
+INFO 25-Feb-21 13:05:35 - SentIPIN
+INFO 25-Feb-21 13:05:36 - Parsed:IN
+INFO 25-Feb-21 13:05:36 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:05:37 - Completed Bolus Delivery
+INFO 25-Feb-21 13:05:37 - SentIPIN
+INFO 25-Feb-21 13:05:38 - Parsed:IN
+INFO 25-Feb-21 13:05:39 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:05:39 - Completed Bolus Delivery
+INFO 25-Feb-21 13:05:39 - SentIPIN
+INFO 25-Feb-21 13:05:40 - Parsed:IN
+INFO 25-Feb-21 13:05:41 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:05:41 - Completed Bolus Delivery
+INFO 25-Feb-21 13:05:41 - SentIPIN
+INFO 25-Feb-21 13:05:42 - Parsed:IN
+INFO 25-Feb-21 13:05:43 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:05:43 - Completed Bolus Delivery
+INFO 25-Feb-21 13:05:43 - SentIPIN
+INFO 25-Feb-21 13:05:45 - Parsed:IN
+INFO 25-Feb-21 13:05:45 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:05:45 - Completed Bolus Delivery
+INFO 25-Feb-21 13:05:45 - SentIPIN
+INFO 25-Feb-21 13:05:46 - Parsed:IN
+INFO 25-Feb-21 13:05:47 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:05:47 - Completed Bolus Delivery
+INFO 25-Feb-21 13:05:47 - SentIPIN
+INFO 25-Feb-21 13:05:48 - Parsed:IN
+INFO 25-Feb-21 13:05:48 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:05:49 - Completed Bolus Delivery
+INFO 25-Feb-21 13:05:49 - SentIPIN
+INFO 25-Feb-21 13:05:50 - Parsed:IN
+INFO 25-Feb-21 13:05:51 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:05:51 - Completed Bolus Delivery
+INFO 25-Feb-21 13:05:51 - SentIPIN
+INFO 25-Feb-21 13:05:52 - Parsed:IN
+INFO 25-Feb-21 13:05:53 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:05:53 - Completed Bolus Delivery
+INFO 25-Feb-21 13:05:53 - SentIPIN
+INFO 25-Feb-21 13:05:54 - Parsed:IN
+INFO 25-Feb-21 13:05:54 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:05:55 - Completed Bolus Delivery
+INFO 25-Feb-21 13:05:55 - SentIPIN
+INFO 25-Feb-21 13:05:56 - Parsed:IN
+INFO 25-Feb-21 13:05:57 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:05:57 - Completed Bolus Delivery
+INFO 25-Feb-21 13:05:57 - SentIPIN
+INFO 25-Feb-21 13:05:58 - Parsed:IN
+INFO 25-Feb-21 13:05:58 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:05:59 - Completed Bolus Delivery
+INFO 25-Feb-21 13:05:59 - SentIPIN
+INFO 25-Feb-21 13:06:01 - Parsed:IN
+INFO 25-Feb-21 13:06:01 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:06:01 - Completed Bolus Delivery
+INFO 25-Feb-21 13:06:01 - SentIPIN
+INFO 25-Feb-21 13:06:02 - Parsed:IN
+INFO 25-Feb-21 13:06:02 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:06:03 - Completed Bolus Delivery
+INFO 25-Feb-21 13:06:03 - SentIPIN
+INFO 25-Feb-21 13:06:04 - Parsed:IN
+INFO 25-Feb-21 13:06:05 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:06:05 - Completed Bolus Delivery
+INFO 25-Feb-21 13:06:05 - SentIPIN
+INFO 25-Feb-21 13:06:06 - Parsed:IN
+INFO 25-Feb-21 13:06:06 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:06:07 - Completed Bolus Delivery
+INFO 25-Feb-21 13:06:07 - SentIPIN
+INFO 25-Feb-21 13:06:08 - Parsed:IN
+INFO 25-Feb-21 13:06:09 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:06:09 - Completed Bolus Delivery
+INFO 25-Feb-21 13:06:09 - SentIPIN
+INFO 25-Feb-21 13:06:10 - Parsed:IN
+INFO 25-Feb-21 13:06:11 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:06:11 - Completed Bolus Delivery
+INFO 25-Feb-21 13:06:11 - SentIPIN
+INFO 25-Feb-21 13:06:12 - Parsed:IN
+INFO 25-Feb-21 13:06:13 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:06:13 - Completed Bolus Delivery
+INFO 25-Feb-21 13:06:13 - SentIPIN
+INFO 25-Feb-21 13:06:15 - Parsed:IN
+INFO 25-Feb-21 13:06:15 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:06:15 - Completed Bolus Delivery
+INFO 25-Feb-21 13:06:15 - SentIPIN
+INFO 25-Feb-21 13:06:17 - Parsed:IN
+INFO 25-Feb-21 13:06:17 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:06:17 - Completed Bolus Delivery
+INFO 25-Feb-21 13:06:17 - SentIPIN
+INFO 25-Feb-21 13:06:19 - Parsed:IN
+INFO 25-Feb-21 13:06:19 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:06:19 - Completed Bolus Delivery
+INFO 25-Feb-21 13:06:19 - SentIPIN
+INFO 25-Feb-21 13:06:20 - Parsed:IN
+INFO 25-Feb-21 13:06:21 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:06:21 - Completed Bolus Delivery
+INFO 25-Feb-21 13:06:21 - SentIPIN
+INFO 25-Feb-21 13:06:22 - Parsed:IN
+INFO 25-Feb-21 13:06:23 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:06:23 - Completed Bolus Delivery
+INFO 25-Feb-21 13:06:23 - SentIPIN
+INFO 25-Feb-21 13:06:24 - Parsed:IN
+INFO 25-Feb-21 13:06:25 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:06:25 - Completed Bolus Delivery
+INFO 25-Feb-21 13:06:25 - SentIPIN
+INFO 25-Feb-21 13:06:27 - Parsed:IN
+INFO 25-Feb-21 13:06:27 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:06:27 - Completed Bolus Delivery
+INFO 25-Feb-21 13:06:27 - SentIPIN
+INFO 25-Feb-21 13:06:29 - Parsed:IN
+INFO 25-Feb-21 13:06:29 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:06:29 - Completed Bolus Delivery
+INFO 25-Feb-21 13:06:29 - SentIPIN
+INFO 25-Feb-21 13:06:30 - Parsed:IN
+INFO 25-Feb-21 13:06:31 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:06:31 - Completed Bolus Delivery
+INFO 25-Feb-21 13:06:31 - SentIPIN
+INFO 25-Feb-21 13:06:32 - Parsed:IN
+INFO 25-Feb-21 13:06:33 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:06:33 - Completed Bolus Delivery
+INFO 25-Feb-21 13:06:33 - SentIPIN
+INFO 25-Feb-21 13:06:34 - Parsed:IN
+INFO 25-Feb-21 13:06:35 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:06:35 - Completed Bolus Delivery
+INFO 25-Feb-21 13:06:35 - SentIPIN
+INFO 25-Feb-21 13:06:37 - Parsed:IN
+INFO 25-Feb-21 13:06:37 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:06:37 - Completed Bolus Delivery
+INFO 25-Feb-21 13:06:37 - SentIPIN
+INFO 25-Feb-21 13:06:38 - Parsed:IN
+INFO 25-Feb-21 13:06:38 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:06:39 - Completed Bolus Delivery
+INFO 25-Feb-21 13:06:39 - SentIPIN
+INFO 25-Feb-21 13:06:40 - Parsed:IN
+INFO 25-Feb-21 13:06:41 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:06:41 - Completed Bolus Delivery
+INFO 25-Feb-21 13:06:41 - SentIPIN
+INFO 25-Feb-21 13:06:43 - Parsed:IN
+INFO 25-Feb-21 13:06:43 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:06:43 - Completed Bolus Delivery
+INFO 25-Feb-21 13:06:43 - SentIPIN
+INFO 25-Feb-21 13:06:44 - Parsed:IN
+INFO 25-Feb-21 13:06:45 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:06:45 - Completed Bolus Delivery
+INFO 25-Feb-21 13:06:45 - SentIPIN
+INFO 25-Feb-21 13:06:46 - Parsed:IN
+INFO 25-Feb-21 13:06:47 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:06:47 - Completed Bolus Delivery
+INFO 25-Feb-21 13:06:47 - SentIPIN
+INFO 25-Feb-21 13:06:48 - Parsed:IN
+INFO 25-Feb-21 13:06:49 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:06:49 - Completed Bolus Delivery
+INFO 25-Feb-21 13:06:49 - SentIPIN
+INFO 25-Feb-21 13:06:50 - Parsed:IN
+INFO 25-Feb-21 13:06:50 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:06:51 - Completed Bolus Delivery
+INFO 25-Feb-21 13:06:51 - SentIPIN
+INFO 25-Feb-21 13:06:52 - Parsed:IN
+INFO 25-Feb-21 13:06:53 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:06:53 - Completed Bolus Delivery
+INFO 25-Feb-21 13:06:53 - SentIPIN
+INFO 25-Feb-21 13:06:54 - Parsed:IN
+INFO 25-Feb-21 13:06:55 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:06:55 - Completed Bolus Delivery
+INFO 25-Feb-21 13:06:55 - SentIPIN
+INFO 25-Feb-21 13:06:56 - Parsed:IN
+INFO 25-Feb-21 13:06:57 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:06:57 - Completed Bolus Delivery
+INFO 25-Feb-21 13:06:57 - SentIPIN
+INFO 25-Feb-21 13:06:58 - Parsed:IN
+INFO 25-Feb-21 13:06:59 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:06:59 - Completed Bolus Delivery
+INFO 25-Feb-21 13:06:59 - SentIPIN
+INFO 25-Feb-21 13:07:01 - Parsed:IN
+INFO 25-Feb-21 13:07:01 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:07:01 - Completed Bolus Delivery
+INFO 25-Feb-21 13:07:01 - SentIPIN
+INFO 25-Feb-21 13:07:03 - Parsed:IN
+INFO 25-Feb-21 13:07:03 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:07:03 - Completed Bolus Delivery
+INFO 25-Feb-21 13:07:03 - SentIPIN
+INFO 25-Feb-21 13:07:05 - Parsed:IN
+INFO 25-Feb-21 13:07:05 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:07:05 - Completed Bolus Delivery
+INFO 25-Feb-21 13:07:05 - SentIPIN
+INFO 25-Feb-21 13:07:06 - Parsed:IN
+INFO 25-Feb-21 13:07:07 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:07:07 - Completed Bolus Delivery
+INFO 25-Feb-21 13:07:07 - SentIPIN
+INFO 25-Feb-21 13:07:08 - Parsed:IN
+INFO 25-Feb-21 13:07:09 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:07:09 - Completed Bolus Delivery
+INFO 25-Feb-21 13:07:09 - SentIPIN
+INFO 25-Feb-21 13:07:11 - Parsed:IN
+INFO 25-Feb-21 13:07:11 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:07:11 - Completed Bolus Delivery
+INFO 25-Feb-21 13:07:11 - SentIPIN
+INFO 25-Feb-21 13:07:13 - Parsed:IN
+INFO 25-Feb-21 13:07:13 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:07:13 - Completed Bolus Delivery
+INFO 25-Feb-21 13:07:13 - SentIPIN
+INFO 25-Feb-21 13:07:15 - Parsed:IN
+INFO 25-Feb-21 13:07:15 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:07:15 - Completed Bolus Delivery
+INFO 25-Feb-21 13:07:15 - SentIPIN
+INFO 25-Feb-21 13:07:16 - Parsed:IN
+INFO 25-Feb-21 13:07:17 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:07:17 - Completed Bolus Delivery
+INFO 25-Feb-21 13:07:17 - SentIPIN
+INFO 25-Feb-21 13:07:19 - Parsed:IN
+INFO 25-Feb-21 13:07:19 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:07:19 - Completed Bolus Delivery
+INFO 25-Feb-21 13:07:19 - SentIPIN
+INFO 25-Feb-21 13:07:21 - Parsed:IN
+INFO 25-Feb-21 13:07:21 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:07:21 - Completed Bolus Delivery
+INFO 25-Feb-21 13:07:21 - SentIPIN
+INFO 25-Feb-21 13:07:23 - Parsed:IN
+INFO 25-Feb-21 13:07:23 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:07:23 - Completed Bolus Delivery
+INFO 25-Feb-21 13:07:23 - SentIPIN
+INFO 25-Feb-21 13:07:25 - Parsed:IN
+INFO 25-Feb-21 13:07:25 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:07:25 - Completed Bolus Delivery
+INFO 25-Feb-21 13:07:25 - SentIPIN
+INFO 25-Feb-21 13:07:26 - Parsed:IN
+INFO 25-Feb-21 13:07:27 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:07:27 - Completed Bolus Delivery
+INFO 25-Feb-21 13:07:27 - SentIPIN
+INFO 25-Feb-21 13:07:29 - Parsed:IN
+INFO 25-Feb-21 13:07:29 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:07:29 - Completed Bolus Delivery
+INFO 25-Feb-21 13:07:29 - SentIPIN
+INFO 25-Feb-21 13:07:30 - Parsed:IN
+INFO 25-Feb-21 13:07:31 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:07:31 - Completed Bolus Delivery
+INFO 25-Feb-21 13:07:31 - SentIPIN
+INFO 25-Feb-21 13:07:32 - Parsed:IN
+INFO 25-Feb-21 13:07:33 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:07:33 - Completed Bolus Delivery
+INFO 25-Feb-21 13:07:33 - SentIPIN
+INFO 25-Feb-21 13:07:34 - Parsed:IN
+INFO 25-Feb-21 13:07:35 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:07:35 - Completed Bolus Delivery
+INFO 25-Feb-21 13:07:35 - SentIPIN
+INFO 25-Feb-21 13:07:37 - Parsed:IN
+INFO 25-Feb-21 13:07:37 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:07:37 - Completed Bolus Delivery
+INFO 25-Feb-21 13:07:37 - SentIPIN
+INFO 25-Feb-21 13:07:39 - Parsed:IN
+INFO 25-Feb-21 13:07:39 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:07:39 - Completed Bolus Delivery
+INFO 25-Feb-21 13:07:39 - SentIPIN
+INFO 25-Feb-21 13:07:41 - Parsed:IN
+INFO 25-Feb-21 13:07:41 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:07:41 - Completed Bolus Delivery
+INFO 25-Feb-21 13:07:41 - SentIPIN
+INFO 25-Feb-21 13:07:43 - Parsed:IN
+INFO 25-Feb-21 13:07:43 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:07:43 - Completed Bolus Delivery
+INFO 25-Feb-21 13:07:43 - SentIPIN
+INFO 25-Feb-21 13:07:45 - Parsed:IN
+INFO 25-Feb-21 13:07:45 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:07:45 - Completed Bolus Delivery
+INFO 25-Feb-21 13:07:45 - SentIPIN
+INFO 25-Feb-21 13:07:46 - Parsed:IN
+INFO 25-Feb-21 13:07:47 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:07:47 - Completed Bolus Delivery
+INFO 25-Feb-21 13:07:47 - SentIPIN
+INFO 25-Feb-21 13:07:48 - Parsed:IN
+INFO 25-Feb-21 13:07:48 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:07:49 - Completed Bolus Delivery
+INFO 25-Feb-21 13:07:49 - SentIPIN
+INFO 25-Feb-21 13:07:50 - Parsed:IN
+INFO 25-Feb-21 13:07:51 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:07:51 - Completed Bolus Delivery
+INFO 25-Feb-21 13:07:51 - SentIPIN
+INFO 25-Feb-21 13:07:53 - Parsed:IN
+INFO 25-Feb-21 13:07:53 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:07:53 - Completed Bolus Delivery
+INFO 25-Feb-21 13:07:53 - SentIPIN
+INFO 25-Feb-21 13:07:54 - Parsed:IN
+INFO 25-Feb-21 13:07:55 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:07:55 - Completed Bolus Delivery
+INFO 25-Feb-21 13:07:55 - SentIPIN
+INFO 25-Feb-21 13:07:56 - Parsed:IN
+INFO 25-Feb-21 13:07:57 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:07:57 - Completed Bolus Delivery
+INFO 25-Feb-21 13:07:57 - SentIPIN
+INFO 25-Feb-21 13:07:58 - Parsed:IN
+INFO 25-Feb-21 13:07:59 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:07:59 - Completed Bolus Delivery
+INFO 25-Feb-21 13:07:59 - SentIPIN
+INFO 25-Feb-21 13:08:00 - Parsed:IN
+INFO 25-Feb-21 13:08:01 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:08:01 - Completed Bolus Delivery
+INFO 25-Feb-21 13:08:01 - SentIPIN
+INFO 25-Feb-21 13:08:03 - Parsed:IN
+INFO 25-Feb-21 13:08:03 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:08:03 - Completed Bolus Delivery
+INFO 25-Feb-21 13:08:03 - SentIPIN
+INFO 25-Feb-21 13:08:04 - Parsed:IN
+INFO 25-Feb-21 13:08:04 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:08:05 - Completed Bolus Delivery
+INFO 25-Feb-21 13:08:05 - SentIPIN
+INFO 25-Feb-21 13:08:06 - Parsed:IN
+INFO 25-Feb-21 13:08:07 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:08:07 - Completed Bolus Delivery
+INFO 25-Feb-21 13:08:07 - SentIPIN
+INFO 25-Feb-21 13:08:08 - Parsed:IN
+INFO 25-Feb-21 13:08:09 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:08:09 - Completed Bolus Delivery
+INFO 25-Feb-21 13:08:09 - SentIPIN
+INFO 25-Feb-21 13:08:11 - Parsed:IN
+INFO 25-Feb-21 13:08:11 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:08:11 - Completed Bolus Delivery
+INFO 25-Feb-21 13:08:11 - SentIPIN
+INFO 25-Feb-21 13:08:13 - Parsed:IN
+INFO 25-Feb-21 13:08:13 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:08:13 - Completed Bolus Delivery
+INFO 25-Feb-21 13:08:13 - SentIPIN
+INFO 25-Feb-21 13:08:14 - Parsed:IN
+INFO 25-Feb-21 13:08:15 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:08:15 - Completed Bolus Delivery
+INFO 25-Feb-21 13:08:15 - SentIPIN
+INFO 25-Feb-21 13:08:16 - Parsed:IN
+INFO 25-Feb-21 13:08:17 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:08:17 - Completed Bolus Delivery
+INFO 25-Feb-21 13:08:17 - SentIPIN
+INFO 25-Feb-21 13:08:18 - Parsed:IN
+INFO 25-Feb-21 13:08:19 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:08:19 - Completed Bolus Delivery
+INFO 25-Feb-21 13:08:19 - SentIPIN
+INFO 25-Feb-21 13:08:20 - Parsed:IN
+INFO 25-Feb-21 13:08:20 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:08:21 - Completed Bolus Delivery
+INFO 25-Feb-21 13:08:21 - SentIPIN
+INFO 25-Feb-21 13:08:22 - Parsed:IN
+INFO 25-Feb-21 13:08:23 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:08:23 - Completed Bolus Delivery
+INFO 25-Feb-21 13:08:23 - SentIPIN
+INFO 25-Feb-21 13:08:24 - Parsed:IN
+INFO 25-Feb-21 13:08:25 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:08:25 - Completed Bolus Delivery
+INFO 25-Feb-21 13:08:25 - SentIPIN
+INFO 25-Feb-21 13:08:26 - Parsed:IN
+INFO 25-Feb-21 13:08:26 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:08:27 - Completed Bolus Delivery
+INFO 25-Feb-21 13:08:27 - SentIPIN
+INFO 25-Feb-21 13:08:28 - Parsed:IN
+INFO 25-Feb-21 13:08:29 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:08:29 - Completed Bolus Delivery
+INFO 25-Feb-21 13:08:29 - SentIPIN
+INFO 25-Feb-21 13:08:30 - Parsed:IN
+INFO 25-Feb-21 13:08:31 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:08:31 - Completed Bolus Delivery
+INFO 25-Feb-21 13:08:31 - SentIPIN
+INFO 25-Feb-21 13:08:32 - Parsed:IN
+INFO 25-Feb-21 13:08:33 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:08:33 - Completed Bolus Delivery
+INFO 25-Feb-21 13:08:33 - SentIPIN
+INFO 25-Feb-21 13:08:34 - Parsed:IN
+INFO 25-Feb-21 13:08:35 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:08:35 - Completed Bolus Delivery
+INFO 25-Feb-21 13:08:35 - SentIPIN
+INFO 25-Feb-21 13:08:37 - Parsed:IN
+INFO 25-Feb-21 13:08:37 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:08:37 - Completed Bolus Delivery
+INFO 25-Feb-21 13:08:37 - SentIPIN
+INFO 25-Feb-21 13:08:38 - Parsed:IN
+INFO 25-Feb-21 13:08:39 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:08:39 - Completed Bolus Delivery
+INFO 25-Feb-21 13:08:39 - SentIPIN
+INFO 25-Feb-21 13:08:40 - Parsed:IN
+INFO 25-Feb-21 13:08:40 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:08:41 - Completed Bolus Delivery
+INFO 25-Feb-21 13:08:41 - SentIPIN
+INFO 25-Feb-21 13:08:43 - Parsed:IN
+INFO 25-Feb-21 13:08:43 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:08:43 - Completed Bolus Delivery
+INFO 25-Feb-21 13:08:43 - SentIPIN
+INFO 25-Feb-21 13:08:44 - Parsed:IN
+INFO 25-Feb-21 13:08:45 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:08:45 - Completed Bolus Delivery
+INFO 25-Feb-21 13:08:45 - SentIPIN
+INFO 25-Feb-21 13:08:46 - Parsed:IN
+INFO 25-Feb-21 13:08:47 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:08:47 - Completed Bolus Delivery
+INFO 25-Feb-21 13:08:47 - SentIPIN
+INFO 25-Feb-21 13:08:48 - Parsed:IN
+INFO 25-Feb-21 13:08:49 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:08:49 - Completed Bolus Delivery
+INFO 25-Feb-21 13:08:49 - SentIPIN
+INFO 25-Feb-21 13:08:50 - Parsed:IN
+INFO 25-Feb-21 13:08:51 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:08:51 - Completed Bolus Delivery
+INFO 25-Feb-21 13:08:51 - SentIPIN
+INFO 25-Feb-21 13:08:52 - Parsed:IN
+INFO 25-Feb-21 13:08:53 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:08:53 - Completed Bolus Delivery
+INFO 25-Feb-21 13:08:53 - SentIPIN
+INFO 25-Feb-21 13:08:55 - Parsed:IN
+INFO 25-Feb-21 13:08:55 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:08:55 - Completed Bolus Delivery
+INFO 25-Feb-21 13:08:55 - SentIPIN
+INFO 25-Feb-21 13:08:56 - Parsed:IN
+INFO 25-Feb-21 13:08:57 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:08:57 - Completed Bolus Delivery
+INFO 25-Feb-21 13:08:57 - SentIPIN
+INFO 25-Feb-21 13:08:58 - Parsed:IN
+INFO 25-Feb-21 13:08:58 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:08:59 - Completed Bolus Delivery
+INFO 25-Feb-21 13:08:59 - SentIPIN
+INFO 25-Feb-21 13:09:01 - Parsed:IN
+INFO 25-Feb-21 13:09:01 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:09:01 - Completed Bolus Delivery
+INFO 25-Feb-21 13:09:01 - SentIPIN
+INFO 25-Feb-21 13:09:02 - Parsed:IN
+INFO 25-Feb-21 13:09:03 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:09:03 - Completed Bolus Delivery
+INFO 25-Feb-21 13:09:03 - SentIPIN
+INFO 25-Feb-21 13:09:04 - Parsed:IN
+INFO 25-Feb-21 13:09:05 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:09:05 - Completed Bolus Delivery
+INFO 25-Feb-21 13:09:05 - SentIPIN
+INFO 25-Feb-21 13:09:06 - Parsed:IN
+INFO 25-Feb-21 13:09:07 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:09:07 - Completed Bolus Delivery
+INFO 25-Feb-21 13:09:07 - SentIPIN
+INFO 25-Feb-21 13:09:08 - Parsed:IN
+INFO 25-Feb-21 13:09:09 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:09:09 - Completed Bolus Delivery
+INFO 25-Feb-21 13:09:09 - SentIPIN
+INFO 25-Feb-21 13:09:10 - Parsed:IN
+INFO 25-Feb-21 13:09:10 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:09:11 - Completed Bolus Delivery
+INFO 25-Feb-21 13:09:11 - SentIPIN
+INFO 25-Feb-21 13:09:12 - Parsed:IN
+INFO 25-Feb-21 13:09:13 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:09:13 - Completed Bolus Delivery
+INFO 25-Feb-21 13:09:13 - SentIPIN
+INFO 25-Feb-21 13:09:14 - Parsed:IN
+INFO 25-Feb-21 13:09:15 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:09:15 - Completed Bolus Delivery
+INFO 25-Feb-21 13:09:15 - SentIPIN
+INFO 25-Feb-21 13:09:16 - Parsed:IN
+INFO 25-Feb-21 13:09:17 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:09:17 - Completed Bolus Delivery
+INFO 25-Feb-21 13:09:17 - SentIPIN
+INFO 25-Feb-21 13:09:18 - Parsed:IN
+INFO 25-Feb-21 13:09:18 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:09:19 - Completed Bolus Delivery
+INFO 25-Feb-21 13:09:19 - SentIPIN
+INFO 25-Feb-21 13:09:20 - Parsed:IN
+INFO 25-Feb-21 13:09:21 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:09:21 - Completed Bolus Delivery
+INFO 25-Feb-21 13:09:21 - SentIPIN
+INFO 25-Feb-21 13:09:23 - Parsed:IN
+INFO 25-Feb-21 13:09:23 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:09:23 - Completed Bolus Delivery
+INFO 25-Feb-21 13:09:23 - SentIPIN
+INFO 25-Feb-21 13:09:24 - Parsed:IN
+INFO 25-Feb-21 13:09:25 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:09:25 - Completed Bolus Delivery
+INFO 25-Feb-21 13:09:25 - SentIPIN
+INFO 25-Feb-21 13:09:26 - Parsed:IN
+INFO 25-Feb-21 13:09:26 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:09:27 - Completed Bolus Delivery
+INFO 25-Feb-21 13:09:27 - SentIPIN
+INFO 25-Feb-21 13:09:28 - Parsed:IN
+INFO 25-Feb-21 13:09:28 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:09:29 - Completed Bolus Delivery
+INFO 25-Feb-21 13:09:29 - SentIPIN
+INFO 25-Feb-21 13:09:30 - Parsed:IN
+INFO 25-Feb-21 13:09:31 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:09:31 - Completed Bolus Delivery
+INFO 25-Feb-21 13:09:31 - SentIPIN
+INFO 25-Feb-21 13:09:32 - Parsed:IN
+INFO 25-Feb-21 13:09:33 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:09:33 - Completed Bolus Delivery
+INFO 25-Feb-21 13:09:33 - SentIPIN
+INFO 25-Feb-21 13:09:34 - Parsed:IN
+INFO 25-Feb-21 13:09:35 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:09:35 - Completed Bolus Delivery
+INFO 25-Feb-21 13:09:35 - SentIPIN
+INFO 25-Feb-21 13:09:36 - Parsed:IN
+INFO 25-Feb-21 13:09:37 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:09:37 - Completed Bolus Delivery
+INFO 25-Feb-21 13:09:37 - SentIPIN
+INFO 25-Feb-21 13:09:38 - Parsed:IN
+INFO 25-Feb-21 13:09:39 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:09:39 - Completed Bolus Delivery
+INFO 25-Feb-21 13:09:39 - SentIPIN
+INFO 25-Feb-21 13:09:40 - Parsed:IN
+INFO 25-Feb-21 13:09:41 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:09:41 - Completed Bolus Delivery
+INFO 25-Feb-21 13:09:41 - SentIPIN
+INFO 25-Feb-21 13:09:43 - Parsed:IN
+INFO 25-Feb-21 13:09:43 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:09:43 - Completed Bolus Delivery
+INFO 25-Feb-21 13:09:43 - SentIPIN
+INFO 25-Feb-21 13:09:45 - Parsed:IN
+INFO 25-Feb-21 13:09:45 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:09:45 - Completed Bolus Delivery
+INFO 25-Feb-21 13:09:45 - SentIPIN
+INFO 25-Feb-21 13:09:46 - Parsed:IN
+INFO 25-Feb-21 13:09:47 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:09:47 - Completed Bolus Delivery
+INFO 25-Feb-21 13:09:47 - SentIPIN
+INFO 25-Feb-21 13:09:49 - Parsed:IN
+INFO 25-Feb-21 13:09:49 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:09:49 - Completed Bolus Delivery
+INFO 25-Feb-21 13:09:49 - SentIPIN
+INFO 25-Feb-21 13:09:51 - Parsed:IN
+INFO 25-Feb-21 13:09:51 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:09:51 - Completed Bolus Delivery
+INFO 25-Feb-21 13:09:51 - SentIPIN
+INFO 25-Feb-21 13:09:53 - Parsed:IN
+INFO 25-Feb-21 13:09:53 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:09:53 - Completed Bolus Delivery
+INFO 25-Feb-21 13:09:53 - SentIPIN
+INFO 25-Feb-21 13:09:54 - Parsed:IN
+INFO 25-Feb-21 13:09:55 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:09:55 - Completed Bolus Delivery
+INFO 25-Feb-21 13:09:55 - SentIPIN
+INFO 25-Feb-21 13:09:56 - Parsed:IN
+INFO 25-Feb-21 13:09:57 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:09:57 - Completed Bolus Delivery
+INFO 25-Feb-21 13:09:57 - SentIPIN
+INFO 25-Feb-21 13:09:59 - Parsed:IN
+INFO 25-Feb-21 13:09:59 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:09:59 - Completed Bolus Delivery
+INFO 25-Feb-21 13:09:59 - SentIPIN
+INFO 25-Feb-21 13:10:00 - Parsed:IN
+INFO 25-Feb-21 13:10:01 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:10:01 - Completed Bolus Delivery
+INFO 25-Feb-21 13:10:01 - SentIPIN
+INFO 25-Feb-21 13:10:02 - Parsed:IN
+INFO 25-Feb-21 13:10:03 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:10:03 - Completed Bolus Delivery
+INFO 25-Feb-21 13:10:03 - SentIPIN
+INFO 25-Feb-21 13:10:04 - Parsed:IN
+INFO 25-Feb-21 13:10:05 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:10:05 - Completed Bolus Delivery
+INFO 25-Feb-21 13:10:05 - SentIPIN
+INFO 25-Feb-21 13:10:06 - Parsed:IN
+INFO 25-Feb-21 13:10:07 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:10:07 - Completed Bolus Delivery
+INFO 25-Feb-21 13:10:07 - SentIPIN
+INFO 25-Feb-21 13:10:08 - Parsed:IN
+INFO 25-Feb-21 13:10:09 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:10:09 - Completed Bolus Delivery
+INFO 25-Feb-21 13:10:09 - SentIPIN
+INFO 25-Feb-21 13:10:11 - Parsed:IN
+INFO 25-Feb-21 13:10:11 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:10:11 - Completed Bolus Delivery
+INFO 25-Feb-21 13:10:11 - SentIPIN
+INFO 25-Feb-21 13:10:12 - Parsed:IN
+INFO 25-Feb-21 13:10:13 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:10:13 - Completed Bolus Delivery
+INFO 25-Feb-21 13:10:13 - SentIPIN
+INFO 25-Feb-21 13:10:14 - Parsed:IN
+INFO 25-Feb-21 13:10:14 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:10:15 - Completed Bolus Delivery
+INFO 25-Feb-21 13:10:15 - SentIPIN
+INFO 25-Feb-21 13:10:17 - Parsed:IN
+INFO 25-Feb-21 13:10:17 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:10:17 - Completed Bolus Delivery
+INFO 25-Feb-21 13:10:17 - SentIPIN
+INFO 25-Feb-21 13:10:18 - Parsed:IN
+INFO 25-Feb-21 13:10:19 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:10:19 - Completed Bolus Delivery
+INFO 25-Feb-21 13:10:19 - SentIPIN
+INFO 25-Feb-21 13:10:21 - Parsed:IN
+INFO 25-Feb-21 13:10:21 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:10:21 - Completed Bolus Delivery
+INFO 25-Feb-21 13:10:21 - SentIPIN
+INFO 25-Feb-21 13:10:22 - Parsed:IN
+INFO 25-Feb-21 13:10:23 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:10:23 - Completed Bolus Delivery
+INFO 25-Feb-21 13:10:23 - SentIPIN
+INFO 25-Feb-21 13:10:24 - Parsed:IN
+INFO 25-Feb-21 13:10:25 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:10:25 - Completed Bolus Delivery
+INFO 25-Feb-21 13:10:25 - SentIPIN
+INFO 25-Feb-21 13:10:26 - Parsed:IN
+INFO 25-Feb-21 13:10:27 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:10:27 - Completed Bolus Delivery
+INFO 25-Feb-21 13:10:27 - SentIPIN
+INFO 25-Feb-21 13:10:28 - Parsed:IN
+INFO 25-Feb-21 13:10:29 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:10:29 - Completed Bolus Delivery
+INFO 25-Feb-21 13:10:29 - SentIPIN
+INFO 25-Feb-21 13:10:30 - Parsed:IN
+INFO 25-Feb-21 13:10:31 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:10:31 - Completed Bolus Delivery
+INFO 25-Feb-21 13:10:31 - SentIPIN
+INFO 25-Feb-21 13:10:32 - Parsed:IN
+INFO 25-Feb-21 13:10:32 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:10:33 - Completed Bolus Delivery
+INFO 25-Feb-21 13:10:33 - SentIPIN
+INFO 25-Feb-21 13:10:34 - Parsed:IN
+INFO 25-Feb-21 13:10:35 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:10:35 - Completed Bolus Delivery
+WARNING 25-Feb-21 13:10:43 - Started
+INFO 25-Feb-21 13:10:43 - Parser Thread Started successfully
+INFO 25-Feb-21 13:10:43 - Serial Listner Thread started
+INFO 25-Feb-21 13:10:43 - Starting logger
+INFO 25-Feb-21 13:10:46 - Started scan for BLE devices
+INFO 25-Feb-21 13:10:56 - Scan complete
+INFO 25-Feb-21 13:12:11 - Attempting to Connect to:f9:9b:81:05:de:e7
+INFO 25-Feb-21 13:12:15 - Connected to: f9:9b:81:05:de:e7
+INFO 25-Feb-21 13:12:15 - Starting connection check
+INFO 25-Feb-21 13:12:15 - Starting HB sender timer
+INFO 25-Feb-21 13:12:15 - Logic queue recieved: SSSHB
+INFO 25-Feb-21 13:12:16 - SentIPHB
+INFO 25-Feb-21 13:12:16 - Parsed:HB
+
+INFO 25-Feb-21 13:12:16 - Logic queue recieved: HB
+
+INFO 25-Feb-21 13:12:18 - SentIPHB
+INFO 25-Feb-21 13:12:18 - Logic queue recieved: SSSHB
+INFO 25-Feb-21 13:12:18 - Parsed:HB
+
+INFO 25-Feb-21 13:12:18 - Logic queue recieved: HB
+
+INFO 25-Feb-21 13:12:20 - Logic queue recieved: SSSHB
+INFO 25-Feb-21 13:12:20 - SentIPHB
+INFO 25-Feb-21 13:12:20 - Parsed:HB
+
+INFO 25-Feb-21 13:12:20 - Logic queue recieved: HB
+
+INFO 25-Feb-21 13:12:22 - SentIPHB
+INFO 25-Feb-21 13:12:22 - Logic queue recieved: SSSHB
+INFO 25-Feb-21 13:12:22 - Parsed:HB
+
+INFO 25-Feb-21 13:12:23 - Logic queue recieved: HB
+
+WARNING 25-Feb-21 13:12:23 - Starting Bolus Delivery
+INFO 25-Feb-21 13:12:26 - SentIPIN
+INFO 25-Feb-21 13:12:27 - Parsed:IN
+INFO 25-Feb-21 13:12:27 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:12:37 - Starting Bolus Delivery
+WARNING 25-Feb-21 13:13:39 - Starting Bolus Delivery
+WARNING 25-Feb-21 13:14:29 - Starting Bolus Delivery
+WARNING 25-Feb-21 13:14:35 - Starting Bolus Delivery
+WARNING 25-Feb-21 13:15:11 - Started
+INFO 25-Feb-21 13:15:11 - Starting logger
+INFO 25-Feb-21 13:15:11 - Parser Thread Started successfully
+INFO 25-Feb-21 13:15:11 - Serial Listner Thread started
+INFO 25-Feb-21 13:15:13 - Started scan for BLE devices
+INFO 25-Feb-21 13:15:24 - Scan complete
+INFO 25-Feb-21 13:15:26 - Attempting to Connect to:f9:9b:81:05:de:e7
+INFO 25-Feb-21 13:15:29 - Connected to: f9:9b:81:05:de:e7
+INFO 25-Feb-21 13:15:29 - Starting connection check
+INFO 25-Feb-21 13:15:30 - Starting HB sender timer
+INFO 25-Feb-21 13:15:30 - SentIPHB
+INFO 25-Feb-21 13:15:30 - Logic queue recieved: SSSHB
+INFO 25-Feb-21 13:15:30 - Parsed:HB
+
+INFO 25-Feb-21 13:15:30 - Logic queue recieved: HB
+
+INFO 25-Feb-21 13:15:32 - Logic queue recieved: SSSHB
+INFO 25-Feb-21 13:15:32 - SentIPHB
+INFO 25-Feb-21 13:15:32 - Parsed:HB
+
+INFO 25-Feb-21 13:15:33 - Logic queue recieved: HB
+
+INFO 25-Feb-21 13:15:34 - SentIPHB
+INFO 25-Feb-21 13:15:34 - Logic queue recieved: SSSHB
+INFO 25-Feb-21 13:15:35 - Parsed:HB
+
+INFO 25-Feb-21 13:15:35 - Logic queue recieved: HB
+
+WARNING 25-Feb-21 13:15:36 - Starting Bolus Delivery
+INFO 25-Feb-21 13:15:39 - SentIPIN
+INFO 25-Feb-21 13:15:40 - Parsed:IN
+INFO 25-Feb-21 13:15:41 - Logic queue recieved: IN
+INFO 25-Feb-21 13:15:41 - SentIPIN
+INFO 25-Feb-21 13:15:42 - Parsed:IN
+INFO 25-Feb-21 13:15:43 - Logic queue recieved: IN
+INFO 25-Feb-21 13:15:43 - SentIPIN
+INFO 25-Feb-21 13:15:44 - Parsed:IN
+INFO 25-Feb-21 13:15:45 - Logic queue recieved: IN
+INFO 25-Feb-21 13:15:45 - SentIPIN
+INFO 25-Feb-21 13:15:46 - Parsed:IN
+INFO 25-Feb-21 13:15:47 - Logic queue recieved: IN
+INFO 25-Feb-21 13:15:47 - SentIPIN
+INFO 25-Feb-21 13:15:49 - Parsed:IN
+INFO 25-Feb-21 13:15:49 - Logic queue recieved: IN
+INFO 25-Feb-21 13:15:49 - SentIPIN
+INFO 25-Feb-21 13:15:50 - Parsed:IN
+INFO 25-Feb-21 13:15:51 - Logic queue recieved: IN
+INFO 25-Feb-21 13:15:51 - SentIPIN
+INFO 25-Feb-21 13:15:53 - Parsed:IN
+INFO 25-Feb-21 13:15:53 - Logic queue recieved: IN
+INFO 25-Feb-21 13:15:53 - SentIPIN
+INFO 25-Feb-21 13:15:55 - Parsed:IN
+INFO 25-Feb-21 13:15:55 - Logic queue recieved: IN
+INFO 25-Feb-21 13:15:55 - SentIPIN
+INFO 25-Feb-21 13:15:56 - Parsed:IN
+INFO 25-Feb-21 13:15:57 - Logic queue recieved: IN
+INFO 25-Feb-21 13:15:57 - SentIPIN
+INFO 25-Feb-21 13:15:58 - Parsed:IN
+INFO 25-Feb-21 13:15:59 - Logic queue recieved: IN
+INFO 25-Feb-21 13:15:59 - SentIPIN
+INFO 25-Feb-21 13:16:00 - Parsed:IN
+INFO 25-Feb-21 13:16:01 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:16:01 - Completed Bolus Delivery
+INFO 25-Feb-21 13:16:01 - SentIPIN
+INFO 25-Feb-21 13:16:02 - Parsed:IN
+INFO 25-Feb-21 13:16:02 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:16:03 - Completed Bolus Delivery
+INFO 25-Feb-21 13:16:03 - SentIPIN
+INFO 25-Feb-21 13:16:05 - Parsed:IN
+INFO 25-Feb-21 13:16:05 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:16:05 - Completed Bolus Delivery
+INFO 25-Feb-21 13:16:05 - SentIPIN
+INFO 25-Feb-21 13:16:06 - Parsed:IN
+INFO 25-Feb-21 13:16:06 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:16:07 - Completed Bolus Delivery
+INFO 25-Feb-21 13:16:07 - SentIPIN
+INFO 25-Feb-21 13:16:08 - Parsed:IN
+INFO 25-Feb-21 13:16:08 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:16:09 - Completed Bolus Delivery
+INFO 25-Feb-21 13:16:09 - SentIPIN
+INFO 25-Feb-21 13:16:10 - Parsed:IN
+INFO 25-Feb-21 13:16:10 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:16:11 - Completed Bolus Delivery
+INFO 25-Feb-21 13:16:11 - SentIPIN
+INFO 25-Feb-21 13:16:12 - Parsed:IN
+INFO 25-Feb-21 13:16:12 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:16:12 - Completed Bolus Delivery
+INFO 25-Feb-21 13:16:13 - SentIPIN
+INFO 25-Feb-21 13:16:14 - Parsed:IN
+INFO 25-Feb-21 13:16:15 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:16:15 - Completed Bolus Delivery
+INFO 25-Feb-21 13:16:15 - SentIPIN
+INFO 25-Feb-21 13:16:17 - Parsed:IN
+INFO 25-Feb-21 13:16:17 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:16:17 - Completed Bolus Delivery
+INFO 25-Feb-21 13:16:17 - SentIPIN
+INFO 25-Feb-21 13:16:18 - Parsed:IN
+INFO 25-Feb-21 13:16:19 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:16:19 - Completed Bolus Delivery
+INFO 25-Feb-21 13:16:19 - SentIPIN
+INFO 25-Feb-21 13:16:20 - Parsed:IN
+INFO 25-Feb-21 13:16:21 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:16:21 - Completed Bolus Delivery
+INFO 25-Feb-21 13:16:21 - SentIPIN
+INFO 25-Feb-21 13:16:23 - Parsed:IN
+INFO 25-Feb-21 13:16:23 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:16:23 - Completed Bolus Delivery
+INFO 25-Feb-21 13:16:23 - SentIPIN
+INFO 25-Feb-21 13:16:24 - Parsed:IN
+INFO 25-Feb-21 13:16:25 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:16:25 - Completed Bolus Delivery
+INFO 25-Feb-21 13:16:25 - SentIPIN
+INFO 25-Feb-21 13:16:27 - Parsed:IN
+INFO 25-Feb-21 13:16:27 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:16:27 - Completed Bolus Delivery
+INFO 25-Feb-21 13:16:27 - SentIPIN
+INFO 25-Feb-21 13:16:28 - Parsed:IN
+INFO 25-Feb-21 13:16:29 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:16:29 - Completed Bolus Delivery
+INFO 25-Feb-21 13:16:29 - SentIPIN
+INFO 25-Feb-21 13:16:30 - Parsed:IN
+INFO 25-Feb-21 13:16:31 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:16:31 - Completed Bolus Delivery
+INFO 25-Feb-21 13:16:31 - SentIPIN
+INFO 25-Feb-21 13:16:32 - Parsed:IN
+INFO 25-Feb-21 13:16:33 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:16:33 - Completed Bolus Delivery
+INFO 25-Feb-21 13:16:33 - SentIPIN
+INFO 25-Feb-21 13:16:34 - Parsed:IN
+INFO 25-Feb-21 13:16:35 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:16:35 - Completed Bolus Delivery
+INFO 25-Feb-21 13:16:35 - SentIPIN
+INFO 25-Feb-21 13:16:36 - Parsed:IN
+INFO 25-Feb-21 13:16:37 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:16:37 - Completed Bolus Delivery
+INFO 25-Feb-21 13:16:37 - SentIPIN
+INFO 25-Feb-21 13:16:39 - Parsed:IN
+INFO 25-Feb-21 13:16:39 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:16:39 - Completed Bolus Delivery
+INFO 25-Feb-21 13:16:39 - SentIPIN
+INFO 25-Feb-21 13:16:40 - Parsed:IN
+INFO 25-Feb-21 13:16:41 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:16:41 - Completed Bolus Delivery
+INFO 25-Feb-21 13:16:41 - SentIPIN
+INFO 25-Feb-21 13:16:42 - Parsed:IN
+INFO 25-Feb-21 13:16:43 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:16:43 - Completed Bolus Delivery
+INFO 25-Feb-21 13:16:43 - SentIPIN
+INFO 25-Feb-21 13:16:44 - Parsed:IN
+INFO 25-Feb-21 13:16:45 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:16:45 - Completed Bolus Delivery
+INFO 25-Feb-21 13:16:45 - SentIPIN
+INFO 25-Feb-21 13:16:46 - Parsed:IN
+INFO 25-Feb-21 13:16:47 - Logic queue recieved: IN
+WARNING 25-Feb-21 13:16:47 - Completed Bolus Delivery
+INFO 25-Feb-21 13:16:47 - SentIPIN
+INFO 25-Feb-21 13:16:48 - Parsed:IN
+INFO 25-Feb-21 13:16:49 - Logic queue recieved: IN

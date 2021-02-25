@@ -125,6 +125,6 @@ class heartBeatChecker(QTimer):
         Sends the heartbeat repeatedly
         """
         self.sendHeartBeat.emit()
-        self.heartBeatSenderTimer.start(2000)
+        #self.heartBeatSenderTimer.start(2000)
 
         
