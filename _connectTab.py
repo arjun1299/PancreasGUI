@@ -103,8 +103,8 @@ class connectTab(object):
         worker.signals.finished.connect(self.finished)
         self.heartBeatChecker.heartBeatSenderTimer.start(500)
         Logger.q.put(("INFO","Starting HB sender timer"))
-        self.heartBeatChecker.heartBeatRecieverTimer.start(5000)
-        Logger.q.put(("INFO","Starting HB reviever timer"))
+        #self.heartBeatChecker.heartBeatRecieverTimer.start(5000)
+        #Logger.q.put(("INFO","Starting HB reviever timer"))
         self.heartBeatChecker.heartBeatRecieverTimer.timeout.connect(self.heartBeatTimeout)
         self.threadpool.start(worker)
     

@@ -23,7 +23,6 @@ from _bolusTesting import bolusTestingTab
 from multithread import Worker,WorkerSignals
 
 
-
 class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,commandTab,recurringTab,bolusTestingTab):
     def __init__(self, *args, obj=None, **kwargs):
         
@@ -141,7 +140,6 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,comm
 
         
         self.updateStatus()
-
 
 
                 
@@ -320,4 +318,4 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,comm
 app = QtWidgets.QApplication(sys.argv)
 window = MainWindow()
 window.show()
-sys.exit(app.exec_())
+sys.exit(app.exec())
