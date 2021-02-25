@@ -74,7 +74,7 @@ class Logic(QThread):
             time.sleep(0.1)
 
 class heartBeatChecker(QTimer):
-    """This class contains all timers required for the funtioning of the heartbeat
+    """This class contains all timers required for the funtioning of the heartbeat, the timers should run on the main thread
 
     :param QTimer: [description]
     :type QTimer: [type]
@@ -125,6 +125,6 @@ class heartBeatChecker(QTimer):
         Sends the heartbeat repeatedly
         """
         self.sendHeartBeat.emit()
-        self.heartBeatSenderTimer.start(2000)
+        #self.heartBeatSenderTimer.start(2000)
 
         

@@ -23,7 +23,6 @@ from _bolusTesting import bolusTestingTab
 from multithread import Worker,WorkerSignals
 
 
-
 class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,commandTab,recurringTab,bolusTestingTab):
     def __init__(self, *args, obj=None, **kwargs):
         
@@ -143,7 +142,6 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,comm
         self.updateStatus()
 
 
-
                 
     def finished(self,args):
         print(args+"Thread complete")
@@ -205,9 +203,11 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,comm
         """
         if(self.uart_service):
             while(self.uart_service.in_waiting):# if an if condition is used partially read charachters appear
+                Logger.q.put(("INFO","Data in buffer"))
                 raw_serial=self.uart_service.readline()
                 if raw_serial:
                     self.parser.q.put(raw_serial)
+                    Logger.q.put(("INFO","Data added to parser queue"))
                     print("Added to parser queue")
         """else:
             print("No UART connection, cannot add to parser Queue"
@@ -320,4 +320,4 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,comm
 app = QtWidgets.QApplication(sys.argv)
 window = MainWindow()
 window.show()
-sys.exit(app.exec_())
+sys.exit(app.exec())
