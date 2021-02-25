@@ -71,16 +71,19 @@ class bolusTestingTab(object):
             self.insulonEndTime=current_milli_time()
             print(self.timeBetweenPulses-(self.insulonEndTime-self.insulonStartTime))
             #self.bolusTimer.start(self.timeBetweenPulses-(self.insulonEndTime-self.insulonStartTime))#self.timeBetweenPulses-(self.insulonEndTime-self.insulonStartTime))
-            self.bolusTimer.setTimeout(self.timeBetweenPulses-(self.insulonEndTime-self.insulonStartTime))#self.timeBetweenPulses)
+            #self.bolusTimer.setTimeout(self.timeBetweenPulses-(self.insulonEndTime-self.insulonStartTime))#self.timeBetweenPulses)
+            self.bolusTimer.setTimeout(self.timeBetweenPulses)
             self.bolusTimer.start()
             
         else:
             #self.bolusTimer.stopTimer()
+            self.bolusTimer.quit()
             Logger.q.put(("WARNING","Completed Bolus Delivery"))
 
     def stopBolusDelivery():
         self.showWarning("Stop Bolus Delivery?")
         Logger.q.put(("WARNING","Stopped Bolus Delivery"))
+        self.bolusTimer.quit()
         #self.bolusTimer.stop()
 
     
@@ -108,7 +111,7 @@ class timerThread(QThread):
         super().__init__()
         self.timer=QTimer()
         self.timer.timeout.connect(self.timeoutFunction)
-        #self.timer.setSingleShot(True)
+        self.timer.setTimerType(Qt.PreciseTimer)
         self.timer.moveToThread(self)
         
         self.setPriority(QThread.HighestPriority)

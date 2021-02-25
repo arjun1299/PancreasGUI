@@ -203,9 +203,11 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,comm
         """
         if(self.uart_service):
             while(self.uart_service.in_waiting):# if an if condition is used partially read charachters appear
+                Logger.q.put(("INFO","Data in buffer"))
                 raw_serial=self.uart_service.readline()
                 if raw_serial:
                     self.parser.q.put(raw_serial)
+                    Logger.q.put(("INFO","Data added to parser queue"))
                     print("Added to parser queue")
         """else:
             print("No UART connection, cannot add to parser Queue"
