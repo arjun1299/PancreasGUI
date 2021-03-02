@@ -15,7 +15,10 @@ class Logic(QThread):
 
     hbRecieverTimerReset=pyqtSignal()
     hbSenderTimerReset=pyqtSignal()
+    hbStop=pyqtSignal()
     sendHB=pyqtSignal()
+    sendIN=pyqtSignal()
+    sentIN=pyqtSignal()
     engageClutch=pyqtSignal()
     insulonComplete=pyqtSignal(str)
 
@@ -27,12 +30,13 @@ class Logic(QThread):
         """Flag indicates that the next incoming value is the inulon time
         """
         self.insulonCompleteFlag=False
+        self.sendInsulonFlag=False
 
     def run(self):
         while 1:
             #print("Thread recieved")
             #print("Running parser")
-            if(self.pq.empty()==False):#if there is any value
+            while(self.pq.empty()==False):#if there is any value
                 #the first element is the priority
                 data=self.pq.get()[1]
                 print("Logic:"+data)
@@ -45,33 +49,57 @@ class Logic(QThread):
                 if(data[0:2]=="SS"):
                     if(data[2:]=="SHB"):
                         self.hbRecieverTimerReset.emit()
+                    if(data[2:]=="SIN"):
+                        self.sentIN.emit()
 
 
                 """
                 Sender functions
                 """
+                if(data=="SIN"):
+                    #send insulon
+                    self.sendIN.emit()
+                elif(data=="SHB"):
+                    #send heartbeat
+                    self.sendHB.emit()
+                elif(data=="INSHB"):
+                    #send heartbeat before insulon
+                    self.sendInsulonFlag=True
+                    self.sendHB.emit()
+
                 """
                 Incoming from BLE
                 """
                 if(data[:2]=="HB"):
-                    print("Emitting hb Reset")
-                    self.hbSenderTimerReset.emit()
-
-                elif(self.insulonCompleteFlag):
-                    print(data)
-                    self.insulonCompleteFlag=False
-                    self.insulonComplete.emit(data) 
-
+                    
+                    #if the hb was returned and the next step is to send an insulon
+                    if(self.sendInsulonFlag==True):
+                        self.pq.put((1,"SIN"))
+                        self.sendInsulonFlag=False
+                        self.hbStop.emit()
+                    else:
+                        print("Emitting hb Reset")
+                        self.hbSenderTimerReset.emit()
+                        
                 elif(data[:2]=="IN"):
                     """
                     Data comes in as
                     INXX.XX where X is the time taken for one insulon rotation
                     """
                     print("Emitting IN")
-                    self.insulonComplete.emit(data[2:]) 
-               
-                
-            time.sleep(0.1)
+                    self.insulonComplete.emit(data[2:])
+
+            time.sleep(0.01)
+
+    def addHBLogic(self):
+        """Add sender heartbeat into the logic queue
+        """
+        self.pq.put((1,"SHB"))
+
+    def heartBeatSent(self):
+        self.pq.put((1,"SSSHB"))
+    def insulonSent(self):
+        self.pq.put((1,"SSSIN"))
 
 class heartBeatChecker(QTimer):
     """This class contains all timers required for the funtioning of the heartbeat, the timers should run on the main thread
@@ -81,7 +109,7 @@ class heartBeatChecker(QTimer):
     """
 
     heartBeatSenderInterval=2000
-    heartBeatRecieverInterval=7000
+    heartBeatRecieverInterval=3000
 
     sendHeartBeat=pyqtSignal()
     timeoutSignal=pyqtSignal()
@@ -118,6 +146,10 @@ class heartBeatChecker(QTimer):
         self.heartBeatSenderTimer.stop()
         self.heartBeatRecieverTimer.stop()
         self.heartBeatSenderTimer.start(heartBeatChecker.heartBeatSenderInterval)
+
+    def hbStop(self):
+        self.heartBeatSenderTimer.stop()
+        self.heartBeatRecieverTimer.stop()
 
     
     def hbSend(self):

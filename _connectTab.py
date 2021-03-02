@@ -119,7 +119,7 @@ class connectTab(object):
                     pass
                 else:
                     self.uart_service=False
-            time.sleep(0.1)
+            time.sleep(0.01)
 
 
     
@@ -269,6 +269,3 @@ class connectTab(object):
 
     def finish(self):
         print("Exited thread")
-
-    def heartBeatSent(self):
-        self.logic.pq.put((1,"SSSHB"))

@@ -35,7 +35,7 @@ class Parser(QThread):
         while 1:
             #print("Thread recieved")
             #print("Running parser")
-            if(self.q.empty()==False):
+            while(self.q.empty()==False):
                 data=self.q.get()
 
                 if data=="Stop":
@@ -48,7 +48,7 @@ class Parser(QThread):
                 print("Parsed:"+data)
                 Logger.q.put(("INFO","Parsed:"+data))
 
-            time.sleep(0.1)
+            time.sleep(0.01)
 
 class SerialListner(QThread):
     """Listens to the buffer and loads any sends signals to load any incoming data to serial
@@ -79,7 +79,7 @@ class SerialListner(QThread):
 
             self.dataArrival.emit()
             
-            time.sleep(0.1)
+            time.sleep(0.01)
 
 class Sender(QThread):
     """
@@ -90,6 +90,7 @@ class Sender(QThread):
     """
 
     heartBeatSent=pyqtSignal()
+    insulonSent=pyqtSignal()
     sendData=pyqtSignal(str)
     q=Queue()
 
@@ -101,14 +102,14 @@ class Sender(QThread):
 
     def run(self):
         while 1:
-            if(self.q.empty()==False):
+            while(self.q.empty()==False):
                 data=self.q.get()
 
                 if data=="Stop":
                     break
 
                 self.sendData.emit(data)
-        time.sleep(0.1)
+        time.sleep(0.01)
 
     def sendHB(self):
         """
@@ -118,4 +119,11 @@ class Sender(QThread):
         print("Sent HB")
         self.q.put(s)
         self.heartBeatSent.emit()
-        
+    
+    def sendIN(self):
+        """Send an insulon 
+        """
+        s="IPIN\r"
+        print("Send IN")
+        self.q.put(s)
+        self.insulonSent.emit()

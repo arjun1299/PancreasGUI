@@ -91,35 +91,40 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,comm
         #self.sender.finished.connect(lambda v: self.finished("Parser"))
         self.parser.start()       
 
+        self.logic=Logic()
         """
         Start sender 
         """ 
         self.sender=Sender()
         self.sender.sendData.connect(self.sendData)
         #self.sender.finished.connect(lambda v: self.finished("Sender"))
-        self.sender.heartBeatSent.connect(self.heartBeatSent)
-        self.sender.start()   
-
-        """Initialize connection checker which checks heartbeat
-        """
+        self.sender.heartBeatSent.connect(self.logic.heartBeatSent)
+        self.sender.insulonSent.connect(self.logic.insulonSent)
+        self.sender.start()
+        
 
         self.heartBeatChecker=heartBeatChecker()
-        self.heartBeatChecker.sendHeartBeat.connect(self.sender.sendHB)
-        self.heartBeatChecker.timeoutSignal.connect(self.heartBeatTimeout)
-
         """
         Section to Logic
         """
-        self.logic=Logic()
+        
         ###Connect all logic signals
         self.logic.hbSenderTimerReset.connect(self.heartBeatChecker.hbSenderTimerReset)
         self.logic.hbRecieverTimerReset.connect(self.heartBeatChecker.hbRecieverTimerReset)
         self.logic.insulonComplete.connect(self.resetBolusTimer)
         self.logic.sendHB.connect(self.sender.sendHB)
-        self.logic.start()   
+        self.logic.sendIN.connect(self.sender.sendIN)
+        self.logic.hbStop.connect(self.heartBeatChecker.hbStop)
+        self.logic.start()
 
         self.connectedSignal.connect(self.isConnectedBLEHandle)
         
+
+        """Initialize connection checker which checks heartbeat
+        """
+        self.heartBeatChecker.sendHeartBeat.connect(self.logic.addHBLogic)
+        self.heartBeatChecker.timeoutSignal.connect(self.heartBeatTimeout)
+
 
         """
         Inititialize all the required tabs
@@ -164,11 +169,11 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,comm
         self.heartBeatChecker.heartBeatRecieverTimer.stop()
         self.heartBeatChecker.heartBeatSenderTimer.stop()
         self.uart_service=False
-        Logger.q.put("ERROR","Heartbeat Timeout!!")
+        Logger.q.put(("ERROR","Heartbeat Timeout!!"))
         self.showError("Heart beat missing")
         
         while Logger.q.empty()==False or self.parser.q.empty()==False or self.sender.q.empty()==False or self.logic.pq.empty()==False: 
-            time.sleep(0.1)
+            time.sleep(0.01)
     
         self.showError("Device disconnected")
         self.bleConnectionStatus="Disconnected"
