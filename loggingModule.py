@@ -25,7 +25,7 @@ class Logger(QThread):
         print("Starting logger")
         
         while 1:
-            while self.q.empty()==False :
+            if self.q.empty()==False :
                 (level,message)= Logger.q.get()
                 if message=="Stop":
                     break
@@ -41,4 +41,4 @@ class Logger(QThread):
                 elif(level=="INFO"):
                     logging.info(message)
 
-            time.sleep(0.01)
+            time.sleep(0.005)

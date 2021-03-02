@@ -13,6 +13,8 @@ class bolusTestingTab(object):
 
     def init_bolusTestingTab(self):
         #start prime
+        self.ongoingDeliveryFlag=False
+
         self.startPrimeBtn=self.ui.startPrimeBtn
         self.startPrimeBtn.clicked.connect(self.enablePriming)
         self.pulseDelayTxt= self.ui.pulseDelayTxt
@@ -40,6 +42,8 @@ class bolusTestingTab(object):
         self.insulonCompleteFlag=False
     
     def startBolusDelivery(self):
+        self.insulonCompleteFlag=True
+        self.ongoingDeliveryFlag=True
         self.heartBeatChecker.heartBeatSenderTimer.stop()
         self.heartBeatChecker.heartBeatRecieverTimer.stop()
         
@@ -59,56 +63,64 @@ class bolusTestingTab(object):
         self.bolusTimer.setTimeout(self.timeBetweenPulses)
         self.bolusTimer.finished.connect(self.completedBolusRegime)
         self.bolusTimer.start()
+        self.bolusTimer.setPriority(QThread.HighestPriority)
 
     
     def setInsulonCompleteFlag(self,status):
         self.insulonCompleteFlag= status
 
-    def resetBolusTimer(self,timeDelay):
+    def resetBolusTimer(self,encoderValue):
+        
         """Resets the bolus timer if the delivery target has not been reached
 
         :param timeDelay: String, it has to be converted to an int before
         :type timeDelay: string
         """
-    
-        if self.deliveryAmount>0 and self.insulonCompleteFlag==True:
-            
-            self.deliveryAmount-=1 #decrease by amount consumed in 1 rotation
-            Logger.q.put(("WARNING","Resetting bolus delivery timer,{} remaining".format(self.deliveryAmount)))
-            print("Reset Bolus timer")
+        Logger.q.put(("INFO","Encoder value: {}".format(encoderValue)))
+        if(self.ongoingDeliveryFlag==False):
+            return
 
-            
-            #self.bolusTimer.start()
-            
-            #This method uses delay given by the device
-            #self.bolusTimer.start(abs(int(self.timeBetweenPulses-int(timeDelay))))
-            print("Time Delay: ")
-            self.insulonEndTime=current_milli_time()
-            print(self.timeBetweenPulses-(self.insulonEndTime-self.insulonStartTime))
-            #self.bolusTimer.start(self.timeBetweenPulses-(self.insulonEndTime-self.insulonStartTime))#self.timeBetweenPulses-(self.insulonEndTime-self.insulonStartTime))
-            #self.bolusTimer.setTimeout(self.timeBetweenPulses-(self.insulonEndTime-self.insulonStartTime))#self.timeBetweenPulses)
-            #self.bolusTimer.quit()
-            
-            timediff=(self.insulonEndTime-self.insulonStartTime)
-            
-            #constant time delay
-            self.bolusTimer.setTimeout(self.timeBetweenPulses)
-            self.bolusTimer.start()
-            """
-            if(self.timeBetweenPulses-timediff>=0):
+        if self.deliveryAmount>0:
+                self.insulonCompleteFlag=True
+                self.deliveryAmount-=1 #decrease by amount consumed in 1 rotation
+                Logger.q.put(("WARNING","Resetting bolus delivery timer,{} remaining".format(self.deliveryAmount)))
+                print("Reset Bolus timer")
+
+                
+                #self.bolusTimer.start()
+                
+                #This method uses delay given by the device
+                #self.bolusTimer.start(abs(int(self.timeBetweenPulses-int(timeDelay))))
+                print("Time Delay: ")
+                self.insulonEndTime=current_milli_time()
+                print(self.timeBetweenPulses-(self.insulonEndTime-self.insulonStartTime))
+                #self.bolusTimer.start(self.timeBetweenPulses-(self.insulonEndTime-self.insulonStartTime))#self.timeBetweenPulses-(self.insulonEndTime-self.insulonStartTime))
+                #self.bolusTimer.setTimeout(self.timeBetweenPulses-(self.insulonEndTime-self.insulonStartTime))#self.timeBetweenPulses)
+                #self.bolusTimer.quit()
+                
+                timediff=(self.insulonEndTime-self.insulonStartTime)
+                
+                #constant time delay
                 self.bolusTimer.setTimeout(self.timeBetweenPulses-timediff)
-                Logger.q.put(("INFO","Timeout:{}".format(self.timeBetweenPulses-timediff)))
-            else:
-                Logger.q.put(("ERROR","Skipping delivery"))
-                #self.deliveryAmount+=1
+                self.bolusTimer.start()
             
-            self.bolusTimer.start()
-            """
+
+                #self.deliveryAmount+=1
+
+
+                """
+                if(self.timeBetweenPulses-timediff>=0):
+                    self.bolusTimer.setTimeout(self.timeBetweenPulses-timediff)
+                    Logger.q.put(("INFO","Timeout:{}".format(self.timeBetweenPulses-timediff)))
+                            
+                self.bolusTimer.start()
+                """
             
         else:
             #self.bolusTimer.stopTimer()
             self.bolusTimer.quit()
             Logger.q.put(("WARNING","Completed Bolus Delivery"))
+            self.ongoingDeliveryFlag=False
 
     def stopBolusDelivery():
         self.showWarning("Stop Bolus Delivery?")
@@ -117,14 +129,20 @@ class bolusTestingTab(object):
         #self.bolusTimer.stop()
 
     def bolusDose(self):
-        self.insulonStartTime=current_milli_time()
-        print("Sent bolus dose",self.insulonStartTime)
-        print("Time difference::::::",self.insulonStartTime-self.prevTime)
-        Logger.q.put(("INFO","Time difference between deliveries ::{}".format(self.insulonStartTime-self.prevTime)))
-        #self.sender.q.put("IPIN\r")
-        self.logic.pq.put((1,"INSHB"))
-        #self.uart_service.write("IPIN\r".encode("utf-8"))
-        self.prevTime=self.insulonStartTime
+        #if the previous dose is complete only then send the next should start
+        if self.insulonCompleteFlag==True:
+            self.insulonStartTime=current_milli_time()
+            print("Sent bolus dose",self.insulonStartTime)
+            print("Time difference::::::",self.insulonStartTime-self.prevTime)
+            Logger.q.put(("INFO","Time difference between deliveries ::::{}".format(self.insulonStartTime-self.prevTime)))
+            #self.sender.q.put("IPIN\r")
+            self.logic.pq.put((1,"INSHB"))
+            #self.uart_service.write("IPIN\r".encode("utf-8"))
+            self.prevTime=self.insulonStartTime
+            self.insulonCompleteFlag=False
+        else:
+            Logger.q.put(("ERROR","Response too slow, Skipping delivery"))
+
 
         #Start timer
     def completedBolusRegime(self):
@@ -133,10 +151,6 @@ class bolusTestingTab(object):
         
         self.heartBeatChecker.heartBeatSenderTimer.start()
         
-
-        
-        
-
         
 def current_milli_time():
     return round(time.time() * 1000)

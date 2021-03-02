@@ -173,7 +173,7 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,comm
         self.showError("Heart beat missing")
         
         while Logger.q.empty()==False or self.parser.q.empty()==False or self.sender.q.empty()==False or self.logic.pq.empty()==False: 
-            time.sleep(0.01)
+            time.sleep(0.005)
     
         self.showError("Device disconnected")
         self.bleConnectionStatus="Disconnected"

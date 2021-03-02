@@ -48,7 +48,7 @@ class Parser(QThread):
                 print("Parsed:"+data)
                 Logger.q.put(("INFO","Parsed:"+data))
 
-            time.sleep(0.01)
+            time.sleep(0.005)
 
 class SerialListner(QThread):
     """Listens to the buffer and loads any sends signals to load any incoming data to serial
@@ -79,7 +79,7 @@ class SerialListner(QThread):
 
             self.dataArrival.emit()
             
-            time.sleep(0.01)
+            time.sleep(0.005)
 
 class Sender(QThread):
     """
@@ -102,14 +102,14 @@ class Sender(QThread):
 
     def run(self):
         while 1:
-            while(self.q.empty()==False):
+            if(self.q.empty()==False):
                 data=self.q.get()
 
                 if data=="Stop":
                     break
 
                 self.sendData.emit(data)
-        time.sleep(0.01)
+        time.sleep(0.005)
 
     def sendHB(self):
         """
@@ -127,3 +127,18 @@ class Sender(QThread):
         print("Send IN")
         self.q.put(s)
         self.insulonSent.emit()
+
+    def sendDC(self):
+        """Send an delivery chain 
+        """
+        s="IPDC\r"
+        print("Send DC")
+        self.q.put(s)
+
+
+    def sendPC(self):
+        """Send an priming chain 
+        """
+        s="IPPC\r"
+        print("Send PC")
+        self.q.put(s)

@@ -19,6 +19,9 @@ class Logic(QThread):
     sendHB=pyqtSignal()
     sendIN=pyqtSignal()
     sentIN=pyqtSignal()
+    sendPC=pyqtSignal()
+    sendDC=pyqtSignal()
+
     engageClutch=pyqtSignal()
     insulonComplete=pyqtSignal(str)
 
@@ -36,7 +39,7 @@ class Logic(QThread):
         while 1:
             #print("Thread recieved")
             #print("Running parser")
-            while(self.pq.empty()==False):#if there is any value
+            if(self.pq.empty()==False):#if there is any value
                 #the first element is the priority
                 data=self.pq.get()[1]
                 print("Logic:"+data)
@@ -66,6 +69,10 @@ class Logic(QThread):
                     #send heartbeat before insulon
                     self.sendInsulonFlag=True
                     self.sendHB.emit()
+                elif(data=="SPC"):
+                    self.sendPC.emit()
+                elif(data=="SDC"):
+                    self.sendDC.emit()
 
                 """
                 Incoming from BLE
@@ -88,8 +95,12 @@ class Logic(QThread):
                     """
                     print("Emitting IN")
                     self.insulonComplete.emit(data[2:])
-
-            time.sleep(0.01)
+                elif(data=="DC"):
+                    print("Switched to delivery chain")
+                elif(data=="PC"):
+                    print("Switched to priming chain")
+                    
+            time.sleep(0.005)
 
     def addHBLogic(self):
         """Add sender heartbeat into the logic queue
