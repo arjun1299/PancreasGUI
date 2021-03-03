@@ -26,6 +26,7 @@ class Logger(QThread):
         
         while 1:
             if self.q.empty()==False :
+                temp1=current_milli_time()
                 (level,message)= Logger.q.get()
                 if message=="Stop":
                     break
@@ -40,5 +41,10 @@ class Logger(QThread):
                     logging.error(message)
                 elif(level=="INFO"):
                     logging.info(message)
+                temp2=current_milli_time()
+                print("LOGGER TIME: ",temp2-temp1)
 
             time.sleep(0.005)
+
+def current_milli_time():
+    return round(time.time() * 1000)

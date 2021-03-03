@@ -48,7 +48,7 @@ class Parser(QThread):
                 print("Parsed:"+data)
                 Logger.q.put(("INFO","Parsed:"+data))
 
-            time.sleep(0.005)
+                time.sleep(0.005)
 
 class SerialListner(QThread):
     """Listens to the buffer and loads any sends signals to load any incoming data to serial
@@ -102,14 +102,16 @@ class Sender(QThread):
 
     def run(self):
         while 1:
+
             if(self.q.empty()==False):
+                
                 data=self.q.get()
 
                 if data=="Stop":
                     break
 
                 self.sendData.emit(data)
-        time.sleep(0.005)
+            time.sleep(0.005)
 
     def sendHB(self):
         """

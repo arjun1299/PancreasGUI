@@ -65,6 +65,7 @@ class Logic(QThread):
                 elif(data=="SHB"):
                     #send heartbeat
                     self.sendHB.emit()
+                    self.sendInsulonFlag=False
                 elif(data=="INSHB"):
                     #send heartbeat before insulon
                     self.sendInsulonFlag=True
