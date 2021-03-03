@@ -1,16 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2021-03-03T04:14:45.970Z" agent="5.0 (Windows)" etag="0mK4AZbaG2w5xZARzLPA" version="14.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-03T04:18:50.751Z" agent="5.0 (Windows)" etag="r-qwqdMZg3dIEiuOP9RN" version="14.4.3" type="github">
   <diagram id="CZBquXkiIheLEfTVI9Rj" name="Page-1">
     <mxGraphModel dx="1422" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="5RfzwFyHqRgImurdjASv-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5RfzwFyHqRgImurdjASv-1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="120" y="210" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="5RfzwFyHqRgImurdjASv-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5RfzwFyHqRgImurdjASv-1" target="5RfzwFyHqRgImurdjASv-51">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5RfzwFyHqRgImurdjASv-1" value="Bolus testing Start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="60" y="40" width="120" height="80" as="geometry" />
+          <mxGeometry x="60" y="30" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="5RfzwFyHqRgImurdjASv-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5RfzwFyHqRgImurdjASv-4" target="5RfzwFyHqRgImurdjASv-9">
           <mxGeometry relative="1" as="geometry" />
@@ -54,7 +52,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5RfzwFyHqRgImurdjASv-17" value="Timeout?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="45" y="520" width="80" height="80" as="geometry" />
+          <mxGeometry x="80" y="520" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="5RfzwFyHqRgImurdjASv-20" value="&lt;div&gt;Stop heartbeat,delivery timer&lt;/div&gt;&lt;div&gt; begin timeout protocol&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="280" y="510" width="130" height="100" as="geometry" />
@@ -69,7 +67,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5RfzwFyHqRgImurdjASv-24" value="Recieve IN" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="830" width="120" height="60" as="geometry" />
+          <mxGeometry x="330" y="830" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5RfzwFyHqRgImurdjASv-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5RfzwFyHqRgImurdjASv-26" target="5RfzwFyHqRgImurdjASv-33">
           <mxGeometry relative="1" as="geometry">
@@ -131,8 +129,11 @@
             <mxPoint x="85" y="500" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5RfzwFyHqRgImurdjASv-50" value="Start delivery" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="285" y="130" width="120" height="60" as="geometry" />
+        <mxCell id="5RfzwFyHqRgImurdjASv-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5RfzwFyHqRgImurdjASv-51" target="5RfzwFyHqRgImurdjASv-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5RfzwFyHqRgImurdjASv-51" value="&lt;div&gt;Set ongoingDelivery flag&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="130" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
