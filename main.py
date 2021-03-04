@@ -115,6 +115,8 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,comm
         self.logic.sendHB.connect(self.sender.sendHB)
         self.logic.sendIN.connect(self.sender.sendIN)
         self.logic.hbStop.connect(self.heartBeatChecker.hbStop)
+        self.logic.sendDC.connect(self.sender.sendDC)
+        self.logic.sendPC.connect(self.sender.sendPC)
         self.logic.start()
 
         self.connectedSignal.connect(self.isConnectedBLEHandle)
@@ -256,7 +258,8 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,comm
         msgBox.setText("Send command "+cmd+" ?")
         msgBox.setWindowTitle("Message")
         msgBox.setStandardButtons(QMessageBox.Ok | QMessageBox.Cancel)
-        #msgBox.buttonClicked.connect(msgButtonClick) 
+        
+        #msgBox.buttonClicked.connect(msgButtonClick)
         returnValue = msgBox.exec()
         if returnValue == QMessageBox.Ok:
             print('OK clicked')
