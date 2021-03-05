@@ -39,7 +39,7 @@ class Logic(QThread):
         while 1:
             #print("Thread recieved")
             #print("Running parser")
-            if(self.pq.empty()==False):#if there is any value
+            while(self.pq.empty()==False):#if there is any value
                 #the first element is the priority
                 data=self.pq.get()[1]
                 print("Logic:"+data)
@@ -52,20 +52,19 @@ class Logic(QThread):
                 if(data[0:2]=="SS"):
                     if(data[2:]=="SHB"):
                         self.hbRecieverTimerReset.emit()
-                    if(data[2:]=="SIN"):
+                    elif(data[2:]=="SIN"):
                         self.sentIN.emit()
-
-
-                """
-                Sender functions
-                """
-                if(data=="SIN"):
+                
+                    """
+                    Sender functions
+                    """
+                elif(data=="SIN"):
                     #send insulon
                     self.sendIN.emit()
                 elif(data=="SHB"):
                     #send heartbeat
-                    self.sendHB.emit()
                     self.sendInsulonFlag=False
+                    self.sendHB.emit()
                 elif(data=="INSHB"):
                     #send heartbeat before insulon
                     self.sendInsulonFlag=True
@@ -75,10 +74,10 @@ class Logic(QThread):
                 elif(data=="SDC"):
                     self.sendDC.emit()
 
-                """
-                Incoming from BLE
-                """
-                if(data[:2]=="HB"):
+                    """
+                    Incoming from BLE
+                    """
+                elif(data[:2]=="HB"):
                     
                     #if the hb was returned and the next step is to send an insulon
                     if(self.sendInsulonFlag==True):
@@ -101,7 +100,7 @@ class Logic(QThread):
                 elif(data=="PC"):
                     print("Switched to priming chain")
                     
-            time.sleep(0.005)
+            time.sleep(0.0005)
 
     def addHBLogic(self):
         """Add sender heartbeat into the logic queue

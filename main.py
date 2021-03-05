@@ -22,10 +22,11 @@ from _recurringTab import recurringTab
 from _bolusTesting import bolusTestingTab
 from multithread import Worker,WorkerSignals
 
-
+import sys
 class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,commandTab,recurringTab,bolusTestingTab):
     def __init__(self, *args, obj=None, **kwargs):
-        
+        sys.setswitchinterval(0.0000001)
+
         super(MainWindow, self).__init__(*args, **kwargs)
         self.ui=Ui_MainWindow()
         self.ui.setupUi(self)
@@ -175,7 +176,7 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,comm
         self.showError("Heart beat missing")
         
         while Logger.q.empty()==False or self.parser.q.empty()==False or self.sender.q.empty()==False or self.logic.pq.empty()==False: 
-            time.sleep(0.005)
+            time.sleep(0.0005)
     
         self.showError("Device disconnected")
         self.bleConnectionStatus="Disconnected"

@@ -127,7 +127,7 @@ class connectTab(object):
                     self.disconnectBtn.setEnabled(False)
                     self.uart_connection.disconnect()
                     
-            time.sleep(0.005)
+            time.sleep(0.1)
 
 
     
