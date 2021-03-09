@@ -5,8 +5,10 @@ from queue import Queue
 
 
 import time
+import datetime
 import sys
 import logging
+import os
 
 
 class Logger(QThread):
@@ -17,7 +19,10 @@ class Logger(QThread):
 
     def __init__(self):
         super().__init__()
-        logging.basicConfig(filename="log.txt",format='%(levelname)s %(asctime)s - %(message)s', datefmt='%d-%b-%y %H:%M:%S',level=logging.INFO)
+        name=datetime.datetime.now()
+        name = name.strftime("%m-%d-%Y, %H:%M")
+        logging.basicConfig(filename=name,format='%(levelname)s %(asctime)s.%(msecs)03d - %(message)s', datefmt='%d-%b-%y %H:%M:%S',level=logging.INFO)
+        os.chmod(name, 0o777)
         logging.warning("Started")
 
     def run(self):

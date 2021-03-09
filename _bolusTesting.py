@@ -18,7 +18,7 @@ class bolusTestingTab(object):
     def init_bolusTestingTab(self):
         #start prime
         self.ongoingDeliveryFlag=False
-
+        self.averageCorrection=0
         self.startPrimeBtn=self.ui.startPrimeBtn
         self.startPrimeBtn.clicked.connect(self.enablePriming)
         self.pulseDelayTxt= self.ui.pulseDelayTxt
@@ -27,6 +27,7 @@ class bolusTestingTab(object):
         self.startBolusBtn=self.ui.startBolusBtn
         self.startBolusBtn.clicked.connect(self.startBolusDelivery)
         self.stopBolusBtn=self.ui.stopBolusBtn
+        self.cycleNumber=0
 
         #self.bolusTimer=QTimer()
         #self.bolusTimer.timeout.connect(self.bolusDose)
@@ -51,6 +52,7 @@ class bolusTestingTab(object):
         self.heartBeatChecker.heartBeatSenderTimer.stop()
         self.heartBeatChecker.heartBeatRecieverTimer.stop()
         
+        self.cycleNumber=0
         """Steps:
         1. Send HB
         2. Recieve reply HB
@@ -86,7 +88,8 @@ class bolusTestingTab(object):
         if self.deliveryAmount>0:
 
                 self.insulonCompleteFlag=True
-                self.deliveryAmount-=1 #decrease by amount consumed in 1 rotation
+                self.deliveryAmount=round(self.deliveryAmount-0.05,2) #decrease by amount consumed in 1 rotation
+                self.cycleNumber+=1
                 
                 Logger.q.put(("WARNING","Resetting bolus delivery timer,{} remaining".format(self.deliveryAmount)))
                 
@@ -107,7 +110,7 @@ class bolusTestingTab(object):
 
                 #constant time delay
                 self.insulonEndTime=current_milli_time()
-                timediff=(self.insulonEndTime-self.insulonStartTime)+1
+                timediff=(self.insulonEndTime-self.insulonStartTime)+self.averageCorrection
                 
                 #self.bolusTimer.setTimeout(self.timeBetweenPulses-timediff)
                 #self.bolusTimer.quit()
@@ -142,9 +145,21 @@ class bolusTestingTab(object):
         #if self.insulonCompleteFlag==True:
         self.insulonStartTime=current_milli_time()
         print("Sent bolus dose",self.insulonStartTime)
-        print("Time difference::::::",(self.insulonStartTime-self.prevTime))
+        timeGap=self.insulonStartTime-self.prevTime
+        print("Time difference::::::",(timeGap))
         #time.sleep(0.0005)
-        Logger.q.put(("INFO","Time difference between deliveries ::::{}".format(self.insulonStartTime-self.prevTime)))
+        Logger.q.put(("INFO","Time difference between deliveries ::::{}".format(timeGap)))
+        #To avoid compensating for the first delivery
+        """Every alternate cycle(even cycles are a correction for the previous cycle's errror and tries to keep the average error to 0)
+        """
+        
+        if(timeGap<self.timeBetweenPulses+500) and self.cycleNumber%2==0 :
+            #self.averageCorrection=((timeGap-self.timeBetweenPulses)+self.averageCorrection)/2
+            self.averageCorrection=(timeGap-self.timeBetweenPulses)
+        else:
+            self.averageCorrection=0
+        print("Average Correction:",self.averageCorrection)
+        
         #self.sender.q.put("IPIN\r")
         self.logic.pq.put((1,"INSHB"))
         #self.uart_service.write("IPIN\r".encode("utf-8"))
