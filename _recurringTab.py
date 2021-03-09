@@ -8,20 +8,39 @@ class recurringTab(object):
     
     def init_recurringTab(self):
         
+        
         self.basalBtn=self.ui.basalBtn
-        self.basalBtn.clicked.connect(self.basalDose)
+        self.basalBtn.clicked.connect(self.enableBasalMode)
 
         
 
         self.bolusBtn=self.ui.bolusBtn
-        self.bolusBtn.clicked.connect(self.bolusDose)
+        self.bolusBtn.clicked.connect(self.enableBolusMode)
 
         
         self.startDoseBtn=self.ui.startDoseBtn
         self.doseTxt=self.ui.doseTxt
+        self.doseLbl=self.ui.doseLbl
+        self.doseTxt.setVisible(True)
+        self.doseLbl.setVisible(True)
 
-        self.startDoseBtn.setEnabled(False)
-        self.startDoseBtn.clicked.connect(self.startDose)
+        #self.startDoseBtn.setEnabled(False)
+        #self.startDoseBtn.clicked.connect(self.startDose)
+        self.startDoseBtn.clicked.connect(self.startBolusDelivery)     
+
+        self.pulseDelayTxt= self.ui.pulseDelayTxt
+        self.pulseDelayLbl= self.ui.pulseDelayLbl
+        self.pulseDelayTxt.setVisible(False)
+        self.pulseDelayLbl.setVisible(False)
+
+        self.deliveryAmtTxt= self.ui.deliveryAmtTxt
+        self.deliveryAmtLbl= self.ui.deliveryAmtLbl
+        self.deliveryAmtTxt.setVisible(False)
+        self.deliveryAmtLbl.setVisible(False)
+
+        self.deliveryType=None
+        self.basalResume=False #flag used for resuming basal delivery after completion of bolus
+
 
 
         
@@ -47,9 +66,28 @@ class recurringTab(object):
             self.startDoseBtn.setEnabled(True)
         else:
             self.basalBtn.checkStateSet(False)
-            
-            
-            
+    
+    def enableBasalMode(self):
+        #Toggling element visibility
+        self.deliveryType="Basal"
+        self.doseTxt.setVisible(True)
+        self.doseLbl.setVisible(True)
+        self.pulseDelayTxt.setVisible(False)
+        self.pulseDelayLbl.setVisible(False)
+        self.deliveryAmtTxt.setVisible(False)
+        self.deliveryAmtLbl.setVisible(False)
+    
+    def enableBolusMode(self):
+        if self.deliveryType=="Basal":
+            self.basalResume=True
+
+        self.deliveryType="Bolus"
+        self.doseTxt.setVisible(False)
+        self.doseLbl.setVisible(False)
+        self.pulseDelayTxt.setVisible(True)
+        self.pulseDelayLbl.setVisible(True)
+        self.deliveryAmtTxt.setVisible(True)
+        self.deliveryAmtLbl.setVisible(True)
 
     
     """def bolusDose(self):

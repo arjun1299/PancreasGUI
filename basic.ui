@@ -245,7 +245,7 @@
        </rect>
       </property>
      </widget>
-     <widget class="QLabel" name="label_3">
+     <widget class="QLabel" name="doseLbl">
       <property name="geometry">
        <rect>
         <x>460</x>

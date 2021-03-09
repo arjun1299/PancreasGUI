@@ -1,0 +1,22 @@
+WARNING 09-Mar-21 17:57:12.676 - Started
+INFO 09-Mar-21 17:57:12.676 - Starting logger
+INFO 09-Mar-21 17:57:12.677 - Serial Listner Thread started
+INFO 09-Mar-21 17:57:12.678 - Parser Thread Started successfully
+WARNING 09-Mar-21 17:57:32.953 - Started
+INFO 09-Mar-21 17:57:32.953 - Starting logger
+INFO 09-Mar-21 17:57:32.954 - Serial Listner Thread started
+INFO 09-Mar-21 17:57:32.954 - Parser Thread Started successfully
+ERROR 09-Mar-21 17:57:32.973 - BLUETOOTH ADAPTER NOT FOUND
+WARNING 09-Mar-21 17:57:41.289 - Started
+INFO 09-Mar-21 17:57:41.289 - Starting logger
+INFO 09-Mar-21 17:57:41.291 - Serial Listner Thread started
+INFO 09-Mar-21 17:57:41.291 - Parser Thread Started successfully
+ERROR 09-Mar-21 17:57:41.301 - BLUETOOTH ADAPTER NOT FOUND
+WARNING 09-Mar-21 17:57:43.867 - Started
+INFO 09-Mar-21 17:57:43.868 - Starting logger
+INFO 09-Mar-21 17:57:43.868 - Serial Listner Thread started
+INFO 09-Mar-21 17:57:43.868 - Parser Thread Started successfully
+WARNING 09-Mar-21 17:57:56.267 - Started
+INFO 09-Mar-21 17:57:56.268 - Starting logger
+INFO 09-Mar-21 17:57:56.269 - Serial Listner Thread started
+INFO 09-Mar-21 17:57:56.270 - Parser Thread Started successfully

@@ -1,0 +1,21 @@
+WARNING 09-Mar-21 18:22:06.434 - Started
+INFO 09-Mar-21 18:22:06.434 - Starting logger
+INFO 09-Mar-21 18:22:06.435 - Serial Listner Thread started
+INFO 09-Mar-21 18:22:06.436 - Parser Thread Started successfully
+WARNING 09-Mar-21 18:22:19.518 - Starting Bolus Delivery with duration 2000 for 1IU 
+INFO 09-Mar-21 18:22:25.179 - TIMEOUT BOLUS TIMER
+INFO 09-Mar-21 18:22:25.179 - Time difference between deliveries ::::1615294345179
+INFO 09-Mar-21 18:22:25.180 - Logic queue recieved: INSHB
+INFO 09-Mar-21 18:22:25.181 - Logic queue recieved: SHB
+INFO 09-Mar-21 18:22:25.182 - Logic queue recieved: SHB
+INFO 09-Mar-21 18:22:25.183 - Logic queue recieved: SHB
+INFO 09-Mar-21 18:22:25.185 - Logic queue recieved: SHB
+INFO 09-Mar-21 18:22:25.186 - Logic queue recieved: SSSHB
+INFO 09-Mar-21 18:22:25.187 - Logic queue recieved: SHB
+INFO 09-Mar-21 18:22:25.187 - Logic queue recieved: SSSHB
+INFO 09-Mar-21 18:22:25.188 - Logic queue recieved: SSSHB
+INFO 09-Mar-21 18:22:25.188 - Logic queue recieved: SSSHB
+INFO 09-Mar-21 18:22:25.189 - Logic queue recieved: SHB
+INFO 09-Mar-21 18:22:25.190 - Logic queue recieved: SSSHB
+INFO 09-Mar-21 18:22:25.190 - Logic queue recieved: SSSHB
+INFO 09-Mar-21 18:22:25.191 - Logic queue recieved: SSSHB

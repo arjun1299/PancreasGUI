@@ -47,6 +47,15 @@ class bolusTestingTab(object):
         self.insulonCompleteFlag=False
     
     def startBolusDelivery(self):
+        if self.deliveryType=="Bolus":
+            print("BOLUS")
+            self.timeBetweenPulses=int(self.pulseDelayTxt.toPlainText())
+            self.deliveryAmount=int(self.deliveryAmtTxt.toPlainText())
+
+        elif if self.deliveryType=="Basal":
+            print("BASAL")
+            self.deliveryAmount=int(self.doseTxt.toPlainText())
+
         self.insulonCompleteFlag=True
         self.ongoingDeliveryFlag=True
         self.heartBeatChecker.heartBeatSenderTimer.stop()
