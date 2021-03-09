@@ -1,0 +1,111 @@
+<mxfile host="app.diagrams.net" modified="2021-02-24T14:06:15.544Z" agent="5.0 (X11)" etag="Yh7r3jEywmECU1Mx2Bq5" version="14.4.2" type="github">
+  <diagram id="OKCZH7bv0go0knfiV3SH" name="Page-1">
+    <mxGraphModel dx="1871" dy="946" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="QAh39bBQFJ4QPeRYSMVi-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QAh39bBQFJ4QPeRYSMVi-1" target="QAh39bBQFJ4QPeRYSMVi-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QAh39bBQFJ4QPeRYSMVi-1" value="BLE connected" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="110" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QAh39bBQFJ4QPeRYSMVi-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QAh39bBQFJ4QPeRYSMVi-2" target="QAh39bBQFJ4QPeRYSMVi-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QAh39bBQFJ4QPeRYSMVi-2" value="Start HB sender timer" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QAh39bBQFJ4QPeRYSMVi-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QAh39bBQFJ4QPeRYSMVi-4" target="QAh39bBQFJ4QPeRYSMVi-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QAh39bBQFJ4QPeRYSMVi-4" value="sendHeartBeat signal" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QAh39bBQFJ4QPeRYSMVi-6" value="Timeout" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="370" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="QAh39bBQFJ4QPeRYSMVi-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QAh39bBQFJ4QPeRYSMVi-7" target="QAh39bBQFJ4QPeRYSMVi-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QAh39bBQFJ4QPeRYSMVi-7" value="&lt;div&gt;HB added to sender Queue&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QAh39bBQFJ4QPeRYSMVi-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QAh39bBQFJ4QPeRYSMVi-9" target="QAh39bBQFJ4QPeRYSMVi-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QAh39bBQFJ4QPeRYSMVi-9" value="&lt;div&gt;SSSHB added to Logic queue&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QAh39bBQFJ4QPeRYSMVi-11" value="Send complete" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="560" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="QAh39bBQFJ4QPeRYSMVi-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QAh39bBQFJ4QPeRYSMVi-12" target="QAh39bBQFJ4QPeRYSMVi-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="880" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QAh39bBQFJ4QPeRYSMVi-12" value="Start/Reset Reciever Timeout" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QAh39bBQFJ4QPeRYSMVi-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QAh39bBQFJ4QPeRYSMVi-16" target="QAh39bBQFJ4QPeRYSMVi-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QAh39bBQFJ4QPeRYSMVi-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="QAh39bBQFJ4QPeRYSMVi-16" target="QAh39bBQFJ4QPeRYSMVi-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QAh39bBQFJ4QPeRYSMVi-16" value="Timeout?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="550" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QAh39bBQFJ4QPeRYSMVi-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QAh39bBQFJ4QPeRYSMVi-17" target="QAh39bBQFJ4QPeRYSMVi-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QAh39bBQFJ4QPeRYSMVi-17" value="&lt;div&gt;Stop Receiver timer&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QAh39bBQFJ4QPeRYSMVi-19" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="520" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="QAh39bBQFJ4QPeRYSMVi-20" value="Raise Heartbeat missing error, begin disconnect protocol" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QAh39bBQFJ4QPeRYSMVi-22" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="590" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="QAh39bBQFJ4QPeRYSMVi-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="QAh39bBQFJ4QPeRYSMVi-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="800" y="760" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QAh39bBQFJ4QPeRYSMVi-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QAh39bBQFJ4QPeRYSMVi-34" target="QAh39bBQFJ4QPeRYSMVi-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QAh39bBQFJ4QPeRYSMVi-34" value="Recieved,Parsed HB" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QAh39bBQFJ4QPeRYSMVi-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QAh39bBQFJ4QPeRYSMVi-35" target="QAh39bBQFJ4QPeRYSMVi-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QAh39bBQFJ4QPeRYSMVi-35" value="&lt;div&gt;Logic queue&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QAh39bBQFJ4QPeRYSMVi-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QAh39bBQFJ4QPeRYSMVi-39" target="QAh39bBQFJ4QPeRYSMVi-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1460" y="220" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1460" y="220" />
+              <mxPoint x="240" y="220" />
+              <mxPoint x="240" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QAh39bBQFJ4QPeRYSMVi-39" value="Reset sender timer" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1410" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QAh39bBQFJ4QPeRYSMVi-41" value="Reciever timer reset signal" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="570" width="160" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

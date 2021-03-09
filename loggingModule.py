@@ -5,8 +5,10 @@ from queue import Queue
 
 
 import time
+import datetime
 import sys
 import logging
+import os
 
 
 class Logger(QThread):
@@ -17,7 +19,10 @@ class Logger(QThread):
 
     def __init__(self):
         super().__init__()
-        logging.basicConfig(filename="log.txt",format='%(levelname)s %(asctime)s - %(message)s', datefmt='%d-%b-%y %H:%M:%S',level=logging.INFO)
+        name=datetime.datetime.now()
+        name = name.strftime("%m-%d-%Y, %H:%M")
+        logging.basicConfig(filename=name,format='%(levelname)s %(asctime)s.%(msecs)03d - %(message)s', datefmt='%d-%b-%y %H:%M:%S',level=logging.INFO)
+        os.chmod(name, 0o777)
         logging.warning("Started")
 
     def run(self):
@@ -25,20 +30,28 @@ class Logger(QThread):
         print("Starting logger")
         
         while 1:
-            if self.q.empty()==False :
+            while self.q.empty()==False :
+                temp1=current_milli_time()
                 (level,message)= Logger.q.get()
                 if message=="Stop":
                     break
                 print("Logged!"+ level + message )
 
                 """
+                
                 Split into differenent logging levels
                 """
+
                 if(level=="WARNING"):
                     logging.warning(message)
                 elif(level=="ERROR"):
                     logging.error(message)
                 elif(level=="INFO"):
                     logging.info(message)
+                temp2=current_milli_time()
+                print("LOGGER TIME: ",temp2-temp1)
+            
+            time.sleep(0.0005)
 
-            time.sleep(0.1)
+def current_milli_time():
+    return round(time.time() * 1000)

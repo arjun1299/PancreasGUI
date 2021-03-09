@@ -101,11 +101,11 @@ class connectTab(object):
 
         worker=Worker(self.isConnectedBLE)
         worker.signals.finished.connect(self.finished)
-        self.connectionChecker.heartBeatSenderTimer.start(500)
+        self.heartBeatChecker.heartBeatSenderTimer.start(500)
         Logger.q.put(("INFO","Starting HB sender timer"))
-        self.connectionChecker.heartBeatRecieverTimer.start(5000)
-        Logger.q.put(("INFO","Starting HB reviever timer"))
-        self.connectionChecker.heartBeatRecieverTimer.timeout.connect(self.heartBeatTimeout)
+        #self.heartBeatChecker.heartBeatRecieverTimer.start(5000)
+        #Logger.q.put(("INFO","Starting HB reviever timer"))
+        self.heartBeatChecker.heartBeatRecieverTimer.timeout.connect(self.heartBeatTimeout)
         self.threadpool.start(worker)
     
     def isConnectedBLE(self):
@@ -119,6 +119,14 @@ class connectTab(object):
                     pass
                 else:
                     self.uart_service=False
+                    self.showError("Device disconnected")
+                    self.bleConnectionStatus="Disconnected"
+                    self.updateStatus()
+                    
+                    self.ui.tabWidget.setCurrentIndex(0)
+                    self.disconnectBtn.setEnabled(False)
+                    self.uart_connection.disconnect()
+                    
             time.sleep(0.1)
 
 

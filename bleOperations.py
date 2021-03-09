@@ -35,7 +35,7 @@ class Parser(QThread):
         while 1:
             #print("Thread recieved")
             #print("Running parser")
-            if(self.q.empty()==False):
+            while(self.q.empty()==False):
                 data=self.q.get()
 
                 if data=="Stop":
@@ -48,7 +48,7 @@ class Parser(QThread):
                 print("Parsed:"+data)
                 Logger.q.put(("INFO","Parsed:"+data))
 
-            time.sleep(0.1)
+                time.sleep(0.0005)
 
 class SerialListner(QThread):
     """Listens to the buffer and loads any sends signals to load any incoming data to serial
@@ -79,7 +79,7 @@ class SerialListner(QThread):
 
             self.dataArrival.emit()
             
-            time.sleep(0.1)
+            time.sleep(0.0005)
 
 class Sender(QThread):
     """
@@ -89,7 +89,8 @@ class Sender(QThread):
     :type QThread: [type]
     """
 
-    
+    heartBeatSent=pyqtSignal()
+    insulonSent=pyqtSignal()
     sendData=pyqtSignal(str)
     q=Queue()
 
@@ -101,58 +102,45 @@ class Sender(QThread):
 
     def run(self):
         while 1:
+
             if(self.q.empty()==False):
+                
                 data=self.q.get()
 
                 if data=="Stop":
                     break
 
                 self.sendData.emit(data)
-        time.sleep(0.1)
+            time.sleep(0.0005)
 
     def sendHB(self):
         """
         Send a Heart Beat signal to the BLE module
         """
-
         s="IPHB\r"
         print("Sent HB")
         self.q.put(s)
-        print("Cant send HB, no uart")
-
-
-class connectionChecker(QTimer):
-
-    sendHeartBeat=pyqtSignal()
-    timeoutSignal=pyqtSignal()
-
+        self.heartBeatSent.emit()
     
-    def __init__(self):
+    def sendIN(self):
+        """Send an insulon 
         """
-        Timer for heartbeat
+        s="IPIN\r"
+        print("Send IN")
+        self.q.put(s)
+        self.insulonSent.emit()
 
+    def sendDC(self):
+        """Send an delivery chain 
         """
-        super().__init__()
-        self.q=Queue()
+        s="IPDC\r"
+        print("Send DC")
+        self.q.put(s)
 
-        self.heartBeatFlag=False
-        self.heartBeatSenderTimer=QTimer() #connect this to hbSend
-        self.heartBeatRecieverTimer=QTimer()#this needs to be connected to a timeout event
-        self.heartBeatSenderTimer.timeout.connect(self.hbSend)
 
-    def hbTimerReset(self):
+    def sendPC(self):
+        """Send an priming chain 
         """
-        Resets the heartbeat timer
-        """
-        print("Reset heartbeat timer")
-        self.heartBeatRecieverTimer.stop()
-        self.heartBeatRecieverTimer.start(5000)
-    
-    def hbSend(self):
-        """
-        Sends the heartbeat repeatedly
-        """
-        self.sendHeartBeat.emit()
-        
-        self.heartBeatSenderTimer.start(2000)
-    
+        s="IPPC\r"
+        print("Send PC")
+        self.q.put(s)

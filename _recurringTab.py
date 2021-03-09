@@ -52,14 +52,14 @@ class recurringTab(object):
             
 
     
-    def bolusDose(self):
+    """def bolusDose(self):
 
         if self.showDialog("BOLUS mode") == QMessageBox.Ok:
             
             self.startDoseBtn.setEnabled(True)
 
         else:
-            self.basalBtn.checkStateSet(False)
+            self.basalBtn.checkStateSet(False)"""
     
     def startDose(self):
   

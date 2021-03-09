@@ -19,13 +19,14 @@ from _connectTab import connectTab
 from _primingTab import primingTab
 from _commandTab import commandTab
 from _recurringTab import recurringTab
+from _bolusTesting import bolusTestingTab
 from multithread import Worker,WorkerSignals
 
-
-
-class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,commandTab,recurringTab):
+import sys
+class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,commandTab,recurringTab,bolusTestingTab):
     def __init__(self, *args, obj=None, **kwargs):
-        
+        sys.setswitchinterval(0.0000001)
+
         super(MainWindow, self).__init__(*args, **kwargs)
         self.ui=Ui_MainWindow()
         self.ui.setupUi(self)
@@ -91,31 +92,46 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,comm
         #self.sender.finished.connect(lambda v: self.finished("Parser"))
         self.parser.start()       
 
+        self.logic=Logic()
         """
         Start sender 
         """ 
         self.sender=Sender()
         self.sender.sendData.connect(self.sendData)
         #self.sender.finished.connect(lambda v: self.finished("Sender"))
-        self.sender.start()   
+        self.sender.heartBeatSent.connect(self.logic.heartBeatSent)
+        self.sender.insulonSent.connect(self.logic.insulonSent)
+        self.sender.start()
+        
 
-        """Initialize connection checker which checks heartbeat
-        """
-
-        self.connectionChecker=connectionChecker()
-        self.connectionChecker.sendHeartBeat.connect(self.sender.sendHB)
-        self.connectionChecker.timeoutSignal.connect(self.heartBeatTimeout)
-
+        self.heartBeatChecker=heartBeatChecker()
         """
         Section to Logic
         """
-        self.logic=Logic()
+        
         ###Connect all logic signals
-        self.logic.hbTimerReset.connect(self.connectionChecker.hbTimerReset)
-        self.logic.start()   
+        self.logic.hbSenderTimerReset.connect(self.heartBeatChecker.hbSenderTimerReset)
+        self.logic.hbRecieverTimerReset.connect(self.heartBeatChecker.hbRecieverTimerReset)
+        self.logic.insulonComplete.connect(self.resetBolusTimer)
+        self.logic.sendHB.connect(self.sender.sendHB)
+        self.logic.sendIN.connect(self.sender.sendIN)
+        self.logic.hbStop.connect(self.heartBeatChecker.hbStop)
+        self.logic.sendDC.connect(self.sender.sendDC)
+        self.logic.sendPC.connect(self.sender.sendPC)
+        self.logic.start()
 
         self.connectedSignal.connect(self.isConnectedBLEHandle)
+        
 
+        """Initialize connection checker which checks heartbeat
+        """
+        self.heartBeatChecker.sendHeartBeat.connect(self.logic.addHBLogic)
+        self.heartBeatChecker.timeoutSignal.connect(self.heartBeatTimeout)
+
+
+        """
+        Inititialize all the required tabs
+        """
 
         self.port=""
         
@@ -127,10 +143,11 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,comm
 
         self.init_recurringTab()
 
+        self.init_bolusTestingTab() 
+
 
         
         self.updateStatus()
-
 
 
                 
@@ -152,14 +169,14 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,comm
         Timeout function if hearbeat is not recieved in time
         """
 
-        self.connectionChecker.heartBeatRecieverTimer.stop()
-        self.connectionChecker.heartBeatSenderTimer.stop()
+        self.heartBeatChecker.heartBeatRecieverTimer.stop()
+        self.heartBeatChecker.heartBeatSenderTimer.stop()
         self.uart_service=False
-        Logger.q.put("ERROR","Heartbeat Timeout!!")
+        Logger.q.put(("ERROR","Heartbeat Timeout!!"))
         self.showError("Heart beat missing")
         
         while Logger.q.empty()==False or self.parser.q.empty()==False or self.sender.q.empty()==False or self.logic.pq.empty()==False: 
-            time.sleep(0.1)
+            time.sleep(0.0005)
     
         self.showError("Device disconnected")
         self.bleConnectionStatus="Disconnected"
@@ -194,9 +211,11 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,comm
         """
         if(self.uart_service):
             while(self.uart_service.in_waiting):# if an if condition is used partially read charachters appear
+                Logger.q.put(("INFO","Data in buffer"))
                 raw_serial=self.uart_service.readline()
                 if raw_serial:
                     self.parser.q.put(raw_serial)
+                    Logger.q.put(("INFO","Data added to parser queue"))
                     print("Added to parser queue")
         """else:
             print("No UART connection, cannot add to parser Queue"
@@ -240,7 +259,8 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,comm
         msgBox.setText("Send command "+cmd+" ?")
         msgBox.setWindowTitle("Message")
         msgBox.setStandardButtons(QMessageBox.Ok | QMessageBox.Cancel)
-        #msgBox.buttonClicked.connect(msgButtonClick) 
+        
+        #msgBox.buttonClicked.connect(msgButtonClick)
         returnValue = msgBox.exec()
         if returnValue == QMessageBox.Ok:
             print('OK clicked')
@@ -299,6 +319,7 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,comm
         Parser.q.put("Stop")
         Logic.pq.put((1,"Stop"))
         event.accept() # let the window close"""
+
         self.logger.quit()
         self.serialListner.quit()
         self.parser.quit()
@@ -308,4 +329,4 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,comm
 app = QtWidgets.QApplication(sys.argv)
 window = MainWindow()
 window.show()
-sys.exit(app.exec_())
+sys.exit(app.exec())
