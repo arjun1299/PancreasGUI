@@ -1,0 +1,16 @@
+WARNING 10-Mar-21 14:59:34.231 - Started
+INFO 10-Mar-21 14:59:34.231 - Starting logger
+INFO 10-Mar-21 14:59:34.232 - Serial Listner Thread started
+INFO 10-Mar-21 14:59:34.233 - Parser Thread Started successfully
+WARNING 10-Mar-21 14:59:45.513 - Started
+INFO 10-Mar-21 14:59:45.514 - Starting logger
+INFO 10-Mar-21 14:59:45.515 - Serial Listner Thread started
+INFO 10-Mar-21 14:59:45.515 - Parser Thread Started successfully
+WARNING 10-Mar-21 14:59:50.302 - Started
+INFO 10-Mar-21 14:59:50.302 - Starting logger
+INFO 10-Mar-21 14:59:50.303 - Serial Listner Thread started
+INFO 10-Mar-21 14:59:50.304 - Parser Thread Started successfully
+INFO 10-Mar-21 14:59:56.142 - Started scan for BLE devices
+INFO 10-Mar-21 15:00:06.199 - Scan complete
+INFO 10-Mar-21 15:00:13.652 - Attempting to Connect to:cb:e4:c4:4c:95:a4
+INFO 10-Mar-21 15:08:29.313 - Attempting to Connect to:cb:e4:c4:4c:95:a4

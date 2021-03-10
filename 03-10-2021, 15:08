@@ -1,0 +1,181 @@
+WARNING 10-Mar-21 15:08:45.909 - Started
+INFO 10-Mar-21 15:08:45.910 - Starting logger
+INFO 10-Mar-21 15:08:45.911 - Serial Listner Thread started
+INFO 10-Mar-21 15:08:45.912 - Parser Thread Started successfully
+INFO 10-Mar-21 15:08:49.905 - Started scan for BLE devices
+INFO 10-Mar-21 15:08:59.984 - Scan complete
+INFO 10-Mar-21 15:09:05.111 - Attempting to Connect to:cb:e4:c4:4c:95:a4
+INFO 10-Mar-21 15:09:18.110 - Attempting to Connect to:cb:e4:c4:4c:95:a4
+INFO 10-Mar-21 15:09:28.126 - Connected to: cb:e4:c4:4c:95:a4
+INFO 10-Mar-21 15:09:28.128 - Starting connection check
+INFO 10-Mar-21 15:09:28.129 - Starting HB sender timer
+INFO 10-Mar-21 15:09:28.625 - Logic queue recieved: SHB
+INFO 10-Mar-21 15:09:28.626 - Logic queue recieved: SSSHB
+INFO 10-Mar-21 15:09:28.630 - SentIPHB
+INFO 10-Mar-21 15:09:28.726 - Data in buffer
+INFO 10-Mar-21 15:09:28.726 - Data added to parser queue
+INFO 10-Mar-21 15:09:28.727 - Parsed:HB
+
+INFO 10-Mar-21 15:09:28.727 - Logic queue recieved: HB
+
+INFO 10-Mar-21 15:09:30.627 - Logic queue recieved: SHB
+INFO 10-Mar-21 15:09:30.628 - Logic queue recieved: SSSHB
+INFO 10-Mar-21 15:09:30.631 - SentIPHB
+INFO 10-Mar-21 15:09:30.732 - Data in buffer
+INFO 10-Mar-21 15:09:30.732 - Data added to parser queue
+INFO 10-Mar-21 15:09:30.733 - Parsed:HB
+
+INFO 10-Mar-21 15:09:30.733 - Logic queue recieved: HB
+
+INFO 10-Mar-21 15:09:32.634 - Logic queue recieved: SHB
+INFO 10-Mar-21 15:09:32.634 - Logic queue recieved: SSSHB
+INFO 10-Mar-21 15:09:32.637 - SentIPHB
+INFO 10-Mar-21 15:09:32.686 - Data in buffer
+INFO 10-Mar-21 15:09:32.788 - Data added to parser queue
+INFO 10-Mar-21 15:09:32.789 - Parsed:HB
+
+INFO 10-Mar-21 15:09:32.791 - Logic queue recieved: HB
+
+INFO 10-Mar-21 15:09:34.692 - Logic queue recieved: SHB
+INFO 10-Mar-21 15:09:34.692 - Logic queue recieved: SSSHB
+INFO 10-Mar-21 15:09:34.697 - SentIPHB
+INFO 10-Mar-21 15:09:34.766 - Data in buffer
+INFO 10-Mar-21 15:09:34.767 - Data added to parser queue
+INFO 10-Mar-21 15:09:34.767 - Parsed:HB
+
+INFO 10-Mar-21 15:09:34.767 - Logic queue recieved: HB
+
+INFO 10-Mar-21 15:09:36.668 - Logic queue recieved: SHB
+INFO 10-Mar-21 15:09:36.670 - Logic queue recieved: SSSHB
+INFO 10-Mar-21 15:09:36.674 - SentIPHB
+INFO 10-Mar-21 15:09:36.726 - Data in buffer
+INFO 10-Mar-21 15:09:36.727 - Data added to parser queue
+INFO 10-Mar-21 15:09:36.727 - Parsed:HB
+
+INFO 10-Mar-21 15:09:36.728 - Logic queue recieved: HB
+
+INFO 10-Mar-21 15:09:38.627 - Logic queue recieved: SHB
+INFO 10-Mar-21 15:09:38.629 - Logic queue recieved: SSSHB
+INFO 10-Mar-21 15:09:38.632 - SentIPHB
+INFO 10-Mar-21 15:09:38.685 - Data in buffer
+INFO 10-Mar-21 15:09:38.686 - Data added to parser queue
+INFO 10-Mar-21 15:09:38.686 - Parsed:HB
+
+INFO 10-Mar-21 15:09:38.686 - Logic queue recieved: HB
+
+INFO 10-Mar-21 15:09:40.626 - Logic queue recieved: SHB
+INFO 10-Mar-21 15:09:40.627 - Logic queue recieved: SSSHB
+INFO 10-Mar-21 15:09:40.632 - SentIPHB
+INFO 10-Mar-21 15:09:40.806 - Data in buffer
+INFO 10-Mar-21 15:09:40.807 - Data added to parser queue
+INFO 10-Mar-21 15:09:40.807 - Parsed:HB
+
+INFO 10-Mar-21 15:09:40.808 - Logic queue recieved: HB
+
+INFO 10-Mar-21 15:09:42.708 - Logic queue recieved: SHB
+INFO 10-Mar-21 15:09:42.708 - Logic queue recieved: SSSHB
+INFO 10-Mar-21 15:09:42.712 - SentIPHB
+INFO 10-Mar-21 15:09:42.765 - Data in buffer
+INFO 10-Mar-21 15:09:42.766 - Data added to parser queue
+INFO 10-Mar-21 15:09:42.766 - Parsed:HB
+
+INFO 10-Mar-21 15:09:42.766 - Logic queue recieved: HB
+
+INFO 10-Mar-21 15:09:44.667 - Logic queue recieved: SHB
+INFO 10-Mar-21 15:09:44.668 - Logic queue recieved: SSSHB
+INFO 10-Mar-21 15:09:44.673 - SentIPHB
+INFO 10-Mar-21 15:09:44.726 - Data in buffer
+INFO 10-Mar-21 15:09:44.727 - Data added to parser queue
+INFO 10-Mar-21 15:09:44.727 - Parsed:HB
+
+INFO 10-Mar-21 15:09:44.728 - Logic queue recieved: HB
+
+INFO 10-Mar-21 15:09:46.628 - Logic queue recieved: SHB
+INFO 10-Mar-21 15:09:46.629 - Logic queue recieved: SSSHB
+INFO 10-Mar-21 15:09:46.633 - SentIPHB
+INFO 10-Mar-21 15:09:46.687 - Data in buffer
+INFO 10-Mar-21 15:09:46.788 - Data added to parser queue
+INFO 10-Mar-21 15:09:46.789 - Parsed:HB
+
+INFO 10-Mar-21 15:09:46.791 - Logic queue recieved: HB
+
+INFO 10-Mar-21 15:09:48.692 - Logic queue recieved: SHB
+INFO 10-Mar-21 15:09:48.692 - Logic queue recieved: SSSHB
+INFO 10-Mar-21 15:09:48.697 - SentIPHB
+INFO 10-Mar-21 15:09:48.765 - Data in buffer
+INFO 10-Mar-21 15:09:48.765 - Data added to parser queue
+INFO 10-Mar-21 15:09:48.766 - Parsed:HB
+
+INFO 10-Mar-21 15:09:48.766 - Logic queue recieved: HB
+
+INFO 10-Mar-21 15:09:50.667 - Logic queue recieved: SHB
+INFO 10-Mar-21 15:09:50.668 - Logic queue recieved: SSSHB
+INFO 10-Mar-21 15:09:50.672 - SentIPHB
+INFO 10-Mar-21 15:09:50.726 - Data in buffer
+INFO 10-Mar-21 15:09:50.726 - Data added to parser queue
+INFO 10-Mar-21 15:09:50.727 - Parsed:HB
+
+INFO 10-Mar-21 15:09:50.728 - Logic queue recieved: HB
+
+INFO 10-Mar-21 15:09:52.628 - Logic queue recieved: SHB
+INFO 10-Mar-21 15:09:52.629 - Logic queue recieved: SSSHB
+INFO 10-Mar-21 15:09:52.633 - SentIPHB
+INFO 10-Mar-21 15:09:52.685 - Data in buffer
+INFO 10-Mar-21 15:09:52.686 - Data added to parser queue
+INFO 10-Mar-21 15:09:52.686 - Parsed:HB
+
+INFO 10-Mar-21 15:09:52.687 - Logic queue recieved: HB
+
+INFO 10-Mar-21 15:09:54.625 - Logic queue recieved: SHB
+INFO 10-Mar-21 15:09:54.626 - Logic queue recieved: SSSHB
+INFO 10-Mar-21 15:09:54.631 - SentIPHB
+ERROR 10-Mar-21 15:09:57.634 - Heartbeat Timeout!!
+INFO 10-Mar-21 15:10:06.498 - Started scan for BLE devices
+INFO 10-Mar-21 15:10:06.508 - Started scan for BLE devices
+INFO 10-Mar-21 15:10:16.553 - Scan complete
+INFO 10-Mar-21 15:10:16.555 - Scan complete
+INFO 10-Mar-21 15:10:18.734 - Attempting to Connect to:cb:e4:c4:4c:95:a4
+INFO 10-Mar-21 15:10:39.891 - Attempting to Connect to:cb:e4:c4:4c:95:a4
+INFO 10-Mar-21 15:10:44.849 - Attempting to Connect to:cb:e4:c4:4c:95:a4
+INFO 10-Mar-21 15:10:48.911 - Attempting to Connect to:cb:e4:c4:4c:95:a4
+INFO 10-Mar-21 15:10:53.315 - Attempting to Connect to:cb:e4:c4:4c:95:a4
+INFO 10-Mar-21 15:10:55.301 - Attempting to Connect to:cb:e4:c4:4c:95:a4
+INFO 10-Mar-21 15:10:59.595 - Attempting to Connect to:cb:e4:c4:4c:95:a4
+INFO 10-Mar-21 15:11:03.654 - Attempting to Connect to:cb:e4:c4:4c:95:a4
+INFO 10-Mar-21 15:11:24.343 - Attempting to Connect to:cb:e4:c4:4c:95:a4
+INFO 10-Mar-21 15:11:32.057 - Connected to: cb:e4:c4:4c:95:a4
+INFO 10-Mar-21 15:11:32.058 - Starting connection check
+INFO 10-Mar-21 15:11:32.059 - Starting HB sender timer
+INFO 10-Mar-21 15:11:32.060 - Attempting to Connect to:cb:e4:c4:4c:95:a4
+INFO 10-Mar-21 15:11:36.472 - Logic queue recieved: SHB
+INFO 10-Mar-21 15:11:36.478 - Logic queue recieved: SSSHB
+INFO 10-Mar-21 15:11:36.483 - SentIPHB
+ERROR 10-Mar-21 15:11:39.625 - Heartbeat Timeout!!
+ERROR 10-Mar-21 15:11:45.154 - Heartbeat Timeout!!
+INFO 10-Mar-21 15:11:50.465 - Started scan for BLE devices
+INFO 10-Mar-21 15:11:50.467 - Started scan for BLE devices
+INFO 10-Mar-21 15:11:50.475 - Started scan for BLE devices
+INFO 10-Mar-21 15:11:50.488 - Started scan for BLE devices
+INFO 10-Mar-21 15:11:54.009 - Scan complete
+INFO 10-Mar-21 15:11:58.024 - Attempting to Connect to:cb:e4:c4:4c:95:a4
+INFO 10-Mar-21 15:12:05.758 - Scan complete
+INFO 10-Mar-21 15:12:05.760 - Scan complete
+INFO 10-Mar-21 15:12:05.764 - Scan complete
+INFO 10-Mar-21 15:12:38.378 - Started scan for BLE devices
+INFO 10-Mar-21 15:12:38.386 - Started scan for BLE devices
+INFO 10-Mar-21 15:12:38.395 - Started scan for BLE devices
+INFO 10-Mar-21 15:12:38.409 - Started scan for BLE devices
+INFO 10-Mar-21 15:12:45.239 - Attempting to Connect to:cb:e4:c4:4c:95:a4
+INFO 10-Mar-21 15:12:51.605 - Connected to: 
+INFO 10-Mar-21 15:12:51.606 - Starting connection check
+INFO 10-Mar-21 15:12:51.606 - Starting HB sender timer
+INFO 10-Mar-21 15:12:51.711 - Scan complete
+INFO 10-Mar-21 15:12:51.712 - Scan complete
+INFO 10-Mar-21 15:12:51.714 - Scan complete
+INFO 10-Mar-21 15:12:51.717 - Scan complete
+INFO 10-Mar-21 15:12:52.126 - Logic queue recieved: SHB
+INFO 10-Mar-21 15:12:52.127 - Logic queue recieved: SSSHB
+INFO 10-Mar-21 15:12:52.131 - SentIPHB
+ERROR 10-Mar-21 15:12:55.126 - Heartbeat Timeout!!
+ERROR 10-Mar-21 15:13:01.146 - Heartbeat Timeout!!
+ERROR 10-Mar-21 15:13:04.330 - Heartbeat Timeout!!

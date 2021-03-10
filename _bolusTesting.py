@@ -52,7 +52,7 @@ class bolusTestingTab(object):
             self.timeBetweenPulses=int(self.pulseDelayTxt.toPlainText())
             self.deliveryAmount=int(self.deliveryAmtTxt.toPlainText())
 
-        elif if self.deliveryType=="Basal":
+        elif self.deliveryType=="Basal":
             print("BASAL")
             self.deliveryAmount=int(self.doseTxt.toPlainText())
 

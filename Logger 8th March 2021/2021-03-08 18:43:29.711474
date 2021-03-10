@@ -1,0 +1,4475 @@
+WARNING 08-Mar-21 18:43:29.711 - Started
+INFO 08-Mar-21 18:43:29.714 - Serial Listner Thread started
+INFO 08-Mar-21 18:43:29.717 - Starting logger
+INFO 08-Mar-21 18:43:29.718 - Parser Thread Started successfully
+INFO 08-Mar-21 18:43:32.327 - Started scan for BLE devices
+INFO 08-Mar-21 18:43:42.425 - Scan complete
+INFO 08-Mar-21 18:44:05.716 - Attempting to Connect to:cb:e4:c4:4c:95:a4
+INFO 08-Mar-21 18:44:08.497 - Connected to: cb:e4:c4:4c:95:a4
+INFO 08-Mar-21 18:44:08.499 - Starting connection check
+INFO 08-Mar-21 18:44:08.501 - Starting HB sender timer
+INFO 08-Mar-21 18:44:09.024 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:44:09.025 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:44:09.028 - SentIPHB
+INFO 08-Mar-21 18:44:09.098 - Data in buffer
+INFO 08-Mar-21 18:44:09.098 - Data added to parser queue
+INFO 08-Mar-21 18:44:09.099 - Parsed:HB
+
+INFO 08-Mar-21 18:44:09.099 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:44:11.128 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:44:11.129 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:44:11.132 - SentIPHB
+INFO 08-Mar-21 18:44:11.199 - Data in buffer
+INFO 08-Mar-21 18:44:11.199 - Data added to parser queue
+INFO 08-Mar-21 18:44:11.199 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:44:11.199 - Parsed:HB
+
+INFO 08-Mar-21 18:44:13.127 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:44:13.129 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:44:13.132 - SentIPHB
+INFO 08-Mar-21 18:44:13.178 - Data in buffer
+INFO 08-Mar-21 18:44:13.181 - Data added to parser queue
+INFO 08-Mar-21 18:44:13.183 - Parsed:HB
+
+INFO 08-Mar-21 18:44:13.183 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:44:15.128 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:44:15.128 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:44:15.131 - SentIPHB
+INFO 08-Mar-21 18:44:15.192 - Data in buffer
+INFO 08-Mar-21 18:44:15.194 - Data added to parser queue
+INFO 08-Mar-21 18:44:15.195 - Parsed:HB
+
+INFO 08-Mar-21 18:44:15.195 - Logic queue recieved: HB
+
+WARNING 08-Mar-21 18:44:15.368 - Starting Bolus Delivery with duration 2000 for 10IU 
+INFO 08-Mar-21 18:44:18.704 - Time difference between deliveries ::::1615209258702
+INFO 08-Mar-21 18:44:18.705 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:44:18.705 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:44:18.706 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:44:18.712 - SentIPHB
+INFO 08-Mar-21 18:44:18.785 - Data in buffer
+INFO 08-Mar-21 18:44:18.785 - Data added to parser queue
+INFO 08-Mar-21 18:44:18.785 - Parsed:HB
+
+INFO 08-Mar-21 18:44:18.787 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:44:18.787 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:44:18.789 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:44:18.794 - SentIPIN
+INFO 08-Mar-21 18:44:18.857 - Data in buffer
+INFO 08-Mar-21 18:44:18.857 - Data added to parser queue
+INFO 08-Mar-21 18:44:18.860 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:44:18.863 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:44:18.865 - Resetting bolus delivery timer,9.95 remaining
+INFO 08-Mar-21 18:44:20.702 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:44:20.703 - Time difference between deliveries ::::2001
+INFO 08-Mar-21 18:44:20.703 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:44:20.708 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:44:20.710 - SentIPHB
+INFO 08-Mar-21 18:44:20.777 - Data in buffer
+INFO 08-Mar-21 18:44:20.777 - Data added to parser queue
+INFO 08-Mar-21 18:44:20.778 - Parsed:HB
+
+INFO 08-Mar-21 18:44:20.778 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:44:20.780 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:44:20.782 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:44:20.783 - SentIPIN
+INFO 08-Mar-21 18:44:20.860 - Data in buffer
+INFO 08-Mar-21 18:44:20.862 - Data added to parser queue
+INFO 08-Mar-21 18:44:20.863 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:44:20.865 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:44:20.865 - Resetting bolus delivery timer,9.9 remaining
+INFO 08-Mar-21 18:44:22.704 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:44:22.704 - Time difference between deliveries ::::2001
+INFO 08-Mar-21 18:44:22.706 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:44:22.707 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:44:22.710 - SentIPHB
+INFO 08-Mar-21 18:44:22.780 - Data in buffer
+INFO 08-Mar-21 18:44:22.781 - Data added to parser queue
+INFO 08-Mar-21 18:44:22.781 - Parsed:HB
+
+INFO 08-Mar-21 18:44:22.781 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:44:22.782 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:44:22.788 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:44:22.793 - SentIPIN
+INFO 08-Mar-21 18:44:22.863 - Data in buffer
+INFO 08-Mar-21 18:44:22.863 - Data added to parser queue
+INFO 08-Mar-21 18:44:22.863 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:44:22.864 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:44:22.864 - Resetting bolus delivery timer,9.85 remaining
+INFO 08-Mar-21 18:44:24.707 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:44:24.708 - Time difference between deliveries ::::2002
+INFO 08-Mar-21 18:44:24.709 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:44:24.710 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:44:24.715 - SentIPHB
+INFO 08-Mar-21 18:44:24.780 - Data in buffer
+INFO 08-Mar-21 18:44:24.886 - Data added to parser queue
+INFO 08-Mar-21 18:44:24.887 - Parsed:HB
+
+INFO 08-Mar-21 18:44:24.891 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:44:24.891 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:44:24.892 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:44:24.896 - SentIPIN
+INFO 08-Mar-21 18:44:24.977 - Data in buffer
+INFO 08-Mar-21 18:44:24.979 - Data added to parser queue
+INFO 08-Mar-21 18:44:24.979 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:44:24.985 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:44:24.986 - Resetting bolus delivery timer,9.8 remaining
+INFO 08-Mar-21 18:44:26.706 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:44:26.709 - Time difference between deliveries ::::2001
+INFO 08-Mar-21 18:44:26.711 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:44:26.712 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:44:26.716 - SentIPHB
+INFO 08-Mar-21 18:44:26.783 - Data in buffer
+INFO 08-Mar-21 18:44:26.784 - Data added to parser queue
+INFO 08-Mar-21 18:44:26.786 - Parsed:HB
+
+INFO 08-Mar-21 18:44:26.787 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:44:26.788 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:44:26.789 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:44:26.792 - SentIPIN
+INFO 08-Mar-21 18:44:26.858 - Data in buffer
+INFO 08-Mar-21 18:44:26.858 - Data added to parser queue
+INFO 08-Mar-21 18:44:26.858 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:44:26.859 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:44:26.859 - Resetting bolus delivery timer,9.75 remaining
+INFO 08-Mar-21 18:44:28.707 - Time difference between deliveries ::::2000
+INFO 08-Mar-21 18:44:28.709 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:44:28.709 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:44:28.710 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:44:28.716 - SentIPHB
+INFO 08-Mar-21 18:44:28.776 - Data in buffer
+INFO 08-Mar-21 18:44:28.776 - Data added to parser queue
+INFO 08-Mar-21 18:44:28.778 - Parsed:HB
+
+INFO 08-Mar-21 18:44:28.779 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:44:28.779 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:44:28.780 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:44:28.781 - SentIPIN
+INFO 08-Mar-21 18:44:28.857 - Data in buffer
+INFO 08-Mar-21 18:44:28.862 - Data added to parser queue
+INFO 08-Mar-21 18:44:28.871 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:44:28.872 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:44:28.873 - Resetting bolus delivery timer,9.7 remaining
+INFO 08-Mar-21 18:44:30.708 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:44:30.708 - Time difference between deliveries ::::2001
+INFO 08-Mar-21 18:44:30.711 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:44:30.713 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:44:30.719 - SentIPHB
+INFO 08-Mar-21 18:44:30.777 - Data in buffer
+INFO 08-Mar-21 18:44:30.777 - Data added to parser queue
+INFO 08-Mar-21 18:44:30.777 - Parsed:HB
+
+INFO 08-Mar-21 18:44:30.778 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:44:30.778 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:44:30.780 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:44:30.783 - SentIPIN
+INFO 08-Mar-21 18:44:30.857 - Data in buffer
+INFO 08-Mar-21 18:44:30.962 - Data added to parser queue
+INFO 08-Mar-21 18:44:30.964 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:44:30.967 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:44:30.968 - Resetting bolus delivery timer,9.65 remaining
+INFO 08-Mar-21 18:44:32.710 - Time difference between deliveries ::::1999
+INFO 08-Mar-21 18:44:32.712 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:44:32.714 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:44:32.719 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:44:32.719 - SentIPHB
+INFO 08-Mar-21 18:44:32.818 - Data in buffer
+INFO 08-Mar-21 18:44:32.818 - Data added to parser queue
+INFO 08-Mar-21 18:44:32.818 - Parsed:HB
+
+INFO 08-Mar-21 18:44:32.819 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:44:32.820 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:44:32.821 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:44:32.830 - SentIPIN
+INFO 08-Mar-21 18:44:32.897 - Data in buffer
+INFO 08-Mar-21 18:44:32.897 - Data added to parser queue
+INFO 08-Mar-21 18:44:32.898 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:44:32.899 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:44:32.904 - Resetting bolus delivery timer,9.6 remaining
+INFO 08-Mar-21 18:44:34.708 - Time difference between deliveries ::::2001
+INFO 08-Mar-21 18:44:34.708 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:44:34.708 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:44:34.709 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:44:34.716 - SentIPHB
+INFO 08-Mar-21 18:44:34.777 - Data in buffer
+INFO 08-Mar-21 18:44:34.778 - Data added to parser queue
+INFO 08-Mar-21 18:44:34.778 - Parsed:HB
+
+INFO 08-Mar-21 18:44:34.779 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:44:34.780 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:44:34.781 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:44:34.784 - SentIPIN
+INFO 08-Mar-21 18:44:34.858 - Data in buffer
+INFO 08-Mar-21 18:44:34.858 - Data added to parser queue
+INFO 08-Mar-21 18:44:34.859 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:44:34.859 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:44:34.860 - Resetting bolus delivery timer,9.55 remaining
+INFO 08-Mar-21 18:44:36.707 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:44:36.707 - Time difference between deliveries ::::1999
+INFO 08-Mar-21 18:44:36.710 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:44:36.712 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:44:36.717 - SentIPHB
+INFO 08-Mar-21 18:44:36.779 - Data in buffer
+INFO 08-Mar-21 18:44:36.780 - Data added to parser queue
+INFO 08-Mar-21 18:44:36.781 - Parsed:HB
+
+INFO 08-Mar-21 18:44:36.782 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:44:36.782 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:44:36.782 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:44:36.789 - SentIPIN
+INFO 08-Mar-21 18:44:36.856 - Data in buffer
+INFO 08-Mar-21 18:44:36.857 - Data added to parser queue
+INFO 08-Mar-21 18:44:36.857 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:44:36.858 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:44:36.858 - Resetting bolus delivery timer,9.5 remaining
+INFO 08-Mar-21 18:44:38.708 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:44:38.708 - Time difference between deliveries ::::2001
+INFO 08-Mar-21 18:44:38.708 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:44:38.710 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:44:38.716 - SentIPHB
+INFO 08-Mar-21 18:44:38.782 - Data in buffer
+INFO 08-Mar-21 18:44:38.782 - Data added to parser queue
+INFO 08-Mar-21 18:44:38.784 - Parsed:HB
+
+INFO 08-Mar-21 18:44:38.786 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:44:38.786 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:44:38.786 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:44:38.789 - SentIPIN
+INFO 08-Mar-21 18:44:38.860 - Data in buffer
+INFO 08-Mar-21 18:44:38.963 - Data added to parser queue
+INFO 08-Mar-21 18:44:38.964 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:44:38.969 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:44:38.970 - Resetting bolus delivery timer,9.45 remaining
+INFO 08-Mar-21 18:44:40.709 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:44:40.710 - Time difference between deliveries ::::2001
+INFO 08-Mar-21 18:44:40.711 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:44:40.713 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:44:40.716 - SentIPHB
+INFO 08-Mar-21 18:44:40.777 - Data in buffer
+INFO 08-Mar-21 18:44:40.777 - Data added to parser queue
+INFO 08-Mar-21 18:44:40.778 - Parsed:HB
+
+INFO 08-Mar-21 18:44:40.778 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:44:40.781 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:44:40.783 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:44:40.788 - SentIPIN
+INFO 08-Mar-21 18:44:40.856 - Data in buffer
+INFO 08-Mar-21 18:44:40.858 - Data added to parser queue
+INFO 08-Mar-21 18:44:40.860 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:44:40.860 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:44:40.860 - Resetting bolus delivery timer,9.4 remaining
+INFO 08-Mar-21 18:44:42.710 - Time difference between deliveries ::::2001
+INFO 08-Mar-21 18:44:42.712 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:44:42.714 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:44:42.715 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:44:42.720 - SentIPHB
+INFO 08-Mar-21 18:44:42.776 - Data in buffer
+INFO 08-Mar-21 18:44:42.776 - Data added to parser queue
+INFO 08-Mar-21 18:44:42.777 - Parsed:HB
+
+INFO 08-Mar-21 18:44:42.778 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:44:42.779 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:44:42.780 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:44:42.785 - SentIPIN
+INFO 08-Mar-21 18:44:42.857 - Data in buffer
+INFO 08-Mar-21 18:44:42.857 - Data added to parser queue
+INFO 08-Mar-21 18:44:42.859 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:44:42.862 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:44:42.862 - Resetting bolus delivery timer,9.35 remaining
+INFO 08-Mar-21 18:44:44.710 - Time difference between deliveries ::::1999
+INFO 08-Mar-21 18:44:44.710 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:44:44.711 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:44:44.712 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:44:44.716 - SentIPHB
+INFO 08-Mar-21 18:44:44.777 - Data in buffer
+INFO 08-Mar-21 18:44:44.777 - Data added to parser queue
+INFO 08-Mar-21 18:44:44.777 - Parsed:HB
+
+INFO 08-Mar-21 18:44:44.778 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:44:44.781 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:44:44.782 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:44:44.788 - SentIPIN
+INFO 08-Mar-21 18:44:44.859 - Data in buffer
+INFO 08-Mar-21 18:44:44.861 - Data added to parser queue
+INFO 08-Mar-21 18:44:44.864 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:44:44.864 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:44:44.864 - Resetting bolus delivery timer,9.3 remaining
+INFO 08-Mar-21 18:44:46.710 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:44:46.710 - Time difference between deliveries ::::2001
+INFO 08-Mar-21 18:44:46.711 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:44:46.714 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:44:46.718 - SentIPHB
+INFO 08-Mar-21 18:44:46.778 - Data in buffer
+INFO 08-Mar-21 18:44:46.780 - Data added to parser queue
+INFO 08-Mar-21 18:44:46.780 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:44:46.780 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:44:46.781 - Parsed:HB
+
+INFO 08-Mar-21 18:44:46.782 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:44:46.790 - SentIPIN
+INFO 08-Mar-21 18:44:46.897 - Data in buffer
+INFO 08-Mar-21 18:44:46.897 - Data added to parser queue
+INFO 08-Mar-21 18:44:46.897 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:44:46.898 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:44:46.899 - Resetting bolus delivery timer,9.25 remaining
+INFO 08-Mar-21 18:44:48.710 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:44:48.712 - Time difference between deliveries ::::2000
+INFO 08-Mar-21 18:44:48.713 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:44:48.714 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:44:48.717 - SentIPHB
+INFO 08-Mar-21 18:44:48.777 - Data in buffer
+INFO 08-Mar-21 18:44:48.777 - Data added to parser queue
+INFO 08-Mar-21 18:44:48.779 - Parsed:HB
+
+INFO 08-Mar-21 18:44:48.779 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:44:48.779 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:44:48.780 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:44:48.785 - SentIPIN
+INFO 08-Mar-21 18:44:48.856 - Data in buffer
+INFO 08-Mar-21 18:44:48.858 - Data added to parser queue
+INFO 08-Mar-21 18:44:48.858 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:44:48.859 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:44:48.860 - Resetting bolus delivery timer,9.2 remaining
+INFO 08-Mar-21 18:44:50.712 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:44:50.712 - Time difference between deliveries ::::2001
+INFO 08-Mar-21 18:44:50.713 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:44:50.713 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:44:50.719 - SentIPHB
+INFO 08-Mar-21 18:44:50.782 - Data in buffer
+INFO 08-Mar-21 18:44:50.782 - Data added to parser queue
+INFO 08-Mar-21 18:44:50.783 - Parsed:HB
+
+INFO 08-Mar-21 18:44:50.783 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:44:50.785 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:44:50.789 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:44:50.792 - SentIPIN
+INFO 08-Mar-21 18:44:50.858 - Data in buffer
+INFO 08-Mar-21 18:44:50.858 - Data added to parser queue
+INFO 08-Mar-21 18:44:50.858 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:44:50.860 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:44:50.864 - Resetting bolus delivery timer,9.15 remaining
+INFO 08-Mar-21 18:44:52.711 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:44:52.712 - Time difference between deliveries ::::2001
+INFO 08-Mar-21 18:44:52.714 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:44:52.716 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:44:52.718 - SentIPHB
+INFO 08-Mar-21 18:44:52.778 - Data in buffer
+INFO 08-Mar-21 18:44:52.783 - Data added to parser queue
+INFO 08-Mar-21 18:44:52.785 - Parsed:HB
+
+INFO 08-Mar-21 18:44:52.786 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:44:52.787 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:44:52.790 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:44:52.793 - SentIPIN
+INFO 08-Mar-21 18:44:52.861 - Data in buffer
+INFO 08-Mar-21 18:44:52.963 - Data added to parser queue
+INFO 08-Mar-21 18:44:52.964 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:44:52.965 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:44:52.966 - Resetting bolus delivery timer,9.1 remaining
+INFO 08-Mar-21 18:44:54.714 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:44:54.715 - Time difference between deliveries ::::2000
+INFO 08-Mar-21 18:44:54.716 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:44:54.717 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:44:54.725 - SentIPHB
+INFO 08-Mar-21 18:44:54.775 - Data in buffer
+INFO 08-Mar-21 18:44:54.775 - Data added to parser queue
+INFO 08-Mar-21 18:44:54.776 - Parsed:HB
+
+INFO 08-Mar-21 18:44:54.777 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:44:54.780 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:44:54.781 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:44:54.784 - SentIPIN
+INFO 08-Mar-21 18:44:54.856 - Data in buffer
+INFO 08-Mar-21 18:44:54.857 - Data added to parser queue
+INFO 08-Mar-21 18:44:54.858 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:44:54.858 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:44:54.858 - Resetting bolus delivery timer,9.05 remaining
+INFO 08-Mar-21 18:44:56.714 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:44:56.715 - Time difference between deliveries ::::2001
+INFO 08-Mar-21 18:44:56.715 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:44:56.716 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:44:56.724 - SentIPHB
+INFO 08-Mar-21 18:44:56.783 - Data in buffer
+INFO 08-Mar-21 18:44:56.886 - Data added to parser queue
+INFO 08-Mar-21 18:44:56.886 - Parsed:HB
+
+INFO 08-Mar-21 18:44:56.889 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:44:56.890 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:44:56.891 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:44:56.897 - SentIPIN
+INFO 08-Mar-21 18:44:56.977 - Data in buffer
+INFO 08-Mar-21 18:44:56.977 - Data added to parser queue
+INFO 08-Mar-21 18:44:56.980 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:44:56.983 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:44:56.985 - Resetting bolus delivery timer,9.0 remaining
+INFO 08-Mar-21 18:44:58.716 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:44:58.719 - Time difference between deliveries ::::2002
+INFO 08-Mar-21 18:44:58.721 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:44:58.721 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:44:58.727 - SentIPHB
+INFO 08-Mar-21 18:44:58.783 - Data in buffer
+INFO 08-Mar-21 18:44:58.783 - Data added to parser queue
+INFO 08-Mar-21 18:44:58.783 - Parsed:HB
+
+INFO 08-Mar-21 18:44:58.783 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:44:58.783 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:44:58.787 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:44:58.790 - SentIPIN
+INFO 08-Mar-21 18:44:58.859 - Data in buffer
+INFO 08-Mar-21 18:44:58.859 - Data added to parser queue
+INFO 08-Mar-21 18:44:58.859 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:44:58.863 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:44:58.865 - Resetting bolus delivery timer,8.95 remaining
+INFO 08-Mar-21 18:45:00.714 - Time difference between deliveries ::::1998
+INFO 08-Mar-21 18:45:00.716 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:45:00.717 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:45:00.719 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:45:00.725 - SentIPHB
+INFO 08-Mar-21 18:45:00.776 - Data in buffer
+INFO 08-Mar-21 18:45:00.776 - Data added to parser queue
+INFO 08-Mar-21 18:45:00.776 - Parsed:HB
+
+INFO 08-Mar-21 18:45:00.777 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:45:00.778 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:45:00.778 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:45:00.782 - SentIPIN
+INFO 08-Mar-21 18:45:00.857 - Data in buffer
+INFO 08-Mar-21 18:45:00.960 - Data added to parser queue
+INFO 08-Mar-21 18:45:00.960 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:45:00.962 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:45:00.963 - Resetting bolus delivery timer,8.9 remaining
+INFO 08-Mar-21 18:45:02.713 - Time difference between deliveries ::::2000
+INFO 08-Mar-21 18:45:02.713 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:45:02.714 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:45:02.716 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:45:02.722 - SentIPHB
+INFO 08-Mar-21 18:45:02.780 - Data in buffer
+INFO 08-Mar-21 18:45:02.780 - Data added to parser queue
+INFO 08-Mar-21 18:45:02.780 - Parsed:HB
+
+INFO 08-Mar-21 18:45:02.780 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:45:02.780 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:45:02.782 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:45:02.786 - SentIPIN
+INFO 08-Mar-21 18:45:02.859 - Data in buffer
+INFO 08-Mar-21 18:45:02.861 - Data added to parser queue
+INFO 08-Mar-21 18:45:02.864 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:45:02.864 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:45:02.864 - Resetting bolus delivery timer,8.85 remaining
+INFO 08-Mar-21 18:45:04.714 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:45:04.715 - Time difference between deliveries ::::2000
+INFO 08-Mar-21 18:45:04.716 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:45:04.717 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:45:04.725 - SentIPHB
+INFO 08-Mar-21 18:45:04.775 - Data in buffer
+INFO 08-Mar-21 18:45:04.776 - Data added to parser queue
+INFO 08-Mar-21 18:45:04.776 - Parsed:HB
+
+INFO 08-Mar-21 18:45:04.777 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:45:04.777 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:45:04.779 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:45:04.780 - SentIPIN
+INFO 08-Mar-21 18:45:04.857 - Data in buffer
+INFO 08-Mar-21 18:45:04.859 - Data added to parser queue
+INFO 08-Mar-21 18:45:04.860 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:45:04.861 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:45:04.862 - Resetting bolus delivery timer,8.8 remaining
+INFO 08-Mar-21 18:45:06.714 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:45:06.714 - Time difference between deliveries ::::2000
+INFO 08-Mar-21 18:45:06.715 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:45:06.715 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:45:06.719 - SentIPHB
+INFO 08-Mar-21 18:45:06.776 - Data in buffer
+INFO 08-Mar-21 18:45:06.777 - Data added to parser queue
+INFO 08-Mar-21 18:45:06.777 - Parsed:HB
+
+INFO 08-Mar-21 18:45:06.777 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:45:06.778 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:45:06.778 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:45:06.783 - SentIPIN
+INFO 08-Mar-21 18:45:06.858 - Data in buffer
+INFO 08-Mar-21 18:45:06.862 - Data added to parser queue
+INFO 08-Mar-21 18:45:06.862 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:45:06.864 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:45:06.864 - Resetting bolus delivery timer,8.75 remaining
+INFO 08-Mar-21 18:45:08.714 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:45:08.715 - Time difference between deliveries ::::2001
+INFO 08-Mar-21 18:45:08.716 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:45:08.717 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:45:08.722 - SentIPHB
+INFO 08-Mar-21 18:45:08.780 - Data in buffer
+INFO 08-Mar-21 18:45:08.781 - Data added to parser queue
+INFO 08-Mar-21 18:45:08.781 - Parsed:HB
+
+INFO 08-Mar-21 18:45:08.781 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:45:08.781 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:45:08.782 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:45:08.786 - SentIPIN
+INFO 08-Mar-21 18:45:08.856 - Data in buffer
+INFO 08-Mar-21 18:45:08.856 - Data added to parser queue
+INFO 08-Mar-21 18:45:08.856 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:45:08.857 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:45:08.857 - Resetting bolus delivery timer,8.7 remaining
+INFO 08-Mar-21 18:45:10.716 - Time difference between deliveries ::::2000
+INFO 08-Mar-21 18:45:10.716 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:45:10.717 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:45:10.718 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:45:10.720 - SentIPHB
+INFO 08-Mar-21 18:45:10.776 - Data in buffer
+INFO 08-Mar-21 18:45:10.776 - Data added to parser queue
+INFO 08-Mar-21 18:45:10.776 - Parsed:HB
+
+INFO 08-Mar-21 18:45:10.777 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:45:10.779 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:45:10.779 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:45:10.782 - SentIPIN
+INFO 08-Mar-21 18:45:10.856 - Data in buffer
+INFO 08-Mar-21 18:45:10.857 - Data added to parser queue
+INFO 08-Mar-21 18:45:10.857 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:45:10.857 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:45:10.857 - Resetting bolus delivery timer,8.65 remaining
+INFO 08-Mar-21 18:45:12.715 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:45:12.716 - Time difference between deliveries ::::2001
+INFO 08-Mar-21 18:45:12.716 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:45:12.719 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:45:12.724 - SentIPHB
+INFO 08-Mar-21 18:45:12.776 - Data in buffer
+INFO 08-Mar-21 18:45:12.777 - Data added to parser queue
+INFO 08-Mar-21 18:45:12.777 - Parsed:HB
+
+INFO 08-Mar-21 18:45:12.777 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:45:12.779 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:45:12.780 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:45:12.783 - SentIPIN
+INFO 08-Mar-21 18:45:12.857 - Data in buffer
+INFO 08-Mar-21 18:45:12.858 - Data added to parser queue
+INFO 08-Mar-21 18:45:12.859 - Logic queue recieved: IN0.00
+
+INFO 08-Mar-21 18:45:12.859 - Parsed:IN0.00
+
+WARNING 08-Mar-21 18:45:12.859 - Resetting bolus delivery timer,8.6 remaining
+INFO 08-Mar-21 18:45:14.715 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:45:14.718 - Time difference between deliveries ::::2000
+INFO 08-Mar-21 18:45:14.719 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:45:14.719 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:45:14.722 - SentIPHB
+INFO 08-Mar-21 18:45:14.776 - Data in buffer
+INFO 08-Mar-21 18:45:14.777 - Data added to parser queue
+INFO 08-Mar-21 18:45:14.778 - Parsed:HB
+
+INFO 08-Mar-21 18:45:14.778 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:45:14.779 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:45:14.780 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:45:14.784 - SentIPIN
+INFO 08-Mar-21 18:45:14.864 - Data in buffer
+INFO 08-Mar-21 18:45:14.865 - Data added to parser queue
+INFO 08-Mar-21 18:45:14.865 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:45:14.866 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:45:14.868 - Resetting bolus delivery timer,8.55 remaining
+INFO 08-Mar-21 18:45:16.716 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:45:16.719 - Time difference between deliveries ::::2001
+INFO 08-Mar-21 18:45:16.721 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:45:16.722 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:45:16.725 - SentIPHB
+INFO 08-Mar-21 18:45:16.777 - Data in buffer
+INFO 08-Mar-21 18:45:16.777 - Data added to parser queue
+INFO 08-Mar-21 18:45:16.778 - Parsed:HB
+
+INFO 08-Mar-21 18:45:16.781 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:45:16.781 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:45:16.781 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:45:16.787 - SentIPIN
+INFO 08-Mar-21 18:45:16.856 - Data in buffer
+INFO 08-Mar-21 18:45:16.856 - Data added to parser queue
+INFO 08-Mar-21 18:45:16.856 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:45:16.857 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:45:16.857 - Resetting bolus delivery timer,8.5 remaining
+INFO 08-Mar-21 18:45:18.719 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:45:18.722 - Time difference between deliveries ::::2004
+INFO 08-Mar-21 18:45:18.724 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:45:18.729 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:45:18.735 - SentIPHB
+INFO 08-Mar-21 18:45:18.815 - Data in buffer
+INFO 08-Mar-21 18:45:18.815 - Data added to parser queue
+INFO 08-Mar-21 18:45:18.815 - Parsed:HB
+
+INFO 08-Mar-21 18:45:18.816 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:45:18.817 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:45:18.817 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:45:18.820 - SentIPIN
+INFO 08-Mar-21 18:45:18.900 - Data in buffer
+INFO 08-Mar-21 18:45:18.902 - Data added to parser queue
+INFO 08-Mar-21 18:45:18.902 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:45:18.904 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:45:18.905 - Resetting bolus delivery timer,8.45 remaining
+INFO 08-Mar-21 18:45:20.716 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:45:20.717 - Time difference between deliveries ::::1997
+INFO 08-Mar-21 18:45:20.719 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:45:20.721 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:45:20.725 - SentIPHB
+INFO 08-Mar-21 18:45:20.776 - Data in buffer
+INFO 08-Mar-21 18:45:20.879 - Data added to parser queue
+INFO 08-Mar-21 18:45:20.879 - Parsed:HB
+
+INFO 08-Mar-21 18:45:20.879 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:45:20.879 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:45:20.880 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:45:20.883 - SentIPIN
+INFO 08-Mar-21 18:45:20.936 - Data in buffer
+INFO 08-Mar-21 18:45:20.937 - Data added to parser queue
+INFO 08-Mar-21 18:45:20.938 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:45:20.938 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:45:20.939 - Resetting bolus delivery timer,8.4 remaining
+INFO 08-Mar-21 18:45:22.718 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:45:22.720 - Time difference between deliveries ::::2001
+INFO 08-Mar-21 18:45:22.722 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:45:22.723 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:45:22.729 - SentIPHB
+INFO 08-Mar-21 18:45:22.776 - Data in buffer
+INFO 08-Mar-21 18:45:22.777 - Data added to parser queue
+INFO 08-Mar-21 18:45:22.777 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:45:22.777 - Parsed:HB
+
+INFO 08-Mar-21 18:45:22.777 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:45:22.778 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:45:22.782 - SentIPIN
+INFO 08-Mar-21 18:45:22.856 - Data in buffer
+INFO 08-Mar-21 18:45:22.856 - Data added to parser queue
+INFO 08-Mar-21 18:45:22.856 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:45:22.857 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:45:22.857 - Resetting bolus delivery timer,8.35 remaining
+INFO 08-Mar-21 18:45:24.718 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:45:24.719 - Time difference between deliveries ::::2000
+INFO 08-Mar-21 18:45:24.719 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:45:24.719 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:45:24.723 - SentIPHB
+INFO 08-Mar-21 18:45:24.777 - Data in buffer
+INFO 08-Mar-21 18:45:24.777 - Data added to parser queue
+INFO 08-Mar-21 18:45:24.777 - Parsed:HB
+
+INFO 08-Mar-21 18:45:24.778 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:45:24.779 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:45:24.780 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:45:24.784 - SentIPIN
+INFO 08-Mar-21 18:45:24.868 - Data in buffer
+INFO 08-Mar-21 18:45:24.868 - Data added to parser queue
+INFO 08-Mar-21 18:45:24.868 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:45:24.869 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:45:24.869 - Resetting bolus delivery timer,8.3 remaining
+INFO 08-Mar-21 18:45:26.719 - Time difference between deliveries ::::2000
+INFO 08-Mar-21 18:45:26.722 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:45:26.722 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:45:26.723 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:45:26.724 - SentIPHB
+INFO 08-Mar-21 18:45:26.778 - Data in buffer
+INFO 08-Mar-21 18:45:26.778 - Data added to parser queue
+INFO 08-Mar-21 18:45:26.780 - Parsed:HB
+
+INFO 08-Mar-21 18:45:26.781 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:45:26.783 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:45:26.785 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:45:26.792 - SentIPIN
+INFO 08-Mar-21 18:45:26.856 - Data in buffer
+INFO 08-Mar-21 18:45:26.959 - Data added to parser queue
+INFO 08-Mar-21 18:45:26.961 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:45:26.961 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:45:26.961 - Resetting bolus delivery timer,8.25 remaining
+INFO 08-Mar-21 18:45:28.720 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:45:28.722 - Time difference between deliveries ::::2002
+INFO 08-Mar-21 18:45:28.723 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:45:28.724 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:45:28.731 - SentIPHB
+INFO 08-Mar-21 18:45:28.775 - Data in buffer
+INFO 08-Mar-21 18:45:28.775 - Data added to parser queue
+INFO 08-Mar-21 18:45:28.776 - Parsed:HB
+
+INFO 08-Mar-21 18:45:28.777 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:45:28.777 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:45:28.778 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:45:28.785 - SentIPIN
+INFO 08-Mar-21 18:45:28.861 - Data in buffer
+INFO 08-Mar-21 18:45:28.862 - Data added to parser queue
+INFO 08-Mar-21 18:45:28.862 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:45:28.864 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:45:28.864 - Resetting bolus delivery timer,8.2 remaining
+INFO 08-Mar-21 18:45:30.721 - Time difference between deliveries ::::2001
+INFO 08-Mar-21 18:45:30.722 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:45:30.722 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:45:30.723 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:45:30.728 - SentIPHB
+INFO 08-Mar-21 18:45:30.777 - Data in buffer
+INFO 08-Mar-21 18:45:30.777 - Data added to parser queue
+INFO 08-Mar-21 18:45:30.777 - Parsed:HB
+
+INFO 08-Mar-21 18:45:30.779 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:45:30.779 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:45:30.780 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:45:30.785 - SentIPIN
+INFO 08-Mar-21 18:45:30.857 - Data in buffer
+INFO 08-Mar-21 18:45:30.961 - Data added to parser queue
+INFO 08-Mar-21 18:45:30.961 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:45:30.963 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:45:30.964 - Resetting bolus delivery timer,8.15 remaining
+INFO 08-Mar-21 18:45:32.720 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:45:32.722 - Time difference between deliveries ::::1999
+INFO 08-Mar-21 18:45:32.722 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:45:32.722 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:45:32.725 - SentIPHB
+INFO 08-Mar-21 18:45:32.776 - Data in buffer
+INFO 08-Mar-21 18:45:32.777 - Data added to parser queue
+INFO 08-Mar-21 18:45:32.777 - Parsed:HB
+
+INFO 08-Mar-21 18:45:32.779 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:45:32.782 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:45:32.782 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:45:32.788 - SentIPIN
+INFO 08-Mar-21 18:45:32.855 - Data in buffer
+INFO 08-Mar-21 18:45:32.956 - Data added to parser queue
+INFO 08-Mar-21 18:45:32.957 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:45:32.967 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:45:32.970 - Resetting bolus delivery timer,8.1 remaining
+INFO 08-Mar-21 18:45:34.722 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:45:34.722 - Time difference between deliveries ::::2001
+INFO 08-Mar-21 18:45:34.722 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:45:34.723 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:45:34.730 - SentIPHB
+INFO 08-Mar-21 18:45:34.777 - Data in buffer
+INFO 08-Mar-21 18:45:34.880 - Data added to parser queue
+INFO 08-Mar-21 18:45:34.881 - Parsed:HB
+
+INFO 08-Mar-21 18:45:34.881 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:45:34.881 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:45:34.883 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:45:34.887 - SentIPIN
+INFO 08-Mar-21 18:45:34.935 - Data in buffer
+INFO 08-Mar-21 18:45:34.936 - Data added to parser queue
+INFO 08-Mar-21 18:45:34.936 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:45:34.936 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:45:34.937 - Resetting bolus delivery timer,8.05 remaining
+INFO 08-Mar-21 18:45:36.721 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:45:36.723 - Time difference between deliveries ::::2001
+INFO 08-Mar-21 18:45:36.724 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:45:36.725 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:45:36.730 - SentIPHB
+INFO 08-Mar-21 18:45:36.784 - Data in buffer
+INFO 08-Mar-21 18:45:36.784 - Data added to parser queue
+INFO 08-Mar-21 18:45:36.786 - Parsed:HB
+
+INFO 08-Mar-21 18:45:36.787 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:45:36.787 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:45:36.787 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:45:36.791 - SentIPIN
+INFO 08-Mar-21 18:45:36.856 - Data in buffer
+INFO 08-Mar-21 18:45:36.959 - Data added to parser queue
+INFO 08-Mar-21 18:45:36.959 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:45:36.961 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:45:36.961 - Resetting bolus delivery timer,8.0 remaining
+INFO 08-Mar-21 18:45:38.724 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:45:38.725 - Time difference between deliveries ::::2001
+INFO 08-Mar-21 18:45:38.725 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:45:38.725 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:45:38.731 - SentIPHB
+INFO 08-Mar-21 18:45:38.775 - Data in buffer
+INFO 08-Mar-21 18:45:38.775 - Data added to parser queue
+INFO 08-Mar-21 18:45:38.775 - Parsed:HB
+
+INFO 08-Mar-21 18:45:38.775 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:45:38.775 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:45:38.777 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:45:38.782 - SentIPIN
+INFO 08-Mar-21 18:45:38.855 - Data in buffer
+INFO 08-Mar-21 18:45:38.856 - Data added to parser queue
+INFO 08-Mar-21 18:45:38.857 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:45:38.858 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:45:38.859 - Resetting bolus delivery timer,7.95 remaining
+INFO 08-Mar-21 18:45:40.724 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:45:40.726 - Time difference between deliveries ::::2000
+INFO 08-Mar-21 18:45:40.727 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:45:40.728 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:45:40.733 - SentIPHB
+INFO 08-Mar-21 18:45:40.815 - Data in buffer
+INFO 08-Mar-21 18:45:40.816 - Data added to parser queue
+INFO 08-Mar-21 18:45:40.816 - Parsed:HB
+
+INFO 08-Mar-21 18:45:40.817 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:45:40.819 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:45:40.822 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:45:40.827 - SentIPIN
+INFO 08-Mar-21 18:45:40.895 - Data in buffer
+INFO 08-Mar-21 18:45:40.997 - Data added to parser queue
+INFO 08-Mar-21 18:45:40.999 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:45:41.000 - Resetting bolus delivery timer,7.9 remaining
+INFO 08-Mar-21 18:45:41.000 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:45:42.724 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:45:42.724 - Time difference between deliveries ::::2000
+INFO 08-Mar-21 18:45:42.726 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:45:42.727 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:45:42.733 - SentIPHB
+INFO 08-Mar-21 18:45:42.775 - Data in buffer
+INFO 08-Mar-21 18:45:42.775 - Data added to parser queue
+INFO 08-Mar-21 18:45:42.775 - Parsed:HB
+
+INFO 08-Mar-21 18:45:42.775 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:45:42.779 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:45:42.783 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:45:42.785 - SentIPIN
+INFO 08-Mar-21 18:45:42.855 - Data in buffer
+INFO 08-Mar-21 18:45:42.855 - Data added to parser queue
+INFO 08-Mar-21 18:45:42.855 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:45:42.856 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:45:42.856 - Resetting bolus delivery timer,7.85 remaining
+INFO 08-Mar-21 18:45:44.724 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:45:44.724 - Time difference between deliveries ::::2001
+INFO 08-Mar-21 18:45:44.724 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:45:44.725 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:45:44.731 - SentIPHB
+INFO 08-Mar-21 18:45:44.781 - Data in buffer
+INFO 08-Mar-21 18:45:44.781 - Data added to parser queue
+INFO 08-Mar-21 18:45:44.781 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:45:44.782 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:45:44.783 - Parsed:HB
+
+INFO 08-Mar-21 18:45:44.783 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:45:44.784 - SentIPIN
+INFO 08-Mar-21 18:45:44.855 - Data in buffer
+INFO 08-Mar-21 18:45:44.855 - Data added to parser queue
+INFO 08-Mar-21 18:45:44.857 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:45:44.859 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:45:44.861 - Resetting bolus delivery timer,7.8 remaining
+INFO 08-Mar-21 18:45:46.726 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:45:46.726 - Time difference between deliveries ::::2001
+INFO 08-Mar-21 18:45:46.726 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:45:46.731 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:45:46.735 - SentIPHB
+INFO 08-Mar-21 18:45:46.816 - Data in buffer
+INFO 08-Mar-21 18:45:46.819 - Data added to parser queue
+INFO 08-Mar-21 18:45:46.821 - Parsed:HB
+
+INFO 08-Mar-21 18:45:46.821 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:45:46.821 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:45:46.821 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:45:46.822 - SentIPIN
+INFO 08-Mar-21 18:45:46.895 - Data in buffer
+INFO 08-Mar-21 18:45:46.996 - Data added to parser queue
+INFO 08-Mar-21 18:45:46.997 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:45:46.999 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:45:47.000 - Resetting bolus delivery timer,7.75 remaining
+INFO 08-Mar-21 18:45:48.724 - Time difference between deliveries ::::1999
+INFO 08-Mar-21 18:45:48.727 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:45:48.727 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:45:48.730 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:45:48.735 - SentIPHB
+INFO 08-Mar-21 18:45:48.855 - Data in buffer
+INFO 08-Mar-21 18:45:48.957 - Data added to parser queue
+INFO 08-Mar-21 18:45:48.957 - Parsed:HB
+
+INFO 08-Mar-21 18:45:48.960 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:45:48.960 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:45:48.962 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:45:48.965 - SentIPIN
+INFO 08-Mar-21 18:45:49.016 - Data in buffer
+INFO 08-Mar-21 18:45:49.016 - Data added to parser queue
+INFO 08-Mar-21 18:45:49.018 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:45:49.018 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:45:49.019 - Resetting bolus delivery timer,7.7 remaining
+INFO 08-Mar-21 18:45:50.725 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:45:50.726 - Time difference between deliveries ::::2001
+INFO 08-Mar-21 18:45:50.727 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:45:50.727 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:45:50.731 - SentIPHB
+INFO 08-Mar-21 18:45:50.779 - Data in buffer
+INFO 08-Mar-21 18:45:50.780 - Data added to parser queue
+INFO 08-Mar-21 18:45:50.780 - Parsed:HB
+
+INFO 08-Mar-21 18:45:50.781 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:45:50.782 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:45:50.786 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:45:50.786 - SentIPIN
+INFO 08-Mar-21 18:45:50.856 - Data in buffer
+INFO 08-Mar-21 18:45:50.856 - Data added to parser queue
+INFO 08-Mar-21 18:45:50.856 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:45:50.857 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:45:50.858 - Resetting bolus delivery timer,7.65 remaining
+INFO 08-Mar-21 18:45:52.726 - Time difference between deliveries ::::2001
+INFO 08-Mar-21 18:45:52.729 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:45:52.732 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:45:52.732 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:45:52.737 - SentIPHB
+INFO 08-Mar-21 18:45:52.817 - Data in buffer
+INFO 08-Mar-21 18:45:52.817 - Data added to parser queue
+INFO 08-Mar-21 18:45:52.818 - Parsed:HB
+
+INFO 08-Mar-21 18:45:52.818 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:45:52.819 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:45:52.820 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:45:52.826 - SentIPIN
+INFO 08-Mar-21 18:45:52.895 - Data in buffer
+INFO 08-Mar-21 18:45:52.898 - Data added to parser queue
+INFO 08-Mar-21 18:45:52.898 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:45:52.898 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:45:52.898 - Resetting bolus delivery timer,7.6 remaining
+INFO 08-Mar-21 18:45:54.729 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:45:54.731 - Time difference between deliveries ::::2003
+INFO 08-Mar-21 18:45:54.732 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:45:54.733 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:45:54.738 - SentIPHB
+INFO 08-Mar-21 18:45:54.816 - Data in buffer
+INFO 08-Mar-21 18:45:54.816 - Data added to parser queue
+INFO 08-Mar-21 18:45:54.816 - Parsed:HB
+
+INFO 08-Mar-21 18:45:54.816 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:45:54.816 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:45:54.819 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:45:54.826 - SentIPIN
+INFO 08-Mar-21 18:45:54.895 - Data in buffer
+INFO 08-Mar-21 18:45:54.998 - Data added to parser queue
+INFO 08-Mar-21 18:45:54.999 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:45:54.999 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:45:55.000 - Resetting bolus delivery timer,7.55 remaining
+INFO 08-Mar-21 18:45:56.728 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:45:56.728 - Time difference between deliveries ::::1998
+INFO 08-Mar-21 18:45:56.729 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:45:56.730 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:45:56.735 - SentIPHB
+INFO 08-Mar-21 18:45:56.815 - Data in buffer
+INFO 08-Mar-21 18:45:56.815 - Data added to parser queue
+INFO 08-Mar-21 18:45:56.816 - Parsed:HB
+
+INFO 08-Mar-21 18:45:56.817 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:45:56.817 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:45:56.817 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:45:56.821 - SentIPIN
+INFO 08-Mar-21 18:45:56.896 - Data in buffer
+INFO 08-Mar-21 18:45:56.897 - Data added to parser queue
+INFO 08-Mar-21 18:45:56.897 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:45:56.897 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:45:56.898 - Resetting bolus delivery timer,7.5 remaining
+INFO 08-Mar-21 18:45:58.728 - Time difference between deliveries ::::2001
+INFO 08-Mar-21 18:45:58.728 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:45:58.730 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:45:58.734 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:45:58.739 - SentIPHB
+INFO 08-Mar-21 18:45:58.818 - Data in buffer
+INFO 08-Mar-21 18:45:58.818 - Data added to parser queue
+INFO 08-Mar-21 18:45:58.819 - Parsed:HB
+
+INFO 08-Mar-21 18:45:58.820 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:45:58.821 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:45:58.821 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:45:58.827 - SentIPIN
+INFO 08-Mar-21 18:45:58.905 - Data in buffer
+INFO 08-Mar-21 18:45:58.905 - Data added to parser queue
+INFO 08-Mar-21 18:45:58.906 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:45:58.910 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:45:58.911 - Resetting bolus delivery timer,7.45 remaining
+INFO 08-Mar-21 18:46:00.728 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:46:00.728 - Time difference between deliveries ::::2000
+INFO 08-Mar-21 18:46:00.729 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:46:00.731 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:46:00.737 - SentIPHB
+INFO 08-Mar-21 18:46:00.815 - Data in buffer
+INFO 08-Mar-21 18:46:00.816 - Data added to parser queue
+INFO 08-Mar-21 18:46:00.816 - Parsed:HB
+
+INFO 08-Mar-21 18:46:00.817 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:46:00.817 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:46:00.817 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:46:00.821 - SentIPIN
+INFO 08-Mar-21 18:46:00.896 - Data in buffer
+INFO 08-Mar-21 18:46:00.999 - Data added to parser queue
+INFO 08-Mar-21 18:46:01.001 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:46:01.002 - Resetting bolus delivery timer,7.4 remaining
+INFO 08-Mar-21 18:46:01.002 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:46:02.729 - Time difference between deliveries ::::2001
+INFO 08-Mar-21 18:46:02.729 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:46:02.729 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:46:02.730 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:46:02.734 - SentIPHB
+INFO 08-Mar-21 18:46:02.814 - Data in buffer
+INFO 08-Mar-21 18:46:02.815 - Data added to parser queue
+INFO 08-Mar-21 18:46:02.815 - Parsed:HB
+
+INFO 08-Mar-21 18:46:02.817 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:46:02.817 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:46:02.817 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:46:02.821 - SentIPIN
+INFO 08-Mar-21 18:46:02.896 - Data in buffer
+INFO 08-Mar-21 18:46:02.897 - Data added to parser queue
+INFO 08-Mar-21 18:46:02.897 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:46:02.897 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:46:02.898 - Resetting bolus delivery timer,7.35 remaining
+INFO 08-Mar-21 18:46:04.729 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:46:04.732 - Time difference between deliveries ::::2000
+INFO 08-Mar-21 18:46:04.733 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:46:04.733 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:46:04.739 - SentIPHB
+INFO 08-Mar-21 18:46:04.815 - Data in buffer
+INFO 08-Mar-21 18:46:04.815 - Data added to parser queue
+INFO 08-Mar-21 18:46:04.816 - Parsed:HB
+
+INFO 08-Mar-21 18:46:04.816 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:46:04.816 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:46:04.816 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:46:04.821 - SentIPIN
+INFO 08-Mar-21 18:46:04.896 - Data in buffer
+INFO 08-Mar-21 18:46:04.896 - Data added to parser queue
+INFO 08-Mar-21 18:46:04.896 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:46:04.900 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:46:04.901 - Resetting bolus delivery timer,7.3 remaining
+INFO 08-Mar-21 18:46:06.729 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:46:06.729 - Time difference between deliveries ::::2000
+INFO 08-Mar-21 18:46:06.729 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:46:06.731 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:46:06.736 - SentIPHB
+INFO 08-Mar-21 18:46:06.815 - Data in buffer
+INFO 08-Mar-21 18:46:06.815 - Data added to parser queue
+INFO 08-Mar-21 18:46:06.815 - Parsed:HB
+
+INFO 08-Mar-21 18:46:06.817 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:46:06.817 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:46:06.818 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:46:06.822 - SentIPIN
+INFO 08-Mar-21 18:46:06.895 - Data in buffer
+INFO 08-Mar-21 18:46:06.897 - Data added to parser queue
+INFO 08-Mar-21 18:46:06.899 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:46:06.900 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:46:06.900 - Resetting bolus delivery timer,7.25 remaining
+INFO 08-Mar-21 18:46:08.730 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:46:08.732 - Time difference between deliveries ::::2002
+INFO 08-Mar-21 18:46:08.733 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:46:08.735 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:46:08.740 - SentIPHB
+INFO 08-Mar-21 18:46:08.817 - Data in buffer
+INFO 08-Mar-21 18:46:08.818 - Data added to parser queue
+INFO 08-Mar-21 18:46:08.819 - Parsed:HB
+
+INFO 08-Mar-21 18:46:08.819 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:46:08.819 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:46:08.822 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:46:08.827 - SentIPIN
+INFO 08-Mar-21 18:46:08.899 - Data in buffer
+INFO 08-Mar-21 18:46:09.000 - Data added to parser queue
+INFO 08-Mar-21 18:46:09.001 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:46:09.002 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:46:09.002 - Resetting bolus delivery timer,7.2 remaining
+INFO 08-Mar-21 18:46:10.732 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:46:10.734 - Time difference between deliveries ::::2001
+INFO 08-Mar-21 18:46:10.737 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:46:10.739 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:46:10.740 - SentIPHB
+INFO 08-Mar-21 18:46:10.816 - Data in buffer
+INFO 08-Mar-21 18:46:10.817 - Data added to parser queue
+INFO 08-Mar-21 18:46:10.817 - Parsed:HB
+
+INFO 08-Mar-21 18:46:10.818 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:46:10.822 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:46:10.822 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:46:10.825 - SentIPIN
+INFO 08-Mar-21 18:46:10.894 - Data in buffer
+INFO 08-Mar-21 18:46:10.895 - Data added to parser queue
+INFO 08-Mar-21 18:46:10.895 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:46:10.897 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:46:10.898 - Resetting bolus delivery timer,7.15 remaining
+INFO 08-Mar-21 18:46:12.732 - Time difference between deliveries ::::2000
+INFO 08-Mar-21 18:46:12.734 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:46:12.735 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:46:12.736 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:46:12.743 - SentIPHB
+INFO 08-Mar-21 18:46:12.816 - Data in buffer
+INFO 08-Mar-21 18:46:12.816 - Data added to parser queue
+INFO 08-Mar-21 18:46:12.816 - Parsed:HB
+
+INFO 08-Mar-21 18:46:12.817 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:46:12.817 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:46:12.818 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:46:12.822 - SentIPIN
+INFO 08-Mar-21 18:46:12.897 - Data in buffer
+INFO 08-Mar-21 18:46:12.897 - Data added to parser queue
+INFO 08-Mar-21 18:46:12.898 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:46:12.899 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:46:12.900 - Resetting bolus delivery timer,7.1 remaining
+INFO 08-Mar-21 18:46:14.732 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:46:14.733 - Time difference between deliveries ::::2000
+INFO 08-Mar-21 18:46:14.733 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:46:14.734 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:46:14.738 - SentIPHB
+INFO 08-Mar-21 18:46:14.815 - Data in buffer
+INFO 08-Mar-21 18:46:14.815 - Data added to parser queue
+INFO 08-Mar-21 18:46:14.815 - Parsed:HB
+
+INFO 08-Mar-21 18:46:14.816 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:46:14.817 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:46:14.818 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:46:14.822 - SentIPIN
+INFO 08-Mar-21 18:46:14.895 - Data in buffer
+INFO 08-Mar-21 18:46:14.996 - Data added to parser queue
+INFO 08-Mar-21 18:46:14.996 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:46:14.997 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:46:14.998 - Resetting bolus delivery timer,7.05 remaining
+INFO 08-Mar-21 18:46:16.732 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:46:16.732 - Time difference between deliveries ::::2000
+INFO 08-Mar-21 18:46:16.733 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:46:16.734 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:46:16.738 - SentIPHB
+INFO 08-Mar-21 18:46:16.814 - Data in buffer
+INFO 08-Mar-21 18:46:16.815 - Data added to parser queue
+INFO 08-Mar-21 18:46:16.815 - Parsed:HB
+
+INFO 08-Mar-21 18:46:16.816 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:46:16.816 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:46:16.817 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:46:16.823 - SentIPIN
+INFO 08-Mar-21 18:46:16.895 - Data in buffer
+INFO 08-Mar-21 18:46:16.999 - Data added to parser queue
+INFO 08-Mar-21 18:46:17.000 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:46:17.001 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:46:17.003 - Resetting bolus delivery timer,7.0 remaining
+INFO 08-Mar-21 18:46:18.732 - Time difference between deliveries ::::2000
+INFO 08-Mar-21 18:46:18.733 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:46:18.733 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:46:18.734 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:46:18.736 - SentIPHB
+INFO 08-Mar-21 18:46:18.814 - Data in buffer
+INFO 08-Mar-21 18:46:18.814 - Data added to parser queue
+INFO 08-Mar-21 18:46:18.814 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:46:18.814 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:46:18.814 - Parsed:HB
+
+INFO 08-Mar-21 18:46:18.815 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:46:18.820 - SentIPIN
+INFO 08-Mar-21 18:46:18.895 - Data in buffer
+INFO 08-Mar-21 18:46:18.895 - Data added to parser queue
+INFO 08-Mar-21 18:46:18.895 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:46:18.895 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:46:18.896 - Resetting bolus delivery timer,6.95 remaining
+INFO 08-Mar-21 18:46:20.733 - Time difference between deliveries ::::2001
+INFO 08-Mar-21 18:46:20.737 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:46:20.739 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:46:20.740 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:46:20.744 - SentIPHB
+INFO 08-Mar-21 18:46:20.815 - Data in buffer
+INFO 08-Mar-21 18:46:20.815 - Data added to parser queue
+INFO 08-Mar-21 18:46:20.816 - Parsed:HB
+
+INFO 08-Mar-21 18:46:20.816 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:46:20.816 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:46:20.816 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:46:20.821 - SentIPIN
+INFO 08-Mar-21 18:46:20.897 - Data in buffer
+INFO 08-Mar-21 18:46:20.897 - Data added to parser queue
+INFO 08-Mar-21 18:46:20.897 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:46:20.897 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:46:20.897 - Resetting bolus delivery timer,6.9 remaining
+INFO 08-Mar-21 18:46:22.734 - Time difference between deliveries ::::2000
+INFO 08-Mar-21 18:46:22.734 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:46:22.734 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:46:22.735 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:46:22.740 - SentIPHB
+INFO 08-Mar-21 18:46:22.820 - Data in buffer
+INFO 08-Mar-21 18:46:22.821 - Data added to parser queue
+INFO 08-Mar-21 18:46:22.821 - Parsed:HB
+
+INFO 08-Mar-21 18:46:22.823 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:46:22.824 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:46:22.824 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:46:22.828 - SentIPIN
+INFO 08-Mar-21 18:46:22.896 - Data in buffer
+INFO 08-Mar-21 18:46:22.998 - Data added to parser queue
+INFO 08-Mar-21 18:46:22.999 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:46:22.999 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:46:23.000 - Resetting bolus delivery timer,6.85 remaining
+INFO 08-Mar-21 18:46:24.735 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:46:24.737 - Time difference between deliveries ::::2001
+INFO 08-Mar-21 18:46:24.739 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:46:24.740 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:46:24.740 - SentIPHB
+INFO 08-Mar-21 18:46:24.820 - Data in buffer
+INFO 08-Mar-21 18:46:24.820 - Data added to parser queue
+INFO 08-Mar-21 18:46:24.821 - Parsed:HB
+
+INFO 08-Mar-21 18:46:24.822 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:46:24.825 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:46:24.825 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:46:24.827 - SentIPIN
+INFO 08-Mar-21 18:46:24.894 - Data in buffer
+INFO 08-Mar-21 18:46:24.894 - Data added to parser queue
+INFO 08-Mar-21 18:46:24.894 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:46:24.897 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:46:24.897 - Resetting bolus delivery timer,6.8 remaining
+INFO 08-Mar-21 18:46:26.734 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:46:26.736 - Time difference between deliveries ::::2001
+INFO 08-Mar-21 18:46:26.737 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:46:26.738 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:46:26.742 - SentIPHB
+INFO 08-Mar-21 18:46:26.815 - Data in buffer
+INFO 08-Mar-21 18:46:26.815 - Data added to parser queue
+INFO 08-Mar-21 18:46:26.815 - Parsed:HB
+
+INFO 08-Mar-21 18:46:26.823 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:46:26.824 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:46:26.824 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:46:26.830 - SentIPIN
+INFO 08-Mar-21 18:46:26.895 - Data in buffer
+INFO 08-Mar-21 18:46:26.895 - Data added to parser queue
+INFO 08-Mar-21 18:46:26.895 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:46:26.896 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:46:26.897 - Resetting bolus delivery timer,6.75 remaining
+INFO 08-Mar-21 18:46:28.735 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:46:28.736 - Time difference between deliveries ::::2000
+INFO 08-Mar-21 18:46:28.737 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:46:28.737 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:46:28.744 - SentIPHB
+INFO 08-Mar-21 18:46:28.814 - Data in buffer
+INFO 08-Mar-21 18:46:28.915 - Data added to parser queue
+INFO 08-Mar-21 18:46:28.915 - Parsed:HB
+
+INFO 08-Mar-21 18:46:28.916 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:46:28.917 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:46:28.917 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:46:28.922 - SentIPIN
+INFO 08-Mar-21 18:46:28.974 - Data in buffer
+INFO 08-Mar-21 18:46:29.077 - Data added to parser queue
+INFO 08-Mar-21 18:46:29.077 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:46:29.080 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:46:29.083 - Resetting bolus delivery timer,6.7 remaining
+INFO 08-Mar-21 18:46:30.736 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:46:30.738 - Time difference between deliveries ::::2001
+INFO 08-Mar-21 18:46:30.740 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:46:30.743 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:46:30.747 - SentIPHB
+INFO 08-Mar-21 18:46:30.813 - Data in buffer
+INFO 08-Mar-21 18:46:30.815 - Data added to parser queue
+INFO 08-Mar-21 18:46:30.816 - Parsed:HB
+
+INFO 08-Mar-21 18:46:30.818 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:46:30.818 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:46:30.819 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:46:30.826 - SentIPIN
+INFO 08-Mar-21 18:46:30.895 - Data in buffer
+INFO 08-Mar-21 18:46:30.895 - Data added to parser queue
+INFO 08-Mar-21 18:46:30.896 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:46:30.896 - Resetting bolus delivery timer,6.65 remaining
+INFO 08-Mar-21 18:46:30.896 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:46:32.735 - Time difference between deliveries ::::1999
+INFO 08-Mar-21 18:46:32.738 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:46:32.740 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:46:32.740 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:46:32.746 - SentIPHB
+INFO 08-Mar-21 18:46:32.814 - Data in buffer
+INFO 08-Mar-21 18:46:32.816 - Data added to parser queue
+INFO 08-Mar-21 18:46:32.817 - Parsed:HB
+
+INFO 08-Mar-21 18:46:32.817 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:46:32.818 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:46:32.819 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:46:32.820 - SentIPIN
+INFO 08-Mar-21 18:46:32.896 - Data in buffer
+INFO 08-Mar-21 18:46:32.896 - Data added to parser queue
+INFO 08-Mar-21 18:46:32.896 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:46:32.897 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:46:32.897 - Resetting bolus delivery timer,6.6 remaining
+INFO 08-Mar-21 18:46:34.736 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:46:34.737 - Time difference between deliveries ::::2000
+INFO 08-Mar-21 18:46:34.737 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:46:34.738 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:46:34.744 - SentIPHB
+INFO 08-Mar-21 18:46:34.816 - Data in buffer
+INFO 08-Mar-21 18:46:34.818 - Data added to parser queue
+INFO 08-Mar-21 18:46:34.818 - Parsed:HB
+
+INFO 08-Mar-21 18:46:34.818 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:46:34.819 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:46:34.819 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:46:34.822 - SentIPIN
+INFO 08-Mar-21 18:46:34.895 - Data in buffer
+INFO 08-Mar-21 18:46:34.895 - Data added to parser queue
+INFO 08-Mar-21 18:46:34.896 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:46:34.898 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:46:34.904 - Resetting bolus delivery timer,6.55 remaining
+INFO 08-Mar-21 18:46:36.736 - Time difference between deliveries ::::2001
+INFO 08-Mar-21 18:46:36.739 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:46:36.739 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:46:36.739 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:46:36.744 - SentIPHB
+INFO 08-Mar-21 18:46:36.815 - Data in buffer
+INFO 08-Mar-21 18:46:36.815 - Data added to parser queue
+INFO 08-Mar-21 18:46:36.815 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:46:36.815 - Parsed:HB
+
+INFO 08-Mar-21 18:46:36.815 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:46:36.816 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:46:36.825 - SentIPIN
+INFO 08-Mar-21 18:46:36.894 - Data in buffer
+INFO 08-Mar-21 18:46:36.894 - Data added to parser queue
+INFO 08-Mar-21 18:46:36.896 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:46:36.896 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:46:36.896 - Resetting bolus delivery timer,6.5 remaining
+INFO 08-Mar-21 18:46:38.737 - Time difference between deliveries ::::2000
+INFO 08-Mar-21 18:46:38.738 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:46:38.740 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:46:38.741 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:46:38.744 - SentIPHB
+INFO 08-Mar-21 18:46:38.815 - Data in buffer
+INFO 08-Mar-21 18:46:38.816 - Data added to parser queue
+INFO 08-Mar-21 18:46:38.816 - Parsed:HB
+
+INFO 08-Mar-21 18:46:38.817 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:46:38.817 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:46:38.818 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:46:38.826 - SentIPIN
+INFO 08-Mar-21 18:46:38.897 - Data in buffer
+INFO 08-Mar-21 18:46:38.897 - Data added to parser queue
+INFO 08-Mar-21 18:46:38.897 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:46:38.897 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:46:38.898 - Resetting bolus delivery timer,6.45 remaining
+INFO 08-Mar-21 18:46:40.738 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:46:40.740 - Time difference between deliveries ::::2001
+INFO 08-Mar-21 18:46:40.741 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:46:40.741 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:46:40.746 - SentIPHB
+INFO 08-Mar-21 18:46:40.814 - Data in buffer
+INFO 08-Mar-21 18:46:40.814 - Data added to parser queue
+INFO 08-Mar-21 18:46:40.814 - Parsed:HB
+
+INFO 08-Mar-21 18:46:40.814 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:46:40.815 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:46:40.815 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:46:40.820 - SentIPIN
+INFO 08-Mar-21 18:46:40.902 - Data in buffer
+INFO 08-Mar-21 18:46:40.903 - Data added to parser queue
+INFO 08-Mar-21 18:46:40.904 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:46:40.904 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:46:40.905 - Resetting bolus delivery timer,6.4 remaining
+INFO 08-Mar-21 18:46:42.738 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:46:42.740 - Time difference between deliveries ::::2001
+INFO 08-Mar-21 18:46:42.740 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:46:42.740 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:46:42.745 - SentIPHB
+INFO 08-Mar-21 18:46:42.857 - Data in buffer
+INFO 08-Mar-21 18:46:42.857 - Data added to parser queue
+INFO 08-Mar-21 18:46:42.857 - Parsed:HB
+
+INFO 08-Mar-21 18:46:42.857 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:46:42.857 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:46:42.859 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:46:42.864 - SentIPIN
+INFO 08-Mar-21 18:46:42.934 - Data in buffer
+INFO 08-Mar-21 18:46:43.035 - Data added to parser queue
+INFO 08-Mar-21 18:46:43.035 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:46:43.035 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:46:43.036 - Resetting bolus delivery timer,6.35 remaining
+INFO 08-Mar-21 18:46:44.739 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:46:44.740 - Time difference between deliveries ::::2000
+INFO 08-Mar-21 18:46:44.740 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:46:44.740 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:46:44.746 - SentIPHB
+INFO 08-Mar-21 18:46:44.814 - Data in buffer
+INFO 08-Mar-21 18:46:44.917 - Data added to parser queue
+INFO 08-Mar-21 18:46:44.919 - Parsed:HB
+
+INFO 08-Mar-21 18:46:44.920 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:46:44.921 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:46:44.921 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:46:44.921 - SentIPIN
+INFO 08-Mar-21 18:46:44.974 - Data in buffer
+INFO 08-Mar-21 18:46:44.975 - Data added to parser queue
+INFO 08-Mar-21 18:46:44.975 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:46:44.975 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:46:44.977 - Resetting bolus delivery timer,6.3 remaining
+INFO 08-Mar-21 18:46:46.739 - Time difference between deliveries ::::2001
+INFO 08-Mar-21 18:46:46.740 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:46:46.740 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:46:46.741 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:46:46.749 - SentIPHB
+INFO 08-Mar-21 18:46:46.813 - Data in buffer
+INFO 08-Mar-21 18:46:46.813 - Data added to parser queue
+INFO 08-Mar-21 18:46:46.813 - Parsed:HB
+
+INFO 08-Mar-21 18:46:46.813 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:46:46.814 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:46:46.816 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:46:46.820 - SentIPIN
+INFO 08-Mar-21 18:46:46.893 - Data in buffer
+INFO 08-Mar-21 18:46:46.893 - Data added to parser queue
+INFO 08-Mar-21 18:46:46.894 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:46:46.894 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:46:46.895 - Resetting bolus delivery timer,6.25 remaining
+INFO 08-Mar-21 18:46:48.739 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:46:48.740 - Time difference between deliveries ::::1999
+INFO 08-Mar-21 18:46:48.741 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:46:48.742 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:46:48.745 - SentIPHB
+INFO 08-Mar-21 18:46:48.815 - Data in buffer
+INFO 08-Mar-21 18:46:48.815 - Data added to parser queue
+INFO 08-Mar-21 18:46:48.815 - Parsed:HB
+
+INFO 08-Mar-21 18:46:48.816 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:46:48.817 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:46:48.817 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:46:48.821 - SentIPIN
+INFO 08-Mar-21 18:46:48.894 - Data in buffer
+INFO 08-Mar-21 18:46:48.895 - Data added to parser queue
+INFO 08-Mar-21 18:46:48.896 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:46:48.898 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:46:48.899 - Resetting bolus delivery timer,6.2 remaining
+INFO 08-Mar-21 18:46:50.741 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:46:50.742 - Time difference between deliveries ::::2002
+INFO 08-Mar-21 18:46:50.744 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:46:50.747 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:46:50.748 - SentIPHB
+INFO 08-Mar-21 18:46:50.818 - Data in buffer
+INFO 08-Mar-21 18:46:50.819 - Data added to parser queue
+INFO 08-Mar-21 18:46:50.819 - Parsed:HB
+
+INFO 08-Mar-21 18:46:50.821 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:46:50.821 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:46:50.822 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:46:50.826 - SentIPIN
+INFO 08-Mar-21 18:46:50.894 - Data in buffer
+INFO 08-Mar-21 18:46:50.996 - Data added to parser queue
+INFO 08-Mar-21 18:46:50.998 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:46:50.998 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:46:50.998 - Resetting bolus delivery timer,6.15 remaining
+INFO 08-Mar-21 18:46:52.739 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:46:52.740 - Time difference between deliveries ::::1999
+INFO 08-Mar-21 18:46:52.743 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:46:52.744 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:46:52.746 - SentIPHB
+INFO 08-Mar-21 18:46:52.814 - Data in buffer
+INFO 08-Mar-21 18:46:52.814 - Data added to parser queue
+INFO 08-Mar-21 18:46:52.814 - Parsed:HB
+
+INFO 08-Mar-21 18:46:52.815 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:46:52.815 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:46:52.816 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:46:52.820 - SentIPIN
+INFO 08-Mar-21 18:46:52.894 - Data in buffer
+INFO 08-Mar-21 18:46:52.894 - Data added to parser queue
+INFO 08-Mar-21 18:46:52.894 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:46:52.894 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:46:52.897 - Resetting bolus delivery timer,6.1 remaining
+INFO 08-Mar-21 18:46:54.740 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:46:54.742 - Time difference between deliveries ::::2002
+INFO 08-Mar-21 18:46:54.743 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:46:54.743 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:46:54.745 - SentIPHB
+INFO 08-Mar-21 18:46:54.815 - Data in buffer
+INFO 08-Mar-21 18:46:54.816 - Data added to parser queue
+INFO 08-Mar-21 18:46:54.816 - Parsed:HB
+
+INFO 08-Mar-21 18:46:54.817 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:46:54.819 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:46:54.819 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:46:54.822 - SentIPIN
+INFO 08-Mar-21 18:46:54.896 - Data in buffer
+INFO 08-Mar-21 18:46:54.897 - Data added to parser queue
+INFO 08-Mar-21 18:46:54.897 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:46:54.899 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:46:54.900 - Resetting bolus delivery timer,6.05 remaining
+INFO 08-Mar-21 18:46:56.740 - Time difference between deliveries ::::1998
+INFO 08-Mar-21 18:46:56.741 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:46:56.742 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:46:56.744 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:46:56.748 - SentIPHB
+INFO 08-Mar-21 18:46:56.813 - Data in buffer
+INFO 08-Mar-21 18:46:56.814 - Data added to parser queue
+INFO 08-Mar-21 18:46:56.814 - Parsed:HB
+
+INFO 08-Mar-21 18:46:56.816 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:46:56.820 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:46:56.820 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:46:56.827 - SentIPIN
+INFO 08-Mar-21 18:46:56.895 - Data in buffer
+INFO 08-Mar-21 18:46:56.998 - Data added to parser queue
+INFO 08-Mar-21 18:46:56.999 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:46:57.001 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:46:57.002 - Resetting bolus delivery timer,6.0 remaining
+INFO 08-Mar-21 18:46:58.740 - Time difference between deliveries ::::2001
+INFO 08-Mar-21 18:46:58.741 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:46:58.741 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:46:58.741 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:46:58.750 - SentIPHB
+INFO 08-Mar-21 18:46:58.814 - Data in buffer
+INFO 08-Mar-21 18:46:58.814 - Data added to parser queue
+INFO 08-Mar-21 18:46:58.814 - Parsed:HB
+
+INFO 08-Mar-21 18:46:58.814 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:46:58.814 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:46:58.815 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:46:58.821 - SentIPIN
+INFO 08-Mar-21 18:46:58.895 - Data in buffer
+INFO 08-Mar-21 18:46:58.895 - Data added to parser queue
+INFO 08-Mar-21 18:46:58.895 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:46:58.899 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:46:58.900 - Resetting bolus delivery timer,5.95 remaining
+INFO 08-Mar-21 18:47:00.743 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:47:00.744 - Time difference between deliveries ::::2003
+INFO 08-Mar-21 18:47:00.745 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:47:00.746 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:47:00.750 - SentIPHB
+INFO 08-Mar-21 18:47:00.815 - Data in buffer
+INFO 08-Mar-21 18:47:00.816 - Data added to parser queue
+INFO 08-Mar-21 18:47:00.817 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:47:00.817 - Parsed:HB
+
+INFO 08-Mar-21 18:47:00.817 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:47:00.818 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:47:00.820 - SentIPIN
+INFO 08-Mar-21 18:47:00.893 - Data in buffer
+INFO 08-Mar-21 18:47:00.894 - Data added to parser queue
+INFO 08-Mar-21 18:47:00.899 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:47:00.901 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:47:00.901 - Resetting bolus delivery timer,5.9 remaining
+INFO 08-Mar-21 18:47:02.744 - Time difference between deliveries ::::2001
+INFO 08-Mar-21 18:47:02.745 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:47:02.749 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:47:02.750 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:47:02.754 - SentIPHB
+INFO 08-Mar-21 18:47:02.813 - Data in buffer
+INFO 08-Mar-21 18:47:02.813 - Data added to parser queue
+INFO 08-Mar-21 18:47:02.814 - Parsed:HB
+
+INFO 08-Mar-21 18:47:02.814 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:47:02.817 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:47:02.817 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:47:02.825 - SentIPIN
+INFO 08-Mar-21 18:47:02.893 - Data in buffer
+INFO 08-Mar-21 18:47:02.893 - Data added to parser queue
+INFO 08-Mar-21 18:47:02.894 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:47:02.894 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:47:02.894 - Resetting bolus delivery timer,5.85 remaining
+INFO 08-Mar-21 18:47:04.746 - Time difference between deliveries ::::2000
+INFO 08-Mar-21 18:47:04.747 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:47:04.748 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:47:04.748 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:47:04.755 - SentIPHB
+INFO 08-Mar-21 18:47:04.813 - Data in buffer
+INFO 08-Mar-21 18:47:04.916 - Data added to parser queue
+INFO 08-Mar-21 18:47:04.917 - Parsed:HB
+
+INFO 08-Mar-21 18:47:04.917 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:47:04.920 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:47:04.920 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:47:04.924 - SentIPIN
+INFO 08-Mar-21 18:47:04.975 - Data in buffer
+INFO 08-Mar-21 18:47:05.080 - Data added to parser queue
+INFO 08-Mar-21 18:47:05.081 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:47:05.081 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:47:05.081 - Resetting bolus delivery timer,5.8 remaining
+INFO 08-Mar-21 18:47:06.747 - Time difference between deliveries ::::2002
+INFO 08-Mar-21 18:47:06.750 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:47:06.752 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:47:06.752 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:47:06.754 - SentIPHB
+INFO 08-Mar-21 18:47:06.815 - Data in buffer
+INFO 08-Mar-21 18:47:06.815 - Data added to parser queue
+INFO 08-Mar-21 18:47:06.815 - Parsed:HB
+
+INFO 08-Mar-21 18:47:06.815 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:47:06.815 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:47:06.817 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:47:06.821 - SentIPIN
+INFO 08-Mar-21 18:47:06.893 - Data in buffer
+INFO 08-Mar-21 18:47:06.893 - Data added to parser queue
+INFO 08-Mar-21 18:47:06.894 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:47:06.894 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:47:06.900 - Resetting bolus delivery timer,5.75 remaining
+INFO 08-Mar-21 18:47:08.745 - Time difference between deliveries ::::1998
+INFO 08-Mar-21 18:47:08.747 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:47:08.748 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:47:08.749 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:47:08.754 - SentIPHB
+INFO 08-Mar-21 18:47:08.815 - Data in buffer
+INFO 08-Mar-21 18:47:08.815 - Data added to parser queue
+INFO 08-Mar-21 18:47:08.815 - Parsed:HB
+
+INFO 08-Mar-21 18:47:08.816 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:47:08.817 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:47:08.818 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:47:08.823 - SentIPIN
+INFO 08-Mar-21 18:47:08.895 - Data in buffer
+INFO 08-Mar-21 18:47:08.897 - Data added to parser queue
+INFO 08-Mar-21 18:47:08.897 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:47:08.898 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:47:08.900 - Resetting bolus delivery timer,5.7 remaining
+INFO 08-Mar-21 18:47:10.746 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:47:10.748 - Time difference between deliveries ::::2001
+INFO 08-Mar-21 18:47:10.748 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:47:10.749 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:47:10.751 - SentIPHB
+INFO 08-Mar-21 18:47:10.814 - Data in buffer
+INFO 08-Mar-21 18:47:10.814 - Data added to parser queue
+INFO 08-Mar-21 18:47:10.814 - Parsed:HB
+
+INFO 08-Mar-21 18:47:10.814 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:47:10.815 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:47:10.818 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:47:10.829 - SentIPIN
+INFO 08-Mar-21 18:47:10.897 - Data in buffer
+INFO 08-Mar-21 18:47:11.000 - Data added to parser queue
+INFO 08-Mar-21 18:47:11.002 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:47:11.003 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:47:11.003 - Resetting bolus delivery timer,5.65 remaining
+INFO 08-Mar-21 18:47:12.745 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:47:12.746 - Time difference between deliveries ::::2000
+INFO 08-Mar-21 18:47:12.748 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:47:12.748 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:47:12.749 - SentIPHB
+INFO 08-Mar-21 18:47:12.823 - Data in buffer
+INFO 08-Mar-21 18:47:12.823 - Data added to parser queue
+INFO 08-Mar-21 18:47:12.824 - Parsed:HB
+
+INFO 08-Mar-21 18:47:12.826 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:47:12.831 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:47:12.833 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:47:12.834 - SentIPIN
+INFO 08-Mar-21 18:47:12.904 - Data in buffer
+INFO 08-Mar-21 18:47:12.904 - Data added to parser queue
+INFO 08-Mar-21 18:47:12.906 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:47:12.908 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:47:12.908 - Resetting bolus delivery timer,5.6 remaining
+INFO 08-Mar-21 18:47:14.747 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:47:14.748 - Time difference between deliveries ::::2003
+INFO 08-Mar-21 18:47:14.749 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:47:14.749 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:47:14.752 - SentIPHB
+INFO 08-Mar-21 18:47:14.813 - Data in buffer
+INFO 08-Mar-21 18:47:14.814 - Data added to parser queue
+INFO 08-Mar-21 18:47:14.814 - Parsed:HB
+
+INFO 08-Mar-21 18:47:14.814 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:47:14.815 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:47:14.817 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:47:14.822 - SentIPIN
+INFO 08-Mar-21 18:47:14.896 - Data in buffer
+INFO 08-Mar-21 18:47:14.896 - Data added to parser queue
+INFO 08-Mar-21 18:47:14.896 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:47:14.898 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:47:14.902 - Resetting bolus delivery timer,5.55 remaining
+INFO 08-Mar-21 18:47:16.747 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:47:16.747 - Time difference between deliveries ::::1998
+INFO 08-Mar-21 18:47:16.747 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:47:16.749 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:47:16.753 - SentIPHB
+INFO 08-Mar-21 18:47:16.813 - Data in buffer
+INFO 08-Mar-21 18:47:16.815 - Data added to parser queue
+INFO 08-Mar-21 18:47:16.816 - Parsed:HB
+
+INFO 08-Mar-21 18:47:16.816 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:47:16.820 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:47:16.820 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:47:16.828 - SentIPIN
+INFO 08-Mar-21 18:47:16.895 - Data in buffer
+INFO 08-Mar-21 18:47:16.897 - Data added to parser queue
+INFO 08-Mar-21 18:47:16.898 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:47:16.898 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:47:16.900 - Resetting bolus delivery timer,5.5 remaining
+INFO 08-Mar-21 18:47:18.747 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:47:18.749 - Time difference between deliveries ::::2001
+INFO 08-Mar-21 18:47:18.749 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:47:18.750 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:47:18.754 - SentIPHB
+INFO 08-Mar-21 18:47:18.814 - Data in buffer
+INFO 08-Mar-21 18:47:18.814 - Data added to parser queue
+INFO 08-Mar-21 18:47:18.814 - Parsed:HB
+
+INFO 08-Mar-21 18:47:18.817 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:47:18.817 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:47:18.818 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:47:18.820 - SentIPIN
+INFO 08-Mar-21 18:47:18.893 - Data in buffer
+INFO 08-Mar-21 18:47:18.894 - Data added to parser queue
+INFO 08-Mar-21 18:47:18.894 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:47:18.894 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:47:18.894 - Resetting bolus delivery timer,5.45 remaining
+INFO 08-Mar-21 18:47:20.746 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:47:20.746 - Time difference between deliveries ::::1999
+INFO 08-Mar-21 18:47:20.748 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:47:20.751 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:47:20.753 - SentIPHB
+INFO 08-Mar-21 18:47:20.814 - Data in buffer
+INFO 08-Mar-21 18:47:20.814 - Data added to parser queue
+INFO 08-Mar-21 18:47:20.816 - Parsed:HB
+
+INFO 08-Mar-21 18:47:20.816 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:47:20.817 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:47:20.817 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:47:20.824 - SentIPIN
+INFO 08-Mar-21 18:47:20.895 - Data in buffer
+INFO 08-Mar-21 18:47:20.895 - Data added to parser queue
+INFO 08-Mar-21 18:47:20.896 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:47:20.896 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:47:20.896 - Resetting bolus delivery timer,5.4 remaining
+INFO 08-Mar-21 18:47:22.747 - Time difference between deliveries ::::2001
+INFO 08-Mar-21 18:47:22.747 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:47:22.747 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:47:22.748 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:47:22.753 - SentIPHB
+INFO 08-Mar-21 18:47:22.814 - Data in buffer
+INFO 08-Mar-21 18:47:22.814 - Data added to parser queue
+INFO 08-Mar-21 18:47:22.815 - Parsed:HB
+
+INFO 08-Mar-21 18:47:22.816 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:47:22.816 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:47:22.816 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:47:22.820 - SentIPIN
+INFO 08-Mar-21 18:47:22.894 - Data in buffer
+INFO 08-Mar-21 18:47:22.895 - Data added to parser queue
+INFO 08-Mar-21 18:47:22.895 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:47:22.896 - Resetting bolus delivery timer,5.35 remaining
+INFO 08-Mar-21 18:47:22.897 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:47:24.748 - Time difference between deliveries ::::2000
+INFO 08-Mar-21 18:47:24.749 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:47:24.749 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:47:24.750 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:47:24.758 - SentIPHB
+INFO 08-Mar-21 18:47:24.814 - Data in buffer
+INFO 08-Mar-21 18:47:24.814 - Data added to parser queue
+INFO 08-Mar-21 18:47:24.819 - Parsed:HB
+
+INFO 08-Mar-21 18:47:24.820 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:47:24.822 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:47:24.823 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:47:24.826 - SentIPIN
+INFO 08-Mar-21 18:47:24.894 - Data in buffer
+INFO 08-Mar-21 18:47:24.997 - Data added to parser queue
+INFO 08-Mar-21 18:47:24.999 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:47:25.000 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:47:25.002 - Resetting bolus delivery timer,5.3 remaining
+INFO 08-Mar-21 18:47:26.749 - Time difference between deliveries ::::2001
+INFO 08-Mar-21 18:47:26.750 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:47:26.750 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:47:26.752 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:47:26.758 - SentIPHB
+INFO 08-Mar-21 18:47:26.815 - Data in buffer
+INFO 08-Mar-21 18:47:26.917 - Data added to parser queue
+INFO 08-Mar-21 18:47:26.918 - Parsed:HB
+
+INFO 08-Mar-21 18:47:26.918 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:47:26.918 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:47:26.921 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:47:26.927 - SentIPIN
+INFO 08-Mar-21 18:47:26.973 - Data in buffer
+INFO 08-Mar-21 18:47:26.974 - Data added to parser queue
+INFO 08-Mar-21 18:47:26.977 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:47:26.977 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:47:26.982 - Resetting bolus delivery timer,5.25 remaining
+INFO 08-Mar-21 18:47:28.748 - Time difference between deliveries ::::2000
+INFO 08-Mar-21 18:47:28.749 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:47:28.751 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:47:28.755 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:47:28.759 - SentIPHB
+INFO 08-Mar-21 18:47:28.814 - Data in buffer
+INFO 08-Mar-21 18:47:28.815 - Data added to parser queue
+INFO 08-Mar-21 18:47:28.816 - Parsed:HB
+
+INFO 08-Mar-21 18:47:28.817 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:47:28.818 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:47:28.818 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:47:28.822 - SentIPIN
+INFO 08-Mar-21 18:47:28.895 - Data in buffer
+INFO 08-Mar-21 18:47:28.895 - Data added to parser queue
+INFO 08-Mar-21 18:47:28.897 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:47:28.897 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:47:28.897 - Resetting bolus delivery timer,5.2 remaining
+INFO 08-Mar-21 18:47:30.751 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:47:30.751 - Time difference between deliveries ::::2001
+INFO 08-Mar-21 18:47:30.751 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:47:30.753 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:47:30.764 - SentIPHB
+INFO 08-Mar-21 18:47:30.812 - Data in buffer
+INFO 08-Mar-21 18:47:30.814 - Data added to parser queue
+INFO 08-Mar-21 18:47:30.814 - Parsed:HB
+
+INFO 08-Mar-21 18:47:30.815 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:47:30.817 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:47:30.817 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:47:30.818 - SentIPIN
+INFO 08-Mar-21 18:47:30.893 - Data in buffer
+INFO 08-Mar-21 18:47:30.895 - Data added to parser queue
+INFO 08-Mar-21 18:47:30.895 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:47:30.895 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:47:30.896 - Resetting bolus delivery timer,5.15 remaining
+INFO 08-Mar-21 18:47:32.749 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:47:32.750 - Time difference between deliveries ::::2001
+INFO 08-Mar-21 18:47:32.750 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:47:32.751 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:47:32.756 - SentIPHB
+INFO 08-Mar-21 18:47:32.816 - Data in buffer
+INFO 08-Mar-21 18:47:32.816 - Data added to parser queue
+INFO 08-Mar-21 18:47:32.816 - Parsed:HB
+
+INFO 08-Mar-21 18:47:32.817 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:47:32.817 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:47:32.820 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:47:32.826 - SentIPIN
+INFO 08-Mar-21 18:47:32.896 - Data in buffer
+INFO 08-Mar-21 18:47:32.998 - Data added to parser queue
+INFO 08-Mar-21 18:47:32.998 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:47:33.000 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:47:33.002 - Resetting bolus delivery timer,5.1 remaining
+INFO 08-Mar-21 18:47:34.750 - Time difference between deliveries ::::2000
+INFO 08-Mar-21 18:47:34.751 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:47:34.751 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:47:34.753 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:47:34.754 - SentIPHB
+INFO 08-Mar-21 18:47:34.812 - Data in buffer
+INFO 08-Mar-21 18:47:34.813 - Data added to parser queue
+INFO 08-Mar-21 18:47:34.813 - Parsed:HB
+
+INFO 08-Mar-21 18:47:34.814 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:47:34.815 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:47:34.817 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:47:34.819 - SentIPIN
+INFO 08-Mar-21 18:47:34.893 - Data in buffer
+INFO 08-Mar-21 18:47:34.894 - Data added to parser queue
+INFO 08-Mar-21 18:47:34.895 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:47:34.895 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:47:34.895 - Resetting bolus delivery timer,5.05 remaining
+INFO 08-Mar-21 18:47:36.751 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:47:36.752 - Time difference between deliveries ::::2002
+INFO 08-Mar-21 18:47:36.753 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:47:36.754 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:47:36.761 - SentIPHB
+INFO 08-Mar-21 18:47:36.813 - Data in buffer
+INFO 08-Mar-21 18:47:36.813 - Data added to parser queue
+INFO 08-Mar-21 18:47:36.813 - Parsed:HB
+
+INFO 08-Mar-21 18:47:36.814 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:47:36.814 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:47:36.814 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:47:36.819 - SentIPIN
+INFO 08-Mar-21 18:47:36.895 - Data in buffer
+INFO 08-Mar-21 18:47:36.895 - Data added to parser queue
+INFO 08-Mar-21 18:47:36.895 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:47:36.904 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:47:36.904 - Resetting bolus delivery timer,5.0 remaining
+INFO 08-Mar-21 18:47:38.752 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:47:38.752 - Time difference between deliveries ::::2001
+INFO 08-Mar-21 18:47:38.755 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:47:38.757 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:47:38.759 - SentIPHB
+INFO 08-Mar-21 18:47:38.814 - Data in buffer
+INFO 08-Mar-21 18:47:38.814 - Data added to parser queue
+INFO 08-Mar-21 18:47:38.817 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:47:38.819 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:47:38.822 - Parsed:HB
+
+INFO 08-Mar-21 18:47:38.822 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:47:38.828 - SentIPIN
+INFO 08-Mar-21 18:47:38.893 - Data in buffer
+INFO 08-Mar-21 18:47:38.996 - Data added to parser queue
+INFO 08-Mar-21 18:47:38.996 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:47:39.001 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:47:39.001 - Resetting bolus delivery timer,4.95 remaining
+INFO 08-Mar-21 18:47:40.753 - Time difference between deliveries ::::2000
+INFO 08-Mar-21 18:47:40.754 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:47:40.755 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:47:40.755 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:47:40.759 - SentIPHB
+INFO 08-Mar-21 18:47:40.821 - Data in buffer
+INFO 08-Mar-21 18:47:40.824 - Data added to parser queue
+INFO 08-Mar-21 18:47:40.824 - Parsed:HB
+
+INFO 08-Mar-21 18:47:40.824 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:47:40.827 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:47:40.831 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:47:40.834 - SentIPIN
+INFO 08-Mar-21 18:47:40.894 - Data in buffer
+INFO 08-Mar-21 18:47:40.894 - Data added to parser queue
+INFO 08-Mar-21 18:47:40.894 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:47:40.895 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:47:40.895 - Resetting bolus delivery timer,4.9 remaining
+INFO 08-Mar-21 18:47:42.754 - Time difference between deliveries ::::2000
+INFO 08-Mar-21 18:47:42.754 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:47:42.758 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:47:42.758 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:47:42.763 - SentIPHB
+INFO 08-Mar-21 18:47:42.813 - Data in buffer
+INFO 08-Mar-21 18:47:42.814 - Data added to parser queue
+INFO 08-Mar-21 18:47:42.814 - Parsed:HB
+
+INFO 08-Mar-21 18:47:42.814 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:47:42.815 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:47:42.815 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:47:42.819 - SentIPIN
+INFO 08-Mar-21 18:47:42.892 - Data in buffer
+INFO 08-Mar-21 18:47:42.893 - Data added to parser queue
+INFO 08-Mar-21 18:47:42.893 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:47:42.893 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:47:42.893 - Resetting bolus delivery timer,4.85 remaining
+INFO 08-Mar-21 18:47:44.754 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:47:44.754 - Time difference between deliveries ::::2001
+INFO 08-Mar-21 18:47:44.756 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:47:44.759 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:47:44.763 - SentIPHB
+INFO 08-Mar-21 18:47:44.814 - Data in buffer
+INFO 08-Mar-21 18:47:44.817 - Data added to parser queue
+INFO 08-Mar-21 18:47:44.818 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:47:44.819 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:47:44.820 - Parsed:HB
+
+INFO 08-Mar-21 18:47:44.820 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:47:44.823 - SentIPIN
+INFO 08-Mar-21 18:47:44.896 - Data in buffer
+INFO 08-Mar-21 18:47:44.896 - Data added to parser queue
+INFO 08-Mar-21 18:47:44.896 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:47:44.897 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:47:44.898 - Resetting bolus delivery timer,4.8 remaining
+INFO 08-Mar-21 18:47:46.754 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:47:46.755 - Time difference between deliveries ::::2000
+INFO 08-Mar-21 18:47:46.755 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:47:46.755 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:47:46.762 - SentIPHB
+INFO 08-Mar-21 18:47:46.852 - Data in buffer
+INFO 08-Mar-21 18:47:46.953 - Data added to parser queue
+INFO 08-Mar-21 18:47:46.954 - Parsed:HB
+
+INFO 08-Mar-21 18:47:46.955 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:47:46.955 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:47:46.958 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:47:46.960 - SentIPIN
+INFO 08-Mar-21 18:47:47.012 - Data in buffer
+INFO 08-Mar-21 18:47:47.116 - Data added to parser queue
+INFO 08-Mar-21 18:47:47.118 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:47:47.120 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:47:47.123 - Resetting bolus delivery timer,4.75 remaining
+INFO 08-Mar-21 18:47:48.756 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:47:48.756 - Time difference between deliveries ::::2001
+INFO 08-Mar-21 18:47:48.756 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:47:48.760 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:47:48.763 - SentIPHB
+INFO 08-Mar-21 18:47:48.813 - Data in buffer
+INFO 08-Mar-21 18:47:48.814 - Data added to parser queue
+INFO 08-Mar-21 18:47:48.814 - Parsed:HB
+
+INFO 08-Mar-21 18:47:48.814 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:47:48.814 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:47:48.817 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:47:48.821 - SentIPIN
+INFO 08-Mar-21 18:47:48.933 - Data in buffer
+INFO 08-Mar-21 18:47:48.934 - Data added to parser queue
+INFO 08-Mar-21 18:47:48.934 - Logic queue recieved: IN0.00
+
+INFO 08-Mar-21 18:47:48.937 - Parsed:IN0.00
+
+WARNING 08-Mar-21 18:47:48.939 - Resetting bolus delivery timer,4.7 remaining
+INFO 08-Mar-21 18:47:50.757 - Time difference between deliveries ::::2002
+INFO 08-Mar-21 18:47:50.759 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:47:50.759 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:47:50.760 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:47:50.765 - SentIPHB
+INFO 08-Mar-21 18:47:50.852 - Data in buffer
+INFO 08-Mar-21 18:47:50.852 - Data added to parser queue
+INFO 08-Mar-21 18:47:50.853 - Parsed:HB
+
+INFO 08-Mar-21 18:47:50.853 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:47:50.854 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:47:50.858 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:47:50.860 - SentIPIN
+INFO 08-Mar-21 18:47:50.934 - Data in buffer
+INFO 08-Mar-21 18:47:50.936 - Data added to parser queue
+INFO 08-Mar-21 18:47:50.936 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:47:50.938 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:47:50.940 - Resetting bolus delivery timer,4.65 remaining
+INFO 08-Mar-21 18:47:52.756 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:47:52.756 - Time difference between deliveries ::::1999
+INFO 08-Mar-21 18:47:52.757 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:47:52.758 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:47:52.760 - SentIPHB
+INFO 08-Mar-21 18:47:52.812 - Data in buffer
+INFO 08-Mar-21 18:47:52.812 - Data added to parser queue
+INFO 08-Mar-21 18:47:52.814 - Parsed:HB
+
+INFO 08-Mar-21 18:47:52.815 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:47:52.815 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:47:52.816 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:47:52.819 - SentIPIN
+INFO 08-Mar-21 18:47:52.893 - Data in buffer
+INFO 08-Mar-21 18:47:52.995 - Data added to parser queue
+INFO 08-Mar-21 18:47:52.996 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:47:52.996 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:47:52.998 - Resetting bolus delivery timer,4.6 remaining
+INFO 08-Mar-21 18:47:54.759 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:47:54.760 - Time difference between deliveries ::::2001
+INFO 08-Mar-21 18:47:54.761 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:47:54.762 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:47:54.764 - SentIPHB
+INFO 08-Mar-21 18:47:54.815 - Data in buffer
+INFO 08-Mar-21 18:47:54.817 - Data added to parser queue
+INFO 08-Mar-21 18:47:54.818 - Parsed:HB
+
+INFO 08-Mar-21 18:47:54.818 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:47:54.818 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:47:54.819 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:47:54.824 - SentIPIN
+INFO 08-Mar-21 18:47:54.893 - Data in buffer
+INFO 08-Mar-21 18:47:54.995 - Data added to parser queue
+INFO 08-Mar-21 18:47:54.995 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:47:54.998 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:47:55.000 - Resetting bolus delivery timer,4.55 remaining
+INFO 08-Mar-21 18:47:56.757 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:47:56.758 - Time difference between deliveries ::::1999
+INFO 08-Mar-21 18:47:56.759 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:47:56.760 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:47:56.764 - SentIPHB
+INFO 08-Mar-21 18:47:56.813 - Data in buffer
+INFO 08-Mar-21 18:47:56.813 - Data added to parser queue
+INFO 08-Mar-21 18:47:56.813 - Parsed:HB
+
+INFO 08-Mar-21 18:47:56.815 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:47:56.815 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:47:56.816 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:47:56.822 - SentIPIN
+INFO 08-Mar-21 18:47:56.892 - Data in buffer
+INFO 08-Mar-21 18:47:56.893 - Data added to parser queue
+INFO 08-Mar-21 18:47:56.894 - Logic queue recieved: IN0.00
+
+INFO 08-Mar-21 18:47:56.895 - Parsed:IN0.00
+
+WARNING 08-Mar-21 18:47:56.898 - Resetting bolus delivery timer,4.5 remaining
+INFO 08-Mar-21 18:47:58.756 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:47:58.756 - Time difference between deliveries ::::2000
+INFO 08-Mar-21 18:47:58.757 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:47:58.760 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:47:58.762 - SentIPHB
+INFO 08-Mar-21 18:47:58.815 - Data in buffer
+INFO 08-Mar-21 18:47:58.815 - Data added to parser queue
+INFO 08-Mar-21 18:47:58.816 - Parsed:HB
+
+INFO 08-Mar-21 18:47:58.816 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:47:58.816 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:47:58.820 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:47:58.827 - SentIPIN
+INFO 08-Mar-21 18:47:58.942 - Data in buffer
+INFO 08-Mar-21 18:47:58.943 - Data added to parser queue
+INFO 08-Mar-21 18:47:58.943 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:47:58.943 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:47:58.944 - Resetting bolus delivery timer,4.45 remaining
+INFO 08-Mar-21 18:48:00.758 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:48:00.759 - Time difference between deliveries ::::2002
+INFO 08-Mar-21 18:48:00.759 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:48:00.760 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:48:00.764 - SentIPHB
+INFO 08-Mar-21 18:48:00.815 - Data in buffer
+INFO 08-Mar-21 18:48:00.920 - Data added to parser queue
+INFO 08-Mar-21 18:48:00.920 - Parsed:HB
+
+INFO 08-Mar-21 18:48:00.927 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:48:00.927 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:48:00.929 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:48:00.934 - SentIPIN
+INFO 08-Mar-21 18:48:01.013 - Data in buffer
+INFO 08-Mar-21 18:48:01.015 - Data added to parser queue
+INFO 08-Mar-21 18:48:01.015 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:48:01.016 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:48:01.016 - Resetting bolus delivery timer,4.4 remaining
+INFO 08-Mar-21 18:48:02.761 - Time difference between deliveries ::::2001
+INFO 08-Mar-21 18:48:02.764 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:48:02.764 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:48:02.766 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:48:02.772 - SentIPHB
+INFO 08-Mar-21 18:48:02.852 - Data in buffer
+INFO 08-Mar-21 18:48:02.854 - Data added to parser queue
+INFO 08-Mar-21 18:48:02.854 - Parsed:HB
+
+INFO 08-Mar-21 18:48:02.854 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:48:02.854 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:48:02.856 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:48:02.859 - SentIPIN
+INFO 08-Mar-21 18:48:02.940 - Data in buffer
+INFO 08-Mar-21 18:48:02.940 - Data added to parser queue
+INFO 08-Mar-21 18:48:02.940 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:48:02.941 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:48:02.941 - Resetting bolus delivery timer,4.35 remaining
+INFO 08-Mar-21 18:48:04.759 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:48:04.761 - Time difference between deliveries ::::2000
+INFO 08-Mar-21 18:48:04.762 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:48:04.764 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:48:04.773 - SentIPHB
+INFO 08-Mar-21 18:48:04.853 - Data in buffer
+INFO 08-Mar-21 18:48:04.856 - Data added to parser queue
+INFO 08-Mar-21 18:48:04.857 - Parsed:HB
+
+INFO 08-Mar-21 18:48:04.857 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:48:04.857 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:48:04.857 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:48:04.861 - SentIPIN
+INFO 08-Mar-21 18:48:04.933 - Data in buffer
+INFO 08-Mar-21 18:48:04.933 - Data added to parser queue
+INFO 08-Mar-21 18:48:04.933 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:48:04.936 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:48:04.937 - Resetting bolus delivery timer,4.3 remaining
+INFO 08-Mar-21 18:48:06.761 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:48:06.761 - Time difference between deliveries ::::2002
+INFO 08-Mar-21 18:48:06.761 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:48:06.764 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:48:06.768 - SentIPHB
+INFO 08-Mar-21 18:48:06.814 - Data in buffer
+INFO 08-Mar-21 18:48:06.817 - Data added to parser queue
+INFO 08-Mar-21 18:48:06.818 - Parsed:HB
+
+INFO 08-Mar-21 18:48:06.818 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:48:06.821 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:48:06.822 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:48:06.827 - SentIPIN
+INFO 08-Mar-21 18:48:06.892 - Data in buffer
+INFO 08-Mar-21 18:48:06.994 - Data added to parser queue
+INFO 08-Mar-21 18:48:06.994 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:48:06.995 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:48:06.996 - Resetting bolus delivery timer,4.25 remaining
+INFO 08-Mar-21 18:48:08.760 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:48:08.761 - Time difference between deliveries ::::1999
+INFO 08-Mar-21 18:48:08.761 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:48:08.764 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:48:08.770 - SentIPHB
+INFO 08-Mar-21 18:48:08.853 - Data in buffer
+INFO 08-Mar-21 18:48:08.855 - Data added to parser queue
+INFO 08-Mar-21 18:48:08.855 - Parsed:HB
+
+INFO 08-Mar-21 18:48:08.855 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:48:08.857 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:48:08.857 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:48:08.863 - SentIPIN
+INFO 08-Mar-21 18:48:08.933 - Data in buffer
+INFO 08-Mar-21 18:48:08.933 - Data added to parser queue
+INFO 08-Mar-21 18:48:08.933 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:48:08.935 - Resetting bolus delivery timer,4.2 remaining
+INFO 08-Mar-21 18:48:08.936 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:48:10.760 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:48:10.761 - Time difference between deliveries ::::2001
+INFO 08-Mar-21 18:48:10.762 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:48:10.763 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:48:10.767 - SentIPHB
+INFO 08-Mar-21 18:48:10.814 - Data in buffer
+INFO 08-Mar-21 18:48:10.814 - Data added to parser queue
+INFO 08-Mar-21 18:48:10.814 - Parsed:HB
+
+INFO 08-Mar-21 18:48:10.815 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:48:10.816 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:48:10.816 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:48:10.822 - SentIPIN
+INFO 08-Mar-21 18:48:10.894 - Data in buffer
+INFO 08-Mar-21 18:48:10.894 - Data added to parser queue
+INFO 08-Mar-21 18:48:10.894 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:48:10.894 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:48:10.897 - Resetting bolus delivery timer,4.15 remaining
+INFO 08-Mar-21 18:48:12.760 - Time difference between deliveries ::::1999
+INFO 08-Mar-21 18:48:12.760 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:48:12.761 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:48:12.761 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:48:12.767 - SentIPHB
+INFO 08-Mar-21 18:48:12.819 - Data in buffer
+INFO 08-Mar-21 18:48:12.821 - Data added to parser queue
+INFO 08-Mar-21 18:48:12.822 - Parsed:HB
+
+INFO 08-Mar-21 18:48:12.823 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:48:12.823 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:48:12.824 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:48:12.829 - SentIPIN
+INFO 08-Mar-21 18:48:12.893 - Data in buffer
+INFO 08-Mar-21 18:48:12.894 - Data added to parser queue
+INFO 08-Mar-21 18:48:12.894 - Logic queue recieved: IN0.00
+
+INFO 08-Mar-21 18:48:12.894 - Parsed:IN0.00
+
+WARNING 08-Mar-21 18:48:12.895 - Resetting bolus delivery timer,4.1 remaining
+INFO 08-Mar-21 18:48:14.760 - Time difference between deliveries ::::2001
+INFO 08-Mar-21 18:48:14.761 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:48:14.761 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:48:14.765 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:48:14.768 - SentIPHB
+INFO 08-Mar-21 18:48:14.819 - Data in buffer
+INFO 08-Mar-21 18:48:14.923 - Data added to parser queue
+INFO 08-Mar-21 18:48:14.925 - Parsed:HB
+
+INFO 08-Mar-21 18:48:14.926 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:48:14.926 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:48:14.928 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:48:14.935 - SentIPIN
+INFO 08-Mar-21 18:48:15.014 - Data in buffer
+INFO 08-Mar-21 18:48:15.115 - Data added to parser queue
+INFO 08-Mar-21 18:48:15.117 - Logic queue recieved: IN0.00
+
+INFO 08-Mar-21 18:48:15.117 - Parsed:IN0.00
+
+WARNING 08-Mar-21 18:48:15.117 - Resetting bolus delivery timer,4.05 remaining
+INFO 08-Mar-21 18:48:16.761 - Time difference between deliveries ::::2000
+INFO 08-Mar-21 18:48:16.763 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:48:16.763 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:48:16.764 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:48:16.767 - SentIPHB
+INFO 08-Mar-21 18:48:16.812 - Data in buffer
+INFO 08-Mar-21 18:48:16.812 - Data added to parser queue
+INFO 08-Mar-21 18:48:16.812 - Parsed:HB
+
+INFO 08-Mar-21 18:48:16.813 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:48:16.813 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:48:16.813 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:48:16.818 - SentIPIN
+INFO 08-Mar-21 18:48:16.892 - Data in buffer
+INFO 08-Mar-21 18:48:16.893 - Data added to parser queue
+INFO 08-Mar-21 18:48:16.895 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:48:16.896 - Resetting bolus delivery timer,4.0 remaining
+INFO 08-Mar-21 18:48:16.896 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:48:18.762 - Time difference between deliveries ::::2000
+INFO 08-Mar-21 18:48:18.764 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:48:18.764 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:48:18.766 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:48:18.768 - SentIPHB
+INFO 08-Mar-21 18:48:18.811 - Data in buffer
+INFO 08-Mar-21 18:48:18.812 - Data added to parser queue
+INFO 08-Mar-21 18:48:18.812 - Parsed:HB
+
+INFO 08-Mar-21 18:48:18.813 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:48:18.813 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:48:18.814 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:48:18.820 - SentIPIN
+INFO 08-Mar-21 18:48:18.898 - Data in buffer
+INFO 08-Mar-21 18:48:18.900 - Data added to parser queue
+INFO 08-Mar-21 18:48:18.900 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:48:18.900 - Resetting bolus delivery timer,3.95 remaining
+INFO 08-Mar-21 18:48:18.900 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:48:20.763 - Time difference between deliveries ::::2000
+INFO 08-Mar-21 18:48:20.764 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:48:20.764 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:48:20.765 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:48:20.771 - SentIPHB
+INFO 08-Mar-21 18:48:20.852 - Data in buffer
+INFO 08-Mar-21 18:48:20.853 - Data added to parser queue
+INFO 08-Mar-21 18:48:20.853 - Parsed:HB
+
+INFO 08-Mar-21 18:48:20.854 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:48:20.855 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:48:20.855 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:48:20.862 - SentIPIN
+INFO 08-Mar-21 18:48:20.934 - Data in buffer
+INFO 08-Mar-21 18:48:21.036 - Data added to parser queue
+INFO 08-Mar-21 18:48:21.036 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:48:21.037 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:48:21.041 - Resetting bolus delivery timer,3.9 remaining
+INFO 08-Mar-21 18:48:22.762 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:48:22.762 - Time difference between deliveries ::::2000
+INFO 08-Mar-21 18:48:22.762 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:48:22.764 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:48:22.766 - SentIPHB
+INFO 08-Mar-21 18:48:22.813 - Data in buffer
+INFO 08-Mar-21 18:48:22.815 - Data added to parser queue
+INFO 08-Mar-21 18:48:22.816 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:48:22.816 - Parsed:HB
+
+INFO 08-Mar-21 18:48:22.816 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:48:22.819 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:48:22.824 - SentIPIN
+INFO 08-Mar-21 18:48:22.901 - Data in buffer
+INFO 08-Mar-21 18:48:22.901 - Data added to parser queue
+INFO 08-Mar-21 18:48:22.901 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:48:22.903 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:48:22.904 - Resetting bolus delivery timer,3.85 remaining
+INFO 08-Mar-21 18:48:24.761 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:48:24.763 - Time difference between deliveries ::::2002
+INFO 08-Mar-21 18:48:24.763 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:48:24.768 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:48:24.770 - SentIPHB
+INFO 08-Mar-21 18:48:24.851 - Data in buffer
+INFO 08-Mar-21 18:48:24.851 - Data added to parser queue
+INFO 08-Mar-21 18:48:24.852 - Parsed:HB
+
+INFO 08-Mar-21 18:48:24.852 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:48:24.852 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:48:24.853 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:48:24.861 - SentIPIN
+INFO 08-Mar-21 18:48:24.932 - Data in buffer
+INFO 08-Mar-21 18:48:24.934 - Data added to parser queue
+INFO 08-Mar-21 18:48:24.935 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:48:24.936 - Resetting bolus delivery timer,3.8 remaining
+INFO 08-Mar-21 18:48:24.936 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:48:26.765 - Time difference between deliveries ::::2000
+INFO 08-Mar-21 18:48:26.765 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:48:26.766 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:48:26.767 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:48:26.769 - SentIPHB
+INFO 08-Mar-21 18:48:26.813 - Data in buffer
+INFO 08-Mar-21 18:48:26.814 - Data added to parser queue
+INFO 08-Mar-21 18:48:26.814 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:48:26.814 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:48:26.814 - Parsed:HB
+
+INFO 08-Mar-21 18:48:26.815 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:48:26.818 - SentIPIN
+INFO 08-Mar-21 18:48:26.891 - Data in buffer
+INFO 08-Mar-21 18:48:26.891 - Data added to parser queue
+INFO 08-Mar-21 18:48:26.891 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:48:26.891 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:48:26.892 - Resetting bolus delivery timer,3.75 remaining
+INFO 08-Mar-21 18:48:28.765 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:48:28.768 - Time difference between deliveries ::::2000
+INFO 08-Mar-21 18:48:28.769 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:48:28.769 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:48:28.772 - SentIPHB
+INFO 08-Mar-21 18:48:28.852 - Data in buffer
+INFO 08-Mar-21 18:48:28.962 - Data added to parser queue
+INFO 08-Mar-21 18:48:28.963 - Parsed:HB
+
+INFO 08-Mar-21 18:48:28.963 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:48:28.963 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:48:28.966 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:48:28.970 - SentIPIN
+INFO 08-Mar-21 18:48:29.051 - Data in buffer
+INFO 08-Mar-21 18:48:29.154 - Data added to parser queue
+INFO 08-Mar-21 18:48:29.157 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:48:29.160 - Resetting bolus delivery timer,3.7 remaining
+INFO 08-Mar-21 18:48:29.160 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:48:30.764 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:48:30.764 - Time difference between deliveries ::::2001
+INFO 08-Mar-21 18:48:30.765 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:48:30.768 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:48:30.775 - SentIPHB
+INFO 08-Mar-21 18:48:30.854 - Data in buffer
+INFO 08-Mar-21 18:48:30.855 - Data added to parser queue
+INFO 08-Mar-21 18:48:30.856 - Parsed:HB
+
+INFO 08-Mar-21 18:48:30.856 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:48:30.856 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:48:30.857 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:48:30.861 - SentIPIN
+INFO 08-Mar-21 18:48:30.932 - Data in buffer
+INFO 08-Mar-21 18:48:30.933 - Data added to parser queue
+INFO 08-Mar-21 18:48:30.935 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:48:30.937 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:48:30.938 - Resetting bolus delivery timer,3.65 remaining
+INFO 08-Mar-21 18:48:32.763 - Time difference between deliveries ::::1999
+INFO 08-Mar-21 18:48:32.763 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:48:32.764 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:48:32.768 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:48:32.774 - SentIPHB
+INFO 08-Mar-21 18:48:32.851 - Data in buffer
+INFO 08-Mar-21 18:48:32.851 - Data added to parser queue
+INFO 08-Mar-21 18:48:32.851 - Parsed:HB
+
+INFO 08-Mar-21 18:48:32.852 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:48:32.852 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:48:32.855 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:48:32.857 - SentIPIN
+INFO 08-Mar-21 18:48:32.932 - Data in buffer
+INFO 08-Mar-21 18:48:32.935 - Data added to parser queue
+INFO 08-Mar-21 18:48:32.935 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:48:32.935 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:48:32.935 - Resetting bolus delivery timer,3.6 remaining
+INFO 08-Mar-21 18:48:34.764 - Time difference between deliveries ::::2001
+INFO 08-Mar-21 18:48:34.764 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:48:34.764 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:48:34.765 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:48:34.768 - SentIPHB
+INFO 08-Mar-21 18:48:34.811 - Data in buffer
+INFO 08-Mar-21 18:48:34.812 - Data added to parser queue
+INFO 08-Mar-21 18:48:34.812 - Parsed:HB
+
+INFO 08-Mar-21 18:48:34.813 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:48:34.814 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:48:34.816 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:48:34.821 - SentIPIN
+INFO 08-Mar-21 18:48:34.893 - Data in buffer
+INFO 08-Mar-21 18:48:34.996 - Data added to parser queue
+INFO 08-Mar-21 18:48:34.997 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:48:34.998 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:48:34.998 - Resetting bolus delivery timer,3.55 remaining
+INFO 08-Mar-21 18:48:36.764 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:48:36.765 - Time difference between deliveries ::::2000
+INFO 08-Mar-21 18:48:36.767 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:48:36.770 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:48:36.776 - SentIPHB
+INFO 08-Mar-21 18:48:36.851 - Data in buffer
+INFO 08-Mar-21 18:48:36.851 - Data added to parser queue
+INFO 08-Mar-21 18:48:36.851 - Parsed:HB
+
+INFO 08-Mar-21 18:48:36.854 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:48:36.855 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:48:36.856 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:48:36.858 - SentIPIN
+INFO 08-Mar-21 18:48:36.931 - Data in buffer
+INFO 08-Mar-21 18:48:36.933 - Data added to parser queue
+INFO 08-Mar-21 18:48:36.933 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:48:36.934 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:48:36.938 - Resetting bolus delivery timer,3.5 remaining
+INFO 08-Mar-21 18:48:38.765 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:48:38.765 - Time difference between deliveries ::::2001
+INFO 08-Mar-21 18:48:38.765 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:48:38.766 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:48:38.768 - SentIPHB
+INFO 08-Mar-21 18:48:38.851 - Data in buffer
+INFO 08-Mar-21 18:48:38.852 - Data added to parser queue
+INFO 08-Mar-21 18:48:38.852 - Parsed:HB
+
+INFO 08-Mar-21 18:48:38.852 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:48:38.852 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:48:38.855 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:48:38.859 - SentIPIN
+INFO 08-Mar-21 18:48:38.932 - Data in buffer
+INFO 08-Mar-21 18:48:38.933 - Data added to parser queue
+INFO 08-Mar-21 18:48:38.933 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:48:38.934 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:48:38.935 - Resetting bolus delivery timer,3.45 remaining
+INFO 08-Mar-21 18:48:40.766 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:48:40.768 - Time difference between deliveries ::::1999
+INFO 08-Mar-21 18:48:40.771 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:48:40.774 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:48:40.778 - SentIPHB
+INFO 08-Mar-21 18:48:40.852 - Data in buffer
+INFO 08-Mar-21 18:48:40.852 - Data added to parser queue
+INFO 08-Mar-21 18:48:40.852 - Parsed:HB
+
+INFO 08-Mar-21 18:48:40.852 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:48:40.852 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:48:40.855 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:48:40.861 - SentIPIN
+INFO 08-Mar-21 18:48:40.940 - Data in buffer
+INFO 08-Mar-21 18:48:40.943 - Data added to parser queue
+INFO 08-Mar-21 18:48:40.943 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:48:40.943 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:48:40.943 - Resetting bolus delivery timer,3.4 remaining
+INFO 08-Mar-21 18:48:42.765 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:48:42.766 - Time difference between deliveries ::::2001
+INFO 08-Mar-21 18:48:42.766 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:48:42.768 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:48:42.773 - SentIPHB
+INFO 08-Mar-21 18:48:42.852 - Data in buffer
+INFO 08-Mar-21 18:48:42.956 - Data added to parser queue
+INFO 08-Mar-21 18:48:42.956 - Parsed:HB
+
+INFO 08-Mar-21 18:48:42.959 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:48:42.960 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:48:42.961 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:48:42.966 - SentIPIN
+INFO 08-Mar-21 18:48:43.012 - Data in buffer
+INFO 08-Mar-21 18:48:43.114 - Data added to parser queue
+INFO 08-Mar-21 18:48:43.116 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:48:43.117 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:48:43.117 - Resetting bolus delivery timer,3.35 remaining
+INFO 08-Mar-21 18:48:44.766 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:48:44.768 - Time difference between deliveries ::::1999
+INFO 08-Mar-21 18:48:44.768 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:48:44.768 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:48:44.772 - SentIPHB
+INFO 08-Mar-21 18:48:44.858 - Data in buffer
+INFO 08-Mar-21 18:48:44.858 - Data added to parser queue
+INFO 08-Mar-21 18:48:44.859 - Parsed:HB
+
+INFO 08-Mar-21 18:48:44.859 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:48:44.859 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:48:44.859 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:48:44.878 - SentIPIN
+INFO 08-Mar-21 18:48:44.931 - Data in buffer
+INFO 08-Mar-21 18:48:44.931 - Data added to parser queue
+INFO 08-Mar-21 18:48:44.931 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:48:44.931 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:48:44.934 - Resetting bolus delivery timer,3.3 remaining
+INFO 08-Mar-21 18:48:46.766 - Time difference between deliveries ::::2002
+INFO 08-Mar-21 18:48:46.769 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:48:46.770 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:48:46.772 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:48:46.777 - SentIPHB
+INFO 08-Mar-21 18:48:46.854 - Data in buffer
+INFO 08-Mar-21 18:48:46.854 - Data added to parser queue
+INFO 08-Mar-21 18:48:46.855 - Parsed:HB
+
+INFO 08-Mar-21 18:48:46.856 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:48:46.856 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:48:46.858 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:48:46.862 - SentIPIN
+INFO 08-Mar-21 18:48:46.933 - Data in buffer
+INFO 08-Mar-21 18:48:46.933 - Data added to parser queue
+INFO 08-Mar-21 18:48:46.934 - Logic queue recieved: IN0.00
+
+INFO 08-Mar-21 18:48:46.934 - Parsed:IN0.00
+
+WARNING 08-Mar-21 18:48:46.934 - Resetting bolus delivery timer,3.25 remaining
+INFO 08-Mar-21 18:48:48.766 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:48:48.769 - Time difference between deliveries ::::2000
+INFO 08-Mar-21 18:48:48.771 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:48:48.772 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:48:48.777 - SentIPHB
+INFO 08-Mar-21 18:48:48.892 - Data in buffer
+INFO 08-Mar-21 18:48:48.894 - Data added to parser queue
+INFO 08-Mar-21 18:48:48.894 - Parsed:HB
+
+INFO 08-Mar-21 18:48:48.894 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:48:48.894 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:48:48.895 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:48:48.899 - SentIPIN
+INFO 08-Mar-21 18:48:48.975 - Data in buffer
+INFO 08-Mar-21 18:48:48.975 - Data added to parser queue
+INFO 08-Mar-21 18:48:48.976 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:48:48.976 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:48:48.976 - Resetting bolus delivery timer,3.2 remaining
+INFO 08-Mar-21 18:48:50.768 - Time difference between deliveries ::::2002
+INFO 08-Mar-21 18:48:50.768 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:48:50.769 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:48:50.770 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:48:50.777 - SentIPHB
+INFO 08-Mar-21 18:48:50.856 - Data in buffer
+INFO 08-Mar-21 18:48:50.856 - Data added to parser queue
+INFO 08-Mar-21 18:48:50.856 - Parsed:HB
+
+INFO 08-Mar-21 18:48:50.858 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:48:50.858 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:48:50.859 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:48:50.863 - SentIPIN
+INFO 08-Mar-21 18:48:50.931 - Data in buffer
+INFO 08-Mar-21 18:48:50.931 - Data added to parser queue
+INFO 08-Mar-21 18:48:50.933 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:48:50.933 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:48:50.933 - Resetting bolus delivery timer,3.15 remaining
+INFO 08-Mar-21 18:48:52.768 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:48:52.768 - Time difference between deliveries ::::1999
+INFO 08-Mar-21 18:48:52.770 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:48:52.771 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:48:52.775 - SentIPHB
+INFO 08-Mar-21 18:48:52.853 - Data in buffer
+INFO 08-Mar-21 18:48:52.853 - Data added to parser queue
+INFO 08-Mar-21 18:48:52.854 - Parsed:HB
+
+INFO 08-Mar-21 18:48:52.854 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:48:52.854 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:48:52.855 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:48:52.859 - SentIPIN
+INFO 08-Mar-21 18:48:52.931 - Data in buffer
+INFO 08-Mar-21 18:48:52.931 - Data added to parser queue
+INFO 08-Mar-21 18:48:52.932 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:48:52.932 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:48:52.932 - Resetting bolus delivery timer,3.1 remaining
+INFO 08-Mar-21 18:48:54.767 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:48:54.768 - Time difference between deliveries ::::2000
+INFO 08-Mar-21 18:48:54.770 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:48:54.772 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:48:54.774 - SentIPHB
+INFO 08-Mar-21 18:48:54.893 - Data in buffer
+INFO 08-Mar-21 18:48:54.895 - Data added to parser queue
+INFO 08-Mar-21 18:48:54.895 - Parsed:HB
+
+INFO 08-Mar-21 18:48:54.895 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:48:54.898 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:48:54.899 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:48:54.903 - SentIPIN
+INFO 08-Mar-21 18:48:54.972 - Data in buffer
+INFO 08-Mar-21 18:48:54.972 - Data added to parser queue
+INFO 08-Mar-21 18:48:54.972 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:48:54.974 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:48:54.976 - Resetting bolus delivery timer,3.05 remaining
+INFO 08-Mar-21 18:48:56.768 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:48:56.769 - Time difference between deliveries ::::2001
+INFO 08-Mar-21 18:48:56.770 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:48:56.770 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:48:56.777 - SentIPHB
+INFO 08-Mar-21 18:48:56.851 - Data in buffer
+INFO 08-Mar-21 18:48:56.954 - Data added to parser queue
+INFO 08-Mar-21 18:48:56.954 - Parsed:HB
+
+INFO 08-Mar-21 18:48:56.955 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:48:56.956 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:48:56.957 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:48:56.958 - SentIPIN
+INFO 08-Mar-21 18:48:57.011 - Data in buffer
+INFO 08-Mar-21 18:48:57.012 - Data added to parser queue
+INFO 08-Mar-21 18:48:57.012 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:48:57.012 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:48:57.015 - Resetting bolus delivery timer,3.0 remaining
+INFO 08-Mar-21 18:48:58.770 - Time difference between deliveries ::::2000
+INFO 08-Mar-21 18:48:58.771 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:48:58.774 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:48:58.774 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:48:58.778 - SentIPHB
+INFO 08-Mar-21 18:48:58.851 - Data in buffer
+INFO 08-Mar-21 18:48:58.853 - Data added to parser queue
+INFO 08-Mar-21 18:48:58.854 - Parsed:HB
+
+INFO 08-Mar-21 18:48:58.856 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:48:58.856 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:48:58.856 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:48:58.859 - SentIPIN
+INFO 08-Mar-21 18:48:58.932 - Data in buffer
+INFO 08-Mar-21 18:48:58.932 - Data added to parser queue
+INFO 08-Mar-21 18:48:58.933 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:48:58.934 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:48:58.934 - Resetting bolus delivery timer,2.95 remaining
+INFO 08-Mar-21 18:49:00.771 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:49:00.773 - Time difference between deliveries ::::2001
+INFO 08-Mar-21 18:49:00.775 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:49:00.777 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:49:00.783 - SentIPHB
+INFO 08-Mar-21 18:49:00.850 - Data in buffer
+INFO 08-Mar-21 18:49:00.852 - Data added to parser queue
+INFO 08-Mar-21 18:49:00.853 - Parsed:HB
+
+INFO 08-Mar-21 18:49:00.853 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:49:00.853 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:49:00.858 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:49:00.865 - SentIPIN
+INFO 08-Mar-21 18:49:00.932 - Data in buffer
+INFO 08-Mar-21 18:49:00.933 - Data added to parser queue
+INFO 08-Mar-21 18:49:00.934 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:49:00.934 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:49:00.934 - Resetting bolus delivery timer,2.9 remaining
+INFO 08-Mar-21 18:49:02.770 - Time difference between deliveries ::::2001
+INFO 08-Mar-21 18:49:02.773 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:49:02.774 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:49:02.778 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:49:02.780 - SentIPHB
+INFO 08-Mar-21 18:49:02.853 - Data in buffer
+INFO 08-Mar-21 18:49:02.853 - Data added to parser queue
+INFO 08-Mar-21 18:49:02.853 - Parsed:HB
+
+INFO 08-Mar-21 18:49:02.854 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:49:02.856 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:49:02.857 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:49:02.862 - SentIPIN
+INFO 08-Mar-21 18:49:02.932 - Data in buffer
+INFO 08-Mar-21 18:49:03.037 - Data added to parser queue
+INFO 08-Mar-21 18:49:03.037 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:49:03.038 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:49:03.044 - Resetting bolus delivery timer,2.85 remaining
+INFO 08-Mar-21 18:49:04.769 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:49:04.769 - Time difference between deliveries ::::1999
+INFO 08-Mar-21 18:49:04.771 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:49:04.772 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:49:04.781 - SentIPHB
+INFO 08-Mar-21 18:49:04.852 - Data in buffer
+INFO 08-Mar-21 18:49:04.853 - Data added to parser queue
+INFO 08-Mar-21 18:49:04.854 - Parsed:HB
+
+INFO 08-Mar-21 18:49:04.854 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:49:04.854 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:49:04.855 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:49:04.859 - SentIPIN
+INFO 08-Mar-21 18:49:04.931 - Data in buffer
+INFO 08-Mar-21 18:49:04.931 - Data added to parser queue
+INFO 08-Mar-21 18:49:04.934 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:49:04.937 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:49:04.940 - Resetting bolus delivery timer,2.8 remaining
+INFO 08-Mar-21 18:49:06.770 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:49:06.771 - Time difference between deliveries ::::2001
+INFO 08-Mar-21 18:49:06.772 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:49:06.772 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:49:06.779 - SentIPHB
+INFO 08-Mar-21 18:49:06.852 - Data in buffer
+INFO 08-Mar-21 18:49:06.855 - Data added to parser queue
+INFO 08-Mar-21 18:49:06.858 - Parsed:HB
+
+INFO 08-Mar-21 18:49:06.858 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:49:06.858 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:49:06.858 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:49:06.863 - SentIPIN
+INFO 08-Mar-21 18:49:06.933 - Data in buffer
+INFO 08-Mar-21 18:49:06.933 - Data added to parser queue
+INFO 08-Mar-21 18:49:06.933 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:49:06.934 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:49:06.934 - Resetting bolus delivery timer,2.75 remaining
+INFO 08-Mar-21 18:49:08.770 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:49:08.773 - Time difference between deliveries ::::2000
+INFO 08-Mar-21 18:49:08.775 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:49:08.778 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:49:08.785 - SentIPHB
+INFO 08-Mar-21 18:49:08.850 - Data in buffer
+INFO 08-Mar-21 18:49:08.851 - Data added to parser queue
+INFO 08-Mar-21 18:49:08.851 - Parsed:HB
+
+INFO 08-Mar-21 18:49:08.852 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:49:08.852 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:49:08.852 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:49:08.856 - SentIPIN
+INFO 08-Mar-21 18:49:08.933 - Data in buffer
+INFO 08-Mar-21 18:49:09.036 - Data added to parser queue
+INFO 08-Mar-21 18:49:09.038 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:49:09.039 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:49:09.041 - Resetting bolus delivery timer,2.7 remaining
+INFO 08-Mar-21 18:49:10.771 - Time difference between deliveries ::::2001
+INFO 08-Mar-21 18:49:10.773 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:49:10.773 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:49:10.775 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:49:10.784 - SentIPHB
+INFO 08-Mar-21 18:49:10.853 - Data in buffer
+INFO 08-Mar-21 18:49:10.954 - Data added to parser queue
+INFO 08-Mar-21 18:49:10.954 - Parsed:HB
+
+INFO 08-Mar-21 18:49:10.955 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:49:10.959 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:49:10.959 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:49:10.961 - SentIPIN
+INFO 08-Mar-21 18:49:11.012 - Data in buffer
+INFO 08-Mar-21 18:49:11.114 - Data added to parser queue
+INFO 08-Mar-21 18:49:11.114 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:49:11.116 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:49:11.116 - Resetting bolus delivery timer,2.65 remaining
+INFO 08-Mar-21 18:49:12.771 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:49:12.773 - Time difference between deliveries ::::2000
+INFO 08-Mar-21 18:49:12.773 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:49:12.776 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:49:12.777 - SentIPHB
+INFO 08-Mar-21 18:49:12.852 - Data in buffer
+INFO 08-Mar-21 18:49:12.852 - Data added to parser queue
+INFO 08-Mar-21 18:49:12.852 - Parsed:HB
+
+INFO 08-Mar-21 18:49:12.854 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:49:12.857 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:49:12.858 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:49:12.861 - SentIPIN
+INFO 08-Mar-21 18:49:12.932 - Data in buffer
+INFO 08-Mar-21 18:49:12.933 - Data added to parser queue
+INFO 08-Mar-21 18:49:12.936 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:49:12.937 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:49:12.943 - Resetting bolus delivery timer,2.6 remaining
+INFO 08-Mar-21 18:49:14.772 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:49:14.773 - Time difference between deliveries ::::2001
+INFO 08-Mar-21 18:49:14.775 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:49:14.777 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:49:14.781 - SentIPHB
+INFO 08-Mar-21 18:49:14.853 - Data in buffer
+INFO 08-Mar-21 18:49:14.856 - Data added to parser queue
+INFO 08-Mar-21 18:49:14.857 - Parsed:HB
+
+INFO 08-Mar-21 18:49:14.858 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:49:14.858 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:49:14.858 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:49:14.861 - SentIPIN
+INFO 08-Mar-21 18:49:14.932 - Data in buffer
+INFO 08-Mar-21 18:49:14.932 - Data added to parser queue
+INFO 08-Mar-21 18:49:14.933 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:49:14.934 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:49:14.935 - Resetting bolus delivery timer,2.55 remaining
+INFO 08-Mar-21 18:49:16.773 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:49:16.774 - Time difference between deliveries ::::2000
+INFO 08-Mar-21 18:49:16.774 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:49:16.774 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:49:16.778 - SentIPHB
+INFO 08-Mar-21 18:49:16.850 - Data in buffer
+INFO 08-Mar-21 18:49:16.850 - Data added to parser queue
+INFO 08-Mar-21 18:49:16.850 - Parsed:HB
+
+INFO 08-Mar-21 18:49:16.853 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:49:16.854 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:49:16.857 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:49:16.861 - SentIPIN
+INFO 08-Mar-21 18:49:16.932 - Data in buffer
+INFO 08-Mar-21 18:49:17.033 - Data added to parser queue
+INFO 08-Mar-21 18:49:17.034 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:49:17.036 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:49:17.038 - Resetting bolus delivery timer,2.5 remaining
+INFO 08-Mar-21 18:49:18.772 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:49:18.773 - Time difference between deliveries ::::2000
+INFO 08-Mar-21 18:49:18.774 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:49:18.777 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:49:18.781 - SentIPHB
+INFO 08-Mar-21 18:49:18.850 - Data in buffer
+INFO 08-Mar-21 18:49:18.852 - Data added to parser queue
+INFO 08-Mar-21 18:49:18.855 - Parsed:HB
+
+INFO 08-Mar-21 18:49:18.855 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:49:18.855 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:49:18.856 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:49:18.861 - SentIPIN
+INFO 08-Mar-21 18:49:18.931 - Data in buffer
+INFO 08-Mar-21 18:49:18.931 - Data added to parser queue
+INFO 08-Mar-21 18:49:18.931 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:49:18.931 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:49:18.935 - Resetting bolus delivery timer,2.45 remaining
+INFO 08-Mar-21 18:49:20.772 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:49:20.773 - Time difference between deliveries ::::2001
+INFO 08-Mar-21 18:49:20.773 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:49:20.775 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:49:20.778 - SentIPHB
+INFO 08-Mar-21 18:49:20.851 - Data in buffer
+INFO 08-Mar-21 18:49:20.851 - Data added to parser queue
+INFO 08-Mar-21 18:49:20.851 - Parsed:HB
+
+INFO 08-Mar-21 18:49:20.851 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:49:20.851 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:49:20.851 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:49:20.859 - SentIPIN
+INFO 08-Mar-21 18:49:20.933 - Data in buffer
+INFO 08-Mar-21 18:49:20.933 - Data added to parser queue
+INFO 08-Mar-21 18:49:20.935 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:49:20.936 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:49:20.936 - Resetting bolus delivery timer,2.4 remaining
+INFO 08-Mar-21 18:49:22.773 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:49:22.774 - Time difference between deliveries ::::2001
+INFO 08-Mar-21 18:49:22.775 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:49:22.776 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:49:22.781 - SentIPHB
+INFO 08-Mar-21 18:49:22.852 - Data in buffer
+INFO 08-Mar-21 18:49:22.852 - Data added to parser queue
+INFO 08-Mar-21 18:49:22.852 - Parsed:HB
+
+INFO 08-Mar-21 18:49:22.853 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:49:22.853 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:49:22.855 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:49:22.856 - SentIPIN
+INFO 08-Mar-21 18:49:22.937 - Data in buffer
+INFO 08-Mar-21 18:49:23.039 - Data added to parser queue
+INFO 08-Mar-21 18:49:23.040 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:49:23.041 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:49:23.045 - Resetting bolus delivery timer,2.35 remaining
+INFO 08-Mar-21 18:49:24.774 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:49:24.774 - Time difference between deliveries ::::1999
+INFO 08-Mar-21 18:49:24.775 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:49:24.776 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:49:24.783 - SentIPHB
+INFO 08-Mar-21 18:49:24.850 - Data in buffer
+INFO 08-Mar-21 18:49:24.951 - Data added to parser queue
+INFO 08-Mar-21 18:49:24.953 - Parsed:HB
+
+INFO 08-Mar-21 18:49:24.955 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:49:24.957 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:49:24.958 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:49:24.963 - SentIPIN
+INFO 08-Mar-21 18:49:25.011 - Data in buffer
+INFO 08-Mar-21 18:49:25.114 - Data added to parser queue
+INFO 08-Mar-21 18:49:25.115 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:49:25.117 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:49:25.119 - Resetting bolus delivery timer,2.3 remaining
+INFO 08-Mar-21 18:49:26.774 - Time difference between deliveries ::::2000
+INFO 08-Mar-21 18:49:26.774 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:49:26.776 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:49:26.777 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:49:26.779 - SentIPHB
+INFO 08-Mar-21 18:49:26.850 - Data in buffer
+INFO 08-Mar-21 18:49:26.851 - Data added to parser queue
+INFO 08-Mar-21 18:49:26.851 - Parsed:HB
+
+INFO 08-Mar-21 18:49:26.855 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:49:26.855 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:49:26.855 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:49:26.860 - SentIPIN
+INFO 08-Mar-21 18:49:26.932 - Data in buffer
+INFO 08-Mar-21 18:49:27.036 - Data added to parser queue
+INFO 08-Mar-21 18:49:27.039 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:49:27.040 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:49:27.040 - Resetting bolus delivery timer,2.25 remaining
+INFO 08-Mar-21 18:49:28.775 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:49:28.776 - Time difference between deliveries ::::2001
+INFO 08-Mar-21 18:49:28.776 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:49:28.776 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:49:28.782 - SentIPHB
+INFO 08-Mar-21 18:49:28.858 - Data in buffer
+INFO 08-Mar-21 18:49:28.858 - Data added to parser queue
+INFO 08-Mar-21 18:49:28.858 - Parsed:HB
+
+INFO 08-Mar-21 18:49:28.859 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:49:28.859 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:49:28.859 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:49:28.864 - SentIPIN
+INFO 08-Mar-21 18:49:28.931 - Data in buffer
+INFO 08-Mar-21 18:49:29.035 - Data added to parser queue
+INFO 08-Mar-21 18:49:29.036 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:49:29.037 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:49:29.037 - Resetting bolus delivery timer,2.2 remaining
+INFO 08-Mar-21 18:49:30.777 - Time difference between deliveries ::::2002
+INFO 08-Mar-21 18:49:30.778 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:49:30.779 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:49:30.780 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:49:30.789 - SentIPHB
+INFO 08-Mar-21 18:49:30.851 - Data in buffer
+INFO 08-Mar-21 18:49:30.954 - Data added to parser queue
+INFO 08-Mar-21 18:49:30.954 - Parsed:HB
+
+INFO 08-Mar-21 18:49:30.957 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:49:30.957 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:49:30.957 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:49:30.959 - SentIPIN
+INFO 08-Mar-21 18:49:31.011 - Data in buffer
+INFO 08-Mar-21 18:49:31.011 - Data added to parser queue
+INFO 08-Mar-21 18:49:31.011 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:49:31.013 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:49:31.013 - Resetting bolus delivery timer,2.15 remaining
+INFO 08-Mar-21 18:49:32.775 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:49:32.775 - Time difference between deliveries ::::1999
+INFO 08-Mar-21 18:49:32.775 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:49:32.778 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:49:32.782 - SentIPHB
+INFO 08-Mar-21 18:49:32.850 - Data in buffer
+INFO 08-Mar-21 18:49:32.850 - Data added to parser queue
+INFO 08-Mar-21 18:49:32.853 - Parsed:HB
+
+INFO 08-Mar-21 18:49:32.853 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:49:32.853 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:49:32.855 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:49:32.860 - SentIPIN
+INFO 08-Mar-21 18:49:32.930 - Data in buffer
+INFO 08-Mar-21 18:49:32.930 - Data added to parser queue
+INFO 08-Mar-21 18:49:32.932 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:49:32.933 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:49:32.934 - Resetting bolus delivery timer,2.1 remaining
+INFO 08-Mar-21 18:49:34.777 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:49:34.780 - Time difference between deliveries ::::2001
+INFO 08-Mar-21 18:49:34.781 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:49:34.783 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:49:34.789 - SentIPHB
+INFO 08-Mar-21 18:49:34.857 - Data in buffer
+INFO 08-Mar-21 18:49:34.857 - Data added to parser queue
+INFO 08-Mar-21 18:49:34.857 - Parsed:HB
+
+INFO 08-Mar-21 18:49:34.858 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:49:34.858 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:49:34.858 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:49:34.862 - SentIPIN
+INFO 08-Mar-21 18:49:34.933 - Data in buffer
+INFO 08-Mar-21 18:49:34.934 - Data added to parser queue
+INFO 08-Mar-21 18:49:34.935 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:49:34.935 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:49:34.937 - Resetting bolus delivery timer,2.05 remaining
+INFO 08-Mar-21 18:49:36.775 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:49:36.777 - Time difference between deliveries ::::1999
+INFO 08-Mar-21 18:49:36.778 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:49:36.779 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:49:36.781 - SentIPHB
+INFO 08-Mar-21 18:49:36.851 - Data in buffer
+INFO 08-Mar-21 18:49:36.852 - Data added to parser queue
+INFO 08-Mar-21 18:49:36.853 - Parsed:HB
+
+INFO 08-Mar-21 18:49:36.853 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:49:36.855 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:49:36.856 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:49:36.860 - SentIPIN
+INFO 08-Mar-21 18:49:36.937 - Data in buffer
+INFO 08-Mar-21 18:49:37.040 - Data added to parser queue
+INFO 08-Mar-21 18:49:37.040 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:49:37.040 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:49:37.041 - Resetting bolus delivery timer,2.0 remaining
+INFO 08-Mar-21 18:49:38.778 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:49:38.780 - Time difference between deliveries ::::2003
+INFO 08-Mar-21 18:49:38.780 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:49:38.783 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:49:38.786 - SentIPHB
+INFO 08-Mar-21 18:49:38.850 - Data in buffer
+INFO 08-Mar-21 18:49:38.851 - Data added to parser queue
+INFO 08-Mar-21 18:49:38.851 - Parsed:HB
+
+INFO 08-Mar-21 18:49:38.852 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:49:38.853 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:49:38.855 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:49:38.859 - SentIPIN
+INFO 08-Mar-21 18:49:38.933 - Data in buffer
+INFO 08-Mar-21 18:49:39.035 - Data added to parser queue
+INFO 08-Mar-21 18:49:39.035 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:49:39.036 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:49:39.036 - Resetting bolus delivery timer,1.95 remaining
+INFO 08-Mar-21 18:49:40.776 - Time difference between deliveries ::::1998
+INFO 08-Mar-21 18:49:40.776 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:49:40.777 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:49:40.777 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:49:40.782 - SentIPHB
+INFO 08-Mar-21 18:49:40.851 - Data in buffer
+INFO 08-Mar-21 18:49:40.851 - Data added to parser queue
+INFO 08-Mar-21 18:49:40.852 - Parsed:HB
+
+INFO 08-Mar-21 18:49:40.852 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:49:40.852 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:49:40.853 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:49:40.855 - SentIPIN
+INFO 08-Mar-21 18:49:40.932 - Data in buffer
+INFO 08-Mar-21 18:49:40.933 - Data added to parser queue
+INFO 08-Mar-21 18:49:40.933 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:49:40.935 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:49:40.935 - Resetting bolus delivery timer,1.9 remaining
+INFO 08-Mar-21 18:49:42.776 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:49:42.777 - Time difference between deliveries ::::2001
+INFO 08-Mar-21 18:49:42.777 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:49:42.780 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:49:42.784 - SentIPHB
+INFO 08-Mar-21 18:49:42.850 - Data in buffer
+INFO 08-Mar-21 18:49:42.851 - Data added to parser queue
+INFO 08-Mar-21 18:49:42.851 - Parsed:HB
+
+INFO 08-Mar-21 18:49:42.852 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:49:42.852 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:49:42.853 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:49:42.856 - SentIPIN
+INFO 08-Mar-21 18:49:42.937 - Data in buffer
+INFO 08-Mar-21 18:49:42.937 - Data added to parser queue
+INFO 08-Mar-21 18:49:42.937 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:49:42.937 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:49:42.938 - Resetting bolus delivery timer,1.85 remaining
+INFO 08-Mar-21 18:49:44.776 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:49:44.778 - Time difference between deliveries ::::1999
+INFO 08-Mar-21 18:49:44.779 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:49:44.780 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:49:44.784 - SentIPHB
+INFO 08-Mar-21 18:49:44.851 - Data in buffer
+INFO 08-Mar-21 18:49:44.852 - Data added to parser queue
+INFO 08-Mar-21 18:49:44.852 - Parsed:HB
+
+INFO 08-Mar-21 18:49:44.852 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:49:44.852 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:49:44.855 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:49:44.859 - SentIPIN
+INFO 08-Mar-21 18:49:44.932 - Data in buffer
+INFO 08-Mar-21 18:49:45.035 - Data added to parser queue
+INFO 08-Mar-21 18:49:45.035 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:49:45.038 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:49:45.038 - Resetting bolus delivery timer,1.8 remaining
+INFO 08-Mar-21 18:49:46.778 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:49:46.779 - Time difference between deliveries ::::2002
+INFO 08-Mar-21 18:49:46.782 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:49:46.782 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:49:46.785 - SentIPHB
+INFO 08-Mar-21 18:49:46.851 - Data in buffer
+INFO 08-Mar-21 18:49:46.851 - Data added to parser queue
+INFO 08-Mar-21 18:49:46.851 - Parsed:HB
+
+INFO 08-Mar-21 18:49:46.851 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:49:46.853 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:49:46.856 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:49:46.860 - SentIPIN
+INFO 08-Mar-21 18:49:46.931 - Data in buffer
+INFO 08-Mar-21 18:49:46.932 - Data added to parser queue
+INFO 08-Mar-21 18:49:46.933 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:49:46.933 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:49:46.935 - Resetting bolus delivery timer,1.75 remaining
+INFO 08-Mar-21 18:49:48.776 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:49:48.777 - Time difference between deliveries ::::1998
+INFO 08-Mar-21 18:49:48.778 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:49:48.779 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:49:48.787 - SentIPHB
+INFO 08-Mar-21 18:49:48.850 - Data in buffer
+INFO 08-Mar-21 18:49:48.850 - Data added to parser queue
+INFO 08-Mar-21 18:49:48.850 - Parsed:HB
+
+INFO 08-Mar-21 18:49:48.853 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:49:48.853 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:49:48.854 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:49:48.865 - SentIPIN
+INFO 08-Mar-21 18:49:48.932 - Data in buffer
+INFO 08-Mar-21 18:49:48.932 - Data added to parser queue
+INFO 08-Mar-21 18:49:48.932 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:49:48.933 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:49:48.933 - Resetting bolus delivery timer,1.7 remaining
+INFO 08-Mar-21 18:49:50.778 - Time difference between deliveries ::::2002
+INFO 08-Mar-21 18:49:50.779 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:49:50.781 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:49:50.783 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:49:50.787 - SentIPHB
+INFO 08-Mar-21 18:49:50.850 - Data in buffer
+INFO 08-Mar-21 18:49:50.850 - Data added to parser queue
+INFO 08-Mar-21 18:49:50.850 - Parsed:HB
+
+INFO 08-Mar-21 18:49:50.852 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:49:50.852 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:49:50.853 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:49:50.858 - SentIPIN
+INFO 08-Mar-21 18:49:50.931 - Data in buffer
+INFO 08-Mar-21 18:49:51.032 - Data added to parser queue
+INFO 08-Mar-21 18:49:51.033 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:49:51.034 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:49:51.034 - Resetting bolus delivery timer,1.65 remaining
+INFO 08-Mar-21 18:49:52.778 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:49:52.779 - Time difference between deliveries ::::2001
+INFO 08-Mar-21 18:49:52.780 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:49:52.782 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:49:52.785 - SentIPHB
+INFO 08-Mar-21 18:49:52.851 - Data in buffer
+INFO 08-Mar-21 18:49:52.852 - Data added to parser queue
+INFO 08-Mar-21 18:49:52.855 - Parsed:HB
+
+INFO 08-Mar-21 18:49:52.858 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:49:52.858 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:49:52.858 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:49:52.860 - SentIPIN
+INFO 08-Mar-21 18:49:52.930 - Data in buffer
+INFO 08-Mar-21 18:49:53.034 - Data added to parser queue
+INFO 08-Mar-21 18:49:53.035 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:49:53.036 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:49:53.039 - Resetting bolus delivery timer,1.6 remaining
+INFO 08-Mar-21 18:49:54.781 - Time difference between deliveries ::::2001
+INFO 08-Mar-21 18:49:54.781 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:49:54.783 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:49:54.784 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:49:54.791 - SentIPHB
+INFO 08-Mar-21 18:49:54.851 - Data in buffer
+INFO 08-Mar-21 18:49:54.851 - Data added to parser queue
+INFO 08-Mar-21 18:49:54.851 - Parsed:HB
+
+INFO 08-Mar-21 18:49:54.852 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:49:54.855 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:49:54.855 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:49:54.860 - SentIPIN
+INFO 08-Mar-21 18:49:54.931 - Data in buffer
+INFO 08-Mar-21 18:49:54.931 - Data added to parser queue
+INFO 08-Mar-21 18:49:54.931 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:49:54.931 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:49:54.932 - Resetting bolus delivery timer,1.55 remaining
+INFO 08-Mar-21 18:49:56.781 - Time difference between deliveries ::::1999
+INFO 08-Mar-21 18:49:56.782 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:49:56.782 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:49:56.782 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:49:56.785 - SentIPHB
+INFO 08-Mar-21 18:49:56.850 - Data in buffer
+INFO 08-Mar-21 18:49:56.850 - Data added to parser queue
+INFO 08-Mar-21 18:49:56.850 - Parsed:HB
+
+INFO 08-Mar-21 18:49:56.850 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:49:56.851 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:49:56.852 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:49:56.855 - SentIPIN
+INFO 08-Mar-21 18:49:56.930 - Data in buffer
+INFO 08-Mar-21 18:49:56.933 - Data added to parser queue
+INFO 08-Mar-21 18:49:56.935 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:49:56.937 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:49:56.937 - Resetting bolus delivery timer,1.5 remaining
+INFO 08-Mar-21 18:49:58.782 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:49:58.782 - Time difference between deliveries ::::2002
+INFO 08-Mar-21 18:49:58.782 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:49:58.784 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:49:58.790 - SentIPHB
+INFO 08-Mar-21 18:49:58.849 - Data in buffer
+INFO 08-Mar-21 18:49:58.950 - Data added to parser queue
+INFO 08-Mar-21 18:49:58.951 - Parsed:HB
+
+INFO 08-Mar-21 18:49:58.952 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:49:58.954 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:49:58.955 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:49:58.958 - SentIPIN
+INFO 08-Mar-21 18:49:59.010 - Data in buffer
+INFO 08-Mar-21 18:49:59.111 - Data added to parser queue
+INFO 08-Mar-21 18:49:59.113 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:49:59.113 - Resetting bolus delivery timer,1.45 remaining
+INFO 08-Mar-21 18:49:59.113 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:50:00.781 - Time difference between deliveries ::::1999
+INFO 08-Mar-21 18:50:00.781 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:50:00.783 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:50:00.783 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:50:00.787 - SentIPHB
+INFO 08-Mar-21 18:50:00.851 - Data in buffer
+INFO 08-Mar-21 18:50:00.855 - Data added to parser queue
+INFO 08-Mar-21 18:50:00.857 - Parsed:HB
+
+INFO 08-Mar-21 18:50:00.861 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:50:00.861 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:50:00.863 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:50:00.863 - SentIPIN
+INFO 08-Mar-21 18:50:00.930 - Data in buffer
+INFO 08-Mar-21 18:50:00.931 - Data added to parser queue
+INFO 08-Mar-21 18:50:00.931 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:50:00.932 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:50:00.933 - Resetting bolus delivery timer,1.4 remaining
+INFO 08-Mar-21 18:50:02.781 - Time difference between deliveries ::::2000
+INFO 08-Mar-21 18:50:02.783 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:50:02.784 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:50:02.784 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:50:02.788 - SentIPHB
+INFO 08-Mar-21 18:50:02.850 - Data in buffer
+INFO 08-Mar-21 18:50:02.850 - Data added to parser queue
+INFO 08-Mar-21 18:50:02.850 - Parsed:HB
+
+INFO 08-Mar-21 18:50:02.854 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:50:02.854 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:50:02.854 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:50:02.858 - SentIPIN
+INFO 08-Mar-21 18:50:02.930 - Data in buffer
+INFO 08-Mar-21 18:50:02.931 - Data added to parser queue
+INFO 08-Mar-21 18:50:02.932 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:50:02.934 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:50:02.934 - Resetting bolus delivery timer,1.35 remaining
+INFO 08-Mar-21 18:50:04.781 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:50:04.782 - Time difference between deliveries ::::2001
+INFO 08-Mar-21 18:50:04.782 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:50:04.782 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:50:04.789 - SentIPHB
+INFO 08-Mar-21 18:50:04.851 - Data in buffer
+INFO 08-Mar-21 18:50:04.852 - Data added to parser queue
+INFO 08-Mar-21 18:50:04.852 - Parsed:HB
+
+INFO 08-Mar-21 18:50:04.852 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:50:04.852 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:50:04.852 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:50:04.859 - SentIPIN
+INFO 08-Mar-21 18:50:04.937 - Data in buffer
+INFO 08-Mar-21 18:50:05.038 - Data added to parser queue
+INFO 08-Mar-21 18:50:05.039 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:50:05.042 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:50:05.042 - Resetting bolus delivery timer,1.3 remaining
+INFO 08-Mar-21 18:50:06.784 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:50:06.785 - Time difference between deliveries ::::2002
+INFO 08-Mar-21 18:50:06.785 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:50:06.788 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:50:06.797 - SentIPHB
+INFO 08-Mar-21 18:50:06.850 - Data in buffer
+INFO 08-Mar-21 18:50:06.850 - Data added to parser queue
+INFO 08-Mar-21 18:50:06.850 - Parsed:HB
+
+INFO 08-Mar-21 18:50:06.851 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:50:06.852 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:50:06.852 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:50:06.854 - SentIPIN
+INFO 08-Mar-21 18:50:06.932 - Data in buffer
+INFO 08-Mar-21 18:50:07.034 - Data added to parser queue
+INFO 08-Mar-21 18:50:07.034 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:50:07.035 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:50:07.041 - Resetting bolus delivery timer,1.25 remaining
+INFO 08-Mar-21 18:50:08.783 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:50:08.784 - Time difference between deliveries ::::1999
+INFO 08-Mar-21 18:50:08.785 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:50:08.786 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:50:08.793 - SentIPHB
+INFO 08-Mar-21 18:50:08.856 - Data in buffer
+INFO 08-Mar-21 18:50:08.856 - Data added to parser queue
+INFO 08-Mar-21 18:50:08.856 - Parsed:HB
+
+INFO 08-Mar-21 18:50:08.856 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:50:08.857 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:50:08.857 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:50:08.865 - SentIPIN
+INFO 08-Mar-21 18:50:08.929 - Data in buffer
+INFO 08-Mar-21 18:50:08.931 - Data added to parser queue
+INFO 08-Mar-21 18:50:08.932 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:50:08.932 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:50:08.933 - Resetting bolus delivery timer,1.2 remaining
+INFO 08-Mar-21 18:50:10.782 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:50:10.785 - Time difference between deliveries ::::2001
+INFO 08-Mar-21 18:50:10.785 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:50:10.785 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:50:10.788 - SentIPHB
+INFO 08-Mar-21 18:50:10.850 - Data in buffer
+INFO 08-Mar-21 18:50:10.851 - Data added to parser queue
+INFO 08-Mar-21 18:50:10.852 - Parsed:HB
+
+INFO 08-Mar-21 18:50:10.854 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:50:10.854 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:50:10.854 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:50:10.859 - SentIPIN
+INFO 08-Mar-21 18:50:10.930 - Data in buffer
+INFO 08-Mar-21 18:50:10.930 - Data added to parser queue
+INFO 08-Mar-21 18:50:10.930 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:50:10.931 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:50:10.932 - Resetting bolus delivery timer,1.15 remaining
+INFO 08-Mar-21 18:50:12.783 - Time difference between deliveries ::::2000
+INFO 08-Mar-21 18:50:12.784 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:50:12.785 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:50:12.786 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:50:12.791 - SentIPHB
+INFO 08-Mar-21 18:50:12.851 - Data in buffer
+INFO 08-Mar-21 18:50:12.954 - Data added to parser queue
+INFO 08-Mar-21 18:50:12.955 - Parsed:HB
+
+INFO 08-Mar-21 18:50:12.959 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:50:12.959 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:50:12.959 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:50:12.963 - SentIPIN
+INFO 08-Mar-21 18:50:13.009 - Data in buffer
+INFO 08-Mar-21 18:50:13.111 - Data added to parser queue
+INFO 08-Mar-21 18:50:13.111 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:50:13.112 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:50:13.113 - Resetting bolus delivery timer,1.1 remaining
+INFO 08-Mar-21 18:50:14.783 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:50:14.785 - Time difference between deliveries ::::2001
+INFO 08-Mar-21 18:50:14.785 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:50:14.788 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:50:14.790 - SentIPHB
+INFO 08-Mar-21 18:50:14.852 - Data in buffer
+INFO 08-Mar-21 18:50:14.852 - Data added to parser queue
+INFO 08-Mar-21 18:50:14.853 - Parsed:HB
+
+INFO 08-Mar-21 18:50:14.856 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:50:14.856 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:50:14.857 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:50:14.861 - SentIPIN
+INFO 08-Mar-21 18:50:14.931 - Data in buffer
+INFO 08-Mar-21 18:50:14.932 - Data added to parser queue
+INFO 08-Mar-21 18:50:14.933 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:50:14.933 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:50:14.933 - Resetting bolus delivery timer,1.05 remaining
+INFO 08-Mar-21 18:50:16.786 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:50:16.788 - Time difference between deliveries ::::2000
+INFO 08-Mar-21 18:50:16.789 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:50:16.790 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:50:16.791 - SentIPHB
+INFO 08-Mar-21 18:50:16.850 - Data in buffer
+INFO 08-Mar-21 18:50:16.850 - Data added to parser queue
+INFO 08-Mar-21 18:50:16.850 - Parsed:HB
+
+INFO 08-Mar-21 18:50:16.850 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:50:16.851 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:50:16.852 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:50:16.857 - SentIPIN
+INFO 08-Mar-21 18:50:16.930 - Data in buffer
+INFO 08-Mar-21 18:50:16.932 - Data added to parser queue
+INFO 08-Mar-21 18:50:16.932 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:50:16.932 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:50:16.932 - Resetting bolus delivery timer,1.0 remaining
+INFO 08-Mar-21 18:50:18.785 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:50:18.786 - Time difference between deliveries ::::2002
+INFO 08-Mar-21 18:50:18.788 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:50:18.788 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:50:18.794 - SentIPHB
+INFO 08-Mar-21 18:50:18.850 - Data in buffer
+INFO 08-Mar-21 18:50:18.851 - Data added to parser queue
+INFO 08-Mar-21 18:50:18.851 - Parsed:HB
+
+INFO 08-Mar-21 18:50:18.851 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:50:18.852 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:50:18.853 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:50:18.856 - SentIPIN
+INFO 08-Mar-21 18:50:18.929 - Data in buffer
+INFO 08-Mar-21 18:50:19.031 - Data added to parser queue
+INFO 08-Mar-21 18:50:19.032 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:50:19.032 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:50:19.032 - Resetting bolus delivery timer,0.95 remaining
+INFO 08-Mar-21 18:50:20.785 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:50:20.787 - Time difference between deliveries ::::1998
+INFO 08-Mar-21 18:50:20.787 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:50:20.788 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:50:20.793 - SentIPHB
+INFO 08-Mar-21 18:50:20.849 - Data in buffer
+INFO 08-Mar-21 18:50:20.850 - Data added to parser queue
+INFO 08-Mar-21 18:50:20.851 - Parsed:HB
+
+INFO 08-Mar-21 18:50:20.852 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:50:20.852 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:50:20.854 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:50:20.857 - SentIPIN
+INFO 08-Mar-21 18:50:20.930 - Data in buffer
+INFO 08-Mar-21 18:50:20.930 - Data added to parser queue
+INFO 08-Mar-21 18:50:20.931 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:50:20.931 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:50:20.932 - Resetting bolus delivery timer,0.9 remaining
+INFO 08-Mar-21 18:50:22.785 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:50:22.786 - Time difference between deliveries ::::2000
+INFO 08-Mar-21 18:50:22.787 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:50:22.790 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:50:22.794 - SentIPHB
+INFO 08-Mar-21 18:50:22.848 - Data in buffer
+INFO 08-Mar-21 18:50:22.849 - Data added to parser queue
+INFO 08-Mar-21 18:50:22.849 - Parsed:HB
+
+INFO 08-Mar-21 18:50:22.852 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:50:22.853 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:50:22.855 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:50:22.858 - SentIPIN
+INFO 08-Mar-21 18:50:22.931 - Data in buffer
+INFO 08-Mar-21 18:50:22.932 - Data added to parser queue
+INFO 08-Mar-21 18:50:22.935 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:50:22.936 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:50:22.937 - Resetting bolus delivery timer,0.85 remaining
+INFO 08-Mar-21 18:50:24.786 - Time difference between deliveries ::::2002
+INFO 08-Mar-21 18:50:24.789 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:50:24.789 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:50:24.789 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:50:24.794 - SentIPHB
+INFO 08-Mar-21 18:50:24.849 - Data in buffer
+INFO 08-Mar-21 18:50:24.850 - Data added to parser queue
+INFO 08-Mar-21 18:50:24.850 - Parsed:HB
+
+INFO 08-Mar-21 18:50:24.851 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:50:24.851 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:50:24.851 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:50:24.858 - SentIPIN
+INFO 08-Mar-21 18:50:24.931 - Data in buffer
+INFO 08-Mar-21 18:50:24.934 - Data added to parser queue
+INFO 08-Mar-21 18:50:24.935 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:50:24.935 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:50:24.935 - Resetting bolus delivery timer,0.8 remaining
+INFO 08-Mar-21 18:50:26.787 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:50:26.787 - Time difference between deliveries ::::2000
+INFO 08-Mar-21 18:50:26.787 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:50:26.788 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:50:26.793 - SentIPHB
+INFO 08-Mar-21 18:50:26.851 - Data in buffer
+INFO 08-Mar-21 18:50:26.955 - Data added to parser queue
+INFO 08-Mar-21 18:50:26.956 - Parsed:HB
+
+INFO 08-Mar-21 18:50:26.958 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:50:26.959 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:50:26.959 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:50:26.964 - SentIPIN
+INFO 08-Mar-21 18:50:27.010 - Data in buffer
+INFO 08-Mar-21 18:50:27.014 - Data added to parser queue
+INFO 08-Mar-21 18:50:27.015 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:50:27.016 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:50:27.017 - Resetting bolus delivery timer,0.75 remaining
+INFO 08-Mar-21 18:50:28.788 - Time difference between deliveries ::::2000
+INFO 08-Mar-21 18:50:28.791 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:50:28.791 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:50:28.793 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:50:28.794 - SentIPHB
+INFO 08-Mar-21 18:50:28.849 - Data in buffer
+INFO 08-Mar-21 18:50:28.849 - Data added to parser queue
+INFO 08-Mar-21 18:50:28.850 - Parsed:HB
+
+INFO 08-Mar-21 18:50:28.850 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:50:28.850 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:50:28.853 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:50:28.857 - SentIPIN
+INFO 08-Mar-21 18:50:28.931 - Data in buffer
+INFO 08-Mar-21 18:50:28.931 - Data added to parser queue
+INFO 08-Mar-21 18:50:28.932 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:50:28.932 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:50:28.932 - Resetting bolus delivery timer,0.7 remaining
+INFO 08-Mar-21 18:50:30.787 - Time difference between deliveries ::::2001
+INFO 08-Mar-21 18:50:30.787 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:50:30.787 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:50:30.791 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:50:30.794 - SentIPHB
+INFO 08-Mar-21 18:50:30.850 - Data in buffer
+INFO 08-Mar-21 18:50:30.852 - Data added to parser queue
+INFO 08-Mar-21 18:50:30.853 - Parsed:HB
+
+INFO 08-Mar-21 18:50:30.853 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:50:30.854 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:50:30.854 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:50:30.858 - SentIPIN
+INFO 08-Mar-21 18:50:30.931 - Data in buffer
+INFO 08-Mar-21 18:50:30.935 - Data added to parser queue
+INFO 08-Mar-21 18:50:30.936 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:50:30.936 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:50:30.938 - Resetting bolus delivery timer,0.65 remaining
+INFO 08-Mar-21 18:50:32.787 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:50:32.787 - Time difference between deliveries ::::2000
+INFO 08-Mar-21 18:50:32.790 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:50:32.791 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:50:32.792 - SentIPHB
+INFO 08-Mar-21 18:50:32.850 - Data in buffer
+INFO 08-Mar-21 18:50:32.850 - Data added to parser queue
+INFO 08-Mar-21 18:50:32.851 - Parsed:HB
+
+INFO 08-Mar-21 18:50:32.853 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:50:32.853 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:50:32.855 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:50:32.859 - SentIPIN
+INFO 08-Mar-21 18:50:32.931 - Data in buffer
+INFO 08-Mar-21 18:50:33.033 - Data added to parser queue
+INFO 08-Mar-21 18:50:33.035 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:50:33.037 - Resetting bolus delivery timer,0.6 remaining
+INFO 08-Mar-21 18:50:33.037 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:50:34.790 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:50:34.792 - Time difference between deliveries ::::2000
+INFO 08-Mar-21 18:50:34.793 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:50:34.794 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:50:34.798 - SentIPHB
+INFO 08-Mar-21 18:50:34.850 - Data in buffer
+INFO 08-Mar-21 18:50:34.851 - Data added to parser queue
+INFO 08-Mar-21 18:50:34.851 - Parsed:HB
+
+INFO 08-Mar-21 18:50:34.853 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:50:34.853 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:50:34.854 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:50:34.857 - SentIPIN
+INFO 08-Mar-21 18:50:34.931 - Data in buffer
+INFO 08-Mar-21 18:50:34.931 - Data added to parser queue
+INFO 08-Mar-21 18:50:34.931 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:50:34.933 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:50:34.933 - Resetting bolus delivery timer,0.55 remaining
+INFO 08-Mar-21 18:50:36.788 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:50:36.788 - Time difference between deliveries ::::2000
+INFO 08-Mar-21 18:50:36.789 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:50:36.790 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:50:36.795 - SentIPHB
+INFO 08-Mar-21 18:50:36.849 - Data in buffer
+INFO 08-Mar-21 18:50:36.849 - Data added to parser queue
+INFO 08-Mar-21 18:50:36.849 - Parsed:HB
+
+INFO 08-Mar-21 18:50:36.851 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:50:36.852 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:50:36.852 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:50:36.858 - SentIPIN
+INFO 08-Mar-21 18:50:36.930 - Data in buffer
+INFO 08-Mar-21 18:50:36.931 - Data added to parser queue
+INFO 08-Mar-21 18:50:36.931 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:50:36.934 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:50:36.934 - Resetting bolus delivery timer,0.5 remaining
+INFO 08-Mar-21 18:50:38.788 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:50:38.789 - Time difference between deliveries ::::2001
+INFO 08-Mar-21 18:50:38.789 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:50:38.790 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:50:38.797 - SentIPHB
+INFO 08-Mar-21 18:50:38.849 - Data in buffer
+INFO 08-Mar-21 18:50:38.850 - Data added to parser queue
+INFO 08-Mar-21 18:50:38.852 - Parsed:HB
+
+INFO 08-Mar-21 18:50:38.855 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:50:38.855 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:50:38.856 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:50:38.861 - SentIPIN
+INFO 08-Mar-21 18:50:38.933 - Data in buffer
+INFO 08-Mar-21 18:50:38.933 - Data added to parser queue
+INFO 08-Mar-21 18:50:38.934 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:50:38.935 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:50:38.935 - Resetting bolus delivery timer,0.45 remaining
+INFO 08-Mar-21 18:50:40.788 - Time difference between deliveries ::::2000
+INFO 08-Mar-21 18:50:40.789 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:50:40.789 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:50:40.791 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:50:40.793 - SentIPHB
+INFO 08-Mar-21 18:50:40.849 - Data in buffer
+INFO 08-Mar-21 18:50:40.952 - Data added to parser queue
+INFO 08-Mar-21 18:50:40.952 - Parsed:HB
+
+INFO 08-Mar-21 18:50:40.953 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:50:40.953 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:50:40.955 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:50:40.958 - SentIPIN
+INFO 08-Mar-21 18:50:41.011 - Data in buffer
+INFO 08-Mar-21 18:50:41.011 - Data added to parser queue
+INFO 08-Mar-21 18:50:41.011 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:50:41.012 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:50:41.012 - Resetting bolus delivery timer,0.4 remaining
+INFO 08-Mar-21 18:50:42.790 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:50:42.792 - Time difference between deliveries ::::2002
+INFO 08-Mar-21 18:50:42.793 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:50:42.793 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:50:42.797 - SentIPHB
+INFO 08-Mar-21 18:50:42.850 - Data in buffer
+INFO 08-Mar-21 18:50:42.850 - Data added to parser queue
+INFO 08-Mar-21 18:50:42.853 - Parsed:HB
+
+INFO 08-Mar-21 18:50:42.854 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:50:42.855 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:50:42.856 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:50:42.860 - SentIPIN
+INFO 08-Mar-21 18:50:42.930 - Data in buffer
+INFO 08-Mar-21 18:50:42.933 - Data added to parser queue
+INFO 08-Mar-21 18:50:42.935 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:50:42.936 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:50:42.951 - Resetting bolus delivery timer,0.35 remaining
+INFO 08-Mar-21 18:50:44.788 - Time difference between deliveries ::::1998
+INFO 08-Mar-21 18:50:44.789 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:50:44.789 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:50:44.789 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:50:44.792 - SentIPHB
+INFO 08-Mar-21 18:50:44.848 - Data in buffer
+INFO 08-Mar-21 18:50:44.849 - Data added to parser queue
+INFO 08-Mar-21 18:50:44.849 - Parsed:HB
+
+INFO 08-Mar-21 18:50:44.852 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:50:44.852 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:50:44.853 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:50:44.860 - SentIPIN
+INFO 08-Mar-21 18:50:44.930 - Data in buffer
+INFO 08-Mar-21 18:50:44.931 - Data added to parser queue
+INFO 08-Mar-21 18:50:44.931 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:50:44.932 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:50:44.932 - Resetting bolus delivery timer,0.3 remaining
+INFO 08-Mar-21 18:50:46.788 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:50:46.790 - Time difference between deliveries ::::2000
+INFO 08-Mar-21 18:50:46.790 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:50:46.790 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:50:46.795 - SentIPHB
+INFO 08-Mar-21 18:50:46.849 - Data in buffer
+INFO 08-Mar-21 18:50:46.851 - Data added to parser queue
+INFO 08-Mar-21 18:50:46.851 - Parsed:HB
+
+INFO 08-Mar-21 18:50:46.852 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:50:46.852 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:50:46.853 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:50:46.856 - SentIPIN
+INFO 08-Mar-21 18:50:46.934 - Data in buffer
+INFO 08-Mar-21 18:50:47.036 - Data added to parser queue
+INFO 08-Mar-21 18:50:47.036 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:50:47.038 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:50:47.038 - Resetting bolus delivery timer,0.25 remaining
+INFO 08-Mar-21 18:50:48.789 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:50:48.789 - Time difference between deliveries ::::2001
+INFO 08-Mar-21 18:50:48.790 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:50:48.795 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:50:48.798 - SentIPHB
+INFO 08-Mar-21 18:50:48.849 - Data in buffer
+INFO 08-Mar-21 18:50:48.849 - Data added to parser queue
+INFO 08-Mar-21 18:50:48.850 - Parsed:HB
+
+INFO 08-Mar-21 18:50:48.851 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:50:48.851 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:50:48.852 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:50:48.855 - SentIPIN
+INFO 08-Mar-21 18:50:48.929 - Data in buffer
+INFO 08-Mar-21 18:50:48.932 - Data added to parser queue
+INFO 08-Mar-21 18:50:48.935 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:50:48.937 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:50:48.937 - Resetting bolus delivery timer,0.2 remaining
+INFO 08-Mar-21 18:50:50.790 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:50:50.791 - Time difference between deliveries ::::2002
+INFO 08-Mar-21 18:50:50.791 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:50:50.792 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:50:50.797 - SentIPHB
+INFO 08-Mar-21 18:50:50.849 - Data in buffer
+INFO 08-Mar-21 18:50:50.849 - Data added to parser queue
+INFO 08-Mar-21 18:50:50.851 - Parsed:HB
+
+INFO 08-Mar-21 18:50:50.851 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:50:50.851 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:50:50.852 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:50:50.858 - SentIPIN
+INFO 08-Mar-21 18:50:50.931 - Data in buffer
+INFO 08-Mar-21 18:50:50.931 - Data added to parser queue
+INFO 08-Mar-21 18:50:50.934 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:50:50.934 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:50:50.934 - Resetting bolus delivery timer,0.15 remaining
+INFO 08-Mar-21 18:50:52.790 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:50:52.790 - Time difference between deliveries ::::1998
+INFO 08-Mar-21 18:50:52.791 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:50:52.793 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:50:52.803 - SentIPHB
+INFO 08-Mar-21 18:50:52.849 - Data in buffer
+INFO 08-Mar-21 18:50:52.849 - Data added to parser queue
+INFO 08-Mar-21 18:50:52.849 - Parsed:HB
+
+INFO 08-Mar-21 18:50:52.850 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:50:52.850 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:50:52.851 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:50:52.858 - SentIPIN
+INFO 08-Mar-21 18:50:52.930 - Data in buffer
+INFO 08-Mar-21 18:50:52.932 - Data added to parser queue
+INFO 08-Mar-21 18:50:52.932 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:50:52.932 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:50:52.933 - Resetting bolus delivery timer,0.1 remaining
+INFO 08-Mar-21 18:50:54.791 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:50:54.794 - Time difference between deliveries ::::2002
+INFO 08-Mar-21 18:50:54.795 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:50:54.796 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:50:54.806 - SentIPHB
+INFO 08-Mar-21 18:50:54.849 - Data in buffer
+INFO 08-Mar-21 18:50:54.951 - Data added to parser queue
+INFO 08-Mar-21 18:50:54.951 - Parsed:HB
+
+INFO 08-Mar-21 18:50:54.952 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:50:54.954 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:50:54.954 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:50:54.959 - SentIPIN
+INFO 08-Mar-21 18:50:55.009 - Data in buffer
+INFO 08-Mar-21 18:50:55.111 - Data added to parser queue
+INFO 08-Mar-21 18:50:55.111 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:50:55.114 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:50:55.114 - Resetting bolus delivery timer,0.05 remaining
+INFO 08-Mar-21 18:50:56.791 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:50:56.793 - Time difference between deliveries ::::1999
+INFO 08-Mar-21 18:50:56.796 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:50:56.796 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:50:56.801 - SentIPHB
+INFO 08-Mar-21 18:50:56.852 - Data in buffer
+INFO 08-Mar-21 18:50:56.852 - Data added to parser queue
+INFO 08-Mar-21 18:50:56.852 - Parsed:HB
+
+INFO 08-Mar-21 18:50:56.852 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:50:56.852 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:50:56.853 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:50:56.858 - SentIPIN
+INFO 08-Mar-21 18:50:56.931 - Data in buffer
+INFO 08-Mar-21 18:50:56.932 - Data added to parser queue
+INFO 08-Mar-21 18:50:56.932 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:50:56.932 - Resetting bolus delivery timer,0.0 remaining
+INFO 08-Mar-21 18:50:56.932 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:50:58.792 - Time difference between deliveries ::::2001
+INFO 08-Mar-21 18:50:58.792 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:50:58.792 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:50:58.793 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:50:58.797 - SentIPHB
+INFO 08-Mar-21 18:50:58.848 - Data in buffer
+INFO 08-Mar-21 18:50:58.848 - Data added to parser queue
+INFO 08-Mar-21 18:50:58.849 - Parsed:HB
+
+INFO 08-Mar-21 18:50:58.849 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:50:58.851 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:50:58.853 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:50:58.857 - SentIPIN
+INFO 08-Mar-21 18:50:58.930 - Data in buffer
+INFO 08-Mar-21 18:50:58.930 - Data added to parser queue
+INFO 08-Mar-21 18:50:58.930 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:50:58.931 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:50:58.931 - Completed Bolus Delivery
+INFO 08-Mar-21 18:51:01.032 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:51:01.033 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:51:01.041 - SentIPHB
+INFO 08-Mar-21 18:51:01.089 - Data in buffer
+INFO 08-Mar-21 18:51:01.089 - Data added to parser queue
+INFO 08-Mar-21 18:51:01.089 - Parsed:HB
+
+INFO 08-Mar-21 18:51:01.092 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:51:03.128 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:51:03.129 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:51:03.130 - SentIPHB
+INFO 08-Mar-21 18:51:03.210 - Data in buffer
+INFO 08-Mar-21 18:51:03.312 - Data added to parser queue
+INFO 08-Mar-21 18:51:03.312 - Parsed:HB
+
+INFO 08-Mar-21 18:51:03.313 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:51:05.214 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:51:05.214 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:51:05.218 - SentIPHB
+INFO 08-Mar-21 18:51:05.290 - Data in buffer
+INFO 08-Mar-21 18:51:05.290 - Data added to parser queue
+INFO 08-Mar-21 18:51:05.290 - Parsed:HB
+
+INFO 08-Mar-21 18:51:05.290 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:51:07.191 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:51:07.195 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:51:07.198 - SentIPHB
+INFO 08-Mar-21 18:51:07.251 - Data in buffer
+INFO 08-Mar-21 18:51:07.251 - Data added to parser queue
+INFO 08-Mar-21 18:51:07.251 - Parsed:HB
+
+INFO 08-Mar-21 18:51:07.251 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:51:09.151 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:51:09.154 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:51:09.160 - SentIPHB
+INFO 08-Mar-21 18:51:09.208 - Data in buffer
+INFO 08-Mar-21 18:51:09.208 - Data added to parser queue
+INFO 08-Mar-21 18:51:09.208 - Parsed:HB
+
+INFO 08-Mar-21 18:51:09.208 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:51:11.127 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:51:11.128 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:51:11.131 - SentIPHB
+INFO 08-Mar-21 18:51:11.209 - Data in buffer
+INFO 08-Mar-21 18:51:11.209 - Data added to parser queue
+INFO 08-Mar-21 18:51:11.209 - Parsed:HB
+
+INFO 08-Mar-21 18:51:11.210 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:51:13.129 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:51:13.131 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:51:13.135 - SentIPHB
+INFO 08-Mar-21 18:51:13.248 - Data in buffer
+INFO 08-Mar-21 18:51:13.249 - Data added to parser queue
+INFO 08-Mar-21 18:51:13.249 - Parsed:HB
+
+INFO 08-Mar-21 18:51:13.249 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:51:15.149 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:51:15.151 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:51:15.154 - SentIPHB
+INFO 08-Mar-21 18:51:15.208 - Data in buffer
+INFO 08-Mar-21 18:51:15.208 - Data added to parser queue
+INFO 08-Mar-21 18:51:15.208 - Parsed:HB
+
+INFO 08-Mar-21 18:51:15.210 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:51:17.128 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:51:17.129 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:51:17.132 - SentIPHB
+INFO 08-Mar-21 18:51:17.209 - Data in buffer
+INFO 08-Mar-21 18:51:17.312 - Data added to parser queue
+INFO 08-Mar-21 18:51:17.313 - Parsed:HB
+
+INFO 08-Mar-21 18:51:17.313 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:51:19.215 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:51:19.215 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:51:19.223 - SentIPHB
+INFO 08-Mar-21 18:51:19.288 - Data in buffer
+INFO 08-Mar-21 18:51:19.289 - Data added to parser queue
+INFO 08-Mar-21 18:51:19.289 - Parsed:HB
+
+INFO 08-Mar-21 18:51:19.290 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:51:21.191 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:51:21.193 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:51:21.199 - SentIPHB
+INFO 08-Mar-21 18:51:21.248 - Data in buffer
+INFO 08-Mar-21 18:51:21.248 - Data added to parser queue
+INFO 08-Mar-21 18:51:21.249 - Parsed:HB
+
+INFO 08-Mar-21 18:51:21.249 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:51:23.149 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:51:23.150 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:51:23.153 - SentIPHB
+INFO 08-Mar-21 18:51:23.208 - Data in buffer
+INFO 08-Mar-21 18:51:23.209 - Data added to parser queue
+INFO 08-Mar-21 18:51:23.212 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:51:23.215 - Parsed:HB
+
+INFO 08-Mar-21 18:51:25.128 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:51:25.131 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:51:25.133 - SentIPHB
+INFO 08-Mar-21 18:51:25.208 - Data in buffer
+INFO 08-Mar-21 18:51:25.210 - Data added to parser queue
+INFO 08-Mar-21 18:51:25.210 - Parsed:HB
+
+INFO 08-Mar-21 18:51:25.210 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:51:27.129 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:51:27.129 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:51:27.135 - SentIPHB
+INFO 08-Mar-21 18:51:27.210 - Data in buffer
+INFO 08-Mar-21 18:51:27.210 - Data added to parser queue
+INFO 08-Mar-21 18:51:27.210 - Parsed:HB
+
+INFO 08-Mar-21 18:51:27.213 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:51:29.129 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:51:29.129 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:51:29.133 - SentIPHB
+INFO 08-Mar-21 18:51:29.213 - Data in buffer
+INFO 08-Mar-21 18:51:29.214 - Data added to parser queue
+INFO 08-Mar-21 18:51:29.214 - Parsed:HB
+
+INFO 08-Mar-21 18:51:29.214 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:51:31.129 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:51:31.131 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:51:31.139 - SentIPHB
+INFO 08-Mar-21 18:51:31.208 - Data in buffer
+INFO 08-Mar-21 18:51:31.209 - Data added to parser queue
+INFO 08-Mar-21 18:51:31.209 - Parsed:HB
+
+INFO 08-Mar-21 18:51:31.209 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:51:33.128 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:51:33.130 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:51:33.135 - SentIPHB
+INFO 08-Mar-21 18:51:33.208 - Data in buffer
+INFO 08-Mar-21 18:51:33.210 - Data added to parser queue
+INFO 08-Mar-21 18:51:33.211 - Parsed:HB
+
+INFO 08-Mar-21 18:51:33.212 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:51:35.128 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:51:35.129 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:51:35.134 - SentIPHB
+INFO 08-Mar-21 18:51:35.208 - Data in buffer
+INFO 08-Mar-21 18:51:35.208 - Data added to parser queue
+INFO 08-Mar-21 18:51:35.209 - Parsed:HB
+
+INFO 08-Mar-21 18:51:35.209 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:51:37.128 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:51:37.129 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:51:37.133 - SentIPHB
+INFO 08-Mar-21 18:51:37.208 - Data in buffer
+INFO 08-Mar-21 18:51:37.208 - Data added to parser queue
+INFO 08-Mar-21 18:51:37.209 - Parsed:HB
+
+INFO 08-Mar-21 18:51:37.209 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:51:39.128 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:51:39.129 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:51:39.131 - SentIPHB
+INFO 08-Mar-21 18:51:39.207 - Data in buffer
+INFO 08-Mar-21 18:51:39.208 - Data added to parser queue
+INFO 08-Mar-21 18:51:39.208 - Parsed:HB
+
+INFO 08-Mar-21 18:51:39.208 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:51:41.128 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:51:41.128 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:51:41.133 - SentIPHB
+INFO 08-Mar-21 18:51:41.208 - Data in buffer
+INFO 08-Mar-21 18:51:41.208 - Data added to parser queue
+INFO 08-Mar-21 18:51:41.210 - Parsed:HB
+
+INFO 08-Mar-21 18:51:41.211 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:51:43.129 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:51:43.129 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:51:43.133 - SentIPHB
+INFO 08-Mar-21 18:51:43.214 - Data in buffer
+INFO 08-Mar-21 18:51:43.214 - Data added to parser queue
+INFO 08-Mar-21 18:51:43.215 - Parsed:HB
+
+INFO 08-Mar-21 18:51:43.217 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:51:45.128 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:51:45.128 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:51:45.133 - SentIPHB
+INFO 08-Mar-21 18:51:45.209 - Data in buffer
+INFO 08-Mar-21 18:51:45.210 - Data added to parser queue
+INFO 08-Mar-21 18:51:45.210 - Parsed:HB
+
+INFO 08-Mar-21 18:51:45.210 - Logic queue recieved: HB
+

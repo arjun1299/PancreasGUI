@@ -1,0 +1,3072 @@
+WARNING 08-Mar-21 18:32:00.590 - Started
+INFO 08-Mar-21 18:32:00.591 - Starting logger
+INFO 08-Mar-21 18:32:00.591 - Serial Listner Thread started
+INFO 08-Mar-21 18:32:00.592 - Parser Thread Started successfully
+INFO 08-Mar-21 18:32:02.806 - Started scan for BLE devices
+INFO 08-Mar-21 18:32:12.960 - Scan complete
+INFO 08-Mar-21 18:32:18.268 - Attempting to Connect to:cb:e4:c4:4c:95:a4
+INFO 08-Mar-21 18:32:22.060 - Connected to: cb:e4:c4:4c:95:a4
+INFO 08-Mar-21 18:32:22.061 - Starting connection check
+INFO 08-Mar-21 18:32:22.061 - Starting HB sender timer
+INFO 08-Mar-21 18:32:22.587 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:32:22.589 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:32:22.591 - SentIPHB
+INFO 08-Mar-21 18:32:22.659 - Data in buffer
+INFO 08-Mar-21 18:32:22.660 - Data added to parser queue
+INFO 08-Mar-21 18:32:22.660 - Parsed:HB
+
+INFO 08-Mar-21 18:32:22.661 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:32:24.628 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:32:24.629 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:32:24.635 - SentIPHB
+INFO 08-Mar-21 18:32:24.711 - Data in buffer
+INFO 08-Mar-21 18:32:24.711 - Data added to parser queue
+INFO 08-Mar-21 18:32:24.712 - Parsed:HB
+
+INFO 08-Mar-21 18:32:24.712 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:32:26.628 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:32:26.629 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:32:26.632 - SentIPHB
+INFO 08-Mar-21 18:32:26.709 - Data in buffer
+INFO 08-Mar-21 18:32:26.710 - Data added to parser queue
+INFO 08-Mar-21 18:32:26.710 - Parsed:HB
+
+INFO 08-Mar-21 18:32:26.711 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:32:28.628 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:32:28.629 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:32:28.632 - SentIPHB
+INFO 08-Mar-21 18:32:28.710 - Data in buffer
+INFO 08-Mar-21 18:32:28.812 - Data added to parser queue
+INFO 08-Mar-21 18:32:28.813 - Parsed:HB
+
+INFO 08-Mar-21 18:32:28.816 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:32:30.717 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:32:30.718 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:32:30.722 - SentIPHB
+INFO 08-Mar-21 18:32:30.789 - Data in buffer
+INFO 08-Mar-21 18:32:30.790 - Data added to parser queue
+INFO 08-Mar-21 18:32:30.790 - Parsed:HB
+
+INFO 08-Mar-21 18:32:30.790 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:32:32.690 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:32:32.691 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:32:32.695 - SentIPHB
+INFO 08-Mar-21 18:32:32.757 - Data in buffer
+INFO 08-Mar-21 18:32:32.758 - Data added to parser queue
+INFO 08-Mar-21 18:32:32.758 - Parsed:HB
+
+INFO 08-Mar-21 18:32:32.759 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:32:34.659 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:32:34.660 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:32:34.662 - SentIPHB
+INFO 08-Mar-21 18:32:34.710 - Data in buffer
+INFO 08-Mar-21 18:32:34.711 - Data added to parser queue
+INFO 08-Mar-21 18:32:34.711 - Parsed:HB
+
+INFO 08-Mar-21 18:32:34.712 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:32:36.628 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:32:36.629 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:32:36.632 - SentIPHB
+INFO 08-Mar-21 18:32:36.711 - Data in buffer
+INFO 08-Mar-21 18:32:36.813 - Data added to parser queue
+INFO 08-Mar-21 18:32:36.814 - Parsed:HB
+
+INFO 08-Mar-21 18:32:36.819 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:32:38.720 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:32:38.721 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:32:38.724 - SentIPHB
+INFO 08-Mar-21 18:32:38.789 - Data in buffer
+INFO 08-Mar-21 18:32:38.891 - Data added to parser queue
+INFO 08-Mar-21 18:32:38.892 - Parsed:HB
+
+INFO 08-Mar-21 18:32:38.893 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:32:40.992 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:32:40.993 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:32:40.998 - SentIPHB
+INFO 08-Mar-21 18:32:41.070 - Data in buffer
+INFO 08-Mar-21 18:32:41.070 - Data added to parser queue
+INFO 08-Mar-21 18:32:41.070 - Parsed:HB
+
+INFO 08-Mar-21 18:32:41.071 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:32:43.128 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:32:43.130 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:32:43.133 - SentIPHB
+INFO 08-Mar-21 18:32:43.196 - Data in buffer
+INFO 08-Mar-21 18:32:43.196 - Data added to parser queue
+INFO 08-Mar-21 18:32:43.197 - Parsed:HB
+
+INFO 08-Mar-21 18:32:43.197 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:32:45.128 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:32:45.129 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:32:45.131 - SentIPHB
+INFO 08-Mar-21 18:32:45.195 - Data in buffer
+INFO 08-Mar-21 18:32:45.195 - Data added to parser queue
+INFO 08-Mar-21 18:32:45.196 - Parsed:HB
+
+INFO 08-Mar-21 18:32:45.196 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:32:47.128 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:32:47.130 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:32:47.133 - SentIPHB
+INFO 08-Mar-21 18:32:47.190 - Data in buffer
+INFO 08-Mar-21 18:32:47.191 - Data added to parser queue
+INFO 08-Mar-21 18:32:47.191 - Parsed:HB
+
+INFO 08-Mar-21 18:32:47.191 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:32:49.128 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:32:49.130 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:32:49.134 - SentIPHB
+INFO 08-Mar-21 18:32:49.189 - Data in buffer
+INFO 08-Mar-21 18:32:49.189 - Data added to parser queue
+INFO 08-Mar-21 18:32:49.189 - Parsed:HB
+
+INFO 08-Mar-21 18:32:49.189 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:32:51.127 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:32:51.129 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:32:51.132 - SentIPHB
+INFO 08-Mar-21 18:32:51.189 - Data in buffer
+INFO 08-Mar-21 18:32:51.190 - Data added to parser queue
+INFO 08-Mar-21 18:32:51.190 - Parsed:HB
+
+INFO 08-Mar-21 18:32:51.190 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:32:53.128 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:32:53.129 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:32:53.135 - SentIPHB
+INFO 08-Mar-21 18:32:53.195 - Data in buffer
+INFO 08-Mar-21 18:32:53.196 - Data added to parser queue
+INFO 08-Mar-21 18:32:53.196 - Parsed:HB
+
+INFO 08-Mar-21 18:32:53.196 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:32:55.128 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:32:55.129 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:32:55.132 - SentIPHB
+INFO 08-Mar-21 18:32:55.189 - Data in buffer
+INFO 08-Mar-21 18:32:55.189 - Data added to parser queue
+INFO 08-Mar-21 18:32:55.190 - Parsed:HB
+
+INFO 08-Mar-21 18:32:55.190 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:32:57.128 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:32:57.129 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:32:57.133 - SentIPHB
+INFO 08-Mar-21 18:32:57.189 - Data in buffer
+INFO 08-Mar-21 18:32:57.189 - Data added to parser queue
+INFO 08-Mar-21 18:32:57.189 - Parsed:HB
+
+INFO 08-Mar-21 18:32:57.190 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:32:59.128 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:32:59.128 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:32:59.132 - SentIPHB
+INFO 08-Mar-21 18:32:59.189 - Data in buffer
+INFO 08-Mar-21 18:32:59.189 - Data added to parser queue
+INFO 08-Mar-21 18:32:59.189 - Parsed:HB
+
+INFO 08-Mar-21 18:32:59.190 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:33:01.127 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:33:01.129 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:33:01.133 - SentIPHB
+INFO 08-Mar-21 18:33:01.190 - Data in buffer
+INFO 08-Mar-21 18:33:01.190 - Data added to parser queue
+INFO 08-Mar-21 18:33:01.190 - Parsed:HB
+
+INFO 08-Mar-21 18:33:01.191 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:33:03.128 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:33:03.128 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:33:03.133 - SentIPHB
+INFO 08-Mar-21 18:33:03.189 - Data in buffer
+INFO 08-Mar-21 18:33:03.189 - Data added to parser queue
+INFO 08-Mar-21 18:33:03.190 - Parsed:HB
+
+INFO 08-Mar-21 18:33:03.190 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:33:05.129 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:33:05.129 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:33:05.135 - SentIPHB
+INFO 08-Mar-21 18:33:05.190 - Data in buffer
+INFO 08-Mar-21 18:33:05.292 - Data added to parser queue
+INFO 08-Mar-21 18:33:05.295 - Parsed:HB
+
+INFO 08-Mar-21 18:33:05.296 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:33:07.196 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:33:07.197 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:33:07.200 - SentIPHB
+INFO 08-Mar-21 18:33:07.269 - Data in buffer
+INFO 08-Mar-21 18:33:07.270 - Data added to parser queue
+INFO 08-Mar-21 18:33:07.270 - Parsed:HB
+
+INFO 08-Mar-21 18:33:07.270 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:33:09.171 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:33:09.172 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:33:09.177 - SentIPHB
+INFO 08-Mar-21 18:33:09.230 - Data in buffer
+INFO 08-Mar-21 18:33:09.230 - Data added to parser queue
+INFO 08-Mar-21 18:33:09.231 - Parsed:HB
+
+INFO 08-Mar-21 18:33:09.232 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:33:11.131 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:33:11.132 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:33:11.135 - SentIPHB
+INFO 08-Mar-21 18:33:11.188 - Data in buffer
+INFO 08-Mar-21 18:33:11.189 - Data added to parser queue
+INFO 08-Mar-21 18:33:11.189 - Parsed:HB
+
+INFO 08-Mar-21 18:33:11.189 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:33:13.127 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:33:13.128 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:33:13.134 - SentIPHB
+INFO 08-Mar-21 18:33:13.188 - Data in buffer
+INFO 08-Mar-21 18:33:13.189 - Data added to parser queue
+INFO 08-Mar-21 18:33:13.189 - Parsed:HB
+
+INFO 08-Mar-21 18:33:13.190 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:33:15.128 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:33:15.129 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:33:15.134 - SentIPHB
+INFO 08-Mar-21 18:33:15.188 - Data in buffer
+INFO 08-Mar-21 18:33:15.189 - Data added to parser queue
+INFO 08-Mar-21 18:33:15.189 - Parsed:HB
+
+INFO 08-Mar-21 18:33:15.189 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:33:17.128 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:33:17.130 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:33:17.133 - SentIPHB
+INFO 08-Mar-21 18:33:17.188 - Data in buffer
+INFO 08-Mar-21 18:33:17.188 - Data added to parser queue
+INFO 08-Mar-21 18:33:17.188 - Parsed:HB
+
+INFO 08-Mar-21 18:33:17.189 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:33:19.128 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:33:19.129 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:33:19.132 - SentIPHB
+INFO 08-Mar-21 18:33:19.189 - Data in buffer
+INFO 08-Mar-21 18:33:19.291 - Data added to parser queue
+INFO 08-Mar-21 18:33:19.291 - Parsed:HB
+
+INFO 08-Mar-21 18:33:19.294 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:33:21.195 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:33:21.196 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:33:21.201 - SentIPHB
+INFO 08-Mar-21 18:33:21.309 - Data in buffer
+INFO 08-Mar-21 18:33:21.411 - Data added to parser queue
+INFO 08-Mar-21 18:33:21.412 - Parsed:HB
+
+INFO 08-Mar-21 18:33:21.413 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:33:23.513 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:33:23.514 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:33:23.518 - SentIPHB
+INFO 08-Mar-21 18:33:23.589 - Data in buffer
+INFO 08-Mar-21 18:33:23.589 - Data added to parser queue
+INFO 08-Mar-21 18:33:23.589 - Parsed:HB
+
+INFO 08-Mar-21 18:33:23.590 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:33:25.628 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:33:25.630 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:33:25.631 - SentIPHB
+INFO 08-Mar-21 18:33:25.709 - Data in buffer
+INFO 08-Mar-21 18:33:25.709 - Data added to parser queue
+INFO 08-Mar-21 18:33:25.709 - Parsed:HB
+
+INFO 08-Mar-21 18:33:25.710 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:33:27.628 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:33:27.630 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:33:27.634 - SentIPHB
+INFO 08-Mar-21 18:33:27.710 - Data in buffer
+INFO 08-Mar-21 18:33:27.710 - Data added to parser queue
+INFO 08-Mar-21 18:33:27.710 - Parsed:HB
+
+INFO 08-Mar-21 18:33:27.711 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:33:29.627 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:33:29.628 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:33:29.631 - SentIPHB
+INFO 08-Mar-21 18:33:29.708 - Data in buffer
+INFO 08-Mar-21 18:33:29.709 - Data added to parser queue
+INFO 08-Mar-21 18:33:29.709 - Parsed:HB
+
+INFO 08-Mar-21 18:33:29.709 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:33:31.628 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:33:31.630 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:33:31.635 - SentIPHB
+INFO 08-Mar-21 18:33:31.708 - Data in buffer
+INFO 08-Mar-21 18:33:31.709 - Data added to parser queue
+INFO 08-Mar-21 18:33:31.709 - Parsed:HB
+
+INFO 08-Mar-21 18:33:31.710 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:33:33.627 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:33:33.628 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:33:33.631 - SentIPHB
+INFO 08-Mar-21 18:33:33.709 - Data in buffer
+INFO 08-Mar-21 18:33:33.710 - Data added to parser queue
+INFO 08-Mar-21 18:33:33.711 - Parsed:HB
+
+INFO 08-Mar-21 18:33:33.712 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:33:35.628 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:33:35.629 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:33:35.632 - SentIPHB
+INFO 08-Mar-21 18:33:35.708 - Data in buffer
+INFO 08-Mar-21 18:33:35.709 - Data added to parser queue
+INFO 08-Mar-21 18:33:35.709 - Parsed:HB
+
+INFO 08-Mar-21 18:33:35.709 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:33:37.628 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:33:37.629 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:33:37.632 - SentIPHB
+INFO 08-Mar-21 18:33:37.715 - Data in buffer
+INFO 08-Mar-21 18:33:37.715 - Data added to parser queue
+INFO 08-Mar-21 18:33:37.715 - Parsed:HB
+
+INFO 08-Mar-21 18:33:37.716 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:33:39.627 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:33:39.628 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:33:39.633 - SentIPHB
+INFO 08-Mar-21 18:33:39.709 - Data in buffer
+INFO 08-Mar-21 18:33:39.709 - Data added to parser queue
+INFO 08-Mar-21 18:33:39.710 - Parsed:HB
+
+INFO 08-Mar-21 18:33:39.710 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:33:41.627 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:33:41.628 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:33:41.632 - SentIPHB
+INFO 08-Mar-21 18:33:41.709 - Data in buffer
+INFO 08-Mar-21 18:33:41.710 - Data added to parser queue
+INFO 08-Mar-21 18:33:41.711 - Parsed:HB
+
+INFO 08-Mar-21 18:33:41.711 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:33:43.628 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:33:43.630 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:33:43.632 - SentIPHB
+INFO 08-Mar-21 18:33:43.709 - Data in buffer
+INFO 08-Mar-21 18:33:43.709 - Data added to parser queue
+INFO 08-Mar-21 18:33:43.709 - Parsed:HB
+
+INFO 08-Mar-21 18:33:43.709 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:33:45.628 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:33:45.629 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:33:45.633 - SentIPHB
+INFO 08-Mar-21 18:33:45.708 - Data in buffer
+INFO 08-Mar-21 18:33:45.708 - Data added to parser queue
+INFO 08-Mar-21 18:33:45.709 - Parsed:HB
+
+INFO 08-Mar-21 18:33:45.709 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:33:47.627 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:33:47.628 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:33:47.632 - SentIPHB
+INFO 08-Mar-21 18:33:47.710 - Data in buffer
+INFO 08-Mar-21 18:33:47.711 - Data added to parser queue
+INFO 08-Mar-21 18:33:47.711 - Parsed:HB
+
+INFO 08-Mar-21 18:33:47.712 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:33:49.628 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:33:49.630 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:33:49.634 - SentIPHB
+INFO 08-Mar-21 18:33:49.708 - Data in buffer
+INFO 08-Mar-21 18:33:49.709 - Data added to parser queue
+INFO 08-Mar-21 18:33:49.709 - Parsed:HB
+
+INFO 08-Mar-21 18:33:49.710 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:33:51.627 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:33:51.629 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:33:51.633 - SentIPHB
+INFO 08-Mar-21 18:33:51.709 - Data in buffer
+INFO 08-Mar-21 18:33:51.709 - Data added to parser queue
+INFO 08-Mar-21 18:33:51.710 - Parsed:HB
+
+INFO 08-Mar-21 18:33:51.711 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:33:53.628 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:33:53.629 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:33:53.632 - SentIPHB
+INFO 08-Mar-21 18:33:53.708 - Data in buffer
+INFO 08-Mar-21 18:33:53.708 - Data added to parser queue
+INFO 08-Mar-21 18:33:53.709 - Parsed:HB
+
+INFO 08-Mar-21 18:33:53.709 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:33:55.628 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:33:55.629 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:33:55.633 - SentIPHB
+INFO 08-Mar-21 18:33:55.709 - Data in buffer
+INFO 08-Mar-21 18:33:55.709 - Data added to parser queue
+INFO 08-Mar-21 18:33:55.709 - Parsed:HB
+
+INFO 08-Mar-21 18:33:55.711 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:33:57.628 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:33:57.629 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:33:57.633 - SentIPHB
+INFO 08-Mar-21 18:33:57.708 - Data in buffer
+INFO 08-Mar-21 18:33:57.708 - Data added to parser queue
+INFO 08-Mar-21 18:33:57.708 - Parsed:HB
+
+INFO 08-Mar-21 18:33:57.709 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:33:59.628 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:33:59.629 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:33:59.634 - SentIPHB
+INFO 08-Mar-21 18:33:59.708 - Data in buffer
+INFO 08-Mar-21 18:33:59.708 - Data added to parser queue
+INFO 08-Mar-21 18:33:59.709 - Parsed:HB
+
+INFO 08-Mar-21 18:33:59.709 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:34:01.628 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:34:01.629 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:34:01.632 - SentIPHB
+INFO 08-Mar-21 18:34:01.708 - Data in buffer
+INFO 08-Mar-21 18:34:01.708 - Data added to parser queue
+INFO 08-Mar-21 18:34:01.708 - Parsed:HB
+
+INFO 08-Mar-21 18:34:01.709 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:34:03.628 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:34:03.630 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:34:03.634 - SentIPHB
+INFO 08-Mar-21 18:34:03.708 - Data in buffer
+INFO 08-Mar-21 18:34:03.708 - Data added to parser queue
+INFO 08-Mar-21 18:34:03.708 - Parsed:HB
+
+INFO 08-Mar-21 18:34:03.709 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:34:05.628 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:34:05.629 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:34:05.633 - SentIPHB
+INFO 08-Mar-21 18:34:05.708 - Data in buffer
+INFO 08-Mar-21 18:34:05.708 - Data added to parser queue
+INFO 08-Mar-21 18:34:05.709 - Parsed:HB
+
+INFO 08-Mar-21 18:34:05.709 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:34:07.627 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:34:07.628 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:34:07.633 - SentIPHB
+INFO 08-Mar-21 18:34:07.708 - Data in buffer
+INFO 08-Mar-21 18:34:07.708 - Data added to parser queue
+INFO 08-Mar-21 18:34:07.709 - Parsed:HB
+
+INFO 08-Mar-21 18:34:07.710 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:34:09.628 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:34:09.629 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:34:09.631 - SentIPHB
+INFO 08-Mar-21 18:34:09.710 - Data in buffer
+INFO 08-Mar-21 18:34:09.812 - Data added to parser queue
+INFO 08-Mar-21 18:34:09.813 - Parsed:HB
+
+INFO 08-Mar-21 18:34:09.817 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:34:11.718 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:34:11.719 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:34:11.722 - SentIPHB
+INFO 08-Mar-21 18:34:11.787 - Data in buffer
+INFO 08-Mar-21 18:34:11.788 - Data added to parser queue
+INFO 08-Mar-21 18:34:11.788 - Parsed:HB
+
+INFO 08-Mar-21 18:34:11.789 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:34:13.688 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:34:13.690 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:34:13.693 - SentIPHB
+INFO 08-Mar-21 18:34:13.749 - Data in buffer
+INFO 08-Mar-21 18:34:13.749 - Data added to parser queue
+INFO 08-Mar-21 18:34:13.749 - Parsed:HB
+
+INFO 08-Mar-21 18:34:13.749 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:34:15.650 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:34:15.651 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:34:15.654 - SentIPHB
+INFO 08-Mar-21 18:34:15.708 - Data in buffer
+INFO 08-Mar-21 18:34:15.708 - Data added to parser queue
+INFO 08-Mar-21 18:34:15.708 - Parsed:HB
+
+INFO 08-Mar-21 18:34:15.709 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:34:17.628 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:34:17.629 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:34:17.633 - SentIPHB
+INFO 08-Mar-21 18:34:17.708 - Data in buffer
+INFO 08-Mar-21 18:34:17.708 - Data added to parser queue
+INFO 08-Mar-21 18:34:17.709 - Parsed:HB
+
+INFO 08-Mar-21 18:34:17.710 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:34:19.628 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:34:19.630 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:34:19.632 - SentIPHB
+INFO 08-Mar-21 18:34:19.708 - Data in buffer
+INFO 08-Mar-21 18:34:19.708 - Data added to parser queue
+INFO 08-Mar-21 18:34:19.708 - Parsed:HB
+
+INFO 08-Mar-21 18:34:19.708 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:34:21.628 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:34:21.629 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:34:21.632 - SentIPHB
+INFO 08-Mar-21 18:34:21.708 - Data in buffer
+INFO 08-Mar-21 18:34:21.708 - Data added to parser queue
+INFO 08-Mar-21 18:34:21.708 - Parsed:HB
+
+INFO 08-Mar-21 18:34:21.709 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:34:23.628 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:34:23.629 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:34:23.632 - SentIPHB
+INFO 08-Mar-21 18:34:23.707 - Data in buffer
+INFO 08-Mar-21 18:34:23.707 - Data added to parser queue
+INFO 08-Mar-21 18:34:23.707 - Parsed:HB
+
+INFO 08-Mar-21 18:34:23.708 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:34:25.628 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:34:25.629 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:34:25.631 - SentIPHB
+INFO 08-Mar-21 18:34:25.708 - Data in buffer
+INFO 08-Mar-21 18:34:25.708 - Data added to parser queue
+INFO 08-Mar-21 18:34:25.708 - Parsed:HB
+
+INFO 08-Mar-21 18:34:25.710 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:34:27.629 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:34:27.629 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:34:27.634 - SentIPHB
+INFO 08-Mar-21 18:34:27.708 - Data in buffer
+INFO 08-Mar-21 18:34:27.708 - Data added to parser queue
+INFO 08-Mar-21 18:34:27.708 - Parsed:HB
+
+INFO 08-Mar-21 18:34:27.709 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:34:29.627 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:34:29.629 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:34:29.634 - SentIPHB
+INFO 08-Mar-21 18:34:29.708 - Data in buffer
+INFO 08-Mar-21 18:34:29.708 - Data added to parser queue
+INFO 08-Mar-21 18:34:29.709 - Parsed:HB
+
+INFO 08-Mar-21 18:34:29.709 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:34:31.627 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:34:31.628 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:34:31.633 - SentIPHB
+INFO 08-Mar-21 18:34:31.708 - Data in buffer
+INFO 08-Mar-21 18:34:31.708 - Data added to parser queue
+INFO 08-Mar-21 18:34:31.708 - Parsed:HB
+
+INFO 08-Mar-21 18:34:31.709 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:34:33.628 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:34:33.628 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:34:33.631 - SentIPHB
+INFO 08-Mar-21 18:34:33.707 - Data in buffer
+INFO 08-Mar-21 18:34:33.707 - Data added to parser queue
+INFO 08-Mar-21 18:34:33.708 - Parsed:HB
+
+INFO 08-Mar-21 18:34:33.708 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:34:35.628 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:34:35.628 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:34:35.633 - SentIPHB
+INFO 08-Mar-21 18:34:35.708 - Data in buffer
+INFO 08-Mar-21 18:34:35.708 - Data added to parser queue
+INFO 08-Mar-21 18:34:35.709 - Parsed:HB
+
+INFO 08-Mar-21 18:34:35.710 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:34:37.628 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:34:37.629 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:34:37.633 - SentIPHB
+INFO 08-Mar-21 18:34:37.707 - Data in buffer
+INFO 08-Mar-21 18:34:37.812 - Data added to parser queue
+INFO 08-Mar-21 18:34:37.813 - Parsed:HB
+
+INFO 08-Mar-21 18:34:37.813 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:34:39.713 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:34:39.715 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:34:39.718 - SentIPHB
+INFO 08-Mar-21 18:34:39.788 - Data in buffer
+INFO 08-Mar-21 18:34:39.788 - Data added to parser queue
+INFO 08-Mar-21 18:34:39.788 - Parsed:HB
+
+INFO 08-Mar-21 18:34:39.788 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:34:41.689 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:34:41.692 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:34:41.693 - SentIPHB
+INFO 08-Mar-21 18:34:41.747 - Data in buffer
+INFO 08-Mar-21 18:34:41.747 - Data added to parser queue
+INFO 08-Mar-21 18:34:41.747 - Parsed:HB
+
+INFO 08-Mar-21 18:34:41.748 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:34:43.648 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:34:43.651 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:34:43.653 - SentIPHB
+INFO 08-Mar-21 18:34:43.707 - Data in buffer
+INFO 08-Mar-21 18:34:43.707 - Data added to parser queue
+INFO 08-Mar-21 18:34:43.708 - Parsed:HB
+
+INFO 08-Mar-21 18:34:43.708 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:34:45.628 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:34:45.628 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:34:45.633 - SentIPHB
+INFO 08-Mar-21 18:34:45.707 - Data in buffer
+INFO 08-Mar-21 18:34:45.707 - Data added to parser queue
+INFO 08-Mar-21 18:34:45.707 - Parsed:HB
+
+INFO 08-Mar-21 18:34:45.707 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:34:47.628 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:34:47.629 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:34:47.632 - SentIPHB
+INFO 08-Mar-21 18:34:47.706 - Data in buffer
+INFO 08-Mar-21 18:34:47.706 - Data added to parser queue
+INFO 08-Mar-21 18:34:47.706 - Parsed:HB
+
+INFO 08-Mar-21 18:34:47.707 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:34:49.628 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:34:49.631 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:34:49.634 - SentIPHB
+INFO 08-Mar-21 18:34:49.707 - Data in buffer
+INFO 08-Mar-21 18:34:49.708 - Data added to parser queue
+INFO 08-Mar-21 18:34:49.709 - Parsed:HB
+
+INFO 08-Mar-21 18:34:49.710 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:34:51.628 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:34:51.629 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:34:51.632 - SentIPHB
+INFO 08-Mar-21 18:34:51.709 - Data in buffer
+INFO 08-Mar-21 18:34:51.812 - Data added to parser queue
+INFO 08-Mar-21 18:34:51.813 - Parsed:HB
+
+INFO 08-Mar-21 18:34:51.814 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:34:53.716 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:34:53.717 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:34:53.720 - SentIPHB
+INFO 08-Mar-21 18:34:53.787 - Data in buffer
+INFO 08-Mar-21 18:34:53.889 - Data added to parser queue
+INFO 08-Mar-21 18:34:53.889 - Parsed:HB
+
+INFO 08-Mar-21 18:34:53.893 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:34:55.993 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:34:55.994 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:34:55.998 - SentIPHB
+INFO 08-Mar-21 18:34:56.067 - Data in buffer
+INFO 08-Mar-21 18:34:56.067 - Data added to parser queue
+INFO 08-Mar-21 18:34:56.067 - Parsed:HB
+
+INFO 08-Mar-21 18:34:56.068 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:34:58.127 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:34:58.129 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:34:58.133 - SentIPHB
+INFO 08-Mar-21 18:34:58.187 - Data in buffer
+INFO 08-Mar-21 18:34:58.188 - Data added to parser queue
+INFO 08-Mar-21 18:34:58.189 - Parsed:HB
+
+INFO 08-Mar-21 18:34:58.189 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:35:00.127 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:35:00.128 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:35:00.134 - SentIPHB
+INFO 08-Mar-21 18:35:00.187 - Data in buffer
+INFO 08-Mar-21 18:35:00.188 - Data added to parser queue
+INFO 08-Mar-21 18:35:00.188 - Parsed:HB
+
+INFO 08-Mar-21 18:35:00.188 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:35:02.128 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:35:02.130 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:35:02.133 - SentIPHB
+INFO 08-Mar-21 18:35:02.187 - Data in buffer
+INFO 08-Mar-21 18:35:02.187 - Data added to parser queue
+INFO 08-Mar-21 18:35:02.188 - Parsed:HB
+
+INFO 08-Mar-21 18:35:02.189 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:35:04.127 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:35:04.129 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:35:04.133 - SentIPHB
+INFO 08-Mar-21 18:35:04.188 - Data in buffer
+INFO 08-Mar-21 18:35:04.188 - Data added to parser queue
+INFO 08-Mar-21 18:35:04.189 - Parsed:HB
+
+INFO 08-Mar-21 18:35:04.190 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:35:06.128 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:35:06.129 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:35:06.131 - SentIPHB
+INFO 08-Mar-21 18:35:06.194 - Data in buffer
+INFO 08-Mar-21 18:35:06.194 - Data added to parser queue
+INFO 08-Mar-21 18:35:06.194 - Parsed:HB
+
+INFO 08-Mar-21 18:35:06.194 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:35:08.128 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:35:08.129 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:35:08.132 - SentIPHB
+INFO 08-Mar-21 18:35:08.187 - Data in buffer
+INFO 08-Mar-21 18:35:08.187 - Data added to parser queue
+INFO 08-Mar-21 18:35:08.188 - Parsed:HB
+
+INFO 08-Mar-21 18:35:08.188 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:35:10.128 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:35:10.129 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:35:10.133 - SentIPHB
+INFO 08-Mar-21 18:35:10.187 - Data in buffer
+INFO 08-Mar-21 18:35:10.188 - Data added to parser queue
+INFO 08-Mar-21 18:35:10.189 - Parsed:HB
+
+INFO 08-Mar-21 18:35:10.189 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:35:12.128 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:35:12.130 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:35:12.133 - SentIPHB
+INFO 08-Mar-21 18:35:12.186 - Data in buffer
+INFO 08-Mar-21 18:35:12.187 - Data added to parser queue
+INFO 08-Mar-21 18:35:12.187 - Parsed:HB
+
+INFO 08-Mar-21 18:35:12.188 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:35:14.128 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:35:14.129 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:35:14.133 - SentIPHB
+INFO 08-Mar-21 18:35:14.186 - Data in buffer
+INFO 08-Mar-21 18:35:14.289 - Data added to parser queue
+INFO 08-Mar-21 18:35:14.289 - Parsed:HB
+
+INFO 08-Mar-21 18:35:14.291 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:35:16.192 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:35:16.193 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:35:16.196 - SentIPHB
+INFO 08-Mar-21 18:35:16.267 - Data in buffer
+INFO 08-Mar-21 18:35:16.268 - Data added to parser queue
+INFO 08-Mar-21 18:35:16.268 - Parsed:HB
+
+INFO 08-Mar-21 18:35:16.269 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:35:18.169 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:35:18.170 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:35:18.173 - SentIPHB
+INFO 08-Mar-21 18:35:18.227 - Data in buffer
+INFO 08-Mar-21 18:35:18.227 - Data added to parser queue
+INFO 08-Mar-21 18:35:18.227 - Parsed:HB
+
+INFO 08-Mar-21 18:35:18.228 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:35:20.128 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:35:20.131 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:35:20.133 - SentIPHB
+INFO 08-Mar-21 18:35:20.187 - Data in buffer
+INFO 08-Mar-21 18:35:20.187 - Data added to parser queue
+INFO 08-Mar-21 18:35:20.188 - Parsed:HB
+
+INFO 08-Mar-21 18:35:20.188 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:35:22.128 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:35:22.129 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:35:22.131 - SentIPHB
+INFO 08-Mar-21 18:35:22.187 - Data in buffer
+INFO 08-Mar-21 18:35:22.187 - Data added to parser queue
+INFO 08-Mar-21 18:35:22.187 - Parsed:HB
+
+INFO 08-Mar-21 18:35:22.188 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:35:24.128 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:35:24.130 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:35:24.133 - SentIPHB
+INFO 08-Mar-21 18:35:24.186 - Data in buffer
+INFO 08-Mar-21 18:35:24.187 - Data added to parser queue
+INFO 08-Mar-21 18:35:24.187 - Parsed:HB
+
+INFO 08-Mar-21 18:35:24.188 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:35:26.128 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:35:26.129 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:35:26.132 - SentIPHB
+INFO 08-Mar-21 18:35:26.186 - Data in buffer
+INFO 08-Mar-21 18:35:26.187 - Data added to parser queue
+INFO 08-Mar-21 18:35:26.187 - Parsed:HB
+
+INFO 08-Mar-21 18:35:26.188 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:35:28.128 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:35:28.130 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:35:28.134 - SentIPHB
+INFO 08-Mar-21 18:35:28.187 - Data in buffer
+INFO 08-Mar-21 18:35:28.290 - Data added to parser queue
+INFO 08-Mar-21 18:35:28.291 - Parsed:HB
+
+INFO 08-Mar-21 18:35:28.292 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:35:30.192 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:35:30.193 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:35:30.196 - SentIPHB
+INFO 08-Mar-21 18:35:30.267 - Data in buffer
+INFO 08-Mar-21 18:35:30.268 - Data added to parser queue
+INFO 08-Mar-21 18:35:30.268 - Parsed:HB
+
+INFO 08-Mar-21 18:35:30.269 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:35:32.170 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:35:32.171 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:35:32.174 - SentIPHB
+INFO 08-Mar-21 18:35:32.227 - Data in buffer
+INFO 08-Mar-21 18:35:32.227 - Data added to parser queue
+INFO 08-Mar-21 18:35:32.227 - Parsed:HB
+
+INFO 08-Mar-21 18:35:32.228 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:35:34.128 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:35:34.128 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:35:34.132 - SentIPHB
+INFO 08-Mar-21 18:35:34.186 - Data in buffer
+INFO 08-Mar-21 18:35:34.187 - Data added to parser queue
+INFO 08-Mar-21 18:35:34.187 - Parsed:HB
+
+INFO 08-Mar-21 18:35:34.188 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:35:36.128 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:35:36.130 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:35:36.132 - SentIPHB
+INFO 08-Mar-21 18:35:36.193 - Data in buffer
+INFO 08-Mar-21 18:35:36.193 - Data added to parser queue
+INFO 08-Mar-21 18:35:36.193 - Parsed:HB
+
+INFO 08-Mar-21 18:35:36.194 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:35:38.127 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:35:38.128 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:35:38.131 - SentIPHB
+INFO 08-Mar-21 18:35:38.185 - Data in buffer
+INFO 08-Mar-21 18:35:38.186 - Data added to parser queue
+INFO 08-Mar-21 18:35:38.186 - Parsed:HB
+
+INFO 08-Mar-21 18:35:38.186 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:35:40.128 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:35:40.129 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:35:40.132 - SentIPHB
+INFO 08-Mar-21 18:35:40.186 - Data in buffer
+INFO 08-Mar-21 18:35:40.187 - Data added to parser queue
+INFO 08-Mar-21 18:35:40.187 - Parsed:HB
+
+INFO 08-Mar-21 18:35:40.188 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:35:42.128 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:35:42.129 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:35:42.136 - SentIPHB
+INFO 08-Mar-21 18:35:42.186 - Data in buffer
+INFO 08-Mar-21 18:35:42.287 - Data added to parser queue
+INFO 08-Mar-21 18:35:42.288 - Parsed:HB
+
+INFO 08-Mar-21 18:35:42.291 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:35:44.191 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:35:44.191 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:35:44.195 - SentIPHB
+INFO 08-Mar-21 18:35:44.266 - Data in buffer
+INFO 08-Mar-21 18:35:44.266 - Data added to parser queue
+INFO 08-Mar-21 18:35:44.266 - Parsed:HB
+
+INFO 08-Mar-21 18:35:44.267 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:35:46.167 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:35:46.170 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:35:46.173 - SentIPHB
+INFO 08-Mar-21 18:35:46.226 - Data in buffer
+INFO 08-Mar-21 18:35:46.226 - Data added to parser queue
+INFO 08-Mar-21 18:35:46.227 - Parsed:HB
+
+INFO 08-Mar-21 18:35:46.227 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:35:48.128 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:35:48.129 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:35:48.132 - SentIPHB
+INFO 08-Mar-21 18:35:48.186 - Data in buffer
+INFO 08-Mar-21 18:35:48.187 - Data added to parser queue
+INFO 08-Mar-21 18:35:48.187 - Parsed:HB
+
+INFO 08-Mar-21 18:35:48.188 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:35:50.128 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:35:50.128 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:35:50.134 - SentIPHB
+INFO 08-Mar-21 18:35:50.186 - Data in buffer
+INFO 08-Mar-21 18:35:50.186 - Data added to parser queue
+INFO 08-Mar-21 18:35:50.186 - Parsed:HB
+
+INFO 08-Mar-21 18:35:50.187 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:35:52.128 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:35:52.130 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:35:52.133 - SentIPHB
+INFO 08-Mar-21 18:35:52.186 - Data in buffer
+INFO 08-Mar-21 18:35:52.187 - Data added to parser queue
+INFO 08-Mar-21 18:35:52.187 - Parsed:HB
+
+INFO 08-Mar-21 18:35:52.188 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:35:54.128 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:35:54.129 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:35:54.133 - SentIPHB
+INFO 08-Mar-21 18:35:54.187 - Data in buffer
+INFO 08-Mar-21 18:35:54.187 - Data added to parser queue
+INFO 08-Mar-21 18:35:54.187 - Parsed:HB
+
+INFO 08-Mar-21 18:35:54.187 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:35:56.128 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:35:56.129 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:35:56.134 - SentIPHB
+INFO 08-Mar-21 18:35:56.187 - Data in buffer
+INFO 08-Mar-21 18:35:56.187 - Data added to parser queue
+INFO 08-Mar-21 18:35:56.187 - Parsed:HB
+
+INFO 08-Mar-21 18:35:56.188 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:35:58.128 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:35:58.131 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:35:58.135 - SentIPHB
+INFO 08-Mar-21 18:35:58.192 - Data in buffer
+INFO 08-Mar-21 18:35:58.192 - Data added to parser queue
+INFO 08-Mar-21 18:35:58.193 - Parsed:HB
+
+INFO 08-Mar-21 18:35:58.193 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:36:00.129 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:36:00.129 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:36:00.133 - SentIPHB
+INFO 08-Mar-21 18:36:00.186 - Data in buffer
+INFO 08-Mar-21 18:36:00.186 - Data added to parser queue
+INFO 08-Mar-21 18:36:00.186 - Parsed:HB
+
+INFO 08-Mar-21 18:36:00.186 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:36:02.128 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:36:02.129 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:36:02.131 - SentIPHB
+INFO 08-Mar-21 18:36:02.186 - Data in buffer
+INFO 08-Mar-21 18:36:02.186 - Data added to parser queue
+INFO 08-Mar-21 18:36:02.187 - Parsed:HB
+
+INFO 08-Mar-21 18:36:02.187 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:36:04.128 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:36:04.129 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:36:04.132 - SentIPHB
+INFO 08-Mar-21 18:36:04.186 - Data in buffer
+INFO 08-Mar-21 18:36:04.186 - Data added to parser queue
+INFO 08-Mar-21 18:36:04.186 - Parsed:HB
+
+INFO 08-Mar-21 18:36:04.186 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:36:06.128 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:36:06.131 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:36:06.136 - SentIPHB
+INFO 08-Mar-21 18:36:06.186 - Data in buffer
+INFO 08-Mar-21 18:36:06.186 - Data added to parser queue
+INFO 08-Mar-21 18:36:06.186 - Parsed:HB
+
+INFO 08-Mar-21 18:36:06.187 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:36:08.128 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:36:08.130 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:36:08.132 - SentIPHB
+INFO 08-Mar-21 18:36:08.187 - Data in buffer
+INFO 08-Mar-21 18:36:08.187 - Data added to parser queue
+INFO 08-Mar-21 18:36:08.188 - Parsed:HB
+
+INFO 08-Mar-21 18:36:08.188 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:36:10.128 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:36:10.130 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:36:10.134 - SentIPHB
+INFO 08-Mar-21 18:36:10.186 - Data in buffer
+INFO 08-Mar-21 18:36:10.289 - Data added to parser queue
+INFO 08-Mar-21 18:36:10.289 - Parsed:HB
+
+INFO 08-Mar-21 18:36:10.291 - Logic queue recieved: HB
+
+WARNING 08-Mar-21 18:36:10.930 - Starting Bolus Delivery with duration 2000 for 1IU 
+INFO 08-Mar-21 18:36:13.742 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:36:13.744 - Time difference between deliveries ::::1615208773742
+INFO 08-Mar-21 18:36:13.745 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:36:13.745 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:36:13.748 - SentIPHB
+INFO 08-Mar-21 18:36:13.826 - Data in buffer
+INFO 08-Mar-21 18:36:13.826 - Data added to parser queue
+INFO 08-Mar-21 18:36:13.826 - Parsed:HB
+
+INFO 08-Mar-21 18:36:13.826 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:36:13.827 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:36:13.828 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:36:13.831 - SentIPIN
+INFO 08-Mar-21 18:36:13.907 - Data in buffer
+INFO 08-Mar-21 18:36:14.009 - Data added to parser queue
+INFO 08-Mar-21 18:36:14.011 - Parsed:IN359.65
+
+INFO 08-Mar-21 18:36:14.015 - Logic queue recieved: IN359.65
+
+WARNING 08-Mar-21 18:36:14.016 - Resetting bolus delivery timer,0.95 remaining
+INFO 08-Mar-21 18:36:15.743 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:36:15.744 - Time difference between deliveries ::::2000
+INFO 08-Mar-21 18:36:15.745 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:36:15.746 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:36:15.748 - SentIPHB
+INFO 08-Mar-21 18:36:15.826 - Data in buffer
+INFO 08-Mar-21 18:36:15.928 - Data added to parser queue
+INFO 08-Mar-21 18:36:15.929 - Parsed:HB
+
+INFO 08-Mar-21 18:36:15.932 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:36:15.933 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:36:15.934 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:36:15.936 - SentIPIN
+INFO 08-Mar-21 18:36:15.985 - Data in buffer
+INFO 08-Mar-21 18:36:16.088 - Data added to parser queue
+INFO 08-Mar-21 18:36:16.088 - Parsed:IN359.65
+
+INFO 08-Mar-21 18:36:16.093 - Logic queue recieved: IN359.65
+
+WARNING 08-Mar-21 18:36:16.095 - Resetting bolus delivery timer,0.9 remaining
+INFO 08-Mar-21 18:36:17.743 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:36:17.743 - Time difference between deliveries ::::2000
+INFO 08-Mar-21 18:36:17.744 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:36:17.745 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:36:17.748 - SentIPHB
+INFO 08-Mar-21 18:36:17.826 - Data in buffer
+INFO 08-Mar-21 18:36:17.826 - Data added to parser queue
+INFO 08-Mar-21 18:36:17.826 - Parsed:HB
+
+INFO 08-Mar-21 18:36:17.826 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:36:17.826 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:36:17.828 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:36:17.830 - SentIPIN
+INFO 08-Mar-21 18:36:17.906 - Data in buffer
+INFO 08-Mar-21 18:36:17.906 - Data added to parser queue
+INFO 08-Mar-21 18:36:17.906 - Parsed:IN359.65
+
+INFO 08-Mar-21 18:36:17.907 - Logic queue recieved: IN359.65
+
+WARNING 08-Mar-21 18:36:17.908 - Resetting bolus delivery timer,0.85 remaining
+INFO 08-Mar-21 18:36:19.743 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:36:19.744 - Time difference between deliveries ::::2000
+INFO 08-Mar-21 18:36:19.744 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:36:19.745 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:36:19.747 - SentIPHB
+INFO 08-Mar-21 18:36:19.826 - Data in buffer
+INFO 08-Mar-21 18:36:19.826 - Data added to parser queue
+INFO 08-Mar-21 18:36:19.826 - Parsed:HB
+
+INFO 08-Mar-21 18:36:19.827 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:36:19.827 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:36:19.828 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:36:19.830 - SentIPIN
+INFO 08-Mar-21 18:36:19.906 - Data in buffer
+INFO 08-Mar-21 18:36:19.906 - Data added to parser queue
+INFO 08-Mar-21 18:36:19.907 - Parsed:IN359.65
+
+INFO 08-Mar-21 18:36:19.907 - Logic queue recieved: IN359.65
+
+WARNING 08-Mar-21 18:36:19.907 - Resetting bolus delivery timer,0.8 remaining
+INFO 08-Mar-21 18:36:21.743 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:36:21.744 - Time difference between deliveries ::::2001
+INFO 08-Mar-21 18:36:21.745 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:36:21.745 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:36:21.748 - SentIPHB
+INFO 08-Mar-21 18:36:21.826 - Data in buffer
+INFO 08-Mar-21 18:36:21.826 - Data added to parser queue
+INFO 08-Mar-21 18:36:21.826 - Parsed:HB
+
+INFO 08-Mar-21 18:36:21.828 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:36:21.829 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:36:21.829 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:36:21.835 - SentIPIN
+INFO 08-Mar-21 18:36:21.905 - Data in buffer
+INFO 08-Mar-21 18:36:22.008 - Data added to parser queue
+INFO 08-Mar-21 18:36:22.008 - Parsed:IN359.65
+
+INFO 08-Mar-21 18:36:22.011 - Logic queue recieved: IN359.65
+
+WARNING 08-Mar-21 18:36:22.012 - Resetting bolus delivery timer,0.75 remaining
+INFO 08-Mar-21 18:36:23.743 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:36:23.744 - Time difference between deliveries ::::2000
+INFO 08-Mar-21 18:36:23.745 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:36:23.746 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:36:23.751 - SentIPHB
+INFO 08-Mar-21 18:36:23.826 - Data in buffer
+INFO 08-Mar-21 18:36:23.827 - Data added to parser queue
+INFO 08-Mar-21 18:36:23.827 - Parsed:HB
+
+INFO 08-Mar-21 18:36:23.828 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:36:23.828 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:36:23.829 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:36:23.832 - SentIPIN
+INFO 08-Mar-21 18:36:23.906 - Data in buffer
+INFO 08-Mar-21 18:36:23.906 - Data added to parser queue
+INFO 08-Mar-21 18:36:23.906 - Parsed:IN359.65
+
+INFO 08-Mar-21 18:36:23.907 - Logic queue recieved: IN359.65
+
+WARNING 08-Mar-21 18:36:23.907 - Resetting bolus delivery timer,0.7 remaining
+INFO 08-Mar-21 18:36:25.744 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:36:25.745 - Time difference between deliveries ::::2000
+INFO 08-Mar-21 18:36:25.745 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:36:25.748 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:36:25.751 - SentIPHB
+INFO 08-Mar-21 18:36:25.825 - Data in buffer
+INFO 08-Mar-21 18:36:25.825 - Data added to parser queue
+INFO 08-Mar-21 18:36:25.825 - Parsed:HB
+
+INFO 08-Mar-21 18:36:25.827 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:36:25.827 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:36:25.829 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:36:25.831 - SentIPIN
+INFO 08-Mar-21 18:36:25.905 - Data in buffer
+INFO 08-Mar-21 18:36:25.905 - Data added to parser queue
+INFO 08-Mar-21 18:36:25.905 - Parsed:IN359.65
+
+INFO 08-Mar-21 18:36:25.906 - Logic queue recieved: IN359.65
+
+WARNING 08-Mar-21 18:36:25.907 - Resetting bolus delivery timer,0.65 remaining
+INFO 08-Mar-21 18:36:27.745 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:36:27.745 - Time difference between deliveries ::::2001
+INFO 08-Mar-21 18:36:27.747 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:36:27.748 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:36:27.751 - SentIPHB
+INFO 08-Mar-21 18:36:27.826 - Data in buffer
+INFO 08-Mar-21 18:36:27.826 - Data added to parser queue
+INFO 08-Mar-21 18:36:27.828 - Parsed:HB
+
+INFO 08-Mar-21 18:36:27.828 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:36:27.828 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:36:27.828 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:36:27.833 - SentIPIN
+INFO 08-Mar-21 18:36:27.906 - Data in buffer
+INFO 08-Mar-21 18:36:28.006 - Data added to parser queue
+INFO 08-Mar-21 18:36:28.007 - Parsed:IN359.65
+
+INFO 08-Mar-21 18:36:28.008 - Logic queue recieved: IN359.65
+
+WARNING 08-Mar-21 18:36:28.008 - Resetting bolus delivery timer,0.6 remaining
+INFO 08-Mar-21 18:36:29.744 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:36:29.745 - Time difference between deliveries ::::2000
+INFO 08-Mar-21 18:36:29.746 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:36:29.747 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:36:29.750 - SentIPHB
+INFO 08-Mar-21 18:36:29.825 - Data in buffer
+INFO 08-Mar-21 18:36:29.928 - Data added to parser queue
+INFO 08-Mar-21 18:36:29.929 - Parsed:HB
+
+INFO 08-Mar-21 18:36:29.930 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:36:29.930 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:36:29.930 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:36:29.934 - SentIPIN
+INFO 08-Mar-21 18:36:29.987 - Data in buffer
+INFO 08-Mar-21 18:36:29.988 - Data added to parser queue
+INFO 08-Mar-21 18:36:29.989 - Parsed:IN359.65
+
+INFO 08-Mar-21 18:36:29.989 - Logic queue recieved: IN359.65
+
+WARNING 08-Mar-21 18:36:29.990 - Resetting bolus delivery timer,0.55 remaining
+INFO 08-Mar-21 18:36:31.745 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:36:31.746 - Time difference between deliveries ::::2000
+INFO 08-Mar-21 18:36:31.747 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:36:31.747 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:36:31.750 - SentIPHB
+INFO 08-Mar-21 18:36:31.831 - Data in buffer
+INFO 08-Mar-21 18:36:31.831 - Data added to parser queue
+INFO 08-Mar-21 18:36:31.831 - Parsed:HB
+
+INFO 08-Mar-21 18:36:31.832 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:36:31.832 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:36:31.834 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:36:31.836 - SentIPIN
+INFO 08-Mar-21 18:36:31.906 - Data in buffer
+INFO 08-Mar-21 18:36:31.906 - Data added to parser queue
+INFO 08-Mar-21 18:36:31.906 - Parsed:IN359.65
+
+INFO 08-Mar-21 18:36:31.906 - Logic queue recieved: IN359.65
+
+WARNING 08-Mar-21 18:36:31.907 - Resetting bolus delivery timer,0.5 remaining
+INFO 08-Mar-21 18:36:33.744 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:36:33.745 - Time difference between deliveries ::::2000
+INFO 08-Mar-21 18:36:33.745 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:36:33.747 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:36:33.751 - SentIPHB
+INFO 08-Mar-21 18:36:33.826 - Data in buffer
+INFO 08-Mar-21 18:36:33.826 - Data added to parser queue
+INFO 08-Mar-21 18:36:33.826 - Parsed:HB
+
+INFO 08-Mar-21 18:36:33.827 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:36:33.829 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:36:33.829 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:36:33.832 - SentIPIN
+INFO 08-Mar-21 18:36:33.906 - Data in buffer
+INFO 08-Mar-21 18:36:34.007 - Data added to parser queue
+INFO 08-Mar-21 18:36:34.008 - Parsed:IN359.65
+
+INFO 08-Mar-21 18:36:34.011 - Logic queue recieved: IN359.65
+
+WARNING 08-Mar-21 18:36:34.012 - Resetting bolus delivery timer,0.45 remaining
+INFO 08-Mar-21 18:36:35.746 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:36:35.747 - Time difference between deliveries ::::2002
+INFO 08-Mar-21 18:36:35.748 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:36:35.749 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:36:35.751 - SentIPHB
+INFO 08-Mar-21 18:36:35.826 - Data in buffer
+INFO 08-Mar-21 18:36:35.928 - Data added to parser queue
+INFO 08-Mar-21 18:36:35.928 - Parsed:HB
+
+INFO 08-Mar-21 18:36:35.931 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:36:35.932 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:36:35.932 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:36:35.935 - SentIPIN
+INFO 08-Mar-21 18:36:35.985 - Data in buffer
+INFO 08-Mar-21 18:36:36.088 - Data added to parser queue
+INFO 08-Mar-21 18:36:36.088 - Parsed:IN359.65
+
+INFO 08-Mar-21 18:36:36.091 - Logic queue recieved: IN359.65
+
+WARNING 08-Mar-21 18:36:36.092 - Resetting bolus delivery timer,0.4 remaining
+INFO 08-Mar-21 18:36:37.747 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:36:37.749 - Time difference between deliveries ::::2001
+INFO 08-Mar-21 18:36:37.749 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:36:37.750 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:36:37.753 - SentIPHB
+INFO 08-Mar-21 18:36:37.826 - Data in buffer
+INFO 08-Mar-21 18:36:37.826 - Data added to parser queue
+INFO 08-Mar-21 18:36:37.827 - Parsed:HB
+
+INFO 08-Mar-21 18:36:37.828 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:36:37.828 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:36:37.829 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:36:37.833 - SentIPIN
+INFO 08-Mar-21 18:36:37.905 - Data in buffer
+INFO 08-Mar-21 18:36:37.905 - Data added to parser queue
+INFO 08-Mar-21 18:36:37.905 - Parsed:IN359.65
+
+INFO 08-Mar-21 18:36:37.906 - Logic queue recieved: IN359.65
+
+WARNING 08-Mar-21 18:36:37.908 - Resetting bolus delivery timer,0.35 remaining
+INFO 08-Mar-21 18:36:39.747 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:36:39.747 - Time difference between deliveries ::::1999
+INFO 08-Mar-21 18:36:39.748 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:36:39.749 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:36:39.753 - SentIPHB
+INFO 08-Mar-21 18:36:39.825 - Data in buffer
+INFO 08-Mar-21 18:36:39.825 - Data added to parser queue
+INFO 08-Mar-21 18:36:39.825 - Parsed:HB
+
+INFO 08-Mar-21 18:36:39.825 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:36:39.825 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:36:39.827 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:36:39.829 - SentIPIN
+INFO 08-Mar-21 18:36:39.905 - Data in buffer
+INFO 08-Mar-21 18:36:39.906 - Data added to parser queue
+INFO 08-Mar-21 18:36:39.906 - Parsed:IN359.65
+
+INFO 08-Mar-21 18:36:39.906 - Logic queue recieved: IN359.65
+
+WARNING 08-Mar-21 18:36:39.907 - Resetting bolus delivery timer,0.3 remaining
+INFO 08-Mar-21 18:36:41.746 - Time difference between deliveries ::::2000
+INFO 08-Mar-21 18:36:41.747 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:36:41.748 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:36:41.748 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:36:41.753 - SentIPHB
+INFO 08-Mar-21 18:36:41.825 - Data in buffer
+INFO 08-Mar-21 18:36:41.825 - Data added to parser queue
+INFO 08-Mar-21 18:36:41.825 - Parsed:HB
+
+INFO 08-Mar-21 18:36:41.825 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:36:41.826 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:36:41.826 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:36:41.830 - SentIPIN
+INFO 08-Mar-21 18:36:41.906 - Data in buffer
+INFO 08-Mar-21 18:36:42.008 - Data added to parser queue
+INFO 08-Mar-21 18:36:42.008 - Parsed:IN359.65
+
+INFO 08-Mar-21 18:36:42.010 - Logic queue recieved: IN359.65
+
+WARNING 08-Mar-21 18:36:42.011 - Resetting bolus delivery timer,0.25 remaining
+INFO 08-Mar-21 18:36:43.746 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:36:43.749 - Time difference between deliveries ::::2000
+INFO 08-Mar-21 18:36:43.750 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:36:43.750 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:36:43.753 - SentIPHB
+INFO 08-Mar-21 18:36:43.826 - Data in buffer
+INFO 08-Mar-21 18:36:43.928 - Data added to parser queue
+INFO 08-Mar-21 18:36:43.929 - Parsed:HB
+
+INFO 08-Mar-21 18:36:43.931 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:36:43.932 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:36:43.933 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:36:43.936 - SentIPIN
+INFO 08-Mar-21 18:36:43.985 - Data in buffer
+INFO 08-Mar-21 18:36:44.088 - Data added to parser queue
+INFO 08-Mar-21 18:36:44.088 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:36:44.090 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:36:44.091 - Resetting bolus delivery timer,0.2 remaining
+INFO 08-Mar-21 18:36:45.746 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:36:45.747 - Time difference between deliveries ::::2000
+INFO 08-Mar-21 18:36:45.747 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:36:45.749 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:36:45.752 - SentIPHB
+INFO 08-Mar-21 18:36:45.826 - Data in buffer
+INFO 08-Mar-21 18:36:45.826 - Data added to parser queue
+INFO 08-Mar-21 18:36:45.826 - Parsed:HB
+
+INFO 08-Mar-21 18:36:45.826 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:36:45.826 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:36:45.827 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:36:45.831 - SentIPIN
+INFO 08-Mar-21 18:36:45.912 - Data in buffer
+INFO 08-Mar-21 18:36:45.912 - Data added to parser queue
+INFO 08-Mar-21 18:36:45.912 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:36:45.914 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:36:45.914 - Resetting bolus delivery timer,0.15 remaining
+INFO 08-Mar-21 18:36:47.746 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:36:47.747 - Time difference between deliveries ::::2001
+INFO 08-Mar-21 18:36:47.748 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:36:47.749 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:36:47.752 - SentIPHB
+INFO 08-Mar-21 18:36:47.864 - Data in buffer
+INFO 08-Mar-21 18:36:47.865 - Data added to parser queue
+INFO 08-Mar-21 18:36:47.865 - Parsed:HB
+
+INFO 08-Mar-21 18:36:47.865 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:36:47.865 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:36:47.866 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:36:47.868 - SentIPIN
+INFO 08-Mar-21 18:36:47.946 - Data in buffer
+INFO 08-Mar-21 18:36:47.946 - Data added to parser queue
+INFO 08-Mar-21 18:36:47.948 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:36:47.948 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:36:47.948 - Resetting bolus delivery timer,0.1 remaining
+INFO 08-Mar-21 18:36:49.747 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:36:49.748 - Time difference between deliveries ::::2000
+INFO 08-Mar-21 18:36:49.749 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:36:49.749 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:36:49.753 - SentIPHB
+INFO 08-Mar-21 18:36:49.825 - Data in buffer
+INFO 08-Mar-21 18:36:49.826 - Data added to parser queue
+INFO 08-Mar-21 18:36:49.827 - Parsed:HB
+
+INFO 08-Mar-21 18:36:49.827 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:36:49.828 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:36:49.828 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:36:49.829 - SentIPIN
+INFO 08-Mar-21 18:36:49.906 - Data in buffer
+INFO 08-Mar-21 18:36:49.907 - Data added to parser queue
+INFO 08-Mar-21 18:36:49.909 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:36:49.910 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:36:49.912 - Resetting bolus delivery timer,0.05 remaining
+INFO 08-Mar-21 18:36:51.748 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:36:51.749 - Time difference between deliveries ::::2001
+INFO 08-Mar-21 18:36:51.749 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:36:51.750 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:36:51.753 - SentIPHB
+INFO 08-Mar-21 18:36:51.824 - Data in buffer
+INFO 08-Mar-21 18:36:51.825 - Data added to parser queue
+INFO 08-Mar-21 18:36:51.825 - Parsed:HB
+
+INFO 08-Mar-21 18:36:51.825 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:36:51.826 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:36:51.826 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:36:51.830 - SentIPIN
+INFO 08-Mar-21 18:36:51.906 - Data in buffer
+INFO 08-Mar-21 18:36:51.907 - Data added to parser queue
+INFO 08-Mar-21 18:36:51.907 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:36:51.908 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:36:51.910 - Resetting bolus delivery timer,0.0 remaining
+INFO 08-Mar-21 18:36:53.749 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:36:53.749 - Time difference between deliveries ::::2001
+INFO 08-Mar-21 18:36:53.750 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:36:53.751 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:36:53.754 - SentIPHB
+INFO 08-Mar-21 18:36:53.872 - Data in buffer
+INFO 08-Mar-21 18:36:53.872 - Data added to parser queue
+INFO 08-Mar-21 18:36:53.873 - Parsed:HB
+
+INFO 08-Mar-21 18:36:53.873 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:36:53.874 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:36:53.875 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:36:53.878 - SentIPIN
+INFO 08-Mar-21 18:36:53.944 - Data in buffer
+INFO 08-Mar-21 18:36:53.945 - Data added to parser queue
+INFO 08-Mar-21 18:36:53.945 - Parsed:IN359.65
+
+INFO 08-Mar-21 18:36:53.945 - Logic queue recieved: IN359.65
+
+WARNING 08-Mar-21 18:36:53.945 - Completed Bolus Delivery
+INFO 08-Mar-21 18:36:56.046 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:36:56.048 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:36:56.052 - SentIPHB
+INFO 08-Mar-21 18:36:56.104 - Data in buffer
+INFO 08-Mar-21 18:36:56.105 - Data added to parser queue
+INFO 08-Mar-21 18:36:56.105 - Parsed:HB
+
+INFO 08-Mar-21 18:36:56.106 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:36:58.128 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:36:58.129 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:36:58.132 - SentIPHB
+INFO 08-Mar-21 18:36:58.185 - Data in buffer
+INFO 08-Mar-21 18:36:58.185 - Data added to parser queue
+INFO 08-Mar-21 18:36:58.185 - Parsed:HB
+
+INFO 08-Mar-21 18:36:58.186 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:37:00.128 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:37:00.129 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:37:00.132 - SentIPHB
+INFO 08-Mar-21 18:37:00.185 - Data in buffer
+INFO 08-Mar-21 18:37:00.185 - Data added to parser queue
+INFO 08-Mar-21 18:37:00.185 - Parsed:HB
+
+INFO 08-Mar-21 18:37:00.186 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:37:02.127 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:37:02.128 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:37:02.131 - SentIPHB
+INFO 08-Mar-21 18:37:02.185 - Data in buffer
+INFO 08-Mar-21 18:37:02.186 - Data added to parser queue
+INFO 08-Mar-21 18:37:02.186 - Parsed:HB
+
+INFO 08-Mar-21 18:37:02.187 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:37:04.127 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:37:04.128 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:37:04.133 - SentIPHB
+INFO 08-Mar-21 18:37:04.185 - Data in buffer
+INFO 08-Mar-21 18:37:04.188 - Data added to parser queue
+INFO 08-Mar-21 18:37:04.188 - Parsed:HB
+
+INFO 08-Mar-21 18:37:04.189 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:37:06.128 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:37:06.129 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:37:06.134 - SentIPHB
+INFO 08-Mar-21 18:37:06.185 - Data in buffer
+INFO 08-Mar-21 18:37:06.287 - Data added to parser queue
+INFO 08-Mar-21 18:37:06.287 - Parsed:HB
+
+INFO 08-Mar-21 18:37:06.291 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:37:08.192 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:37:08.192 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:37:08.197 - SentIPHB
+INFO 08-Mar-21 18:37:08.271 - Data in buffer
+INFO 08-Mar-21 18:37:08.271 - Data added to parser queue
+INFO 08-Mar-21 18:37:08.272 - Parsed:HB
+
+INFO 08-Mar-21 18:37:08.272 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:37:10.172 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:37:10.174 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:37:10.178 - SentIPHB
+INFO 08-Mar-21 18:37:10.224 - Data in buffer
+INFO 08-Mar-21 18:37:10.225 - Data added to parser queue
+INFO 08-Mar-21 18:37:10.225 - Parsed:HB
+
+INFO 08-Mar-21 18:37:10.225 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:37:12.129 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:37:12.129 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:37:12.135 - SentIPHB
+INFO 08-Mar-21 18:37:12.185 - Data in buffer
+INFO 08-Mar-21 18:37:12.287 - Data added to parser queue
+INFO 08-Mar-21 18:37:12.288 - Parsed:HB
+
+INFO 08-Mar-21 18:37:12.292 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:37:14.193 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:37:14.194 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:37:14.197 - SentIPHB
+INFO 08-Mar-21 18:37:14.265 - Data in buffer
+INFO 08-Mar-21 18:37:14.265 - Data added to parser queue
+INFO 08-Mar-21 18:37:14.265 - Parsed:HB
+
+INFO 08-Mar-21 18:37:14.266 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:37:16.167 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:37:16.168 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:37:16.171 - SentIPHB
+INFO 08-Mar-21 18:37:16.225 - Data in buffer
+INFO 08-Mar-21 18:37:16.225 - Data added to parser queue
+INFO 08-Mar-21 18:37:16.225 - Parsed:HB
+
+INFO 08-Mar-21 18:37:16.227 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:37:18.128 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:37:18.129 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:37:18.132 - SentIPHB
+INFO 08-Mar-21 18:37:18.184 - Data in buffer
+INFO 08-Mar-21 18:37:18.184 - Data added to parser queue
+INFO 08-Mar-21 18:37:18.184 - Parsed:HB
+
+INFO 08-Mar-21 18:37:18.185 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:37:20.128 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:37:20.129 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:37:20.132 - SentIPHB
+INFO 08-Mar-21 18:37:20.184 - Data in buffer
+INFO 08-Mar-21 18:37:20.185 - Data added to parser queue
+INFO 08-Mar-21 18:37:20.185 - Parsed:HB
+
+INFO 08-Mar-21 18:37:20.185 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:37:22.128 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:37:22.131 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:37:22.134 - SentIPHB
+INFO 08-Mar-21 18:37:22.184 - Data in buffer
+INFO 08-Mar-21 18:37:22.185 - Data added to parser queue
+INFO 08-Mar-21 18:37:22.185 - Parsed:HB
+
+INFO 08-Mar-21 18:37:22.186 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:37:24.128 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:37:24.129 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:37:24.133 - SentIPHB
+INFO 08-Mar-21 18:37:24.185 - Data in buffer
+INFO 08-Mar-21 18:37:24.185 - Data added to parser queue
+INFO 08-Mar-21 18:37:24.185 - Parsed:HB
+
+INFO 08-Mar-21 18:37:24.186 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:37:26.128 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:37:26.132 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:37:26.134 - SentIPHB
+INFO 08-Mar-21 18:37:26.185 - Data in buffer
+INFO 08-Mar-21 18:37:26.286 - Data added to parser queue
+INFO 08-Mar-21 18:37:26.287 - Parsed:HB
+
+INFO 08-Mar-21 18:37:26.288 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:37:28.190 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:37:28.191 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:37:28.195 - SentIPHB
+INFO 08-Mar-21 18:37:28.264 - Data in buffer
+INFO 08-Mar-21 18:37:28.265 - Data added to parser queue
+INFO 08-Mar-21 18:37:28.265 - Parsed:HB
+
+INFO 08-Mar-21 18:37:28.265 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:37:30.165 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:37:30.167 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:37:30.170 - SentIPHB
+INFO 08-Mar-21 18:37:30.224 - Data in buffer
+INFO 08-Mar-21 18:37:30.224 - Data added to parser queue
+INFO 08-Mar-21 18:37:30.224 - Parsed:HB
+
+INFO 08-Mar-21 18:37:30.225 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:37:32.128 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:37:32.129 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:37:32.132 - SentIPHB
+INFO 08-Mar-21 18:37:32.190 - Data in buffer
+INFO 08-Mar-21 18:37:32.191 - Data added to parser queue
+INFO 08-Mar-21 18:37:32.191 - Parsed:HB
+
+INFO 08-Mar-21 18:37:32.191 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:37:34.128 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:37:34.129 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:37:34.133 - SentIPHB
+INFO 08-Mar-21 18:37:34.184 - Data in buffer
+INFO 08-Mar-21 18:37:34.184 - Data added to parser queue
+INFO 08-Mar-21 18:37:34.185 - Parsed:HB
+
+INFO 08-Mar-21 18:37:34.185 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:37:36.128 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:37:36.129 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:37:36.132 - SentIPHB
+INFO 08-Mar-21 18:37:36.186 - Data in buffer
+INFO 08-Mar-21 18:37:36.187 - Data added to parser queue
+INFO 08-Mar-21 18:37:36.187 - Parsed:HB
+
+INFO 08-Mar-21 18:37:36.188 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:37:38.128 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:37:38.129 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:37:38.132 - SentIPHB
+INFO 08-Mar-21 18:37:38.184 - Data in buffer
+INFO 08-Mar-21 18:37:38.185 - Data added to parser queue
+INFO 08-Mar-21 18:37:38.185 - Parsed:HB
+
+INFO 08-Mar-21 18:37:38.186 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:37:40.129 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:37:40.130 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:37:40.132 - SentIPHB
+INFO 08-Mar-21 18:37:40.184 - Data in buffer
+INFO 08-Mar-21 18:37:40.286 - Data added to parser queue
+INFO 08-Mar-21 18:37:40.287 - Parsed:HB
+
+INFO 08-Mar-21 18:37:40.290 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:37:42.191 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:37:42.192 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:37:42.195 - SentIPHB
+INFO 08-Mar-21 18:37:42.264 - Data in buffer
+INFO 08-Mar-21 18:37:42.264 - Data added to parser queue
+INFO 08-Mar-21 18:37:42.265 - Parsed:HB
+
+INFO 08-Mar-21 18:37:42.265 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:37:44.165 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:37:44.168 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:37:44.171 - SentIPHB
+INFO 08-Mar-21 18:37:44.224 - Data in buffer
+INFO 08-Mar-21 18:37:44.224 - Data added to parser queue
+INFO 08-Mar-21 18:37:44.224 - Parsed:HB
+
+INFO 08-Mar-21 18:37:44.225 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:37:46.127 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:37:46.129 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:37:46.133 - SentIPHB
+INFO 08-Mar-21 18:37:46.184 - Data in buffer
+INFO 08-Mar-21 18:37:46.184 - Data added to parser queue
+INFO 08-Mar-21 18:37:46.184 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:37:46.185 - Parsed:HB
+
+INFO 08-Mar-21 18:37:48.128 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:37:48.129 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:37:48.133 - SentIPHB
+INFO 08-Mar-21 18:37:48.184 - Data in buffer
+INFO 08-Mar-21 18:37:48.184 - Data added to parser queue
+INFO 08-Mar-21 18:37:48.185 - Parsed:HB
+
+INFO 08-Mar-21 18:37:48.185 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:37:50.128 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:37:50.130 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:37:50.132 - SentIPHB
+INFO 08-Mar-21 18:37:50.185 - Data in buffer
+INFO 08-Mar-21 18:37:50.185 - Data added to parser queue
+INFO 08-Mar-21 18:37:50.186 - Parsed:HB
+
+INFO 08-Mar-21 18:37:50.187 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:37:52.128 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:37:52.130 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:37:52.134 - SentIPHB
+INFO 08-Mar-21 18:37:52.191 - Data in buffer
+INFO 08-Mar-21 18:37:52.191 - Data added to parser queue
+INFO 08-Mar-21 18:37:52.192 - Parsed:HB
+
+INFO 08-Mar-21 18:37:52.192 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:37:54.128 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:37:54.130 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:37:54.133 - SentIPHB
+INFO 08-Mar-21 18:37:54.184 - Data in buffer
+INFO 08-Mar-21 18:37:54.185 - Data added to parser queue
+INFO 08-Mar-21 18:37:54.185 - Parsed:HB
+
+INFO 08-Mar-21 18:37:54.186 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:37:56.128 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:37:56.128 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:37:56.131 - SentIPHB
+INFO 08-Mar-21 18:37:56.184 - Data in buffer
+INFO 08-Mar-21 18:37:56.186 - Data added to parser queue
+INFO 08-Mar-21 18:37:56.186 - Parsed:HB
+
+INFO 08-Mar-21 18:37:56.187 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:37:58.128 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:37:58.129 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:37:58.132 - SentIPHB
+INFO 08-Mar-21 18:37:58.183 - Data in buffer
+INFO 08-Mar-21 18:37:58.183 - Data added to parser queue
+INFO 08-Mar-21 18:37:58.184 - Parsed:HB
+
+INFO 08-Mar-21 18:37:58.184 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:38:00.128 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:38:00.129 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:38:00.132 - SentIPHB
+INFO 08-Mar-21 18:38:00.183 - Data in buffer
+INFO 08-Mar-21 18:38:00.184 - Data added to parser queue
+INFO 08-Mar-21 18:38:00.184 - Parsed:HB
+
+INFO 08-Mar-21 18:38:00.184 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:38:02.129 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:38:02.130 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:38:02.134 - SentIPHB
+INFO 08-Mar-21 18:38:02.183 - Data in buffer
+INFO 08-Mar-21 18:38:02.184 - Data added to parser queue
+INFO 08-Mar-21 18:38:02.185 - Parsed:HB
+
+INFO 08-Mar-21 18:38:02.186 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:38:04.127 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:38:04.129 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:38:04.132 - SentIPHB
+INFO 08-Mar-21 18:38:04.184 - Data in buffer
+INFO 08-Mar-21 18:38:04.184 - Data added to parser queue
+INFO 08-Mar-21 18:38:04.184 - Parsed:HB
+
+INFO 08-Mar-21 18:38:04.185 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:38:06.128 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:38:06.129 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:38:06.134 - SentIPHB
+INFO 08-Mar-21 18:38:06.184 - Data in buffer
+INFO 08-Mar-21 18:38:06.184 - Data added to parser queue
+INFO 08-Mar-21 18:38:06.185 - Parsed:HB
+
+INFO 08-Mar-21 18:38:06.185 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:38:08.128 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:38:08.129 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:38:08.133 - SentIPHB
+INFO 08-Mar-21 18:38:08.185 - Data in buffer
+INFO 08-Mar-21 18:38:08.185 - Data added to parser queue
+INFO 08-Mar-21 18:38:08.185 - Parsed:HB
+
+INFO 08-Mar-21 18:38:08.186 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:38:10.128 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:38:10.129 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:38:10.133 - SentIPHB
+INFO 08-Mar-21 18:38:10.190 - Data in buffer
+INFO 08-Mar-21 18:38:10.190 - Data added to parser queue
+INFO 08-Mar-21 18:38:10.191 - Parsed:HB
+
+INFO 08-Mar-21 18:38:10.192 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:38:12.129 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:38:12.129 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:38:12.133 - SentIPHB
+INFO 08-Mar-21 18:38:12.184 - Data in buffer
+INFO 08-Mar-21 18:38:12.184 - Data added to parser queue
+INFO 08-Mar-21 18:38:12.184 - Parsed:HB
+
+INFO 08-Mar-21 18:38:12.184 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:38:14.128 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:38:14.129 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:38:14.133 - SentIPHB
+INFO 08-Mar-21 18:38:14.183 - Data in buffer
+INFO 08-Mar-21 18:38:14.183 - Data added to parser queue
+INFO 08-Mar-21 18:38:14.183 - Parsed:HB
+
+INFO 08-Mar-21 18:38:14.184 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:38:16.128 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:38:16.130 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:38:16.133 - SentIPHB
+INFO 08-Mar-21 18:38:16.183 - Data in buffer
+INFO 08-Mar-21 18:38:16.184 - Data added to parser queue
+INFO 08-Mar-21 18:38:16.184 - Parsed:HB
+
+INFO 08-Mar-21 18:38:16.185 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:38:18.128 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:38:18.128 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:38:18.132 - SentIPHB
+INFO 08-Mar-21 18:38:18.183 - Data in buffer
+INFO 08-Mar-21 18:38:18.184 - Data added to parser queue
+INFO 08-Mar-21 18:38:18.184 - Parsed:HB
+
+INFO 08-Mar-21 18:38:18.184 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:38:20.128 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:38:20.129 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:38:20.133 - SentIPHB
+INFO 08-Mar-21 18:38:20.183 - Data in buffer
+INFO 08-Mar-21 18:38:20.183 - Data added to parser queue
+INFO 08-Mar-21 18:38:20.184 - Parsed:HB
+
+INFO 08-Mar-21 18:38:20.186 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:38:22.129 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:38:22.129 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:38:22.133 - SentIPHB
+INFO 08-Mar-21 18:38:22.184 - Data in buffer
+INFO 08-Mar-21 18:38:22.287 - Data added to parser queue
+INFO 08-Mar-21 18:38:22.288 - Parsed:HB
+
+INFO 08-Mar-21 18:38:22.291 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:38:24.192 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:38:24.193 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:38:24.197 - SentIPHB
+INFO 08-Mar-21 18:38:24.263 - Data in buffer
+INFO 08-Mar-21 18:38:24.264 - Data added to parser queue
+INFO 08-Mar-21 18:38:24.264 - Parsed:HB
+
+INFO 08-Mar-21 18:38:24.264 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:38:26.165 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:38:26.166 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:38:26.168 - SentIPHB
+INFO 08-Mar-21 18:38:26.224 - Data in buffer
+INFO 08-Mar-21 18:38:26.224 - Data added to parser queue
+INFO 08-Mar-21 18:38:26.224 - Parsed:HB
+
+INFO 08-Mar-21 18:38:26.225 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:38:28.128 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:38:28.129 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:38:28.133 - SentIPHB
+INFO 08-Mar-21 18:38:28.184 - Data in buffer
+INFO 08-Mar-21 18:38:28.184 - Data added to parser queue
+INFO 08-Mar-21 18:38:28.184 - Parsed:HB
+
+INFO 08-Mar-21 18:38:28.185 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:38:30.128 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:38:30.128 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:38:30.132 - SentIPHB
+INFO 08-Mar-21 18:38:30.184 - Data in buffer
+INFO 08-Mar-21 18:38:30.184 - Data added to parser queue
+INFO 08-Mar-21 18:38:30.184 - Parsed:HB
+
+INFO 08-Mar-21 18:38:30.185 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:38:32.127 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:38:32.129 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:38:32.132 - SentIPHB
+INFO 08-Mar-21 18:38:32.183 - Data in buffer
+INFO 08-Mar-21 18:38:32.185 - Data added to parser queue
+INFO 08-Mar-21 18:38:32.186 - Parsed:HB
+
+INFO 08-Mar-21 18:38:32.187 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:38:34.128 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:38:34.129 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:38:34.132 - SentIPHB
+INFO 08-Mar-21 18:38:34.183 - Data in buffer
+INFO 08-Mar-21 18:38:34.183 - Data added to parser queue
+INFO 08-Mar-21 18:38:34.183 - Parsed:HB
+
+INFO 08-Mar-21 18:38:34.184 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:38:36.127 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:38:36.128 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:38:36.132 - SentIPHB
+INFO 08-Mar-21 18:38:36.184 - Data in buffer
+INFO 08-Mar-21 18:38:36.286 - Data added to parser queue
+INFO 08-Mar-21 18:38:36.287 - Parsed:HB
+
+INFO 08-Mar-21 18:38:36.289 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:38:38.190 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:38:38.191 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:38:38.194 - SentIPHB
+INFO 08-Mar-21 18:38:38.263 - Data in buffer
+INFO 08-Mar-21 18:38:38.263 - Data added to parser queue
+INFO 08-Mar-21 18:38:38.263 - Parsed:HB
+
+INFO 08-Mar-21 18:38:38.264 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:38:40.164 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:38:40.167 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:38:40.169 - SentIPHB
+INFO 08-Mar-21 18:38:40.224 - Data in buffer
+INFO 08-Mar-21 18:38:40.224 - Data added to parser queue
+INFO 08-Mar-21 18:38:40.224 - Parsed:HB
+
+INFO 08-Mar-21 18:38:40.224 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:38:42.128 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:38:42.130 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:38:42.134 - SentIPHB
+INFO 08-Mar-21 18:38:42.183 - Data in buffer
+INFO 08-Mar-21 18:38:42.183 - Data added to parser queue
+INFO 08-Mar-21 18:38:42.183 - Parsed:HB
+
+INFO 08-Mar-21 18:38:42.184 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:38:44.128 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:38:44.133 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:38:44.134 - SentIPHB
+INFO 08-Mar-21 18:38:44.183 - Data in buffer
+INFO 08-Mar-21 18:38:44.183 - Data added to parser queue
+INFO 08-Mar-21 18:38:44.183 - Parsed:HB
+
+INFO 08-Mar-21 18:38:44.183 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:38:46.129 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:38:46.129 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:38:46.132 - SentIPHB
+INFO 08-Mar-21 18:38:46.183 - Data in buffer
+INFO 08-Mar-21 18:38:46.184 - Data added to parser queue
+INFO 08-Mar-21 18:38:46.184 - Parsed:HB
+
+INFO 08-Mar-21 18:38:46.184 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:38:48.128 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:38:48.131 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:38:48.132 - SentIPHB
+INFO 08-Mar-21 18:38:48.183 - Data in buffer
+INFO 08-Mar-21 18:38:48.183 - Data added to parser queue
+INFO 08-Mar-21 18:38:48.183 - Parsed:HB
+
+INFO 08-Mar-21 18:38:48.184 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:38:50.128 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:38:50.129 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:38:50.132 - SentIPHB
+INFO 08-Mar-21 18:38:50.183 - Data in buffer
+INFO 08-Mar-21 18:38:50.183 - Data added to parser queue
+INFO 08-Mar-21 18:38:50.183 - Parsed:HB
+
+INFO 08-Mar-21 18:38:50.184 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:38:52.127 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:38:52.129 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:38:52.133 - SentIPHB
+INFO 08-Mar-21 18:38:52.183 - Data in buffer
+INFO 08-Mar-21 18:38:52.183 - Data added to parser queue
+INFO 08-Mar-21 18:38:52.183 - Parsed:HB
+
+INFO 08-Mar-21 18:38:52.184 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:38:54.128 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:38:54.129 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:38:54.133 - SentIPHB
+INFO 08-Mar-21 18:38:54.182 - Data in buffer
+INFO 08-Mar-21 18:38:54.183 - Data added to parser queue
+INFO 08-Mar-21 18:38:54.183 - Parsed:HB
+
+INFO 08-Mar-21 18:38:54.183 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:38:56.128 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:38:56.129 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:38:56.136 - SentIPHB
+INFO 08-Mar-21 18:38:56.182 - Data in buffer
+INFO 08-Mar-21 18:38:56.183 - Data added to parser queue
+INFO 08-Mar-21 18:38:56.183 - Parsed:HB
+
+INFO 08-Mar-21 18:38:56.183 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:38:58.128 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:38:58.131 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:38:58.133 - SentIPHB
+INFO 08-Mar-21 18:38:58.182 - Data in buffer
+INFO 08-Mar-21 18:38:58.182 - Data added to parser queue
+INFO 08-Mar-21 18:38:58.182 - Parsed:HB
+
+INFO 08-Mar-21 18:38:58.183 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:39:00.128 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:39:00.129 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:39:00.132 - SentIPHB
+INFO 08-Mar-21 18:39:00.184 - Data in buffer
+INFO 08-Mar-21 18:39:00.284 - Data added to parser queue
+INFO 08-Mar-21 18:39:00.284 - Parsed:HB
+
+INFO 08-Mar-21 18:39:00.287 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:39:02.188 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:39:02.189 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:39:02.193 - SentIPHB
+INFO 08-Mar-21 18:39:02.263 - Data in buffer
+INFO 08-Mar-21 18:39:02.263 - Data added to parser queue
+INFO 08-Mar-21 18:39:02.263 - Parsed:HB
+
+INFO 08-Mar-21 18:39:02.264 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:39:04.164 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:39:04.166 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:39:04.170 - SentIPHB
+INFO 08-Mar-21 18:39:04.222 - Data in buffer
+INFO 08-Mar-21 18:39:04.326 - Data added to parser queue
+INFO 08-Mar-21 18:39:04.326 - Parsed:HB
+
+INFO 08-Mar-21 18:39:04.326 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:39:06.226 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:39:06.228 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:39:06.230 - SentIPHB
+INFO 08-Mar-21 18:39:06.302 - Data in buffer
+INFO 08-Mar-21 18:39:06.303 - Data added to parser queue
+INFO 08-Mar-21 18:39:06.304 - Parsed:HB
+
+INFO 08-Mar-21 18:39:06.304 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:39:08.203 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:39:08.204 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:39:08.209 - SentIPHB
+INFO 08-Mar-21 18:39:08.263 - Data in buffer
+INFO 08-Mar-21 18:39:08.365 - Data added to parser queue
+INFO 08-Mar-21 18:39:08.366 - Parsed:HB
+
+INFO 08-Mar-21 18:39:08.367 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:39:10.267 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:39:10.268 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:39:10.271 - SentIPHB
+INFO 08-Mar-21 18:39:10.343 - Data in buffer
+INFO 08-Mar-21 18:39:10.343 - Data added to parser queue
+INFO 08-Mar-21 18:39:10.344 - Parsed:HB
+
+INFO 08-Mar-21 18:39:10.345 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:39:12.244 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:39:12.245 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:39:12.249 - SentIPHB
+INFO 08-Mar-21 18:39:12.302 - Data in buffer
+INFO 08-Mar-21 18:39:12.303 - Data added to parser queue
+INFO 08-Mar-21 18:39:12.303 - Parsed:HB
+
+INFO 08-Mar-21 18:39:12.304 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:39:14.204 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:39:14.205 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:39:14.210 - SentIPHB
+INFO 08-Mar-21 18:39:14.264 - Data in buffer
+INFO 08-Mar-21 18:39:14.267 - Data added to parser queue
+INFO 08-Mar-21 18:39:14.268 - Parsed:HB
+
+INFO 08-Mar-21 18:39:14.269 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:39:16.168 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:39:16.169 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:39:16.171 - SentIPHB
+INFO 08-Mar-21 18:39:16.222 - Data in buffer
+INFO 08-Mar-21 18:39:16.222 - Data added to parser queue
+INFO 08-Mar-21 18:39:16.223 - Parsed:HB
+
+INFO 08-Mar-21 18:39:16.223 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:39:18.128 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:39:18.129 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:39:18.133 - SentIPHB
+INFO 08-Mar-21 18:39:18.183 - Data in buffer
+INFO 08-Mar-21 18:39:18.284 - Data added to parser queue
+INFO 08-Mar-21 18:39:18.284 - Parsed:HB
+
+INFO 08-Mar-21 18:39:18.287 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:39:20.187 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:39:20.188 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:39:20.191 - SentIPHB
+INFO 08-Mar-21 18:39:20.262 - Data in buffer
+INFO 08-Mar-21 18:39:20.363 - Data added to parser queue
+INFO 08-Mar-21 18:39:20.364 - Parsed:HB
+
+INFO 08-Mar-21 18:39:20.365 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:39:22.265 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:39:22.266 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:39:22.268 - SentIPHB
+INFO 08-Mar-21 18:39:22.343 - Data in buffer
+INFO 08-Mar-21 18:39:22.343 - Data added to parser queue
+INFO 08-Mar-21 18:39:22.344 - Parsed:HB
+
+INFO 08-Mar-21 18:39:22.344 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:39:24.243 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:39:24.244 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:39:24.246 - SentIPHB
+INFO 08-Mar-21 18:39:24.302 - Data in buffer
+INFO 08-Mar-21 18:39:24.302 - Data added to parser queue
+INFO 08-Mar-21 18:39:24.302 - Parsed:HB
+
+INFO 08-Mar-21 18:39:24.303 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:39:26.203 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:39:26.204 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:39:26.209 - SentIPHB
+INFO 08-Mar-21 18:39:26.262 - Data in buffer
+INFO 08-Mar-21 18:39:26.364 - Data added to parser queue
+INFO 08-Mar-21 18:39:26.364 - Parsed:HB
+
+INFO 08-Mar-21 18:39:26.366 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:39:28.267 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:39:28.268 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:39:28.271 - SentIPHB
+INFO 08-Mar-21 18:39:28.342 - Data in buffer
+INFO 08-Mar-21 18:39:28.342 - Data added to parser queue
+INFO 08-Mar-21 18:39:28.343 - Parsed:HB
+
+INFO 08-Mar-21 18:39:28.344 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:39:30.244 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:39:30.245 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:39:30.248 - SentIPHB
+INFO 08-Mar-21 18:39:30.310 - Data in buffer
+INFO 08-Mar-21 18:39:30.310 - Data added to parser queue
+INFO 08-Mar-21 18:39:30.310 - Parsed:HB
+
+INFO 08-Mar-21 18:39:30.311 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:39:32.211 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:39:32.212 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:39:32.216 - SentIPHB
+INFO 08-Mar-21 18:39:32.262 - Data in buffer
+INFO 08-Mar-21 18:39:32.262 - Data added to parser queue
+INFO 08-Mar-21 18:39:32.263 - Parsed:HB
+
+INFO 08-Mar-21 18:39:32.264 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:39:34.163 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:39:34.165 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:39:34.167 - SentIPHB
+INFO 08-Mar-21 18:39:34.222 - Data in buffer
+INFO 08-Mar-21 18:39:34.222 - Data added to parser queue
+INFO 08-Mar-21 18:39:34.222 - Parsed:HB
+
+INFO 08-Mar-21 18:39:34.223 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:39:36.128 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:39:36.667 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:39:36.668 - SentIPHB
+INFO 08-Mar-21 18:39:36.668 - Data in buffer
+INFO 08-Mar-21 18:39:36.668 - Data added to parser queue
+INFO 08-Mar-21 18:39:36.669 - Parsed:HB
+
+INFO 08-Mar-21 18:39:36.670 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:39:38.128 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:39:38.129 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:39:38.131 - SentIPHB
+INFO 08-Mar-21 18:39:38.183 - Data in buffer
+INFO 08-Mar-21 18:39:38.183 - Data added to parser queue
+INFO 08-Mar-21 18:39:38.183 - Parsed:HB
+
+INFO 08-Mar-21 18:39:38.184 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:39:40.128 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:39:40.129 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:39:40.135 - SentIPHB
+INFO 08-Mar-21 18:39:40.182 - Data in buffer
+INFO 08-Mar-21 18:39:40.182 - Data added to parser queue
+INFO 08-Mar-21 18:39:40.182 - Parsed:HB
+
+INFO 08-Mar-21 18:39:40.183 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:39:42.128 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:39:42.129 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:39:42.132 - SentIPHB
+INFO 08-Mar-21 18:39:42.182 - Data in buffer
+INFO 08-Mar-21 18:39:42.182 - Data added to parser queue
+INFO 08-Mar-21 18:39:42.182 - Parsed:HB
+
+INFO 08-Mar-21 18:39:42.182 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:39:44.128 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:39:44.129 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:39:44.133 - SentIPHB
+INFO 08-Mar-21 18:39:44.189 - Data in buffer
+INFO 08-Mar-21 18:39:44.189 - Data added to parser queue
+INFO 08-Mar-21 18:39:44.190 - Parsed:HB
+
+INFO 08-Mar-21 18:39:44.190 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:39:46.128 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:39:46.130 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:39:46.133 - SentIPHB
+INFO 08-Mar-21 18:39:46.182 - Data in buffer
+INFO 08-Mar-21 18:39:46.182 - Data added to parser queue
+INFO 08-Mar-21 18:39:46.183 - Parsed:HB
+
+INFO 08-Mar-21 18:39:46.184 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:39:48.128 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:39:48.130 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:39:48.133 - SentIPHB
+INFO 08-Mar-21 18:39:48.182 - Data in buffer
+INFO 08-Mar-21 18:39:48.182 - Data added to parser queue
+INFO 08-Mar-21 18:39:48.182 - Parsed:HB
+
+INFO 08-Mar-21 18:39:48.183 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:39:50.128 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:39:50.130 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:39:50.133 - SentIPHB
+INFO 08-Mar-21 18:39:50.182 - Data in buffer
+INFO 08-Mar-21 18:39:50.182 - Data added to parser queue
+INFO 08-Mar-21 18:39:50.182 - Parsed:HB
+
+INFO 08-Mar-21 18:39:50.183 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:39:52.128 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:39:52.128 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:39:52.132 - SentIPHB
+INFO 08-Mar-21 18:39:52.182 - Data in buffer
+INFO 08-Mar-21 18:39:52.182 - Data added to parser queue
+INFO 08-Mar-21 18:39:52.182 - Parsed:HB
+
+INFO 08-Mar-21 18:39:52.183 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:39:54.127 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:39:54.129 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:39:54.131 - SentIPHB
+INFO 08-Mar-21 18:39:54.181 - Data in buffer
+INFO 08-Mar-21 18:39:54.182 - Data added to parser queue
+INFO 08-Mar-21 18:39:54.182 - Parsed:HB
+
+INFO 08-Mar-21 18:39:54.182 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:39:56.129 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:39:56.131 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:39:56.132 - SentIPHB
+INFO 08-Mar-21 18:39:56.182 - Data in buffer
+INFO 08-Mar-21 18:39:56.182 - Data added to parser queue
+INFO 08-Mar-21 18:39:56.183 - Parsed:HB
+
+INFO 08-Mar-21 18:39:56.183 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:39:58.129 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:39:58.130 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:39:58.132 - SentIPHB
+INFO 08-Mar-21 18:39:58.182 - Data in buffer
+INFO 08-Mar-21 18:39:58.183 - Data added to parser queue
+INFO 08-Mar-21 18:39:58.184 - Parsed:HB
+
+INFO 08-Mar-21 18:39:58.184 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:40:00.127 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:40:00.129 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:40:00.133 - SentIPHB
+INFO 08-Mar-21 18:40:00.182 - Data in buffer
+INFO 08-Mar-21 18:40:00.182 - Data added to parser queue
+INFO 08-Mar-21 18:40:00.183 - Parsed:HB
+
+INFO 08-Mar-21 18:40:00.183 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:40:02.128 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:40:02.129 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:40:02.133 - SentIPHB
+INFO 08-Mar-21 18:40:02.182 - Data in buffer
+INFO 08-Mar-21 18:40:02.182 - Data added to parser queue
+INFO 08-Mar-21 18:40:02.186 - Parsed:HB
+
+INFO 08-Mar-21 18:40:02.186 - Logic queue recieved: HB
+
+WARNING 08-Mar-21 18:40:02.540 - Starting Bolus Delivery with duration 2000 for 1IU 
+INFO 08-Mar-21 18:40:05.847 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:40:05.847 - Time difference between deliveries ::::192097
+INFO 08-Mar-21 18:40:05.848 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:40:05.848 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:40:05.851 - SentIPHB
+INFO 08-Mar-21 18:40:05.902 - Data in buffer
+INFO 08-Mar-21 18:40:05.902 - Data added to parser queue
+INFO 08-Mar-21 18:40:05.902 - Parsed:HB
+
+INFO 08-Mar-21 18:40:05.903 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:40:05.904 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:40:05.904 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:40:05.909 - SentIPIN
+INFO 08-Mar-21 18:40:05.983 - Data in buffer
+INFO 08-Mar-21 18:40:05.984 - Data added to parser queue
+INFO 08-Mar-21 18:40:05.984 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:40:05.985 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:40:05.986 - Resetting bolus delivery timer,0.95 remaining
+INFO 08-Mar-21 18:40:07.846 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:40:07.847 - Time difference between deliveries ::::2000
+INFO 08-Mar-21 18:40:07.848 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:40:07.849 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:40:07.852 - SentIPHB
+INFO 08-Mar-21 18:40:07.901 - Data in buffer
+INFO 08-Mar-21 18:40:07.902 - Data added to parser queue
+INFO 08-Mar-21 18:40:07.902 - Parsed:HB
+
+INFO 08-Mar-21 18:40:07.903 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:40:07.905 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:40:07.907 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:40:07.909 - SentIPIN
+INFO 08-Mar-21 18:40:07.981 - Data in buffer
+INFO 08-Mar-21 18:40:07.981 - Data added to parser queue
+INFO 08-Mar-21 18:40:07.981 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:40:07.983 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:40:07.983 - Resetting bolus delivery timer,0.9 remaining
+INFO 08-Mar-21 18:40:09.847 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:40:09.847 - Time difference between deliveries ::::2001
+INFO 08-Mar-21 18:40:09.849 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:40:09.849 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:40:09.852 - SentIPHB
+INFO 08-Mar-21 18:40:09.901 - Data in buffer
+INFO 08-Mar-21 18:40:09.901 - Data added to parser queue
+INFO 08-Mar-21 18:40:09.901 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:40:09.901 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:40:09.902 - Parsed:HB
+
+INFO 08-Mar-21 18:40:09.902 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:40:09.906 - SentIPIN
+INFO 08-Mar-21 18:40:09.982 - Data in buffer
+INFO 08-Mar-21 18:40:09.983 - Data added to parser queue
+INFO 08-Mar-21 18:40:09.985 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:40:09.985 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:40:09.986 - Resetting bolus delivery timer,0.85 remaining
+INFO 08-Mar-21 18:40:11.846 - Time difference between deliveries ::::1999
+INFO 08-Mar-21 18:40:11.847 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:40:11.847 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:40:11.848 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:40:11.851 - SentIPHB
+INFO 08-Mar-21 18:40:11.901 - Data in buffer
+INFO 08-Mar-21 18:40:11.901 - Data added to parser queue
+INFO 08-Mar-21 18:40:11.901 - Parsed:HB
+
+INFO 08-Mar-21 18:40:11.902 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:40:11.903 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:40:11.904 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:40:11.907 - SentIPIN
+INFO 08-Mar-21 18:40:11.981 - Data in buffer
+INFO 08-Mar-21 18:40:11.982 - Data added to parser queue
+INFO 08-Mar-21 18:40:11.983 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:40:11.984 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:40:11.985 - Resetting bolus delivery timer,0.8 remaining
+INFO 08-Mar-21 18:40:13.847 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:40:13.847 - Time difference between deliveries ::::2001
+INFO 08-Mar-21 18:40:13.848 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:40:13.848 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:40:13.852 - SentIPHB
+INFO 08-Mar-21 18:40:13.901 - Data in buffer
+INFO 08-Mar-21 18:40:13.901 - Data added to parser queue
+INFO 08-Mar-21 18:40:13.902 - Parsed:HB
+
+INFO 08-Mar-21 18:40:13.904 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:40:13.905 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:40:13.906 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:40:13.909 - SentIPIN
+INFO 08-Mar-21 18:40:13.982 - Data in buffer
+INFO 08-Mar-21 18:40:13.982 - Data added to parser queue
+INFO 08-Mar-21 18:40:13.983 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:40:13.983 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:40:13.985 - Resetting bolus delivery timer,0.75 remaining
+INFO 08-Mar-21 18:40:15.847 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:40:15.848 - Time difference between deliveries ::::2000
+INFO 08-Mar-21 18:40:15.849 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:40:15.849 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:40:15.853 - SentIPHB
+INFO 08-Mar-21 18:40:15.902 - Data in buffer
+INFO 08-Mar-21 18:40:15.902 - Data added to parser queue
+INFO 08-Mar-21 18:40:15.902 - Parsed:HB
+
+INFO 08-Mar-21 18:40:15.903 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:40:15.904 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:40:15.905 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:40:15.908 - SentIPIN
+INFO 08-Mar-21 18:40:15.982 - Data in buffer
+INFO 08-Mar-21 18:40:15.982 - Data added to parser queue
+INFO 08-Mar-21 18:40:15.983 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:40:15.984 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:40:15.985 - Resetting bolus delivery timer,0.7 remaining
+INFO 08-Mar-21 18:40:17.847 - Time difference between deliveries ::::2001
+INFO 08-Mar-21 18:40:17.849 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:40:17.849 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:40:17.850 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:40:17.853 - SentIPHB
+INFO 08-Mar-21 18:40:17.907 - Data in buffer
+INFO 08-Mar-21 18:40:17.908 - Data added to parser queue
+INFO 08-Mar-21 18:40:17.908 - Parsed:HB
+
+INFO 08-Mar-21 18:40:17.909 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:40:17.909 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:40:17.910 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:40:17.910 - SentIPIN
+INFO 08-Mar-21 18:40:17.982 - Data in buffer
+INFO 08-Mar-21 18:40:18.084 - Data added to parser queue
+INFO 08-Mar-21 18:40:18.084 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:40:18.087 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:40:18.089 - Resetting bolus delivery timer,0.65 remaining
+INFO 08-Mar-21 18:40:19.847 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:40:19.848 - Time difference between deliveries ::::1999
+INFO 08-Mar-21 18:40:19.849 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:40:19.850 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:40:19.852 - SentIPHB
+INFO 08-Mar-21 18:40:19.901 - Data in buffer
+INFO 08-Mar-21 18:40:20.003 - Data added to parser queue
+INFO 08-Mar-21 18:40:20.003 - Parsed:HB
+
+INFO 08-Mar-21 18:40:20.005 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:40:20.006 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:40:20.006 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:40:20.010 - SentIPIN
+INFO 08-Mar-21 18:40:20.062 - Data in buffer
+INFO 08-Mar-21 18:40:20.165 - Data added to parser queue
+INFO 08-Mar-21 18:40:20.165 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:40:20.169 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:40:20.170 - Resetting bolus delivery timer,0.6 remaining
+INFO 08-Mar-21 18:40:21.847 - Time difference between deliveries ::::2000
+INFO 08-Mar-21 18:40:21.848 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:40:21.848 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:40:21.849 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:40:21.852 - SentIPHB
+INFO 08-Mar-21 18:40:21.901 - Data in buffer
+INFO 08-Mar-21 18:40:21.901 - Data added to parser queue
+INFO 08-Mar-21 18:40:21.901 - Parsed:HB
+
+INFO 08-Mar-21 18:40:21.902 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:40:21.902 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:40:21.903 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:40:21.908 - SentIPIN
+INFO 08-Mar-21 18:40:21.981 - Data in buffer
+INFO 08-Mar-21 18:40:21.982 - Data added to parser queue
+INFO 08-Mar-21 18:40:21.983 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:40:21.983 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:40:21.984 - Resetting bolus delivery timer,0.55 remaining
+INFO 08-Mar-21 18:40:23.848 - Time difference between deliveries ::::2001
+INFO 08-Mar-21 18:40:23.850 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:40:23.851 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:40:23.851 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:40:23.855 - SentIPHB
+INFO 08-Mar-21 18:40:23.901 - Data in buffer
+INFO 08-Mar-21 18:40:23.901 - Data added to parser queue
+INFO 08-Mar-21 18:40:23.901 - Parsed:HB
+
+INFO 08-Mar-21 18:40:23.901 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:40:23.902 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:40:23.903 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:40:23.906 - SentIPIN
+INFO 08-Mar-21 18:40:23.987 - Data in buffer
+INFO 08-Mar-21 18:40:23.988 - Data added to parser queue
+INFO 08-Mar-21 18:40:23.988 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:40:23.991 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:40:23.992 - Resetting bolus delivery timer,0.5 remaining
+INFO 08-Mar-21 18:40:25.849 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:40:25.850 - Time difference between deliveries ::::2001
+INFO 08-Mar-21 18:40:25.850 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:40:25.851 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:40:25.855 - SentIPHB
+INFO 08-Mar-21 18:40:25.902 - Data in buffer
+INFO 08-Mar-21 18:40:25.902 - Data added to parser queue
+INFO 08-Mar-21 18:40:25.902 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:40:25.902 - Parsed:HB
+
+INFO 08-Mar-21 18:40:25.902 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:40:25.903 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:40:25.906 - SentIPIN
+INFO 08-Mar-21 18:40:25.982 - Data in buffer
+INFO 08-Mar-21 18:40:26.084 - Data added to parser queue
+INFO 08-Mar-21 18:40:26.085 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:40:26.088 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:40:26.089 - Resetting bolus delivery timer,0.45 remaining
+INFO 08-Mar-21 18:40:27.849 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:40:27.849 - Time difference between deliveries ::::2000
+INFO 08-Mar-21 18:40:27.850 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:40:27.851 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:40:27.856 - SentIPHB
+INFO 08-Mar-21 18:40:27.901 - Data in buffer
+INFO 08-Mar-21 18:40:27.901 - Data added to parser queue
+INFO 08-Mar-21 18:40:27.901 - Parsed:HB
+
+INFO 08-Mar-21 18:40:27.902 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:40:27.902 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:40:27.903 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:40:27.906 - SentIPIN
+INFO 08-Mar-21 18:40:27.982 - Data in buffer
+INFO 08-Mar-21 18:40:27.982 - Data added to parser queue
+INFO 08-Mar-21 18:40:27.982 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:40:27.983 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:40:27.984 - Resetting bolus delivery timer,0.4 remaining
+INFO 08-Mar-21 18:40:29.849 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:40:29.850 - Time difference between deliveries ::::2000
+INFO 08-Mar-21 18:40:29.851 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:40:29.852 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:40:29.856 - SentIPHB
+INFO 08-Mar-21 18:40:29.901 - Data in buffer
+INFO 08-Mar-21 18:40:29.901 - Data added to parser queue
+INFO 08-Mar-21 18:40:29.901 - Parsed:HB
+
+INFO 08-Mar-21 18:40:29.902 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:40:29.902 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:40:29.903 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:40:29.907 - SentIPIN
+INFO 08-Mar-21 18:40:29.982 - Data in buffer
+INFO 08-Mar-21 18:40:29.982 - Data added to parser queue
+INFO 08-Mar-21 18:40:29.983 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:40:29.983 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:40:29.984 - Resetting bolus delivery timer,0.35 remaining
+INFO 08-Mar-21 18:40:31.850 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:40:31.851 - Time difference between deliveries ::::2001
+INFO 08-Mar-21 18:40:31.852 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:40:31.852 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:40:31.854 - SentIPHB
+INFO 08-Mar-21 18:40:31.901 - Data in buffer
+INFO 08-Mar-21 18:40:31.901 - Data added to parser queue
+INFO 08-Mar-21 18:40:31.903 - Parsed:HB
+
+INFO 08-Mar-21 18:40:31.903 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:40:31.903 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:40:31.904 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:40:31.907 - SentIPIN
+INFO 08-Mar-21 18:40:31.982 - Data in buffer
+INFO 08-Mar-21 18:40:32.085 - Data added to parser queue
+INFO 08-Mar-21 18:40:32.086 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:40:32.089 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:40:32.090 - Resetting bolus delivery timer,0.3 remaining
+INFO 08-Mar-21 18:40:33.851 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:40:33.852 - Time difference between deliveries ::::2001
+INFO 08-Mar-21 18:40:33.852 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:40:33.854 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:40:33.857 - SentIPHB
+INFO 08-Mar-21 18:40:33.901 - Data in buffer
+INFO 08-Mar-21 18:40:33.901 - Data added to parser queue
+INFO 08-Mar-21 18:40:33.902 - Parsed:HB
+
+INFO 08-Mar-21 18:40:33.903 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:40:33.904 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:40:33.905 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:40:33.907 - SentIPIN
+INFO 08-Mar-21 18:40:33.982 - Data in buffer
+INFO 08-Mar-21 18:40:33.982 - Data added to parser queue
+INFO 08-Mar-21 18:40:33.982 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:40:33.984 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:40:33.984 - Resetting bolus delivery timer,0.25 remaining
+INFO 08-Mar-21 18:40:35.850 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:40:35.852 - Time difference between deliveries ::::1999
+INFO 08-Mar-21 18:40:35.852 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:40:35.853 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:40:35.856 - SentIPHB
+INFO 08-Mar-21 18:40:35.901 - Data in buffer
+INFO 08-Mar-21 18:40:35.902 - Data added to parser queue
+INFO 08-Mar-21 18:40:35.904 - Parsed:HB
+
+INFO 08-Mar-21 18:40:35.904 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:40:35.905 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:40:35.906 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:40:35.908 - SentIPIN
+INFO 08-Mar-21 18:40:35.982 - Data in buffer
+INFO 08-Mar-21 18:40:35.983 - Data added to parser queue
+INFO 08-Mar-21 18:40:35.983 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:40:35.984 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:40:35.985 - Resetting bolus delivery timer,0.2 remaining
+INFO 08-Mar-21 18:40:37.851 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:40:37.852 - Time difference between deliveries ::::2001
+INFO 08-Mar-21 18:40:37.853 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:40:37.854 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:40:37.856 - SentIPHB
+INFO 08-Mar-21 18:40:37.901 - Data in buffer
+INFO 08-Mar-21 18:40:37.901 - Data added to parser queue
+INFO 08-Mar-21 18:40:37.902 - Parsed:HB
+
+INFO 08-Mar-21 18:40:37.903 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:40:37.904 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:40:37.904 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:40:37.907 - SentIPIN
+INFO 08-Mar-21 18:40:37.980 - Data in buffer
+INFO 08-Mar-21 18:40:37.980 - Data added to parser queue
+INFO 08-Mar-21 18:40:37.981 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:40:37.982 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:40:37.982 - Resetting bolus delivery timer,0.15 remaining
+INFO 08-Mar-21 18:40:39.851 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:40:39.851 - Time difference between deliveries ::::2000
+INFO 08-Mar-21 18:40:39.852 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:40:39.852 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:40:39.856 - SentIPHB
+INFO 08-Mar-21 18:40:39.902 - Data in buffer
+INFO 08-Mar-21 18:40:39.902 - Data added to parser queue
+INFO 08-Mar-21 18:40:39.903 - Parsed:HB
+
+INFO 08-Mar-21 18:40:39.904 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:40:39.905 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:40:39.905 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:40:39.907 - SentIPIN
+INFO 08-Mar-21 18:40:39.981 - Data in buffer
+INFO 08-Mar-21 18:40:39.982 - Data added to parser queue
+INFO 08-Mar-21 18:40:39.983 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:40:39.984 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:40:39.985 - Resetting bolus delivery timer,0.1 remaining
+INFO 08-Mar-21 18:40:41.852 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:40:41.853 - Time difference between deliveries ::::2001
+INFO 08-Mar-21 18:40:41.854 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:40:41.854 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:40:41.857 - SentIPHB
+INFO 08-Mar-21 18:40:41.941 - Data in buffer
+INFO 08-Mar-21 18:40:41.941 - Data added to parser queue
+INFO 08-Mar-21 18:40:41.942 - Parsed:HB
+
+INFO 08-Mar-21 18:40:41.943 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:40:41.943 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:40:41.944 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:40:41.947 - SentIPIN
+INFO 08-Mar-21 18:40:42.021 - Data in buffer
+INFO 08-Mar-21 18:40:42.021 - Data added to parser queue
+INFO 08-Mar-21 18:40:42.022 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:40:42.022 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:40:42.023 - Resetting bolus delivery timer,0.05 remaining
+INFO 08-Mar-21 18:40:43.851 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:40:43.852 - Time difference between deliveries ::::1999
+INFO 08-Mar-21 18:40:43.853 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:40:43.853 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:40:43.856 - SentIPHB
+INFO 08-Mar-21 18:40:43.901 - Data in buffer
+INFO 08-Mar-21 18:40:43.901 - Data added to parser queue
+INFO 08-Mar-21 18:40:43.901 - Parsed:HB
+
+INFO 08-Mar-21 18:40:43.902 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:40:43.902 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:40:43.902 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:40:43.906 - SentIPIN
+INFO 08-Mar-21 18:40:43.981 - Data in buffer
+INFO 08-Mar-21 18:40:43.981 - Data added to parser queue
+INFO 08-Mar-21 18:40:43.983 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:40:43.984 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:40:43.985 - Resetting bolus delivery timer,0.0 remaining
+INFO 08-Mar-21 18:40:45.852 - TIMEOUT BOLUS TIMER
+INFO 08-Mar-21 18:40:45.853 - Time difference between deliveries ::::2001
+INFO 08-Mar-21 18:40:45.854 - Logic queue recieved: INSHB
+INFO 08-Mar-21 18:40:45.855 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:40:45.856 - SentIPHB
+INFO 08-Mar-21 18:40:45.901 - Data in buffer
+INFO 08-Mar-21 18:40:46.003 - Data added to parser queue
+INFO 08-Mar-21 18:40:46.006 - Parsed:HB
+
+INFO 08-Mar-21 18:40:46.010 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:40:46.011 - Logic queue recieved: SIN
+INFO 08-Mar-21 18:40:46.011 - Logic queue recieved: SSSIN
+INFO 08-Mar-21 18:40:46.015 - SentIPIN
+INFO 08-Mar-21 18:40:46.061 - Data in buffer
+INFO 08-Mar-21 18:40:46.163 - Data added to parser queue
+INFO 08-Mar-21 18:40:46.163 - Parsed:IN0.00
+
+INFO 08-Mar-21 18:40:46.164 - Logic queue recieved: IN0.00
+
+WARNING 08-Mar-21 18:40:46.164 - Completed Bolus Delivery
+INFO 08-Mar-21 18:40:48.128 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:40:48.130 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:40:48.132 - SentIPHB
+INFO 08-Mar-21 18:40:48.181 - Data in buffer
+INFO 08-Mar-21 18:40:48.285 - Data added to parser queue
+INFO 08-Mar-21 18:40:48.286 - Parsed:HB
+
+INFO 08-Mar-21 18:40:48.288 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:40:50.187 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:40:50.188 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:40:50.194 - SentIPHB
+INFO 08-Mar-21 18:40:50.261 - Data in buffer
+INFO 08-Mar-21 18:40:50.261 - Data added to parser queue
+INFO 08-Mar-21 18:40:50.262 - Parsed:HB
+
+INFO 08-Mar-21 18:40:50.262 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:40:52.162 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:40:52.165 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:40:52.170 - SentIPHB
+INFO 08-Mar-21 18:40:52.221 - Data in buffer
+INFO 08-Mar-21 18:40:52.221 - Data added to parser queue
+INFO 08-Mar-21 18:40:52.221 - Parsed:HB
+
+INFO 08-Mar-21 18:40:52.221 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:40:54.128 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:40:54.129 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:40:54.132 - SentIPHB
+INFO 08-Mar-21 18:40:54.180 - Data in buffer
+INFO 08-Mar-21 18:40:54.181 - Data added to parser queue
+INFO 08-Mar-21 18:40:54.181 - Parsed:HB
+
+INFO 08-Mar-21 18:40:54.182 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:40:56.128 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:40:56.129 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:40:56.132 - SentIPHB
+INFO 08-Mar-21 18:40:56.180 - Data in buffer
+INFO 08-Mar-21 18:40:56.180 - Data added to parser queue
+INFO 08-Mar-21 18:40:56.180 - Parsed:HB
+
+INFO 08-Mar-21 18:40:56.181 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:40:58.128 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:40:58.129 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:40:58.132 - SentIPHB
+INFO 08-Mar-21 18:40:58.181 - Data in buffer
+INFO 08-Mar-21 18:40:58.181 - Data added to parser queue
+INFO 08-Mar-21 18:40:58.182 - Parsed:HB
+
+INFO 08-Mar-21 18:40:58.182 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:41:00.127 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:41:00.129 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:41:00.131 - SentIPHB
+INFO 08-Mar-21 18:41:00.181 - Data in buffer
+INFO 08-Mar-21 18:41:00.181 - Data added to parser queue
+INFO 08-Mar-21 18:41:00.182 - Parsed:HB
+
+INFO 08-Mar-21 18:41:00.182 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:41:02.128 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:41:02.129 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:41:02.131 - SentIPHB
+INFO 08-Mar-21 18:41:02.181 - Data in buffer
+INFO 08-Mar-21 18:41:02.181 - Data added to parser queue
+INFO 08-Mar-21 18:41:02.181 - Parsed:HB
+
+INFO 08-Mar-21 18:41:02.182 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:41:04.127 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:41:04.129 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:41:04.131 - SentIPHB
+INFO 08-Mar-21 18:41:04.181 - Data in buffer
+INFO 08-Mar-21 18:41:04.181 - Data added to parser queue
+INFO 08-Mar-21 18:41:04.181 - Parsed:HB
+
+INFO 08-Mar-21 18:41:04.181 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:41:06.128 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:41:06.129 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:41:06.133 - SentIPHB
+INFO 08-Mar-21 18:41:06.180 - Data in buffer
+INFO 08-Mar-21 18:41:06.181 - Data added to parser queue
+INFO 08-Mar-21 18:41:06.181 - Parsed:HB
+
+INFO 08-Mar-21 18:41:06.182 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:41:08.128 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:41:08.130 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:41:08.134 - SentIPHB
+INFO 08-Mar-21 18:41:08.181 - Data in buffer
+INFO 08-Mar-21 18:41:08.181 - Data added to parser queue
+INFO 08-Mar-21 18:41:08.182 - Parsed:HB
+
+INFO 08-Mar-21 18:41:08.183 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:41:10.127 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:41:10.129 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:41:10.131 - SentIPHB
+INFO 08-Mar-21 18:41:10.181 - Data in buffer
+INFO 08-Mar-21 18:41:10.182 - Data added to parser queue
+INFO 08-Mar-21 18:41:10.182 - Parsed:HB
+
+INFO 08-Mar-21 18:41:10.183 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:41:12.128 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:41:12.129 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:41:12.133 - SentIPHB
+INFO 08-Mar-21 18:41:12.221 - Data in buffer
+INFO 08-Mar-21 18:41:12.323 - Data added to parser queue
+INFO 08-Mar-21 18:41:12.324 - Parsed:HB
+
+INFO 08-Mar-21 18:41:12.328 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:41:14.228 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:41:14.230 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:41:14.231 - SentIPHB
+INFO 08-Mar-21 18:41:14.300 - Data in buffer
+INFO 08-Mar-21 18:41:14.301 - Data added to parser queue
+INFO 08-Mar-21 18:41:14.301 - Parsed:HB
+
+INFO 08-Mar-21 18:41:14.301 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:41:16.202 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:41:16.203 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:41:16.207 - SentIPHB
+INFO 08-Mar-21 18:41:16.261 - Data in buffer
+INFO 08-Mar-21 18:41:16.261 - Data added to parser queue
+INFO 08-Mar-21 18:41:16.261 - Parsed:HB
+
+INFO 08-Mar-21 18:41:16.262 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:41:18.162 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:41:18.163 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:41:18.166 - SentIPHB
+INFO 08-Mar-21 18:41:18.220 - Data in buffer
+INFO 08-Mar-21 18:41:18.220 - Data added to parser queue
+INFO 08-Mar-21 18:41:18.220 - Parsed:HB
+
+INFO 08-Mar-21 18:41:18.221 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:41:20.128 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:41:20.130 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:41:20.133 - SentIPHB
+INFO 08-Mar-21 18:41:20.180 - Data in buffer
+INFO 08-Mar-21 18:41:20.180 - Data added to parser queue
+INFO 08-Mar-21 18:41:20.181 - Parsed:HB
+
+INFO 08-Mar-21 18:41:20.181 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:41:22.128 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:41:22.129 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:41:22.133 - SentIPHB
+INFO 08-Mar-21 18:41:22.180 - Data in buffer
+INFO 08-Mar-21 18:41:22.181 - Data added to parser queue
+INFO 08-Mar-21 18:41:22.181 - Parsed:HB
+
+INFO 08-Mar-21 18:41:22.181 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:41:24.128 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:41:24.129 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:41:24.134 - SentIPHB
+INFO 08-Mar-21 18:41:24.180 - Data in buffer
+INFO 08-Mar-21 18:41:24.181 - Data added to parser queue
+INFO 08-Mar-21 18:41:24.181 - Parsed:HB
+
+INFO 08-Mar-21 18:41:24.181 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:41:26.129 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:41:26.129 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:41:26.134 - SentIPHB
+INFO 08-Mar-21 18:41:26.180 - Data in buffer
+INFO 08-Mar-21 18:41:26.180 - Data added to parser queue
+INFO 08-Mar-21 18:41:26.181 - Parsed:HB
+
+INFO 08-Mar-21 18:41:26.181 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:41:28.128 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:41:28.128 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:41:28.133 - SentIPHB
+INFO 08-Mar-21 18:41:28.180 - Data in buffer
+INFO 08-Mar-21 18:41:28.180 - Data added to parser queue
+INFO 08-Mar-21 18:41:28.180 - Parsed:HB
+
+INFO 08-Mar-21 18:41:28.181 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:41:30.128 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:41:30.129 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:41:30.132 - SentIPHB
+INFO 08-Mar-21 18:41:30.180 - Data in buffer
+INFO 08-Mar-21 18:41:30.283 - Data added to parser queue
+INFO 08-Mar-21 18:41:30.284 - Parsed:HB
+
+INFO 08-Mar-21 18:41:30.285 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:41:32.185 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:41:32.186 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:41:32.189 - SentIPHB
+INFO 08-Mar-21 18:41:32.261 - Data in buffer
+INFO 08-Mar-21 18:41:32.261 - Data added to parser queue
+INFO 08-Mar-21 18:41:32.261 - Parsed:HB
+
+INFO 08-Mar-21 18:41:32.262 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:41:34.162 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:41:34.163 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:41:34.167 - SentIPHB
+INFO 08-Mar-21 18:41:34.226 - Data in buffer
+INFO 08-Mar-21 18:41:34.226 - Data added to parser queue
+INFO 08-Mar-21 18:41:34.226 - Parsed:HB
+
+INFO 08-Mar-21 18:41:34.227 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:41:36.128 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:41:36.129 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:41:36.132 - SentIPHB
+INFO 08-Mar-21 18:41:36.181 - Data in buffer
+INFO 08-Mar-21 18:41:36.181 - Data added to parser queue
+INFO 08-Mar-21 18:41:36.182 - Parsed:HB
+
+INFO 08-Mar-21 18:41:36.182 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:41:38.127 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:41:38.129 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:41:38.131 - SentIPHB
+INFO 08-Mar-21 18:41:38.180 - Data in buffer
+INFO 08-Mar-21 18:41:38.180 - Data added to parser queue
+INFO 08-Mar-21 18:41:38.180 - Parsed:HB
+
+INFO 08-Mar-21 18:41:38.181 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:41:40.129 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:41:40.130 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:41:40.133 - SentIPHB
+INFO 08-Mar-21 18:41:40.180 - Data in buffer
+INFO 08-Mar-21 18:41:40.180 - Data added to parser queue
+INFO 08-Mar-21 18:41:40.180 - Parsed:HB
+
+INFO 08-Mar-21 18:41:40.181 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:41:42.128 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:41:42.129 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:41:42.133 - SentIPHB
+INFO 08-Mar-21 18:41:42.187 - Data in buffer
+INFO 08-Mar-21 18:41:42.188 - Data added to parser queue
+INFO 08-Mar-21 18:41:42.188 - Parsed:HB
+
+INFO 08-Mar-21 18:41:42.189 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:41:44.127 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:41:44.129 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:41:44.132 - SentIPHB
+INFO 08-Mar-21 18:41:44.180 - Data in buffer
+INFO 08-Mar-21 18:41:44.181 - Data added to parser queue
+INFO 08-Mar-21 18:41:44.181 - Parsed:HB
+
+INFO 08-Mar-21 18:41:44.181 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:41:46.128 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:41:46.129 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:41:46.134 - SentIPHB
+INFO 08-Mar-21 18:41:46.180 - Data in buffer
+INFO 08-Mar-21 18:41:46.283 - Data added to parser queue
+INFO 08-Mar-21 18:41:46.283 - Parsed:HB
+
+INFO 08-Mar-21 18:41:46.284 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:41:48.185 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:41:48.186 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:41:48.190 - SentIPHB
+INFO 08-Mar-21 18:41:48.260 - Data in buffer
+INFO 08-Mar-21 18:41:48.260 - Data added to parser queue
+INFO 08-Mar-21 18:41:48.260 - Parsed:HB
+
+INFO 08-Mar-21 18:41:48.261 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:41:50.161 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:41:50.162 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:41:50.166 - SentIPHB
+INFO 08-Mar-21 18:41:50.219 - Data in buffer
+INFO 08-Mar-21 18:41:50.220 - Data added to parser queue
+INFO 08-Mar-21 18:41:50.220 - Parsed:HB
+
+INFO 08-Mar-21 18:41:50.220 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:41:52.128 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:41:52.129 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:41:52.133 - SentIPHB
+INFO 08-Mar-21 18:41:52.180 - Data in buffer
+INFO 08-Mar-21 18:41:52.180 - Data added to parser queue
+INFO 08-Mar-21 18:41:52.180 - Parsed:HB
+
+INFO 08-Mar-21 18:41:52.181 - Logic queue recieved: HB
+
+INFO 08-Mar-21 18:41:54.128 - Logic queue recieved: SHB
+INFO 08-Mar-21 18:41:54.129 - Logic queue recieved: SSSHB
+INFO 08-Mar-21 18:41:54.135 - SentIPHB
+INFO 08-Mar-21 18:41:54.180 - Data in buffer
+INFO 08-Mar-21 18:41:54.181 - Data added to parser queue
+INFO 08-Mar-21 18:41:54.181 - Parsed:HB
+
+INFO 08-Mar-21 18:41:54.182 - Logic queue recieved: HB
+
