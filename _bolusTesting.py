@@ -83,7 +83,7 @@ class bolusTestingTab(object):
     def setInsulonCompleteFlag(self,status):
         self.insulonCompleteFlag= status
 
-    def resetBolusTimer(self,encoderValue):
+    def resetBolusTimer(self):
         
         """Resets the bolus timer if the delivery target has not been reached
 
@@ -93,7 +93,6 @@ class bolusTestingTab(object):
         #Logger.q.put(("INFO","Encoder value: {}".format(encoderValue)))
         if(self.ongoingDeliveryFlag==False):
             return
-
         if self.deliveryAmount>0:
 
                 self.insulonCompleteFlag=True
@@ -259,3 +258,4 @@ class timerThread(QThread):
                 self.timerRun=False
                 break
             #time.sleep(0.0005)
+

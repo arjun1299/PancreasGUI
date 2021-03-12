@@ -7,6 +7,7 @@ Priming
 from PyQt5.QtWidgets import QApplication, QWidget, QPushButton, QMessageBox
 from PyQt5.QtGui import QIcon
 from PyQt5.QtCore import pyqtSlot
+from PyQt5.QtTest import QTest
 
 from loggingModule import *
 
@@ -39,7 +40,13 @@ class primingTab(object):
 
         #finish
         self.finishPrimeBtn=self.ui.finishPrimeBtn
-        self.finishPrimeBtn.clicked.connect(self.stopPriming)
+        self.finishPrimeBtn.clicked.connect(self.finishPriming)
+
+        #reset
+        self.resetBtn=self.ui.resetBtn
+        self.resetBtn.clicked.connect(self.resetActuation)
+
+        self.stopPriming=False
 
 
     def enablePriming(self):
@@ -48,7 +55,7 @@ class primingTab(object):
         self.toggleClutchBtn.setEnabled(True)
         #self.fixedPrimeBtn.setEnabled(True)
         self.ongoing="Priming"
-        self.showDialog("Prime")
+        #self.showDialog("Prime")
         self.updateStatus()
         
         #default clutch pos
@@ -60,17 +67,21 @@ class primingTab(object):
     def rotate(self):
         #do one rotation
         num, ok = QInputDialog.getText(self, 'Number of rotations', 'Number:')
+        
+        delayTimer=QTimer()
 
         if num.isnumeric():
             num=int(num)
 
             for i in range(num):
-                self.primingRotations+=1
-                
-                #self.countTxt.setFontPointSize(20)
-                self.logic.pq.put((1,"SIN"))
-                self.countTxt.setText(str(self.primingRotations))
-                time.sleep(0.1)
+                if self.stopPriming==False:
+                    self.primingRotations+=1
+                    
+                    #self.countTxt.setFontPointSize(20)
+                    self.logic.pq.put((1,"SIN"))
+                    self.countTxt.setText(str(self.primingRotations))
+                    QTest.qWait(1500)
+
             
 
     def engageClutch(self):
@@ -91,7 +102,7 @@ class primingTab(object):
         self.updateStatus()
             
 
-    def stopPriming(self):
+    def finishPriming(self):
         self.ui.tabWidget.setCurrentIndex((self.ui.tabWidget.currentIndex()+1))
 
         pass
@@ -113,17 +124,14 @@ class primingTab(object):
         #it returns 0,1,2.. based on the button pressed
         if returnValue==0:
             Logger.q.put(("INFO","0.6 IU Fixed Prime"))
-            insulons=3
+            insulons=12
 
         elif returnValue==1:
             Logger.q.put(("INFO","0.9 IU Fixed Prime"))
-            insulons=5
-
+            insulons=18
         
-        #msgBox.setStandardButtons(QMessageBox.Ok | QMessageBox.Cancel)
-
         for i in range(insulons):
-            self.logic.pq.put((1,"SIN"))
-            time.sleep(0.1)
+            if self.stopPriming==False:
+                self.logic.pq.put((1,"SIN"))
+                QTest.qWait(1500)
 
-        pass

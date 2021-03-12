@@ -20,7 +20,7 @@ class Logger(QThread):
     def __init__(self):
         super().__init__()
         name=datetime.datetime.now()
-        name = name.strftime("%m-%d-%Y, %H:%M")
+        name = name.strftime("%d-%m-%Y, %H:%M")
         logging.basicConfig(filename=name,format='%(levelname)s %(asctime)s.%(msecs)03d - %(message)s', datefmt='%d-%b-%y %H:%M:%S',level=logging.INFO)
         os.chmod(name, 0o777)
         logging.warning("Started")

@@ -37,7 +37,7 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,comm
         self.connectionStatusLbl=self.ui.connectionStatusLbl
         
         self.stopAllBtn=self.ui.stopAllBtn
-        self.stopAllBtn.clicked.connect(self.stop)
+        self.stopAllBtn.clicked.connect(self.stopActuation)
         
         self.disconnectBtn =self.ui.DisconnectBtn
 
@@ -45,7 +45,8 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,comm
 
         #variables
         self.primingRotations=0
-        self.rotations=0
+        #self.rotations=0
+        self.actuationLength=0
         self.ongoing= self.ui.tabWidget.tabText(self.ui.tabWidget.currentIndex())
         self.basalCnt=0
         self.bolusCnt=0
@@ -112,7 +113,10 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,comm
         ###Connect all logic signals
         self.logic.hbSenderTimerReset.connect(self.heartBeatChecker.hbSenderTimerReset)
         self.logic.hbRecieverTimerReset.connect(self.heartBeatChecker.hbRecieverTimerReset)
-        self.logic.insulonComplete.connect(self.resetBolusTimer)
+        self.logic.insulonComplete.connect(self.resetHandler)
+        self.logic.updateActuationLength.connect(self.updateActuationLength)
+        self.logic.actuationLimitReached.connect(self.actuationLimitReached)
+        self.logic.stopActuation.connect(self.stopActuation)
         self.logic.sendHB.connect(self.sender.sendHB)
         self.logic.sendIN.connect(self.sender.sendIN)
         self.logic.hbStop.connect(self.heartBeatChecker.hbStop)
@@ -149,6 +153,17 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,comm
         
         self.updateStatus()
 
+
+    def stopActuation(self):
+        self.basalTimer.quit()
+        self.bolusTimer.quit()
+        self.stopPriming=True
+        self.logic.allowActuation=False
+
+    def resetActuation(self):
+        self.stopPriming=False
+        self.logic.allowActuation=True
+        self.actuationLength=0
 
                 
     def finished(self,args):
@@ -234,7 +249,7 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,comm
         else:
             self.connectionStatusLbl.setStyleSheet("background-color: rgb(239, 41, 41)")
         self.statusTxt.appendPlainText("Clutch: "+ ("Gear" if self.clutch else "Ratchet"))
-
+        self.statusTxt.appendPlainText("Actuation Length:"+str(self.actuationLength))
         self.statusTxt.appendPlainText("Ongoing:"+ self.ongoing)
     
         # self.statusTxt.appendPlainText("Rotations: " + str(self.rotations))
@@ -308,25 +323,53 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,comm
             self.ui.tabWidget.currentIndex
             self.uart_connection.disconnect()
     
-    def closeEvent(self,event):
-        """Make sure all threads stop
+    """def closeEvent(self,event):
+        Make sure all threads stop
 
         :param event: The close event which is raised, this is used
         :type event: 
-        """
-        """Logger.q.put(("INSTRUCTION","Stop"))
+        
+        Logger.q.put(("INSTRUCTION","Stop"))
         SerialListner.SerialListnerEnable=False
         Parser.q.put("Stop")
         Logic.pq.put((1,"Stop"))
-        event.accept() # let the window close"""
+        event.accept() # let the window close
 
         self.logger.quit()
         self.serialListner.quit()
         self.parser.quit()
         self.logic.quit()
-        event.accept()
+        event.accept()"""
+    def updateActuationLength(self):
+        """All insulon actuations will lead to this function and update the distance
+        """
+        #True is gear side
+        #False is ratchet
+
+        if self.actuationLength < 3.0:
+            if(self.clutch==True):
+                self.actuationLength+=1
+            elif(self.clutch==False):
+                self.actuationLength+=4.5*pow(10,-6)
+
+        else:
+            self.logic.allowActuation=False
+            self.actuationLimitReached()
+            self.stopActuation()
+        
+        self.updateStatus()
+
+    
+    def actuationLimitReached(self):
+        self.showError("Actuation Limit reached")
+        Logger.q.put(("ERROR","Actuation limit reached!"))
+    def ratchetSlipOccoured(self):
+        self.showError("Ratchet slip occoured")
+        Logger.q.put(("ERROR","Ratchet slip occoured!"))
+
 
 app = QtWidgets.QApplication(sys.argv)
 window = MainWindow()
 window.show()
+#app.aboutToQuit.connect(window.closeEvent)
 sys.exit(app.exec())

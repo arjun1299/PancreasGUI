@@ -119,7 +119,7 @@ class connectTab(object):
                     pass
                 else:
                     self.uart_service=False
-                    self.showError("Device disconnected")
+                    #self.showError("Device disconnected")
                     self.bleConnectionStatus="Disconnected"
                     self.updateStatus()
                     
@@ -156,6 +156,7 @@ class connectTab(object):
 
 
     def connectPort(self):
+        self.connectButton.setEnabled(False)
         if(self.dropdown.currentText()):
             self.port=self.dropdown.currentText()
             ble=BLERadio()
@@ -168,7 +169,7 @@ class connectTab(object):
                 if element.complete_name ==  self.dropdown.currentText() or self.dropdown.currentText() in str(element.address):
                         #no check if uart service works
                         
-                        #try:
+                        try:
                             if(UARTService in element.services or self.targetAddress in str(element.address)):
                                 self.uart_connection = ble.connect(element)
                                 print("Connected")
@@ -178,12 +179,11 @@ class connectTab(object):
                                 self.uart_service=self.uart_connection[UARTService]
                                 Logger.q.put(("INFO","Connected to: " +self.dropdown.currentText()))
                                 self.connectedSignal.emit()
+                                self.connectButton.setEnabled(True)
                                 break
-
-                            """else:
-                                raise Exception("No UART service")
-                        except:
-                            self.showError("No UART service")"""
+                        except Exception as e: 
+                            print(e)
+        self.connectButton.setEnabled(True)
 
 
     def scanPort(self):

@@ -22,9 +22,15 @@ class Logic(QThread):
     sendPC=pyqtSignal()
     sendDC=pyqtSignal()
 
+    #Error signals
+    actuationLimitReached=pyqtSignal()
+    stopActuation=pyqtSignal()
+    ratchetSlipOccoured=pyqtSignal()
+    
+
     engageClutch=pyqtSignal()
     insulonComplete=pyqtSignal(str)
-
+    updateActuationLength=pyqtSignal()
 
     def __init__(self,*args):
         super().__init__()
@@ -34,6 +40,12 @@ class Logic(QThread):
         """
         self.insulonCompleteFlag=False
         self.sendInsulonFlag=False
+        
+        #This is a safety feature to take care of over actuation
+        self.allowActuation=True
+
+        self.prevEncoderValue=0
+        self.currentEncoderValue=0
 
     def run(self):
         while 1:
@@ -60,7 +72,13 @@ class Logic(QThread):
                     """
                 elif(data=="SIN"):
                     #send insulon
-                    self.sendIN.emit()
+                    if self.allowActuation==True:
+                        self.sendIN.emit()
+                        self.updateActuationLength.emit()
+                    else:
+                        self.actuationLimitReached.emit()
+                        self.stopActuation.emit()
+
                 elif(data=="SHB"):
                     #send heartbeat
                     self.sendInsulonFlag=False
@@ -95,6 +113,16 @@ class Logic(QThread):
                     """
                     print("Emitting IN")
                     self.insulonComplete.emit(data[2:])
+                    
+                    #Handling encoder data
+                    
+                    #Ratchet slip condition
+                    self.currentEncoderValue=data[2:]
+                    if(self.prevEncoderValue==self.currentEncoderValue):
+                        self.ratchetSlipOccoured.emit()
+                    self.prevEncoderValue=self.currentEncoderValue
+                    self.currentEncoderValue=data[2:]
+                    
                 elif(data=="DC"):
                     print("Switched to delivery chain")
                 elif(data=="PC"):

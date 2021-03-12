@@ -158,8 +158,8 @@
      <widget class="QPushButton" name="finishPrimeBtn">
       <property name="geometry">
        <rect>
-        <x>200</x>
-        <y>420</y>
+        <x>70</x>
+        <y>400</y>
         <width>121</width>
         <height>51</height>
        </rect>
@@ -192,6 +192,19 @@
       </property>
       <property name="text">
        <string>Toggle Clutch</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="resetBtn">
+      <property name="geometry">
+       <rect>
+        <x>340</x>
+        <y>400</y>
+        <width>121</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Reset</string>
       </property>
      </widget>
     </widget>
@@ -290,6 +303,64 @@
        </item>
       </layout>
      </widget>
+     <widget class="QLabel" name="deliveryAmtLbl">
+      <property name="geometry">
+       <rect>
+        <x>360</x>
+        <y>46</y>
+        <width>131</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Delivery amount in IU</string>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QTextEdit" name="pulseDelayTxt">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>110</y>
+        <width>131</width>
+        <height>70</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QTextEdit" name="deliveryAmtTxt">
+      <property name="geometry">
+       <rect>
+        <x>360</x>
+        <y>110</y>
+        <width>121</width>
+        <height>70</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="pulseDelayLbl">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>40</y>
+        <width>131</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Duration Between Pulses(in milliseconds)</string>
+      </property>
+      <property name="textFormat">
+       <enum>Qt::AutoText</enum>
+      </property>
+      <property name="scaledContents">
+       <bool>false</bool>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
     </widget>
     <widget class="QWidget" name="CommandsTab">
      <attribute name="title">
@@ -385,7 +456,7 @@
        <string>Stop</string>
       </property>
      </widget>
-     <widget class="QTextEdit" name="pulseDelayTxt">
+     <widget class="QTextEdit" name="pulseDelayTxt_1">
       <property name="geometry">
        <rect>
         <x>40</x>
@@ -395,7 +466,7 @@
        </rect>
       </property>
      </widget>
-     <widget class="QTextEdit" name="deliveryAmtTxt">
+     <widget class="QTextEdit" name="deliveryAmtTxt_1">
       <property name="geometry">
        <rect>
         <x>340</x>
