@@ -54,6 +54,7 @@ class bolusTestingTab(object):
         self.heartBeatChecker.heartBeatSenderTimer.stop()
         self.heartBeatChecker.heartBeatRecieverTimer.stop()
         
+        
         self.cycleNumber=0
         """Steps:
         1. Send HB
@@ -75,6 +76,7 @@ class bolusTestingTab(object):
             timeStamp=datetime.datetime.now()
             timeStamp = timeStamp.strftime("%H:%M:%S")
             self.outTxt.appendPlainText(timeStamp+"-> "+"Starting Bolus Delivery with duration {} for {}IU ".format(self.timeBetweenPulses,self.deliveryAmount))
+            self.bolusBar.setVisible(True)
 
 
     def resetBolusTimer(self):

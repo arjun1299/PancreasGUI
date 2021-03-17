@@ -62,6 +62,9 @@ class recurringTab(object):
         self.buttonGroup=QButtonGroup()
         self.buttonGroup.addButton(self.basalBtn)
         self.buttonGroup.addButton(self.bolusBtn)
+
+        self.bolusBar=self.ui.bolusBar
+        self.bolusBar.setVisible(False)
         
 
 
