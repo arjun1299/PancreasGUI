@@ -28,6 +28,8 @@ class recurringTab(object):
         self.bolusBtn=self.ui.bolusBtn
         self.bolusBtn.clicked.connect(self.enableBolusMode)
 
+        self.outTxt=self.ui.outTxt
+
         
         self.startDoseBtn=self.ui.startDoseBtn
         self.startDoseBtn.clicked.connect(self.startDeliveryHandler)
@@ -56,6 +58,10 @@ class recurringTab(object):
         self.basalRate=0
         self.basalTimer=timerThread()
         self.basalTimer.timeoutSignal.connect(self.basalDose)
+
+        self.buttonGroup=QButtonGroup()
+        self.buttonGroup.addButton(self.basalBtn)
+        self.buttonGroup.addButton(self.bolusBtn)
         
 
 
@@ -64,15 +70,17 @@ class recurringTab(object):
     def basalDose(self):
         
         #if self.showDialog("BASAL dose {} Iu/hr".format(self.basalTxt.toPlainText())) == QMessageBox.Ok:
-        if self.showDialog("BASAL mode") == QMessageBox.Ok:
+        if self.showDialog("Switch to BASAL mode") == QMessageBox.Ok:
             self.deliveryType="Basal"
             self.startDoseBtn.setEnabled(True)
         else:
-            self.basalBtn.checkStateSet(False)
+            self.buttonGroup.setExclusive(False)
+            self.basalBtn.setChecked(False)
+            self.buttonGroup.setExclusive(True)
     
     def enableBasalMode(self):
         #Toggling element visibility
-        if self.showDialog("BASAL mode") == QMessageBox.Ok:
+        if self.showDialog("Switch to BASAL mode?") == QMessageBox.Ok:
             self.deliveryType="Basal"
             self.doseTxt.setVisible(True)
             self.doseLbl.setVisible(True)
@@ -80,10 +88,16 @@ class recurringTab(object):
             self.pulseDelayLbl.setVisible(False)
             self.deliveryAmtTxt.setVisible(False)
             self.deliveryAmtLbl.setVisible(False)     
-
+        else:
+            
+            self.buttonGroup.setExclusive(False)
+            self.basalBtn.setChecked(False)
+            if self.deliveryType=="Bolus":
+                self.bolusBtn.setChecked(True)
+            self.buttonGroup.setExclusive(True)
     
     def enableBolusMode(self):
-        if self.showDialog("BOLUS mode") == QMessageBox.Ok:
+        if self.showDialog("Switch to BOLUS mode?") == QMessageBox.Ok:  
             if self.deliveryType=="Basal":
                 self.basalResume=True
 
@@ -94,6 +108,13 @@ class recurringTab(object):
             self.pulseDelayLbl.setVisible(True)
             self.deliveryAmtTxt.setVisible(True)
             self.deliveryAmtLbl.setVisible(True)
+        else:
+            
+            self.buttonGroup.setExclusive(False)
+            self.bolusBtn.setChecked(False)
+            if self.deliveryType=="Basal":
+                self.basalBtn.setChecked(True)
+            self.buttonGroup.setExclusive(True)
 
 
     
@@ -113,7 +134,7 @@ class recurringTab(object):
                 self.updateStatus()"""
 
     def startBasalDelivery(self):
-        
+        self.deliveryType="Basal"
         self.basalRate=int(self.doseTxt.toPlainText())
         """
         Delivery amount x
@@ -121,7 +142,7 @@ class recurringTab(object):
         3600*1000/x*0.05 gives the milliseconds
         """
         self.timeBetweenPulses=(3600*1000/self.basalRate*0.05)
-        self.insulonCompleteFlag=True
+
         self.ongoingDeliveryFlag=True
         self.heartBeatChecker.heartBeatSenderTimer.stop()
         self.heartBeatChecker.heartBeatRecieverTimer.stop()
@@ -135,16 +156,19 @@ class recurringTab(object):
         """
         print("Starting Basal Delivery")
         
-        Logger.q.put(("WARNING","Starting Basal Delivery with rate {}IU/hr ".format(self.basalRate)))
-        self.showWarning("Start Basal Delivery with rate {}IU/hr ?".format(self.basalRate))
-        self.completedDose=0
-        #self.timeBetweenPulses=2000
-        self.basalTimer.setTimeout(self.timeBetweenPulses)
-        self.basalTimer.start()
-        self.basalTimer.setPriority(QThread.HighestPriority)
+        
+        if self.showDialog("Start Basal Delivery with rate {}IU/hr ?".format(self.basalRate))==QMessageBox.Ok:
+            Logger.q.put(("WARNING","Starting Basal Delivery with rate {}IU/hr ".format(self.basalRate)))
+            timeStamp=datetime.datetime.now()
+            timeStamp = timeStamp.strftime("%H:%M:%S")
+            self.outTxt.appendPlainText(timeStamp+"-> "+"Starting Basal Delivery with rate {}IU/hr".format(self.basalRate))
+            self.completedDose=0
+            #self.timeBetweenPulses=2000
+            self.basalTimer.setTimeout(self.timeBetweenPulses)
+            self.basalTimer.start()
+            self.basalTimer.setPriority(QThread.HighestPriority)
+            
     
-    def setInsulonCompleteFlag(self,status):
-        self.insulonCompleteFlag= status
 
     def resetHandler(self,encoderValue):
         Logger.q.put(("INFO","Encoder value: {}".format(encoderValue)))
@@ -155,10 +179,16 @@ class recurringTab(object):
             self.resetBolusTimer()
 
     def startDeliveryHandler(self,encoderValue):
+        if self.checkActuationLimit():
+            self.logic.allowActuation=True
+        else:
+            self.logic.allowActuation=False
         if self.deliveryType=="Basal":
             self.startBasalDelivery()
         elif self.deliveryType=="Bolus":
             self.startBolusDelivery()
+        elif self.deliveryType==None:
+            self.showError("Pick a delivery mode")
 
     def resetBasalTimer(self):
         
@@ -209,6 +239,9 @@ class recurringTab(object):
         #if self.insulonCompleteFlag==True:
         self.insulonStartTime=current_milli_time()
         print("Sent bolus dose",self.insulonStartTime)
+        timeStamp=datetime.datetime.now()
+        ts = timeStamp.strftime("%H:%M:%S")
+        self.outTxt.appendPlainText(ts+"-> "+"Sent basal dose, next dose at {}".format(timeStamp+ datetime.timedelta(milliseconds=self.timeBetweenPulses)))
         timeGap=self.insulonStartTime-self.prevTime
         print("Time difference::::::",(timeGap))
         #time.sleep(0.0005)
@@ -224,6 +257,6 @@ class recurringTab(object):
         print("Average Correction:",self.averageCorrection)
         self.logic.pq.put((1,"INSHB"))
         self.prevTime=self.insulonStartTime
-        self.insulonCompleteFlag=False
+
         
 

@@ -37,7 +37,7 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,comm
         self.connectionStatusLbl=self.ui.connectionStatusLbl
         
         self.stopAllBtn=self.ui.stopAllBtn
-        self.stopAllBtn.clicked.connect(self.stopActuation)
+        self.stopAllBtn.clicked.connect(self.stopAll)
         
         self.disconnectBtn =self.ui.DisconnectBtn
 
@@ -150,20 +150,45 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,comm
         self.init_bolusTestingTab() 
 
 
-        
+        self.ui.tabWidget.setTabEnabled(1,False)
+        self.ui.tabWidget.setTabEnabled(2,False)
+        self.ui.tabWidget.setTabEnabled(3,False)
+        self.ui.tabWidget.setTabEnabled(4,False)
+        self.ui.tabWidget.setTabEnabled(5,False)
+
         self.updateStatus()
+
+    def stopAll(self):
+        if self.showDialog("Stop Actuation?")==QMessageBox.Ok:
+            self.logic.pq.put((0,"STOP"))
+            Logger.q.put(("WARNING","Stopping Actuation"))
 
 
     def stopActuation(self):
+        #deselect basal and bolus buttons
+        self.buttonGroup.setExclusive(False)
+        self.basalBtn.setChecked(False)
+        self.bolusBtn.setChecked(False)
+        self.buttonGroup.setExclusive(True)
+
         self.basalTimer.quit()
         self.bolusTimer.quit()
         self.stopPriming=True
         self.logic.allowActuation=False
+        self.basalResume=False
+        self.ongoingDeliveryFlag=False
+        self.deliveryType=None
+        self.heartBeatChecker.heartBeatSenderTimer.start()
 
     def resetActuation(self):
+        self.stopActuation()
+        self.init_primingTab()
         self.stopPriming=False
         self.logic.allowActuation=True
         self.actuationLength=0
+        self.countTxt.setText(str(0))
+        self.updateStatus()
+        self.primingRotations=0
 
                 
     def finished(self,args):
@@ -249,7 +274,7 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,comm
         else:
             self.connectionStatusLbl.setStyleSheet("background-color: rgb(239, 41, 41)")
         self.statusTxt.appendPlainText("Clutch: "+ ("Gear" if self.clutch else "Ratchet"))
-        self.statusTxt.appendPlainText("Actuation Length:"+str(self.actuationLength))
+        self.statusTxt.appendPlainText("Actuation Length:"+str(self.actuationLength)+"mm")
         self.statusTxt.appendPlainText("Ongoing:"+ self.ongoing)
     
         # self.statusTxt.appendPlainText("Rotations: " + str(self.rotations))
@@ -260,10 +285,15 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,comm
 
         
         
-        self.doseStatusTxt.appendPlainText(self.deliveryType)
-        if self.deliveryType!="None":
-            #self.doseStatusTxt.appendPlainText(str(self.dose))
-            self.doseStatusTxt.insertPlainText(", "+str(self.dose)+ (" IU/hr" if self.deliveryType=="Basal" else "IU"))
+        
+        if self.deliveryType!=None:
+            self.doseStatusTxt.appendPlainText(self.deliveryType)
+            if self.deliveryType=="Basal":
+                self.doseStatusTxt.insertPlainText(", "+str(self.basalRate)+ " IU/hr")
+            else:
+                self.doseStatusTxt.insertPlainText(", "+ "{}ms , {}IU ".format(self.timeBetweenPulses,self.deliveryAmount))
+        else:
+            self.doseStatusTxt.appendPlainText("No delivery")
         #last delivery
         #future
         
@@ -271,7 +301,7 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,comm
     def showDialog(self,cmd):
         msgBox = QMessageBox()
         msgBox.setIcon(QMessageBox.Information)
-        msgBox.setText("Send command "+cmd+" ?")
+        msgBox.setText(cmd)
         msgBox.setWindowTitle("Message")
         msgBox.setStandardButtons(QMessageBox.Ok | QMessageBox.Cancel)
         
@@ -280,7 +310,6 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,comm
         if returnValue == QMessageBox.Ok:
             print('OK clicked')
         return returnValue
-        self.basalBtn.checkStateSet(True)
 
     def showWarning(self,cmd):
         msgBox = QMessageBox()
@@ -318,10 +347,14 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,comm
 
     def discon(self):
         
-        if self.showDialog("Disconnect")== QMessageBox.Ok:
+        if self.showDialog("Disconnect device?")== QMessageBox.Ok:
             self.ui.tabWidget.setCurrentIndex(0)
-            self.ui.tabWidget.currentIndex
+            self.stopActuation()
             self.uart_connection.disconnect()
+            self.uart_service=False
+            self.heartBeatChecker.heartBeatSenderTimer.stop()
+            self.heartBeatChecker.heartBeatRecieverTimer.stop()
+            self.updateStatus()
     
     """def closeEvent(self,event):
         Make sure all threads stop
@@ -346,9 +379,9 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,comm
         #True is gear side
         #False is ratchet
 
-        if self.actuationLength < 3.0:
+        if self.checkActuationLimit():
             if(self.clutch==True):
-                self.actuationLength+=1
+                self.actuationLength+=0.36
             elif(self.clutch==False):
                 self.actuationLength+=4.5*pow(10,-6)
 
@@ -359,7 +392,15 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,comm
         
         self.updateStatus()
 
-    
+    def checkActuationLimit(self):
+        """Checks actuation limit
+
+        :return: Returns True-> allow actuation, limit not reached
+        :rtype: Bool
+        """
+        if self.actuationLength < 27.0:
+            return True
+        return False
     def actuationLimitReached(self):
         self.showError("Actuation Limit reached")
         Logger.q.put(("ERROR","Actuation limit reached!"))

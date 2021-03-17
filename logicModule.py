@@ -38,7 +38,6 @@ class Logic(QThread):
 
         """Flag indicates that the next incoming value is the inulon time
         """
-        self.insulonCompleteFlag=False
         self.sendInsulonFlag=False
         
         #This is a safety feature to take care of over actuation
@@ -76,7 +75,7 @@ class Logic(QThread):
                         self.sendIN.emit()
                         self.updateActuationLength.emit()
                     else:
-                        self.actuationLimitReached.emit()
+                        #self.actuationLimitReached.emit()
                         self.stopActuation.emit()
 
                 elif(data=="SHB"):
@@ -127,6 +126,8 @@ class Logic(QThread):
                     print("Switched to delivery chain")
                 elif(data=="PC"):
                     print("Switched to priming chain")
+                elif(data=="STOP"):
+                    self.stopActuation.emit()
                     
             time.sleep(0.0005)
 

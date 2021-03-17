@@ -44,19 +44,12 @@ class bolusTestingTab(object):
         self.insulonEndTime=0
         self.prevTime=0
 
-        self.insulonCompleteFlag=False
+
+
     
     def startBolusDelivery(self):
-        if self.deliveryType=="Bolus":
-            print("BOLUS")
-            self.timeBetweenPulses=int(self.pulseDelayTxt.toPlainText())
-            self.deliveryAmount=int(self.deliveryAmtTxt.toPlainText())
+        self.deliveryType="Bolus"
 
-        elif self.deliveryType=="Basal":
-            print("BASAL")
-            self.deliveryAmount=int(self.doseTxt.toPlainText())
-
-        self.insulonCompleteFlag=True
         self.ongoingDeliveryFlag=True
         self.heartBeatChecker.heartBeatSenderTimer.stop()
         self.heartBeatChecker.heartBeatRecieverTimer.stop()
@@ -70,18 +63,19 @@ class bolusTestingTab(object):
         print("Starting Bolus Delivery")
         
         self.timeBetweenPulses=int(self.pulseDelayTxt.toPlainText())
-        self.deliveryAmount=int(self.deliveryAmtTxt.toPlainText())
+        self.deliveryAmount=float(self.deliveryAmtTxt.toPlainText())
         Logger.q.put(("WARNING","Starting Bolus Delivery with duration {} for {}IU ".format(self.timeBetweenPulses,self.deliveryAmount)))
-        self.showWarning("Start Bolus Delivery with duration {} for {}IU ?".format(self.timeBetweenPulses,self.deliveryAmount))
-        self.completedDose=0
-        #self.timeBetweenPulses=2000
-        self.bolusTimer.setTimeout(self.timeBetweenPulses)
-        self.bolusTimer.finished.connect(self.completedBolusRegime)
-        self.bolusTimer.start()
-        self.bolusTimer.setPriority(QThread.HighestPriority)
-    
-    def setInsulonCompleteFlag(self,status):
-        self.insulonCompleteFlag= status
+        if self.showDialog("Start Bolus Delivery with duration {} for {}IU ?".format(self.timeBetweenPulses,self.deliveryAmount))==QMessageBox.Ok:
+            self.completedDose=0
+            #self.timeBetweenPulses=2000
+            self.bolusTimer.setTimeout(self.timeBetweenPulses)
+            #self.bolusTimer.finished.connect(self.completedBolusRegime)
+            self.bolusTimer.start()
+            self.bolusTimer.setPriority(QThread.HighestPriority)
+            timeStamp=datetime.datetime.now()
+            timeStamp = timeStamp.strftime("%H:%M:%S")
+            self.outTxt.appendPlainText(timeStamp+"-> "+"Starting Bolus Delivery with duration {} for {}IU ".format(self.timeBetweenPulses,self.deliveryAmount))
+
 
     def resetBolusTimer(self):
         
@@ -95,12 +89,15 @@ class bolusTestingTab(object):
             return
         if self.deliveryAmount>0:
 
-                self.insulonCompleteFlag=True
+
                 self.deliveryAmount=round(self.deliveryAmount-0.05,2) #decrease by amount consumed in 1 rotation
                 self.cycleNumber+=1
                 
                 Logger.q.put(("WARNING","Resetting bolus delivery timer,{} remaining".format(self.deliveryAmount)))
-                
+                timeStamp=datetime.datetime.now()
+                timeStamp = timeStamp.strftime("%H:%M:%S")
+                self.outTxt.appendPlainText(timeStamp+"-> "+"Sent bolus dose, {} remaining".format(self.deliveryAmount))
+
                 print("Reset Bolus timer")
 
                 
@@ -153,6 +150,7 @@ class bolusTestingTab(object):
         #if self.insulonCompleteFlag==True:
         self.insulonStartTime=current_milli_time()
         print("Sent bolus dose",self.insulonStartTime)
+
         timeGap=self.insulonStartTime-self.prevTime
         print("Time difference::::::",(timeGap))
         #time.sleep(0.0005)
@@ -172,17 +170,21 @@ class bolusTestingTab(object):
         self.logic.pq.put((1,"INSHB"))
         #self.uart_service.write("IPIN\r".encode("utf-8"))
         self.prevTime=self.insulonStartTime
-        self.insulonCompleteFlag=False
+
         
         #else:
         #    Logger.q.put(("ERROR","Response too slow, Skipping delivery"))
 
 
         #Start timer
-    def completedBolusRegime(self):
+    def completedBolusRegime(self):  
         self.heartBeatChecker.heartBeatSenderTimer.stop()
         self.heartBeatChecker.heartBeatRecieverTimer.stop()
-        self.heartBeatChecker.heartBeatSenderTimer.start()
+
+        if  self.basalResume == True:
+            self.startBasalDelivery()
+        else:
+            self.heartBeatChecker.heartBeatSenderTimer.start()
         
         
 def current_milli_time():

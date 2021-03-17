@@ -38,10 +38,18 @@ class connectTab(object):
         self.dropdown=self.ui.comboBox
         #scan button
         self.scanButton=self.ui.scanButton
+        try:
+            self.scanButton.clicked.disconnect()
+        except:
+            pass
         self.scanButton.clicked.connect(self.scanPort)
         #connect button
         self.connectButton=self.ui.connectButton
         self.connectButton.setEnabled(False)
+        try:
+            self.connectButton.clicked.disconnect()
+        except:
+            pass
         self.connectButton.clicked.connect(self.connectPort)
 
         self.disconnectBtn.setEnabled(False)
@@ -49,14 +57,11 @@ class connectTab(object):
         self.uart_service=False
 
         self.scanLbl=self.ui.scanLbl
-        
-        
+
         self.movie = QMovie("loader.gif")
         self.scanLbl.setMovie(self.movie)
 
-    
 
-        
         #check availability of bluetooth functionality
         while(self.isConnectedReciever()==0):
             self.connectButton.setEnabled(False)
@@ -139,11 +144,19 @@ class connectTab(object):
         :rtype: bool
         """
         #checks if bluetooth reciever is connected
+        
+
+
+        os.system("rfkill unblock bluetooth")
+        os.system("killall bluetoothd")
+        os.system("hciconfig hci0 up")
+
         if(os.system("timeout -s INT 1s hcitool lescan")== 256):
             #print("BLUETOOTH ADAPTER NOT FOUND")
             Logger.q.put(("ERROR","BLUETOOTH ADAPTER NOT FOUND"))
             self.showError("BLUETOOTH ADAPTER NOT FOUND")
             exit()
+        
             #return 0
         return 1
 
@@ -157,6 +170,10 @@ class connectTab(object):
 
     def connectPort(self):
         self.connectButton.setEnabled(False)
+        os.system("sudo rfkill unblock bluetooth")
+        os.system("sudo killall bluetoothd")
+        os.system("sudo hciconfig hci0 up")
+        
         if(self.dropdown.currentText()):
             self.port=self.dropdown.currentText()
             ble=BLERadio()
@@ -180,10 +197,14 @@ class connectTab(object):
                                 Logger.q.put(("INFO","Connected to: " +self.dropdown.currentText()))
                                 self.connectedSignal.emit()
                                 self.connectButton.setEnabled(True)
+                                self.disconnectBtn.setEnabled(True)
+                                self.ui.tabWidget.setTabEnabled(1,True)
+                                self.ui.tabWidget.setCurrentIndex(1)
                                 break
                         except Exception as e: 
                             print(e)
         self.connectButton.setEnabled(True)
+        
 
 
     def scanPort(self):

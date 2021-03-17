@@ -1,0 +1,6 @@
+WARNING 16-Mar-21 17:49:28.694 - Started
+INFO 16-Mar-21 17:49:28.694 - Starting logger
+INFO 16-Mar-21 17:49:28.695 - Serial Listner Thread started
+INFO 16-Mar-21 17:49:28.696 - Parser Thread Started successfully
+INFO 16-Mar-21 17:49:32.567 - Started scan for BLE devices
+INFO 16-Mar-21 17:49:42.609 - Scan complete

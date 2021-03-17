@@ -1,0 +1,4 @@
+WARNING 17-Mar-21 09:54:47.593 - Started
+INFO 17-Mar-21 09:54:47.593 - Starting logger
+INFO 17-Mar-21 09:54:47.594 - Serial Listner Thread started
+INFO 17-Mar-21 09:54:47.595 - Parser Thread Started successfully
