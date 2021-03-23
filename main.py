@@ -43,6 +43,14 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,comm
 
         self.disconnectBtn.clicked.connect(self.discon)
 
+        self.timeDisplayLbl=self.ui.timeDisplayLbl
+        self.timeUpdater=QTimer()
+        self.timeUpdater.setInterval
+        self.timeUpdater.timeout.connect(self.updateDateTime)
+        self.updateDateTime()
+        self.timeUpdater.start(900)
+        
+
         #variables
         self.primingRotations=0
         #self.rotations=0
@@ -71,7 +79,9 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,comm
         """
 
         self.logger= Logger()
+        self.logger.loggerError.connect(self.loggerError)
         self.logger.start()
+        
         #self.sender.finished.connect(lambda v: self.finished("Logger"))
 
         """
@@ -158,11 +168,18 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,comm
 
         self.updateStatus()
 
+    def loggerError(self):
+        self.showError("Logger Unable to start!")
+
     def stopAll(self):
         if self.showDialog("Stop Actuation?")==QMessageBox.Ok:
             self.logic.pq.put((0,"STOP"))
             Logger.q.put(("WARNING","Stopping Actuation"))
 
+    def updateDateTime(self):
+        timeStamp=datetime.datetime.now()
+        timeStamp = timeStamp.strftime("Date: %d-%m-%Y\nTime: %H:%M:%S")
+        self.timeDisplayLbl.setText(timeStamp)
 
     def stopActuation(self):
         #deselect basal and bolus buttons
@@ -181,15 +198,15 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,comm
         self.heartBeatChecker.heartBeatSenderTimer.start()
 
     def resetActuation(self):
-        self.stopActuation()
-        self.init_primingTab()
-        self.stopPriming=False
-        self.logic.allowActuation=True
-        self.actuationLength=0
-        self.countTxt.setText(str(0))
-        self.updateStatus()
-        self.primingRotations=0
-
+        if self.showDialog("Do you want to reset?\nWARNING: Reset Stop any ongoing deliveries, ensure that the actuator has been reset to the start position")==QMessageBox.Ok:
+            self.stopActuation()
+            self.init_primingTab()
+            self.stopPriming=False
+            self.logic.allowActuation=True
+            self.actuationLength=0
+            self.countTxt.setText(str(0))
+            self.updateStatus()
+            self.primingRotations=0
                 
     def finished(self,args):
         print(args+"Thread complete")
@@ -348,6 +365,7 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,comm
     def discon(self):
         
         if self.showDialog("Disconnect device?")== QMessageBox.Ok:
+            self.bleConnectionStatus="Disconnected"
             self.ui.tabWidget.setCurrentIndex(0)
             self.stopActuation()
             self.uart_connection.disconnect()

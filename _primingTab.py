@@ -118,7 +118,10 @@ class primingTab(object):
             num=0
         if num!=0:
             self.showWarning("Rotations complete!")
+            
         self.resetBtn.setEnabled(True)
+        self.fixedPrimeBtn.setEnabled(True)
+        self.rotateBtn.setEnabled(True)
 
             
 
@@ -154,6 +157,9 @@ class primingTab(object):
 
     def fixedPrime(self):
         self.resetBtn.setEnabled(False)
+        self.fixedPrimeBtn.setEnabled(False)
+        self.rotateBtn.setEnabled(False)
+        
         msgBox = QMessageBox()
         msgBox.setIcon(QMessageBox.Information)
         msgBox.setText("Fixed Prime")
@@ -182,14 +188,14 @@ class primingTab(object):
                 self.logic.pq.put((1,"SIN"))
                 QTest.qWait(1500)
         
-        
-        
-        
-
         if insulons!=0:
             self.primingBar.setValue(100)
             self.showWarning("Fixed prime complete!")
             self.primingBar.setVisible(False)
             self.finishPrimeBtn.setEnabled(True)
+        
         self.resetBtn.setEnabled(True)
+        self.fixedPrimeBtn.setEnabled(True)
+        self.rotateBtn.setEnabled(True)
+
 

@@ -23,6 +23,8 @@ class recurringTab(object):
         self.basalBtn=self.ui.basalBtn
         self.basalBtn.clicked.connect(self.enableBasalMode)
 
+        self.basalPauseLbl=self.ui.basalPauseLbl
+        self.basalPauseLbl.setVisible(False)
         
 
         self.bolusBtn=self.ui.bolusBtn
@@ -35,6 +37,7 @@ class recurringTab(object):
         self.startDoseBtn.clicked.connect(self.startDeliveryHandler)
         self.doseTxt=self.ui.doseTxt
         self.doseLbl=self.ui.doseLbl
+        self.doseTxt.editingFinished.connect(self.basalRateChanged)
         self.doseTxt.setVisible(True)
         self.doseLbl.setVisible(True)
 
@@ -63,11 +66,10 @@ class recurringTab(object):
         self.buttonGroup.addButton(self.basalBtn)
         self.buttonGroup.addButton(self.bolusBtn)
 
-        self.bolusBar=self.ui.bolusBar
-        self.bolusBar.setVisible(False)
         
 
-
+    def basalRateChanged(self):
+        self.showDialog("Change Basal rate to {}?".format(self.doseTxt.text()))
 
     
     def basalDose(self):
@@ -103,6 +105,9 @@ class recurringTab(object):
         if self.showDialog("Switch to BOLUS mode?") == QMessageBox.Ok:  
             if self.deliveryType=="Basal":
                 self.basalResume=True
+            
+            if self.basalResume==True:
+                self.basalPauseLbl.setVisible(True)
 
             self.deliveryType="Bolus"
             self.doseTxt.setVisible(False)
@@ -138,7 +143,7 @@ class recurringTab(object):
 
     def startBasalDelivery(self):
         self.deliveryType="Basal"
-        self.basalRate=int(self.doseTxt.toPlainText())
+        self.basalRate=int(self.doseTxt.text())
         """
         Delivery amount x
         x/0.05 actuations will have to be done
@@ -147,6 +152,7 @@ class recurringTab(object):
         self.timeBetweenPulses=(3600*1000/self.basalRate*0.05)
 
         self.ongoingDeliveryFlag=True
+        self.basalPauseLbl.setVisible(False)
         self.heartBeatChecker.heartBeatSenderTimer.stop()
         self.heartBeatChecker.heartBeatRecieverTimer.stop()
         

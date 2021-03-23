@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1004</width>
+    <width>1023</width>
     <height>594</height>
    </rect>
   </property>
@@ -261,16 +261,6 @@
        <string>Start</string>
       </property>
      </widget>
-     <widget class="QTextEdit" name="doseTxt">
-      <property name="geometry">
-       <rect>
-        <x>340</x>
-        <y>40</y>
-        <width>104</width>
-        <height>81</height>
-       </rect>
-      </property>
-     </widget>
      <widget class="QLabel" name="doseLbl">
       <property name="geometry">
        <rect>
@@ -319,7 +309,7 @@
      <widget class="QLabel" name="deliveryAmtLbl">
       <property name="geometry">
        <rect>
-        <x>360</x>
+        <x>390</x>
         <y>46</y>
         <width>131</width>
         <height>51</height>
@@ -332,30 +322,10 @@
        <bool>true</bool>
       </property>
      </widget>
-     <widget class="QTextEdit" name="pulseDelayTxt">
-      <property name="geometry">
-       <rect>
-        <x>220</x>
-        <y>110</y>
-        <width>131</width>
-        <height>70</height>
-       </rect>
-      </property>
-     </widget>
-     <widget class="QTextEdit" name="deliveryAmtTxt">
-      <property name="geometry">
-       <rect>
-        <x>360</x>
-        <y>110</y>
-        <width>121</width>
-        <height>70</height>
-       </rect>
-      </property>
-     </widget>
      <widget class="QLabel" name="pulseDelayLbl">
       <property name="geometry">
        <rect>
-        <x>220</x>
+        <x>250</x>
         <y>40</y>
         <width>131</width>
         <height>61</height>
@@ -374,17 +344,34 @@
        <bool>true</bool>
       </property>
      </widget>
-     <widget class="QProgressBar" name="bolusBar">
+     <widget class="QLineEdit" name="doseTxt">
       <property name="geometry">
        <rect>
-        <x>120</x>
-        <y>270</y>
-        <width>331</width>
+        <x>330</x>
+        <y>50</y>
+        <width>113</width>
+        <height>25</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="deliveryAmtTxt">
+      <property name="geometry">
+       <rect>
+        <x>390</x>
+        <y>110</y>
+        <width>131</width>
         <height>31</height>
        </rect>
       </property>
-      <property name="value">
-       <number>24</number>
+     </widget>
+     <widget class="QLineEdit" name="pulseDelayTxt">
+      <property name="geometry">
+       <rect>
+        <x>250</x>
+        <y>110</y>
+        <width>113</width>
+        <height>31</height>
+       </rect>
       </property>
      </widget>
     </widget>
@@ -580,6 +567,9 @@
       <height>41</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(204, 0, 0)</string>
+    </property>
     <property name="text">
      <string>Stop</string>
     </property>
@@ -741,13 +731,47 @@
      <string/>
     </property>
    </widget>
+   <widget class="QLabel" name="basalPauseLbl">
+    <property name="geometry">
+     <rect>
+      <x>870</x>
+      <y>90</y>
+      <width>131</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(204, 0, 0)</string>
+    </property>
+    <property name="text">
+     <string>Basal is paused</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="timeDisplayLbl">
+    <property name="geometry">
+     <rect>
+      <x>860</x>
+      <y>10</y>
+      <width>151</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>00:00</string>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1004</width>
+     <width>1023</width>
      <height>22</height>
     </rect>
    </property>

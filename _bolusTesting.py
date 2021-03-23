@@ -44,8 +44,15 @@ class bolusTestingTab(object):
         self.insulonEndTime=0
         self.prevTime=0
 
+        self.pulseDelayTxt.editingFinished.connect(self.timeBetweenPulsesChanged)
+        self.deliveryAmtTxt.editingFinished.connect(self.bolusDeliveryAmountChanged)
 
 
+    def timeBetweenPulsesChanged(self):
+        self.showDialog("Change Bolus inteval to {}?".format(self.pulseDelayTxt.text()))
+
+    def bolusDeliveryAmountChanged(self):
+        self.showDialog("Change Basal rate to {}?".format(self.deliveryAmtTxt.text()))
     
     def startBolusDelivery(self):
         self.deliveryType="Bolus"
@@ -63,8 +70,8 @@ class bolusTestingTab(object):
         """
         print("Starting Bolus Delivery")
         
-        self.timeBetweenPulses=int(self.pulseDelayTxt.toPlainText())
-        self.deliveryAmount=float(self.deliveryAmtTxt.toPlainText())
+        self.timeBetweenPulses=int(self.pulseDelayTxt.text())
+        self.deliveryAmount=float(self.deliveryAmtTxt.text())
         Logger.q.put(("WARNING","Starting Bolus Delivery with duration {} for {}IU ".format(self.timeBetweenPulses,self.deliveryAmount)))
         if self.showDialog("Start Bolus Delivery with duration {} for {}IU ?".format(self.timeBetweenPulses,self.deliveryAmount))==QMessageBox.Ok:
             self.completedDose=0
@@ -76,7 +83,8 @@ class bolusTestingTab(object):
             timeStamp=datetime.datetime.now()
             timeStamp = timeStamp.strftime("%H:%M:%S")
             self.outTxt.appendPlainText(timeStamp+"-> "+"Starting Bolus Delivery with duration {} for {}IU ".format(self.timeBetweenPulses,self.deliveryAmount))
-            self.bolusBar.setVisible(True)
+            self.outTxt.appendPlainText("Remaining Time: "+str(self.timeBetweenPulses/1000*self.deliveryAmount/0.05)+"seconds")
+
 
 
     def resetBolusTimer(self):
@@ -90,15 +98,17 @@ class bolusTestingTab(object):
         if(self.ongoingDeliveryFlag==False):
             return
         if self.deliveryAmount>0:
-
+                
 
                 self.deliveryAmount=round(self.deliveryAmount-0.05,2) #decrease by amount consumed in 1 rotation
+               
                 self.cycleNumber+=1
                 
                 Logger.q.put(("WARNING","Resetting bolus delivery timer,{} remaining".format(self.deliveryAmount)))
                 timeStamp=datetime.datetime.now()
                 timeStamp = timeStamp.strftime("%H:%M:%S")
                 self.outTxt.appendPlainText(timeStamp+"-> "+"Sent bolus dose, {} remaining".format(self.deliveryAmount))
+                self.outTxt.appendPlainText("Remaining Time: "+str(round(self.timeBetweenPulses/1000*self.deliveryAmount/0.05,2))+"seconds")
 
                 print("Reset Bolus timer")
 
@@ -185,6 +195,7 @@ class bolusTestingTab(object):
 
         if  self.basalResume == True:
             self.startBasalDelivery()
+            self.basalPauseLbl.setVisible(False)
         else:
             self.heartBeatChecker.heartBeatSenderTimer.start()
         
