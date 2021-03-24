@@ -1,0 +1,5 @@
+WARNING 24-Mar-21 13:07:01.228 - Started
+INFO 24-Mar-21 13:07:01.229 - Starting logger
+INFO 24-Mar-21 13:07:01.229 - Serial Listner Thread started
+INFO 24-Mar-21 13:07:01.230 - Parser Thread Started successfully
+ERROR 24-Mar-21 13:07:01.255 - BLUETOOTH ADAPTER NOT FOUND

@@ -101,8 +101,6 @@ class primingTab(object):
         self.resetBtn.setEnabled(False)
         num, ok = QInputDialog.getText(self, 'Number of rotations', 'Number:')
         
-        delayTimer=QTimer()
-
         if num.isnumeric():
             num=int(num)
 

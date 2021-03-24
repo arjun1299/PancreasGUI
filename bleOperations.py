@@ -129,6 +129,13 @@ class Sender(QThread):
         print("Send IN")
         self.q.put(s)
         self.insulonSent.emit()
+    
+    def sendUN(self):
+        """Send an insulon 
+        """
+        s="IPUN\r"
+        print("Send UN")
+        self.q.put(s)
 
     def sendDC(self):
         """Send an delivery chain 

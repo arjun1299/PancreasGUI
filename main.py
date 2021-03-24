@@ -12,6 +12,7 @@ from logicModule import *
 from multithread import *
 from loggingModule import *
 
+from PyQt5.QtTest import QTest
 from basicui import Ui_MainWindow
 import serial.tools.list_ports
 from datetime import datetime as dt
@@ -132,6 +133,7 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,comm
         self.logic.hbStop.connect(self.heartBeatChecker.hbStop)
         self.logic.sendDC.connect(self.sender.sendDC)
         self.logic.sendPC.connect(self.sender.sendPC)
+        self.logic.sendUN.connect(self.sender.sendUN)
         self.logic.start()
 
         self.connectedSignal.connect(self.isConnectedBLEHandle)
@@ -199,6 +201,22 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,comm
 
     def resetActuation(self):
         if self.showDialog("Do you want to reset?\nWARNING: Reset Stop any ongoing deliveries, ensure that the actuator has been reset to the start position")==QMessageBox.Ok:
+            num, ok = QInputDialog.getText(self, 'Number of reverse rotations', 'Number:')
+            self.logic.pq.put((1,"SPC"))
+            if num.isnumeric():
+                num=int(num)
+
+            for i in range(num):
+                if self.stopPriming==False:
+                    self.primingRotations+=1
+                    
+                    #self.countTxt.setFontPointSize(20)
+                    self.logic.pq.put((1,"SUN"))
+                    self.countTxt.setText(str(self.primingRotations))
+                    QTest.qWait(1500)
+        
+
+
             self.stopActuation()
             self.init_primingTab()
             self.stopPriming=False

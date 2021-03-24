@@ -21,6 +21,7 @@ class Logic(QThread):
     sentIN=pyqtSignal()
     sendPC=pyqtSignal()
     sendDC=pyqtSignal()
+    sendUN=pyqtSignal()
 
     #Error signals
     actuationLimitReached=pyqtSignal()
@@ -77,6 +78,8 @@ class Logic(QThread):
                     else:
                         #self.actuationLimitReached.emit()
                         self.stopActuation.emit()
+                elif(data=="SUN"):
+                        self.sendUN.emit()
 
                 elif(data=="SHB"):
                     #send heartbeat
@@ -190,6 +193,7 @@ class heartBeatChecker(QTimer):
     def hbStop(self):
         self.heartBeatSenderTimer.stop()
         self.heartBeatRecieverTimer.stop()
+    
 
     
     def hbSend(self):
