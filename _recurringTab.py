@@ -6,7 +6,9 @@ from PyQt5.QtWidgets import  QMessageBox
 from PyQt5.QtWidgets import QApplication, QWidget, QPushButton, QMessageBox
 from PyQt5.QtGui import QIcon
 from PyQt5.QtCore import pyqtSlot
-from PyQt5.QtCore import QTimer,QThreadPool,QThread
+from PyQt5.QtCore import QTimer,QThreadPool,QThread,QTime
+from PyQt5.QtCore import *
+import PyQt5.QtCore
 
 
 from basicui import Ui_MainWindow
@@ -66,7 +68,35 @@ class recurringTab(object):
         self.buttonGroup.addButton(self.basalBtn)
         self.buttonGroup.addButton(self.bolusBtn)
 
-        
+        self.basalProfileBtn=self.ui.basalProfileBtn
+        self.basalProfileBtn.clicked.connect(self.showInput)
+
+        """
+        Basal profile parameters
+        """
+        self.profileFrame=self.ui.profileFrame
+        self.profileFrame.setVisible(False)
+
+        self.setProfileBtn=self.ui.setProfileBtn
+        self.setProfileBtn.clicked.connect(self.hideInput)
+        self.basalProfileTimes=[]
+        self.basalProfileAmounts=[]
+        self.index=0#keeps track of which delivery is ongoing
+
+    def showInput(self):
+        self.profileFrame.setVisible(True)
+
+    def hideInput(self):
+        self.profileFrame.setVisible(False)
+        self.basalProfileAmounts=[self.ui.profileRate_1.text(),self.ui.profileRate_2.text(),self.ui.profileRate_3.text(),self.ui.profileRate_4.text(),self.ui.profileRate_5.text(),self.ui.profileRate_6.text()]
+        temp=self.basalProfileAmounts
+        self.basalProfileAmounts=[]
+        for i in temp:
+            if i!='':
+                self.basalProfileAmounts.append(float(i))
+        self.basalProfileTimes=[self.ui.timeEdit_1.time(),self.ui.timeEdit_2.time(),self.ui.timeEdit_3.time(),self.ui.timeEdit_4.time(),self.ui.timeEdit_5.time(),self.ui.timeEdit_6.time()]
+        print(self.basalProfileAmounts)
+        print(self.basalProfileTimes)
 
     def basalRateChanged(self):
         self.showDialog("Change Basal rate to {}?".format(self.doseTxt.text()))
@@ -140,16 +170,19 @@ class recurringTab(object):
             if self.showDialog("{} dose {} Iu/hr".format(self.deliveryType,self.doseTxt.toPlainText())) == QMessageBox.Ok:
                 self.dose=self.doseTxt.toPlainText()
                 self.updateStatus()"""
+    def basalCalc(self,basalRate):
+        """
+        Delivery rate x
+        x/0.05 actuations will have to be done
+        3600*1000/x*0.05 gives the milliseconds
+        """
+        self.timeBetweenPulses=(3600*1000/basalRate*0.05)
 
     def startBasalDelivery(self):
         self.deliveryType="Basal"
         self.basalRate=int(self.doseTxt.text())
-        """
-        Delivery amount x
-        x/0.05 actuations will have to be done
-        3600*1000/x*0.05 gives the milliseconds
-        """
-        self.timeBetweenPulses=(3600*1000/self.basalRate*0.05)
+
+        self.basalCalc(self.basalRate)
 
         self.ongoingDeliveryFlag=True
         self.basalPauseLbl.setVisible(False)
@@ -199,6 +232,24 @@ class recurringTab(object):
         elif self.deliveryType==None:
             self.showError("Pick a delivery mode")
 
+    def chkTime(self):
+        #Switch to new index
+        if len(self.basalProfileTimes)==1:
+            self.index=0
+        if not self.index+1 >= len(self.basalProfileAmounts):
+            if not self.basalProfileTimes[self.index]<=QTime.currentTime()<=self.basalProfileTimes[self.index+1]:
+                """When index is 0, then it may be the next day.
+                    We check if its back to the same hour, this way we can check if the greater than value of time is of the same day or the next
+                """
+                self.index+=1
+        elif self.basalProfileTimes[self.index]>=QTime.currentTime():
+            if self.basalProfileTimes[0]<=QTime.currentTime():
+            #this will indicate that it has gone to the next day and it is past the first time, indicating a full cycle complete
+                self.index=0
+            
+           
+
+
     def resetBasalTimer(self):
         
         """Resets the basal timer if the delivery target has not been reached
@@ -212,6 +263,10 @@ class recurringTab(object):
         if(self.ongoingDeliveryFlag==False):
             return
 
+        self.chkTime()
+        self.basalRate=float(self.basalProfileAmounts[self.index])
+        self.basalCalc(self.basalRate)
+        
 
         self.insulonCompleteFlag=True
         self.cycleNumber+=1            

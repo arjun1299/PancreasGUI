@@ -5,13 +5,12 @@ import serial
 import sys
 from PyQt5.QtWidgets import QApplication, QWidget, QPushButton, QMessageBox
 from PyQt5.QtGui import QIcon
-from PyQt5.QtCore import pyqtSlot
+
 
 from bleOperations import *
 from logicModule import *
 from multithread import *
 from loggingModule import *
-
 from PyQt5.QtTest import QTest
 from basicui import Ui_MainWindow
 import serial.tools.list_ports
@@ -207,12 +206,7 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,comm
                 num=int(num)
 
             for i in range(num):
-                if self.stopPriming==False:
-                    self.primingRotations+=1
-                    
-                    #self.countTxt.setFontPointSize(20)
                     self.logic.pq.put((1,"SUN"))
-                    self.countTxt.setText(str(self.primingRotations))
                     QTest.qWait(1500)
         
 
