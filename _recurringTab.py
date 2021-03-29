@@ -84,9 +84,13 @@ class recurringTab(object):
         self.index=0#keeps track of which delivery is ongoing
 
     def showInput(self):
+        """This is for the basal profile mode
+        """
         self.profileFrame.setVisible(True)
 
     def hideInput(self):
+        """This function is for after the apply button is clicked on the basal profile menu
+        """
         self.profileFrame.setVisible(False)
         self.basalProfileAmounts=[self.ui.profileRate_1.text(),self.ui.profileRate_2.text(),self.ui.profileRate_3.text(),self.ui.profileRate_4.text(),self.ui.profileRate_5.text(),self.ui.profileRate_6.text()]
         temp=self.basalProfileAmounts
@@ -99,10 +103,14 @@ class recurringTab(object):
         print(self.basalProfileTimes)
 
     def basalRateChanged(self):
+        """On a change of rate this is finished
+        """
         self.showDialog("Change Basal rate to {}?".format(self.doseTxt.text()))
 
     
     def basalDose(self):
+        """On clicking basal's radio button this function will be executed, ensures radio buttons work as expected
+        """
         
         #if self.showDialog("BASAL dose {} Iu/hr".format(self.basalTxt.toPlainText())) == QMessageBox.Ok:
         if self.showDialog("Switch to BASAL mode") == QMessageBox.Ok:
@@ -114,6 +122,8 @@ class recurringTab(object):
             self.buttonGroup.setExclusive(True)
     
     def enableBasalMode(self):
+        """Enables basal mode, sets appropriate flags and makes the required elements visible
+        """
         #Toggling element visibility
         if self.showDialog("Switch to BASAL mode?") == QMessageBox.Ok:
             self.deliveryType="Basal"
@@ -132,6 +142,9 @@ class recurringTab(object):
             self.buttonGroup.setExclusive(True)
     
     def enableBolusMode(self):
+        """Enables bolus mode, sets appropriate flags and makes the required elements visible
+        """
+
         if self.showDialog("Switch to BOLUS mode?") == QMessageBox.Ok:  
             if self.deliveryType=="Basal":
                 self.basalResume=True
@@ -179,6 +192,12 @@ class recurringTab(object):
         self.timeBetweenPulses=(3600*1000/basalRate*0.05)
 
     def startBasalDelivery(self):
+        """
+        Function exected on the start of basal delivery
+        1. Send HB
+        2. Recieve reply HB
+        3. Send IN based on  heartbeat response
+        """
         self.deliveryType="Basal"
         self.basalRate=int(self.doseTxt.text())
 
@@ -213,6 +232,11 @@ class recurringTab(object):
     
 
     def resetHandler(self,encoderValue):
+        """On a timer reset the reset handler resets the approprate timer
+
+        :param encoderValue: Value obtained along with the execution of the IN command
+        :type encoderValue: int/str
+        """
         Logger.q.put(("INFO","Encoder value: {}".format(encoderValue)))
 
         if self.deliveryType=="Basal":
@@ -221,6 +245,11 @@ class recurringTab(object):
             self.resetBolusTimer()
 
     def startDeliveryHandler(self,encoderValue):
+        """On pressing of start, this function calls the appropriate function
+
+        :param encoderValue: [description]
+        :type encoderValue: [type]
+        """
         if self.checkActuationLimit():
             self.logic.allowActuation=True
         else:
@@ -233,9 +262,16 @@ class recurringTab(object):
             self.showError("Pick a delivery mode")
 
     def chkTime(self):
+        """
+        This is for basal profiles
+        """
+        if len(self.basalProfileTimes)==0:
+            self.index=-1
+            return
         #Switch to new index
         if len(self.basalProfileTimes)==1:
             self.index=0
+            return
         if not self.index+1 >= len(self.basalProfileAmounts):
             if not self.basalProfileTimes[self.index]<=QTime.currentTime()<=self.basalProfileTimes[self.index+1]:
                 """When index is 0, then it may be the next day.
@@ -274,11 +310,6 @@ class recurringTab(object):
         
         print("Reset Basal timer")
 
-        
-        #self.bolusTimer.start()
-        
-        #This method uses delay given by the device
-        #self.bolusTimer.start(abs(int(self.timeBetweenPulses-int(timeDelay))))
         print("Time Delay: ")
         
         print(self.timeBetweenPulses-(self.insulonEndTime-self.insulonStartTime))
@@ -292,6 +323,8 @@ class recurringTab(object):
         self.basalTimer.setPriority(QThread.HighestPriority)
 
     def stopBasalDelivery():
+        """On an attempt to stop basal delivery, this function ensure safe stop and quitting of timer threads
+        """
         self.showWarning("Stop Basal Delivery?")
         Logger.q.put(("WARNING","Stopped Basal Delivery"))
         self.basalTimer.timerRun=False
@@ -299,6 +332,9 @@ class recurringTab(object):
         #self.bolusTimer.stop()
 
     def basalDose(self):
+        """
+        A basal dose gets sent via this function, the time gap between deliveries is logged
+        """
         #if the previous dose is complete only then send the next should start
         #if self.insulonCompleteFlag==True:
         self.insulonStartTime=current_milli_time()

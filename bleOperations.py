@@ -22,6 +22,8 @@ class Parser(QThread):
     :type QThread: [type]
     """
     q=Queue()
+    """This is the parser queue, elements to be parsed are added by the serial listner
+    """
     addToLogicQueue=pyqtSignal(tuple)
 
     def __init__(self,*args):
@@ -57,6 +59,8 @@ class SerialListner(QThread):
     :type QThread: [type]
     """
     dataArrival=pyqtSignal()
+    """Listens and emits this signal to executed function on arrival of data, constantly fires and the connected function checks the serial buffer
+    """
     SerialListnerEnable=True
 
     def __init__(self):
@@ -131,7 +135,7 @@ class Sender(QThread):
         self.insulonSent.emit()
     
     def sendUN(self):
-        """Send an insulon 
+        """Send an reverse command 
         """
         s="IPUN\r"
         print("Send UN")

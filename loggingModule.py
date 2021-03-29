@@ -37,6 +37,9 @@ class Logger(QThread):
         logging.warning("Started")
 
     def run(self):
+        """
+        Reads the logger queue and keeps executing
+        """
         Logger.q.put(("INFO","Starting logger"))
         print("Starting logger")
         

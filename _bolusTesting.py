@@ -49,12 +49,23 @@ class bolusTestingTab(object):
 
 
     def timeBetweenPulsesChanged(self):
+        """Confirms if the time between pulses should be changed for bolus mode
+        """
         self.showDialog("Change Bolus inteval to {}?".format(self.pulseDelayTxt.text()))
 
     def bolusDeliveryAmountChanged(self):
+        """Confirms if the delivery amount  should be changed for bolus
+        """
         self.showDialog("Change Basal rate to {}?".format(self.deliveryAmtTxt.text()))
     
     def startBolusDelivery(self):
+        """
+        On starting bolus delivery this is executed 
+        Steps for delivery:
+        1. Send HB
+        2. Recieve reply HB
+        3. Send IN based on  heartbeat response
+        """
         self.deliveryType="Bolus"
 
         self.ongoingDeliveryFlag=True
@@ -158,6 +169,8 @@ class bolusTestingTab(object):
         #self.bolusTimer.stop()
 
     def bolusDose(self):
+        """This function checks the difference between deliveries,logs it and sends the new dose
+        """
         #if the previous dose is complete only then send the next should start
         #if self.insulonCompleteFlag==True:
         self.insulonStartTime=current_milli_time()
@@ -190,6 +203,8 @@ class bolusTestingTab(object):
 
         #Start timer
     def completedBolusRegime(self):  
+        """Executed on completion of bolus regieme
+        """
         self.heartBeatChecker.heartBeatSenderTimer.stop()
         self.heartBeatChecker.heartBeatRecieverTimer.stop()
 
@@ -201,6 +216,9 @@ class bolusTestingTab(object):
         
         
 def current_milli_time():
+    """
+    Returns current milliseconds
+    """
     return round(time.time() * 1000)
 
 """
@@ -244,6 +262,11 @@ class timerThread(QThread):
 """ 
 
 class timerThread(QThread):
+    """This class is a thread based timer which runs based on a polling method
+
+    :param QThread: [description]
+    :type QThread: [type]
+    """
     timeoutSignal=pyqtSignal()
 
     def __init__(self):
@@ -255,10 +278,17 @@ class timerThread(QThread):
         
 
     def setTimeout(self,timeout):
+        """Timeout is set
+
+        :param timeout: Time in milliseconds
+        :type timeout: int
+        """
         self.timeoutTime = timeout
         
         
     def run(self):
+        """Starts timer based on self.timeout and then runs until the target time is exceeded
+        """
         self.setPriority(QThread.HighestPriority)
         self.targetTime = self.timeoutTime*1000000+time.time_ns()
         print("----------Started BOLUS TIMER {}".format(self.timeoutTime))

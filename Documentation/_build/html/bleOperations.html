@@ -1,0 +1,353 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html4" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>bleOperations module &mdash; Insulin Pump GUI  documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="loggingModule module" href="loggingModule.html" />
+    <link rel="prev" title="basicui module" href="basicui.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> Insulin Pump GUI
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="modules.html">PancreasGUI</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="_bolusTesting.html">_bolusTesting module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="_commandTab.html">_commandTab module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="_connectTab.html">_connectTab module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="_primingTab.html">_primingTab module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="_recurringTab.html">_recurringTab module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="basicui.html">basicui module</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">bleOperations module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="loggingModule.html">loggingModule module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="logicModule.html">logicModule module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="main.html">main module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="multithread.html">multithread module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="untitled.html">untitled module</a></li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Insulin Pump GUI</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="modules.html">PancreasGUI</a> &raquo;</li>
+        
+      <li>bleOperations module</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="_sources/bleOperations.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="module-bleOperations">
+<span id="bleoperations-module"></span><h1>bleOperations module<a class="headerlink" href="#module-bleOperations" title="Permalink to this headline">¶</a></h1>
+<dl class="class">
+<dt id="bleOperations.Parser">
+<em class="property">class </em><code class="descclassname">bleOperations.</code><code class="descname">Parser</code><span class="sig-paren">(</span><em>*args</em><span class="sig-paren">)</span><a class="headerlink" href="#bleOperations.Parser" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">PyQt5.QtCore.QThread</span></code></p>
+<p>This module parses the incoming data
+:param QThread: [description]
+:type QThread: [type]</p>
+<dl class="attribute">
+<dt id="bleOperations.Parser.addToLogicQueue">
+<code class="descname">addToLogicQueue</code><a class="headerlink" href="#bleOperations.Parser.addToLogicQueue" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bleOperations.Parser.q">
+<code class="descname">q</code><em class="property"> = &lt;queue.Queue object&gt;</em><a class="headerlink" href="#bleOperations.Parser.q" title="Permalink to this definition">¶</a></dt>
+<dd><p>This is the parser queue, elements to be parsed are added by the serial listner</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="bleOperations.Parser.run">
+<code class="descname">run</code><span class="sig-paren">(</span><em>self</em><span class="sig-paren">)</span><a class="headerlink" href="#bleOperations.Parser.run" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="bleOperations.Sender">
+<em class="property">class </em><code class="descclassname">bleOperations.</code><code class="descname">Sender</code><span class="sig-paren">(</span><em>*args</em><span class="sig-paren">)</span><a class="headerlink" href="#bleOperations.Sender" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">PyQt5.QtCore.QThread</span></code></p>
+<p>The sender class is what manages the sending instructions to the device</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>QThread</strong> (<em>[</em><em>type</em><em>]</em>) – [description]</td>
+</tr>
+</tbody>
+</table>
+<dl class="attribute">
+<dt id="bleOperations.Sender.heartBeatSent">
+<code class="descname">heartBeatSent</code><a class="headerlink" href="#bleOperations.Sender.heartBeatSent" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bleOperations.Sender.insulonSent">
+<code class="descname">insulonSent</code><a class="headerlink" href="#bleOperations.Sender.insulonSent" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bleOperations.Sender.q">
+<code class="descname">q</code><em class="property"> = &lt;queue.Queue object&gt;</em><a class="headerlink" href="#bleOperations.Sender.q" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="bleOperations.Sender.run">
+<code class="descname">run</code><span class="sig-paren">(</span><em>self</em><span class="sig-paren">)</span><a class="headerlink" href="#bleOperations.Sender.run" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="bleOperations.Sender.sendDC">
+<code class="descname">sendDC</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#bleOperations.Sender.sendDC" title="Permalink to this definition">¶</a></dt>
+<dd><p>Send an delivery chain</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="bleOperations.Sender.sendData">
+<code class="descname">sendData</code><a class="headerlink" href="#bleOperations.Sender.sendData" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="bleOperations.Sender.sendHB">
+<code class="descname">sendHB</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#bleOperations.Sender.sendHB" title="Permalink to this definition">¶</a></dt>
+<dd><p>Send a Heart Beat signal to the BLE module</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="bleOperations.Sender.sendIN">
+<code class="descname">sendIN</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#bleOperations.Sender.sendIN" title="Permalink to this definition">¶</a></dt>
+<dd><p>Send an insulon</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="bleOperations.Sender.sendPC">
+<code class="descname">sendPC</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#bleOperations.Sender.sendPC" title="Permalink to this definition">¶</a></dt>
+<dd><p>Send an priming chain</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="bleOperations.Sender.sendUN">
+<code class="descname">sendUN</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#bleOperations.Sender.sendUN" title="Permalink to this definition">¶</a></dt>
+<dd><p>Send an reverse command</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="bleOperations.SerialListner">
+<em class="property">class </em><code class="descclassname">bleOperations.</code><code class="descname">SerialListner</code><a class="headerlink" href="#bleOperations.SerialListner" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">PyQt5.QtCore.QThread</span></code></p>
+<p>Listens to the buffer and loads any sends signals to load any incoming data to serial</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>QThread</strong> (<em>[</em><em>type</em><em>]</em>) – [description]</td>
+</tr>
+</tbody>
+</table>
+<dl class="attribute">
+<dt id="bleOperations.SerialListner.SerialListnerEnable">
+<code class="descname">SerialListnerEnable</code><em class="property"> = True</em><a class="headerlink" href="#bleOperations.SerialListner.SerialListnerEnable" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="bleOperations.SerialListner.dataArrival">
+<code class="descname">dataArrival</code><a class="headerlink" href="#bleOperations.SerialListner.dataArrival" title="Permalink to this definition">¶</a></dt>
+<dd><p>Listens and emits this signal to executed function on arrival of data, constantly fires and the connected function checks the serial buffer</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="bleOperations.SerialListner.run">
+<code class="descname">run</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#bleOperations.SerialListner.run" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function needs to keep running and check the uart buffer if any charachters are incoming</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="loggingModule.html" class="btn btn-neutral float-right" title="loggingModule module" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="basicui.html" class="btn btn-neutral float-left" title="basicui module" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2021, Arjun Gopkumar.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

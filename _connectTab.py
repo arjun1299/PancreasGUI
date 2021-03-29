@@ -169,6 +169,8 @@ class connectTab(object):
 
 
     def connectPort(self):
+        """Starts connectino of the port
+        """
         self.connectButton.setEnabled(False)
         os.system("sudo rfkill unblock bluetooth")
         os.system("sudo killall bluetoothd")
@@ -297,4 +299,6 @@ class connectTab(object):
         print("Scan complete")
 
     def finish(self):
+        """Once the connectino checker thread is complete this is executed as an indication, used for debugging
+        """
         print("Exited thread")

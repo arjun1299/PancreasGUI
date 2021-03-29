@@ -1,0 +1,346 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html4" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>_recurringTab module &mdash; Insulin Pump GUI  documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="basicui module" href="basicui.html" />
+    <link rel="prev" title="_primingTab module" href="_primingTab.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> Insulin Pump GUI
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="modules.html">PancreasGUI</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="_bolusTesting.html">_bolusTesting module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="_commandTab.html">_commandTab module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="_connectTab.html">_connectTab module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="_primingTab.html">_primingTab module</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">_recurringTab module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="basicui.html">basicui module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bleOperations.html">bleOperations module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="loggingModule.html">loggingModule module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="logicModule.html">logicModule module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="main.html">main module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="multithread.html">multithread module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="untitled.html">untitled module</a></li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Insulin Pump GUI</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="modules.html">PancreasGUI</a> &raquo;</li>
+        
+      <li>_recurringTab module</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="_sources/_recurringTab.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="module-_recurringTab">
+<span id="recurringtab-module"></span><h1>_recurringTab module<a class="headerlink" href="#module-_recurringTab" title="Permalink to this headline">¶</a></h1>
+<p>Tab-4
+Recurring commands  tab</p>
+<dl class="class">
+<dt id="_recurringTab.recurringTab">
+<em class="property">class </em><code class="descclassname">_recurringTab.</code><code class="descname">recurringTab</code><a class="headerlink" href="#_recurringTab.recurringTab" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl class="method">
+<dt id="_recurringTab.recurringTab.basalCalc">
+<code class="descname">basalCalc</code><span class="sig-paren">(</span><em>basalRate</em><span class="sig-paren">)</span><a class="headerlink" href="#_recurringTab.recurringTab.basalCalc" title="Permalink to this definition">¶</a></dt>
+<dd><p>Delivery rate x
+x/0.05 actuations will have to be done
+3600*1000/x*0.05 gives the milliseconds</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="_recurringTab.recurringTab.basalDose">
+<code class="descname">basalDose</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#_recurringTab.recurringTab.basalDose" title="Permalink to this definition">¶</a></dt>
+<dd><p>A basal dose gets sent via this function, the time gap between deliveries is logged</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="_recurringTab.recurringTab.basalRateChanged">
+<code class="descname">basalRateChanged</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#_recurringTab.recurringTab.basalRateChanged" title="Permalink to this definition">¶</a></dt>
+<dd><p>On a change of rate this is finished</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="_recurringTab.recurringTab.chkTime">
+<code class="descname">chkTime</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#_recurringTab.recurringTab.chkTime" title="Permalink to this definition">¶</a></dt>
+<dd><p>This is for basal profiles</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="_recurringTab.recurringTab.enableBasalMode">
+<code class="descname">enableBasalMode</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#_recurringTab.recurringTab.enableBasalMode" title="Permalink to this definition">¶</a></dt>
+<dd><p>Enables basal mode, sets appropriate flags and makes the required elements visible</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="_recurringTab.recurringTab.enableBolusMode">
+<code class="descname">enableBolusMode</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#_recurringTab.recurringTab.enableBolusMode" title="Permalink to this definition">¶</a></dt>
+<dd><p>Enables bolus mode, sets appropriate flags and makes the required elements visible</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="_recurringTab.recurringTab.hideInput">
+<code class="descname">hideInput</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#_recurringTab.recurringTab.hideInput" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function is for after the apply button is clicked on the basal profile menu</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="_recurringTab.recurringTab.init_recurringTab">
+<code class="descname">init_recurringTab</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#_recurringTab.recurringTab.init_recurringTab" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="_recurringTab.recurringTab.resetBasalTimer">
+<code class="descname">resetBasalTimer</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#_recurringTab.recurringTab.resetBasalTimer" title="Permalink to this definition">¶</a></dt>
+<dd><p>Resets the basal timer if the delivery target has not been reached</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>timeDelay</strong> (<em>string</em>) – String, it has to be converted to an int before</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="_recurringTab.recurringTab.resetHandler">
+<code class="descname">resetHandler</code><span class="sig-paren">(</span><em>encoderValue</em><span class="sig-paren">)</span><a class="headerlink" href="#_recurringTab.recurringTab.resetHandler" title="Permalink to this definition">¶</a></dt>
+<dd><p>On a timer reset the reset handler resets the approprate timer</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>encoderValue</strong> (<em>int/str</em>) – Value obtained along with the execution of the IN command</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="_recurringTab.recurringTab.showInput">
+<code class="descname">showInput</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#_recurringTab.recurringTab.showInput" title="Permalink to this definition">¶</a></dt>
+<dd><p>This is for the basal profile mode</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="_recurringTab.recurringTab.startBasalDelivery">
+<code class="descname">startBasalDelivery</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#_recurringTab.recurringTab.startBasalDelivery" title="Permalink to this definition">¶</a></dt>
+<dd><p>Function exected on the start of basal delivery
+1. Send HB
+2. Recieve reply HB
+3. Send IN based on  heartbeat response</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="_recurringTab.recurringTab.startDeliveryHandler">
+<code class="descname">startDeliveryHandler</code><span class="sig-paren">(</span><em>encoderValue</em><span class="sig-paren">)</span><a class="headerlink" href="#_recurringTab.recurringTab.startDeliveryHandler" title="Permalink to this definition">¶</a></dt>
+<dd><p>On pressing of start, this function calls the appropriate function</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>encoderValue</strong> (<em>[</em><em>type</em><em>]</em>) – [description]</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="_recurringTab.recurringTab.stopBasalDelivery">
+<code class="descname">stopBasalDelivery</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#_recurringTab.recurringTab.stopBasalDelivery" title="Permalink to this definition">¶</a></dt>
+<dd><p>On an attempt to stop basal delivery, this function ensure safe stop and quitting of timer threads</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="basicui.html" class="btn btn-neutral float-right" title="basicui module" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="_primingTab.html" class="btn btn-neutral float-left" title="_primingTab module" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2021, Arjun Gopkumar.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

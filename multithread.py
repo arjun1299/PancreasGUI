@@ -36,6 +36,7 @@ class WorkerSignals(QObject):
 
 class Worker(QRunnable):
     '''
+    Worker is used only for small threads which run for a short period like scanning animation etc.
     Worker thread
 
     Inherits from QRunnable to handler worker thread setup, signals and wrap-up.
@@ -61,9 +62,9 @@ class Worker(QRunnable):
 
     @pyqtSlot()
     def run(self):
-        '''
+        """
         Initialise the runner function with passed args, kwargs.
-        '''
+        """
 
         # Retrieve args/kwargs here; and fire processing using them
         try:

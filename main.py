@@ -24,7 +24,25 @@ from multithread import Worker,WorkerSignals
 
 import sys
 class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,commandTab,recurringTab,bolusTestingTab):
+    """This is the main window's calss
+
+    :param QtWidgets: Inherits Qwidgets
+    :type QtWidgets: Qwidgets
+    :param Ui_MainWindow: QMainWindow, obtained from the main GUI generated 
+    :type Ui_MainWindow: QmainWindow
+    :param connectTab: Parent class which deals with all the functions of connection associated with the connection Tab
+    :type connectTab: Connect tab widget
+    :param primingTab: Parent class which deals with all the functions of connection associated with the Priming Tab
+    :type primingTab: [type]
+    :param commandTab: Parent class which deals with all the functions of connection associated with the commend  Tab(Disabled)
+    :type commandTab: [type]
+    :param recurringTab: Parent class which deals with all the functions of connection associated with the recurring(dosages/deliveries) Tab
+    :type recurringTab: [type]
+    :param bolusTestingTab: Parent class which deals with all the functions of connection associated with the bolus activities
+    :type bolusTestingTab: [type]
+    """
     def __init__(self, *args, obj=None, **kwargs):
+
         sys.setswitchinterval(0.0000001)
 
         super(MainWindow, self).__init__(*args, **kwargs)
@@ -170,19 +188,27 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,comm
         self.updateStatus()
 
     def loggerError(self):
+        """Logger error is triggered if the logging module is not able to start 
+        """
         self.showError("Logger Unable to start!")
 
     def stopAll(self):
+        """Stop all is a layer on top of stopActuation, if OK is clicked then stop actuaion is executed and logged
+        """
         if self.showDialog("Stop Actuation?")==QMessageBox.Ok:
             self.logic.pq.put((0,"STOP"))
             Logger.q.put(("WARNING","Stopping Actuation"))
 
     def updateDateTime(self):
+        """Date and time maintainance on the main screen done here
+        """
         timeStamp=datetime.datetime.now()
         timeStamp = timeStamp.strftime("Date: %d-%m-%Y\nTime: %H:%M:%S")
         self.timeDisplayLbl.setText(timeStamp)
 
     def stopActuation(self):
+        """Sets all flags required to stop and stops all actuations. Priming or delivery all actuations are stopped
+        """
         #deselect basal and bolus buttons
         self.buttonGroup.setExclusive(False)
         self.basalBtn.setChecked(False)
@@ -199,19 +225,25 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,comm
         self.heartBeatChecker.heartBeatSenderTimer.start()
 
     def resetActuation(self):
+        """
+        Stops actuation, gives an option for reversal and resets all values. This is to be typically used at the end of the actuation once the max length is reached and the reservoir is empty
+        """
+        
         if self.showDialog("Do you want to reset?\nWARNING: Reset Stop any ongoing deliveries, ensure that the actuator has been reset to the start position")==QMessageBox.Ok:
             num, ok = QInputDialog.getText(self, 'Number of reverse rotations', 'Number:')
-            self.logic.pq.put((1,"SPC"))
+            #self.logic.pq.put((1,"SPC"))
+            self.stopActuation()
+
             if num.isnumeric():
                 num=int(num)
-
+            num=int(num)
+            print("NUMBER OF ROTATIONS:"+str(num))
+            
             for i in range(num):
                     self.logic.pq.put((1,"SUN"))
-                    QTest.qWait(1500)
-        
+                    QTest.qWait(3000)
 
-
-            self.stopActuation()
+            
             self.init_primingTab()
             self.stopPriming=False
             self.logic.allowActuation=True
@@ -219,8 +251,14 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,comm
             self.countTxt.setText(str(0))
             self.updateStatus()
             self.primingRotations=0
+        
                 
     def finished(self,args):
+        """Once a thread is complete it can be linked to this function in order to know which function terminated
+
+        :param args: String with process name
+        :type args: string
+        """
         print(args+"Thread complete")
         Logger.q.put(("WARNING",args+"Thread complete"))
 
@@ -291,6 +329,8 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,comm
         """
 
     def updateStatus(self):
+        """The status bar on the right side of the GUI is updated, both status bar and the delivery bar is updated in this function
+        """
         self.statusTxt.clear()
         self.doseStatusTxt.clear()
 
@@ -312,9 +352,6 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,comm
         # self.statusTxt.appendPlainText("Basal: "+ str(self.basalCnt))
         # self.statusTxt.appendPlainText("Bolus: "+ str(self.bolusCnt))
 
-        
-        
-        
         if self.deliveryType!=None:
             self.doseStatusTxt.appendPlainText(self.deliveryType)
             if self.deliveryType=="Basal":
@@ -328,6 +365,14 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,comm
         
     
     def showDialog(self,cmd):
+        """
+        Show a dialogue
+
+        :param cmd: Text to be displayed in the dialogue box
+        :type cmd: String
+        :return: Action button which is pressed
+        :rtype: QMessageBox standard buttons
+        """
         msgBox = QMessageBox()
         msgBox.setIcon(QMessageBox.Information)
         msgBox.setText(cmd)
@@ -341,6 +386,15 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,comm
         return returnValue
 
     def showWarning(self,cmd):
+        """
+        Show a warning message box
+
+        :param cmd: Text to be displayed in the dialogue box
+        :type cmd: String
+        :return: Action button which is pressed
+        :rtype: QMessageBox standard buttons
+        """
+        
         msgBox = QMessageBox()
         msgBox.setIcon(QMessageBox.Warning)
         msgBox.setText(cmd)
@@ -367,6 +421,15 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,comm
         self.basalBtn.checkStateSet(True)
     
     def stop(self):
+        """
+        Show a stop message box
+
+        :param cmd: Text to be displayed in the dialogue box
+        :type cmd: String
+        :return: Action button which is pressed
+        :rtype: QMessageBox standard buttons
+        
+        """
         #do one rotation
         if self.showDialog("Stop") == QMessageBox.Ok:
             self.deliveryType="None"
@@ -375,6 +438,9 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,comm
             self.updateStatus()
 
     def discon(self):
+        """
+        Disconnect button links to this function, stops timers and disconects from GUI
+        """
         
         if self.showDialog("Disconnect device?")== QMessageBox.Ok:
             self.bleConnectionStatus="Disconnected"
@@ -403,6 +469,7 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,comm
         self.parser.quit()
         self.logic.quit()
         event.accept()"""
+        
     def updateActuationLength(self):
         """All insulon actuations will lead to this function and update the distance
         """
@@ -439,8 +506,8 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,comm
         Logger.q.put(("ERROR","Ratchet slip occoured!"))
 
 
-app = QtWidgets.QApplication(sys.argv)
-window = MainWindow()
-window.show()
+#app = QtWidgets.QApplication(sys.argv)
+#window = MainWindow()
+#window.show()
 #app.aboutToQuit.connect(window.closeEvent)
-sys.exit(app.exec())
+#sys.exit(app.exec())

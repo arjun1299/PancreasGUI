@@ -12,26 +12,56 @@ import logging
 
 class Logic(QThread):
     pq=PriorityQueue()
+    """This is a priority queue which deals with logic, stop commands typically have highest priority and the reset of the comands are equal
+    """
 
     hbRecieverTimerReset=pyqtSignal()
+    """Executed on a timer which needs to be stopped
+    """
     hbSenderTimerReset=pyqtSignal()
+    """heartbeat sender timer reset is connected to this signal
+    """
     hbStop=pyqtSignal()
+    """heartbeat stop is connected
+    """
     sendHB=pyqtSignal()
+    """Signal adds a HB to the sender queue
+    """
     sendIN=pyqtSignal()
+    """Signal to send an insulon
+    """
     sentIN=pyqtSignal()
     sendPC=pyqtSignal()
+    """Send a priming chain command
+    """
     sendDC=pyqtSignal()
+    """Send a delivery chain command
+    """
     sendUN=pyqtSignal()
+    """Send a reverse rotation command
+    """
 
     #Error signals
     actuationLimitReached=pyqtSignal()
+    """If actuation limit is reached this signal is called
+    """
     stopActuation=pyqtSignal()
+    """If a stop signal is detected this signal is emitted in order to stop all actuation
+    """
     ratchetSlipOccoured=pyqtSignal()
+    """If a ratchet slip is detected this signal is raised
+    """
     
 
     engageClutch=pyqtSignal()
+    """This signal is used for clutch engagement functions
+    """
     insulonComplete=pyqtSignal(str)
+    """On insulon complete, this signal send the encoder value back
+    """
     updateActuationLength=pyqtSignal()
+    """Signal to update the actuation length after every movement
+    """
 
     def __init__(self,*args):
         super().__init__()
@@ -48,6 +78,9 @@ class Logic(QThread):
         self.currentEncoderValue=0
 
     def run(self):
+        """
+        Branching out of logic happens in this function, all instructions and processes pass through this and appropriate signals are raised
+        """
         while 1:
             #print("Thread recieved")
             #print("Running parser")
@@ -191,6 +224,8 @@ class heartBeatChecker(QTimer):
         self.heartBeatSenderTimer.start(heartBeatChecker.heartBeatSenderInterval)
 
     def hbStop(self):
+        """Stops heartbeat timers
+        """
         self.heartBeatSenderTimer.stop()
         self.heartBeatRecieverTimer.stop()
     

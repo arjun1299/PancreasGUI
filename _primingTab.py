@@ -13,6 +13,8 @@ from loggingModule import *
 
 class primingTab(object):
     def init_primingTab(self):
+        """Initialize priming tab, all signal connections need to be taken care that they are not reinitialized since on reset the connections are re-executed, hence they must be disconnected and reconnected
+        """
         #start prime
         self.startPrimeBtn=self.ui.startPrimeBtn
         self.startPrimeBtn.setEnabled(True)
@@ -82,6 +84,8 @@ class primingTab(object):
 
 
     def enablePriming(self):
+        """Priming will be started and the gear will be on PC
+        """
         Logger.q.put(("WARNING","Starting priming"))
         self.rotateBtn.setEnabled(True)
         self.toggleClutchBtn.setEnabled(True)
@@ -97,7 +101,9 @@ class primingTab(object):
         Logger.q.put(("INFO","Switching to Gear"))
 
     def rotate(self):
-        #do rotations, manual prime
+        """
+        Do rotations, manual prime mode
+        """
         self.resetBtn.setEnabled(False)
         num, ok = QInputDialog.getText(self, 'Number of rotations', 'Number:')
         
@@ -124,8 +130,11 @@ class primingTab(object):
             
 
     def engageClutch(self):
+        """This switches clutch side
+
         #True is gear side
         #False is ratchet
+        """
 
         self.fixedPrimeBtn.setEnabled(True)
         if self.clutch== False:
@@ -144,6 +153,8 @@ class primingTab(object):
             
 
     def finishPriming(self):
+        """Once priming is complete this function will be exectued
+        """
         self.ui.tabWidget.setCurrentIndex(2)
         #Making sure it is on the delivery chain side
         self.logic.pq.put((1,"SDC"))
@@ -154,6 +165,8 @@ class primingTab(object):
         self.ui.tabWidget.setTabEnabled(2,True)
 
     def fixedPrime(self):
+        """Fixed prime funtionality including affirmation, confirmation and starting of fixed prime rotation are handled in this function
+        """
         self.resetBtn.setEnabled(False)
         self.fixedPrimeBtn.setEnabled(False)
         self.rotateBtn.setEnabled(False)

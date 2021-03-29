@@ -1,0 +1,336 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html4" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>_bolusTesting module &mdash; Insulin Pump GUI  documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="_commandTab module" href="_commandTab.html" />
+    <link rel="prev" title="PancreasGUI" href="modules.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> Insulin Pump GUI
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="modules.html">PancreasGUI</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">_bolusTesting module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="_commandTab.html">_commandTab module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="_connectTab.html">_connectTab module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="_primingTab.html">_primingTab module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="_recurringTab.html">_recurringTab module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="basicui.html">basicui module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bleOperations.html">bleOperations module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="loggingModule.html">loggingModule module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="logicModule.html">logicModule module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="main.html">main module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="multithread.html">multithread module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="untitled.html">untitled module</a></li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Insulin Pump GUI</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="modules.html">PancreasGUI</a> &raquo;</li>
+        
+      <li>_bolusTesting module</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="_sources/_bolusTesting.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="module-_bolusTesting">
+<span id="bolustesting-module"></span><h1>_bolusTesting module<a class="headerlink" href="#module-_bolusTesting" title="Permalink to this headline">¶</a></h1>
+<dl class="class">
+<dt id="_bolusTesting.bolusTestingTab">
+<em class="property">class </em><code class="descclassname">_bolusTesting.</code><code class="descname">bolusTestingTab</code><a class="headerlink" href="#_bolusTesting.bolusTestingTab" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl class="method">
+<dt id="_bolusTesting.bolusTestingTab.bolusDeliveryAmountChanged">
+<code class="descname">bolusDeliveryAmountChanged</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#_bolusTesting.bolusTestingTab.bolusDeliveryAmountChanged" title="Permalink to this definition">¶</a></dt>
+<dd><p>Confirms if the delivery amount  should be changed for bolus</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="_bolusTesting.bolusTestingTab.bolusDose">
+<code class="descname">bolusDose</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#_bolusTesting.bolusTestingTab.bolusDose" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function checks the difference between deliveries,logs it and sends the new dose</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="_bolusTesting.bolusTestingTab.completedBolusRegime">
+<code class="descname">completedBolusRegime</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#_bolusTesting.bolusTestingTab.completedBolusRegime" title="Permalink to this definition">¶</a></dt>
+<dd><p>Executed on completion of bolus regieme</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="_bolusTesting.bolusTestingTab.init_bolusTestingTab">
+<code class="descname">init_bolusTestingTab</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#_bolusTesting.bolusTestingTab.init_bolusTestingTab" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="_bolusTesting.bolusTestingTab.resetBolusTimer">
+<code class="descname">resetBolusTimer</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#_bolusTesting.bolusTestingTab.resetBolusTimer" title="Permalink to this definition">¶</a></dt>
+<dd><p>Resets the bolus timer if the delivery target has not been reached</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>timeDelay</strong> (<em>string</em>) – String, it has to be converted to an int before</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="_bolusTesting.bolusTestingTab.startBolusDelivery">
+<code class="descname">startBolusDelivery</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#_bolusTesting.bolusTestingTab.startBolusDelivery" title="Permalink to this definition">¶</a></dt>
+<dd><p>On starting bolus delivery this is executed 
+Steps for delivery:
+1. Send HB
+2. Recieve reply HB
+3. Send IN based on  heartbeat response</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="_bolusTesting.bolusTestingTab.stopBolusDelivery">
+<code class="descname">stopBolusDelivery</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#_bolusTesting.bolusTestingTab.stopBolusDelivery" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="_bolusTesting.bolusTestingTab.timeBetweenPulsesChanged">
+<code class="descname">timeBetweenPulsesChanged</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#_bolusTesting.bolusTestingTab.timeBetweenPulsesChanged" title="Permalink to this definition">¶</a></dt>
+<dd><p>Confirms if the time between pulses should be changed for bolus mode</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="function">
+<dt id="_bolusTesting.current_milli_time">
+<code class="descclassname">_bolusTesting.</code><code class="descname">current_milli_time</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#_bolusTesting.current_milli_time" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns current milliseconds</p>
+</dd></dl>
+
+<dl class="class">
+<dt id="_bolusTesting.timerThread">
+<em class="property">class </em><code class="descclassname">_bolusTesting.</code><code class="descname">timerThread</code><a class="headerlink" href="#_bolusTesting.timerThread" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">PyQt5.QtCore.QThread</span></code></p>
+<p>This class is a thread based timer which runs based on a polling method</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>QThread</strong> (<em>[</em><em>type</em><em>]</em>) – [description]</td>
+</tr>
+</tbody>
+</table>
+<dl class="method">
+<dt id="_bolusTesting.timerThread.run">
+<code class="descname">run</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#_bolusTesting.timerThread.run" title="Permalink to this definition">¶</a></dt>
+<dd><p>Starts timer based on self.timeout and then runs until the target time is exceeded</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="_bolusTesting.timerThread.setTimeout">
+<code class="descname">setTimeout</code><span class="sig-paren">(</span><em>timeout</em><span class="sig-paren">)</span><a class="headerlink" href="#_bolusTesting.timerThread.setTimeout" title="Permalink to this definition">¶</a></dt>
+<dd><p>Timeout is set</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>timeout</strong> (<em>int</em>) – Time in milliseconds</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="_bolusTesting.timerThread.timeoutSignal">
+<code class="descname">timeoutSignal</code><a class="headerlink" href="#_bolusTesting.timerThread.timeoutSignal" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="_commandTab.html" class="btn btn-neutral float-right" title="_commandTab module" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="modules.html" class="btn btn-neutral float-left" title="PancreasGUI" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2021, Arjun Gopkumar.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
