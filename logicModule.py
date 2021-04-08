@@ -32,6 +32,7 @@ class Logic(QThread):
     engageClutch=pyqtSignal()
     insulonComplete=pyqtSignal(str)
     updateActuationLength=pyqtSignal()
+    uninsulonComplete=pyqtSignal()
 
     def __init__(self,*args):
         super().__init__()
@@ -125,10 +126,13 @@ class Logic(QThread):
                     self.prevEncoderValue=self.currentEncoderValue
                     self.currentEncoderValue=data[2:]
                     
-                elif(data=="DC"):
+                elif(data[:2]=="DC"):
                     print("Switched to delivery chain")
-                elif(data=="PC"):
+                elif(data[:2]=="PC"):
                     print("Switched to priming chain")
+                elif(data[:2]=="UN"):
+                    print("Emitting UN complete")
+                    self.uninsulonComplete.emit()
                 elif(data=="STOP"):
                     self.stopActuation.emit()
                     

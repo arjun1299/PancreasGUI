@@ -70,6 +70,9 @@ class recurringTab(object):
 
     def basalRateChanged(self):
         self.showDialog("Change Basal rate to {}?".format(self.doseTxt.text()))
+        if float(self.doseTxt.text())>35:
+            self.showError("Value cannot be more than 35 IU")
+            self.deliveryAmtTxt.setText('35')
 
     
     def basalDose(self):

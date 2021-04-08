@@ -134,6 +134,7 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,comm
         self.logic.sendDC.connect(self.sender.sendDC)
         self.logic.sendPC.connect(self.sender.sendPC)
         self.logic.sendUN.connect(self.sender.sendUN)
+        self.logic.uninsulonComplete.connect(self.heartBeatChecker.hbSenderTimerReset)
         self.logic.start()
 
         self.connectedSignal.connect(self.isConnectedBLEHandle)
@@ -151,7 +152,7 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,comm
 
         self.port=""
         
-        self.init_connectTab()
+        
 
         self.init_primingTab()
 
@@ -161,6 +162,7 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,comm
 
         self.init_bolusTestingTab() 
 
+        self.init_connectTab()
 
         self.ui.tabWidget.setTabEnabled(1,False)
         self.ui.tabWidget.setTabEnabled(2,False)
@@ -189,6 +191,9 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,comm
         self.basalBtn.setChecked(False)
         self.bolusBtn.setChecked(False)
         self.buttonGroup.setExclusive(True)
+        
+        #This is set as disabled during the start of bolus it gets diabled
+        self.basalBtn.setEnabled(True)
 
         self.basalTimer.quit()
         self.bolusTimer.quit()
@@ -201,23 +206,16 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,comm
 
     def resetActuation(self):
         if self.showDialog("Do you want to reset?\nWARNING: Reset Stop any ongoing deliveries, ensure that the actuator has been reset to the start position")==QMessageBox.Ok:
-            num, ok = QInputDialog.getText(self, 'Number of reverse rotations', 'Number:')
-            self.logic.pq.put((1,"SPC"))
-            if num.isnumeric():
-                num=int(num)
 
-            for i in range(num):
-                if self.stopPriming==False:
-                    self.primingRotations+=1
-                    
-                    #self.countTxt.setFontPointSize(20)
-                    self.logic.pq.put((1,"SUN"))
-                    self.countTxt.setText(str(self.primingRotations))
-                    QTest.qWait(1500)
+            self.logic.pq.put((1,"SPC"))
+            self.stopActuation()
+            self.heartBeatChecker.heartBeatSenderTimer.stop()
+            self.heartBeatChecker.heartBeatRecieverTimer.stop()
+            self.logic.pq.put((1,"SUN"))
+
         
 
 
-            self.stopActuation()
             self.init_primingTab()
             self.stopPriming=False
             self.logic.allowActuation=True
@@ -243,6 +241,18 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,comm
         """
         Timeout function if hearbeat is not recieved in time
         """
+        self.buttonGroup.setExclusive(False)
+        self.basalBtn.setChecked(False)
+        self.bolusBtn.setChecked(False)
+        self.buttonGroup.setExclusive(True)
+
+        self.basalTimer.quit()
+        self.bolusTimer.quit()
+        self.stopPriming=True
+        self.logic.allowActuation=False
+        self.basalResume=False
+        self.ongoingDeliveryFlag=False
+        self.deliveryType=None
 
         self.heartBeatChecker.heartBeatRecieverTimer.stop()
         self.heartBeatChecker.heartBeatSenderTimer.stop()
@@ -256,7 +266,7 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow,connectTab,primingTab,comm
         self.showError("Device disconnected")
         self.bleConnectionStatus="Disconnected"
         self.init_connectTab()
-        self.updateStatus()
+        #self.updateStatus()
 
         self.ui.tabWidget.setCurrentIndex(0)
         self.disconnectBtn.setEnabled(False)

@@ -50,10 +50,13 @@ class bolusTestingTab(object):
 
     def timeBetweenPulsesChanged(self):
         self.showDialog("Change Bolus inteval to {}?".format(self.pulseDelayTxt.text()))
+        if float(self.pulseDelayTxt.text())<2000:
+            self.showError("Value cannot be below 2000 milliseconds")
+            self.pulseDelayTxt.setText('2000')
+
 
     def bolusDeliveryAmountChanged(self):
-        self.showDialog("Change Basal rate to {}?".format(self.deliveryAmtTxt.text()))
-    
+        self.showDialog("Change Bolus amount to {}?".format(self.deliveryAmtTxt.text()))
     def startBolusDelivery(self):
         self.deliveryType="Bolus"
 
@@ -84,6 +87,7 @@ class bolusTestingTab(object):
             timeStamp = timeStamp.strftime("%H:%M:%S")
             self.outTxt.appendPlainText(timeStamp+"-> "+"Starting Bolus Delivery with duration {} for {}IU ".format(self.timeBetweenPulses,self.deliveryAmount))
             self.outTxt.appendPlainText("Remaining Time: "+str(self.timeBetweenPulses/1000*self.deliveryAmount/0.05)+"seconds")
+            self.basalBtn.setEnabled(False)
 
 
 
@@ -192,12 +196,13 @@ class bolusTestingTab(object):
     def completedBolusRegime(self):  
         self.heartBeatChecker.heartBeatSenderTimer.stop()
         self.heartBeatChecker.heartBeatRecieverTimer.stop()
+        self.basalBtn.setEnabled(True)
 
         if  self.basalResume == True:
             self.startBasalDelivery()
             self.basalPauseLbl.setVisible(False)
         else:
-            self.heartBeatChecker.heartBeatSenderTimer.start()
+            self.heartBeatChecker.hbSenderTimerReset()
         
         
 def current_milli_time():

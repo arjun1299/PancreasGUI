@@ -67,7 +67,7 @@ class connectTab(object):
             self.connectButton.setEnabled(False)
             self.scanButton.setEnabled(False)
         self.scanButton.setEnabled(True)
-        
+        self.updateStatus()
 
 
                 
@@ -147,9 +147,9 @@ class connectTab(object):
         
 
 
-        os.system("rfkill unblock bluetooth")
-        os.system("killall bluetoothd")
-        os.system("hciconfig hci0 up")
+        #os.system("rfkill unblock bluetooth")
+        #os.system("killall bluetoothd")
+        #os.system("hciconfig hci0 up")
 
         if(os.system("timeout -s INT 1s hcitool lescan")== 256):
             #print("BLUETOOTH ADAPTER NOT FOUND")
@@ -169,14 +169,17 @@ class connectTab(object):
 
 
     def connectPort(self):
+        """Starts connectino of the port
+        """
         self.connectButton.setEnabled(False)
-        os.system("sudo rfkill unblock bluetooth")
-        os.system("sudo killall bluetoothd")
-        os.system("sudo hciconfig hci0 up")
+        #os.system("sudo rfkill unblock bluetooth")
+        #os.system("sudo killall bluetoothd")
+        #os.system("sudo hciconfig hci0 up")
         
         if(self.dropdown.currentText()):
             self.port=self.dropdown.currentText()
             ble=BLERadio()
+
 
             print("Attempting to Connect to:"+self.dropdown.currentText())
             
@@ -188,7 +191,9 @@ class connectTab(object):
                         
                         try:
                             if(UARTService in element.services or self.targetAddress in str(element.address)):
+                                ble.stop_scan()
                                 self.uart_connection = ble.connect(element)
+                                #self.uart_connection.pair()
                                 print("Connected")
                                 self.device=element
                                 self.bleConnectionStatus="Connected"
@@ -297,4 +302,6 @@ class connectTab(object):
         print("Scan complete")
 
     def finish(self):
+        """Once the connectino checker thread is complete this is executed as an indication, used for debugging
+        """
         print("Exited thread")
